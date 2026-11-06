@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% from "parts.html" import page_head, before_walk, picker %}
+
+{% macro route_item(r, hl=4) -%}
+<li class="route" id="{{ r.id }}">
+  <span class="route__n" aria-hidden="true">{{ r.n }}</span>
+  <div class="route__body">
+    <h{{ hl }} class="route__name"><span class="sr">Ruta {{ r.n }}: </span>{{ r.name }}</h{{ hl }}>
+    {% if r.start %}<p class="route__start">{{ r.start }}</p>{% endif %}
+    <p class="route__info">{{ r.info }}</p>
+    {% if r.address %}<p class="route__addr">{{ icon('pin') }}<span{% if '[' in r.address %} class="pending"{% endif %}>{{ r.address }}</span></p>{% endif %}
+    {% if r.note %}<p class="route__note{% if '[' in r.note %} pending{% endif %}">{{ r.note }}</p>{% endif %}
+    {% if r.desc %}<p class="route__desc">{{ r.desc }}</p>{% endif %}
+    <a class="route__go" href="{{ r.map_url }}" target="_blank" rel="noopener" aria-label="Obre el mapa de la ruta {{ r.n }} ({{ r.map_title }})">{{ icon('map') }}Obre el mapa</a>
+  </div>
+</li>
+{%- endmacro %}
+
+{% macro map_box(m) -%}
+<figure class="map"{% if m.id %} id="{{ m.id }}"{% endif %}>
+  {% if m.label %}<div class="map__head"><p class="map__label">{{ icon('map') }}{{ m.label }}</p>{% if m.back %}<a class="map__back" href="#{{ m.back.href }}">{{ icon('caret', 'i--up') }}{{ m.back.text }}</a>{% endif %}</div>{% endif %}
+  <div class="map__frame">
+    <iframe src="https://www.google.com/maps/d/embed?mid={{ m.mid }}&amp;ehbc=2E312F&amp;ll={{ m.ll }}&amp;z={{ m.z }}" title="Mapa: {{ m.title }}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <figcaption><a href="https://www.google.com/maps/d/viewer?mid={{ m.mid }}" target="_blank" rel="noopener">{{ icon('external') }}Obre el mapa a pantalla completa</a></figcaption>
+</figure>
+{%- endmacro %}
+
+{% block content %}
+{{ page_head('Les ciutats · ' ~ city.region, city.title, city.intro) }}
+
+<nav class="pills wrap" aria-label="Canvia de ciutat">
+  {% for c in site.cities %}
+  {% if c.slug %}<a class="pill" href="{{ root }}{{ c.slug }}/"{% if c.slug == city.slug %} aria-current="page"{% endif %}>{{ icon(c.icon) }}{{ c.name }}</a>
+  {% else %}<span class="pill pill--soon">{{ icon(c.icon) }}{{ c.name }} · properament</span>{% endif %}
+  {% endfor %}
+</nav>
+
+<div class="wrap wrap--mid stack">
+  <nav class="jump" aria-label="Cursos en aquesta ciutat">
+    <p class="jump__h">Tria el teu curs</p>
+    <ul>
+      {% for b in city.blocks %}
+      <li><a href="#{{ b.course.anchor }}">{{ icon(b.course.icon) }}<span><strong>{{ b.course.title }}</strong><small>{{ b.summary }}</small></span></a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <section class="infosec" id="com-llegir-una-ruta" aria-labelledby="h-llegir">
+    <h2 class="infosec__title" id="h-llegir">{{ site.read_route_title }}</h2>
+    {% include "infografies/infografia-llegir-ruta.html" %}
+  </section>
+
+  {% for b in city.blocks %}
+  <section class="panel block{% if not b.groups %} block--empty{% endif %}" id="{{ b.course.anchor }}" aria-labelledby="h-{{ b.course.anchor }}">
+    <div class="panel__head">
+      <span class="panel__icon" aria-hidden="true">{{ icon(b.course.icon) }}</span>
+      <h2 id="h-{{ b.course.anchor }}">{{ b.course.title }}</h2>
+    </div>
+    <p>{{ b.text }}</p>
+    <p class="block__actions">
+      {% if b.course.soon %}<span class="btn btn--soon">{{ cc.soon_label }}</span>{% else %}<a class="btn btn--primary" href="{{ b.course.thinkific }}">Comença el curs gratuït</a>{% endif %}
+      <a class="btn btn--outline" href="{{ root }}{{ b.course.slug }}/">Torna al curs</a>
+    </p>
+
+    {# Un bloc amb diverses parts (Barcelona «Quan la vida»): enllaços a cada part #}
+    {% set titled = b.parts|selectattr('title')|list %}
+    {% if titled|length > 1 %}
+    <nav class="partnav" aria-label="Tipus de rutes">
+      {% for p in titled %}<a class="partnav__a" href="#{{ p.id }}">{{ icon('arrow', 'i--down') }}<span><strong>{{ p.nav or p.title }}</strong><small>{{ p.count }} rutes</small></span></a>{% endfor %}
+    </nav>
+    {% endif %}
+
+    {% for p in b.parts %}
+    {% set hl = 4 if p.title else 3 %}
+    {% if p.title %}
+    <div class="part" id="{{ p.id }}">
+      <h3 class="part__title">{{ p.title }}</h3>
+      {% if p.text %}<p>{{ p.text }}</p>{% endif %}
+      {% if p.notice %}
+      <aside class="note note--care note--part" aria-label="{{ p.notice.title }}">
+        <p class="note__title">{{ icon('lifebuoy') }}{{ p.notice.title }}</p>
+        {% for h in p.notice.html %}<p class="note__p">{{ h }}</p>{% endfor %}
+      </aside>
+      {% endif %}
+    {% endif %}
+
+    {% if p.zones %}{{ picker(p.zones.id, p.zones.label, p.zones.placeholder, p.zones.options, 'nav', 'picker--zones') }}{% endif %}
+
+    {% for g in p.groups %}
+    <div class="group" id="{{ g.id }}">
+      {% for m in g.maps %}{{ map_box(m) }}{% endfor %}
+      <details class="routes"{% if g.open %} open{% endif %}>
+        <summary><span><strong>{{ g.title }}</strong>{% if g.count|string not in g.title %}<small>{{ g.count }} {{ 'ruta' if g.count == 1 else 'rutes' }}</small>{% endif %}</span>{{ icon('caret', 'faq__caret') }}</summary>
+        {% if g.sections %}
+          {% for s in g.sections %}
+          <h{{ hl }} class="routes__district" id="{{ s.id }}">{{ s.title }}</h{{ hl }}>
+          <ol class="routes__list">{% for r in s.routes %}{{ route_item(r, hl + 1) }}{% endfor %}</ol>
+          {% endfor %}
+        {% else %}
+          <ol class="routes__list">{% for r in g.routes %}{{ route_item(r, hl + 1) }}{% endfor %}</ol>
+        {% endif %}
+      </details>
+    </div>
+    {% endfor %}
+    {% if p.title %}</div>{% endif %}
+    {% endfor %}
+  </section>
+  {% endfor %}
+
+  {{ before_walk(site.before_walk) }}
+</div>
+{% endblock %}
