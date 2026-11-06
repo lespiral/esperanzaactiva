@@ -48,6 +48,11 @@ def assign_maps(g, routes):
     quines rutes té amb "routes": [1, 2, ...]."""
     maps = g.get("maps") or []
     for r in routes:
+        if not maps:
+            # Grup sense mapa encara ("map_pending"): la ruta surt sense el botó «Abrir el mapa»
+            assert g.get("map_pending"), f"«{g['title']}» no té mapes: posa-hi \"maps\" o \"map_pending\""
+            r["map_url"] = r["map_title"] = None
+            continue
         if len(maps) == 1:
             m = maps[0]
         else:
@@ -73,7 +78,7 @@ ZONES_TEXT = {
 # Es tradueixen els textos d'aquestes claus. Els noms de les rutes i les adreces
 # («name», «address») són noms propis i es deixen com són, si no hi ha traducció.
 TR_KEYS = {"title", "summary", "intro", "text", "note", "desc", "start", "label", "zone",
-           "nav", "placeholder", "back", "html", "district"}
+           "nav", "placeholder", "back", "html", "district", "map_pending"}
 TR_OPTIONAL = {"name", "address"}
 
 
@@ -136,7 +141,15 @@ def add_zones(b, groups, course, cfg, pid=None):
     bloc, una opció per districte (camp "district" de cada grup). Els textos es poden
     canviar amb "zones" a la ciutat o al bloc: {"label": ..., "placeholder": ..., "back": ...}."""
     options, targets = [], []
-    if len(groups) > 1 and cfg.get("by") == "district":
+    if cfg.get("by") == "section":
+        # Una opció per secció (p. ex. un municipi d'un territori), que porta a la secció.
+        # Funciona amb un sol grup o amb diversos (un per mapa).
+        kind = "zona"
+        for g in groups:
+            options += [(s["title"], s["id"]) for s in g.get("sections") or []]
+            if g["maps"]:
+                targets.append((g["maps"][0], g["title"]))
+    elif len(groups) > 1 and cfg.get("by") == "district":
         # Diversos grups per districte (p. ex. un per mapa): una opció per districte,
         # que porta al primer grup; cada mapa té l'enllaç per tornar al desplegable.
         kind = "zona"
@@ -222,13 +235,17 @@ def process_groups(groups, course):
 
 
 # Cities
-cities = []
+# Ciutats i territoris. Un territori (p. ex. el Baix Llobregat) té la mateixa forma que
+# una ciutat, però agrupa les rutes per municipi i només mostra els cursos que hi tenen rutes.
+cities, territories = [], []
 summaries = {}
 course_summaries = {k: {} for k in courses}
+territory_summaries = {k: {} for k in courses}
 pending = {}   # textos de les ciutats de Catalunya que encara no tenen traducció
-for c in site["cities"]:
+for c in site["cities"] + site.get("territories", []):
     if not c.get("slug"):
         continue
+    is_territory = c in site.get("territories", [])
     if c.get("source") == "cat":
         city = json.loads((DATA / "cat" / f"{c['slug']}.json").read_text(encoding="utf-8"))
         trf = DATA / "traducciones" / f"{c['slug']}.json"
@@ -243,9 +260,15 @@ for c in site["cities"]:
         city = json.loads((DATA / f"{c['slug']}.json").read_text(encoding="utf-8"))
     city.setdefault("title", f"Caminar por {city['name']}")
     city["icon"] = c["icon"]
+    city["kind"] = "territory" if is_territory else "city"
+    # Enllaços a una altra pàgina, p. ex. {"text": ..., "city": "el-prat", "course": "dia"} → el-prat/#cuando-sostener
+    for s in city.get("see_also") or []:
+        s["href"] = f"{s['city']}/#{courses[s['course']]['anchor']}"
     by_course = {b["course"]: b for b in city["blocks"]}
     blocks = []
     for key, course in courses.items():
+        if is_territory and key not in by_course:
+            continue
         b = by_course.get(key, {"course": key, "text": f"Todavía no hay rutas de este curso en {city['name']}. Mientras tanto, puedes hacer el tiempo de reflexión de cada paso caminando cerca de casa o en un lugar tranquilo."})
         b = dict(b, course=course)
         # Un bloc pot tenir diverses parts, cada una amb el seu títol, text, avís,
@@ -266,17 +289,42 @@ for c in site["cities"]:
         b["groups"] = [g for p in parts for g in p["groups"]]
         b["total"] = total
         b["summary"] = b.get("summary") or ("Todavía no hay rutas de este curso" if not total else f"{total} rutas")
-        course_summaries[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
+        (territory_summaries if is_territory else course_summaries)[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
         blocks.append(b)
     # Primer els cursos que tenen rutes en aquesta ciutat; després, els que encara no en tenen
     city["blocks"] = [b for b in blocks if b["total"]] + [b for b in blocks if not b["total"]]
     summaries[city["slug"]] = {"text": city["summary"], "has": True}
-    cities.append(city)
+    (territories if is_territory else cities).append(city)
+
+
+def places_for(course=None):
+    """Desplegable «Ve directamente a tu pueblo»: les ciutats i els municipis dels territoris,
+    en ordre alfabètic, amb l'adreça de la pàgina (relativa a l'arrel). Amb un curs, només
+    els llocs que en tenen rutes, i l'adreça porta al bloc del curs."""
+    out = []
+    for city in cities:
+        b = next((b for b in city["blocks"] if b["course"]["key"] == course), None) if course else None
+        if course and not (b and b["total"]):
+            continue
+        out.append((city["name"], f"{city['slug']}/" + (f"#{b['course']['anchor']}" if b else "")))
+    for t in territories:
+        for b in t["blocks"]:
+            if course and b["course"]["key"] != course:
+                continue
+            for g in b["groups"]:
+                for s in g.get("sections") or []:
+                    out.append((f"{s['title']} ({t['name']})", f"{t['slug']}/#{s['id']}"))
+    seen, res = set(), []
+    for name, href in sorted(out, key=lambda x: slugify(re.sub(r"^(El|La|Els|Les|Los|Las|L') ?", "", x[0]))):
+        if name not in seen:
+            seen.add(name); res.append((name, href))
+    return res
+
 
 # Sanity checks
 all_ids = []
 n_routes = 0
-for city in cities:
+for city in cities + territories:
     ids = []
     for b in city["blocks"]:
         ids.append(b["course"]["anchor"])
@@ -310,6 +358,8 @@ env.globals.update(icon=icon, site=site, noindex=NOINDEX, version=str(int(time.t
                    logo=(SRC / "img" / "logo.png").exists(),
                    partners_logo=(SRC / "img" / "lespiral-elara.png").exists(),
                    summaries=summaries, course_summaries=course_summaries,
+                   territory_summaries=territory_summaries, places_for=places_for,
+                   territories=[t for t in site.get("territories", []) if t.get("slug")],
                    cities_with_a=cities_with_a([c["name"] for c in site["cities"] if c.get("slug")]),
                    h=site["home"], cc=site["course_common"])
 
@@ -341,6 +391,8 @@ for c in site["courses"]:
     render("course.html", c["slug"], section="cursos", page_title=c["title"], page_description=c["subtitle"], course=c)
 for city in cities:
     render("city.html", city["slug"], section="ciudades", page_title=city["name"], page_description=city["summary"], city=city)
+for t in territories:
+    render("city.html", t["slug"], section="ciudades", page_title=t["name"], page_description=t["summary"], city=t)
 render("404.html", "404.html", page_title="Página no encontrada", root=BASE, base=BASE)
 
 (OUT / "assets").mkdir(exist_ok=True)
@@ -367,4 +419,4 @@ for f in (DATA / "traducciones").glob("*.pendientes.json"):
     if f.name.split(".")[0] not in pending:
         f.unlink()
 
-print(f"Fet: {len(cities)} ciutats, {n_routes} rutes, {sum(len(g['maps']) for c in cities for b in c['blocks'] for g in b['groups'])} mapes. adreça={SITE_URL} cercadors={'no' if NOINDEX else 'sí'}")
+print(f"Fet: {len(cities)} ciutats, {len(territories)} territoris, {n_routes} rutes, {sum(len(g['maps']) for c in cities + territories for b in c['blocks'] for g in b['groups'])} mapes. adreça={SITE_URL} cercadors={'no' if NOINDEX else 'sí'}")

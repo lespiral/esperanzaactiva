@@ -417,6 +417,18 @@ details[open] > summary .faq__caret { transform: rotate(180deg); }
 .faq--text summary { padding: 13px 18px; font-size: .98rem; }
 .faq--text .faq__body { padding-top: 2px; }
 
+/* Pueblos y comarcas (territoris): targetes, mapa pendent i enllaç a la ciutat (igual que a la .cat) */
+.band--territories { padding-top: clamp(36px, 6vw, 56px); border-top: 1px solid var(--line); }
+.card--territory .card__icon { background: var(--green-50); color: var(--green-700); }
+.walk__sub { margin: 32px 0 14px; font-size: 1.15rem; }
+.map--pending { margin: 0 0 22px; padding: 22px 18px; border: 2px dashed var(--line); border-radius: var(--radius); background: var(--green-50); }
+.map--pending p { display: flex; align-items: center; gap: 10px; margin: 0; color: var(--muted); font-weight: 700; }
+.map--pending .i { flex: none; color: var(--green-600); }
+.see-also { list-style: none; margin: 16px 0 0; padding: 0; }
+.see-also a { display: inline-flex; align-items: flex-start; gap: 8px; font-weight: 700; }
+.see-also .i { flex: none; margin-top: .2em; }
+.band--territories .cards--cities { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+
 /* ---------- Només a la web en castellà (esperanzaactiva.org) ---------- */
 /* Avís a les ciutats de Catalunya: les fitxes dels mapes són en català */
 .langnote { display: flex; gap: 10px; align-items: flex-start; margin: 0; padding: 14px 18px; border-radius: var(--radius); background: var(--sun-50); border: 1px solid var(--sun-200); color: var(--ink); font-size: .98rem; }

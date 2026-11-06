@@ -29,6 +29,10 @@
     {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"}
   ],
 
+  "territories": [
+    {"slug": "baix-llobregat", "name": "Baix Llobregat", "region": "Sin El Prat, que tiene página propia", "icon": "map", "source": "cat"}
+  ],
+
   "courses": [
     {
       "key": "vida",
@@ -267,6 +271,14 @@
     "title": "Las ciudades",
     "intro": "Caminar para hacer el tiempo de reflexión de cada paso. Elige tu ciudad y tu curso.",
     "empty": "Pronto habrá rutas en las primeras ciudades. Mientras tanto, puedes hacer el tiempo de reflexión de cada paso caminando cerca de casa o en un lugar tranquilo."
+  },
+
+  "territories_page": {
+    "title": "Pueblos y comarcas",
+    "intro": "Las rutas del curso «Cuando sostener la vida se hace difícil» salen de entidades de la economía social y solidaria de Cataluña: cooperativas, asociaciones y fundaciones. Las encontrarás por territorios o, directamente, por tu pueblo.",
+    "places_label": "Ve directamente a tu pueblo",
+    "places_placeholder": "Elige un pueblo o una ciudad",
+    "kicker": "Pueblos y comarcas"
   },
 
   "faq_page": {

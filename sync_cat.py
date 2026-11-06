@@ -19,7 +19,8 @@ if not (CAT / "data" / "site.json").exists():
 
 site = json.loads((ROOT / "data" / "site.json").read_text(encoding="utf-8"))
 cat_site = json.loads((CAT / "data" / "site.json").read_text(encoding="utf-8"))
-ours = {c["slug"] for c in site["cities"] if c.get("source") == "cat"}
+places = site["cities"] + site.get("territories", [])
+ours = {c["slug"] for c in places if c.get("source") == "cat"}
 
 (ROOT / "data" / "cat").mkdir(exist_ok=True)
 for slug in sorted(ours):
@@ -32,6 +33,6 @@ for slug in sorted(ours):
         shutil.copy(src, dst)
     print(f"{slug}: {'sense canvis' if same else 'actualitzada'}")
 
-new = [c for c in cat_site["cities"] if c.get("slug") and c["slug"] not in ours]
+new = [c for c in cat_site["cities"] + cat_site.get("territories", []) if c.get("slug") and c["slug"] not in ours]
 for c in new:
     print(f"La .cat té una ciutat nova: {c['name']} ({c['slug']}). Per afegir-la a la .org, posa-la a data/site.json › cities amb \"source\": \"cat\" i torna a executar aquest script.")

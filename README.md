@@ -36,6 +36,8 @@ Què es tradueix: els títols, els resums, les notes, les etiquetes dels mapes i
 
 Els ids de les ciutats de Catalunya (districtes, barris, mapes i rutes) es treuen dels títols en català abans de traduir, de manera que són els mateixos que a la .cat i no canvien si es retoca una traducció. Només canvia el tros del curs: `#quan-la-vida` → `#cuando-la-vida`, `#quan-cuidar-nos` → `#cuando-cuidarnos`, `#quan-el-mon` → `#cuando-el-mundo` i `#quan-sostenir` → `#cuando-sostener`. Per exemple, `/vic/#cuando-el-mundo-ruta-5` o `/barcelona/#equipaments-el-raval-ruta-2`.
 
+Els territoris (pàgines de «Pueblos y comarcas», p. ex. el Baix Llobregat) es porten igual: a `data/site.json`, la llista `territories` amb `"source": "cat"`; `sync_cat.py` copia `data/<territori>.json` a `data/cat/` i les traduccions van a `data/traducciones/<territori>.json`. Els ids dels municipis i de les rutes són els de la .cat (`/baix-llobregat/#olesa-de-montserrat-ruta-1`). Com funcionen, al README de la .cat («Pobles i comarques»).
+
 ## Afegir una ciutat de la resta de l'Estat
 
 1. Crea `data/<ciutat>.json` en castellà, amb la mateixa estructura que `data/cat/olot.json` (rutes agrupades per curs, amb el `mid`, el centre `ll` i el zoom `z` de cada mapa de My Maps). No s'han d'inventar dades: si en falta alguna, es deixa marcada amb `[PENDIENTE]`.

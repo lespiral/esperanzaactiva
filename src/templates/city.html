@@ -11,7 +11,7 @@
     {% if r.address %}<p class="route__addr">{{ icon('pin') }}<span{% if '[' in r.address %} class="pending"{% endif %}>{{ r.address }}</span></p>{% endif %}
     {% if r.note %}<p class="route__note{% if '[' in r.note %} pending{% endif %}">{{ r.note }}</p>{% endif %}
     {% if r.desc %}<p class="route__desc">{{ r.desc }}</p>{% endif %}
-    <a class="route__go" href="{{ r.map_url }}" target="_blank" rel="noopener" aria-label="Abrir el mapa de la ruta {{ r.n }} ({{ r.map_title }})">{{ icon('map') }}Abrir el mapa</a>
+    {% if r.map_url %}<a class="route__go" href="{{ r.map_url }}" target="_blank" rel="noopener" aria-label="Abrir el mapa de la ruta {{ r.n }} ({{ r.map_title }})">{{ icon('map') }}Abrir el mapa</a>{% endif %}
   </div>
 </li>
 {%- endmacro %}
@@ -27,6 +27,17 @@
 {%- endmacro %}
 
 {% block content %}
+{% set is_territory = city.kind == 'territory' %}
+{% if is_territory %}
+{{ page_head(site.territories_page.kicker ~ ' · ' ~ city.region, city.title, city.intro) }}
+
+<nav class="pills wrap" aria-label="Cambia de territorio">
+  {% for c in territories %}
+  <a class="pill" href="{{ root }}{{ c.slug }}/"{% if c.slug == city.slug %} aria-current="page"{% endif %}>{{ icon(c.icon) }}{{ c.name }}</a>
+  {% endfor %}
+  <a class="pill" href="{{ root }}ciudades/#pueblos-y-comarcas">{{ icon('pin') }}Todos los pueblos y ciudades</a>
+</nav>
+{% else %}
 {{ page_head('Las ciudades · ' ~ city.region, city.title, city.intro) }}
 
 <nav class="pills wrap" aria-label="Cambia de ciudad">
@@ -35,9 +46,11 @@
   {% else %}<span class="pill pill--soon">{{ icon(c.icon) }}{{ c.name }} · próximamente</span>{% endif %}
   {% endfor %}
 </nav>
+{% endif %}
 
 <div class="wrap wrap--mid stack">
   {% if city.source == 'cat' %}<p class="langnote">{{ icon('info') }}<span>{{ site.cat_maps_note }}</span></p>{% endif %}
+  {% if city.blocks|length > 1 %}
   <nav class="jump" aria-label="Cursos en esta ciudad">
     <p class="jump__h">Elige tu curso</p>
     <ul>
@@ -46,6 +59,7 @@
       {% endfor %}
     </ul>
   </nav>
+  {% endif %}
 
   <section class="infosec" id="como-leer-una-ruta" aria-labelledby="h-llegir">
     <h2 class="infosec__title" id="h-llegir">{{ site.read_route_title }}</h2>
@@ -63,6 +77,11 @@
       {% if b.course.soon %}<span class="btn btn--soon">{{ cc.soon_label }}</span>{% else %}<a class="btn btn--primary" href="{{ b.course.thinkific }}">{{ cc.cta }}</a>{% endif %}
       <a class="btn btn--outline" href="{{ root }}{{ b.course.slug }}/">Vuelve al curso</a>
     </p>
+    {% if city.see_also and b.total %}
+    <ul class="see-also">
+      {% for s in city.see_also %}<li><a href="{{ root }}{{ s.href }}">{{ icon('arrow') }}<span>{{ s.text }}</span></a></li>{% endfor %}
+    </ul>
+    {% endif %}
     {% if not b.course.soon %}<p class="cta-note cta-note--lang block__lang">{{ cc.lang_note }}</p>{% endif %}
 
     {# Un bloc amb diverses parts (Barcelona «Quan la vida»): enllaços a cada part #}
@@ -92,6 +111,9 @@
     {% for g in p.groups %}
     <div class="group" id="{{ g.id }}">
       {% for m in g.maps %}{{ map_box(m) }}{% endfor %}
+      {% if not g.maps and g.map_pending %}
+      <div class="map map--pending"><p>{{ icon('map') }}<span>{{ g.map_pending }}</span></p></div>
+      {% endif %}
       <details class="routes"{% if g.open %} open{% endif %}>
         <summary><span><strong>{{ g.title }}</strong>{% if g.count|string not in g.title %}<small>{{ g.count }} {{ 'ruta' if g.count == 1 else 'rutas' }}</small>{% endif %}</span>{{ icon('caret', 'faq__caret') }}</summary>
         {% if g.sections %}

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "parts.html" import page_head, city_cards, before_walk %}
+{% from "parts.html" import page_head, city_cards, territory_cards, go_picker, before_walk %}
 {% block content %}
 {{ page_head(None, cp.title, cp.intro) }}
 <section class="band band--tight">
@@ -13,6 +13,17 @@
     {% endif %}
   </div>
 </section>
+{% if territories %}
+{% set tp = site.territories_page %}
+<section class="band band--tight band--territories" id="pueblos-y-comarcas" aria-labelledby="h-territorios">
+  <div class="wrap">
+    <h2 class="band__title" id="h-territorios">{{ tp.title }}</h2>
+    <p class="band__intro">{{ tp.intro }}</p>
+    {{ go_picker('elige-pueblo', tp.places_label, tp.places_placeholder, places_for(), root, 'picker--center') }}
+    {{ territory_cards(territories, root, summaries) }}
+  </div>
+</section>
+{% endif %}
 <div class="wrap wrap--mid stack stack--bottom">
   {{ before_walk(site.before_walk) }}
 </div>
