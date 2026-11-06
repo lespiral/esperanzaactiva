@@ -3,29 +3,29 @@
   <div class="llegir__grid">
     <div class="llegir__map" aria-hidden="true"><svg class="llegir__svg" viewBox="56 0 400 300" preserveAspectRatio="xMidYMid slice" focusable="false"></svg></div>
     <div class="llegir__side">
-      <p class="llegir__ex">Exemple</p>
+      <p class="llegir__ex">Ejemplo</p>
       <div class="llegir__card">
         <button type="button" class="llegir__n llegir__p" data-p="0">1</button>
         <div class="llegir__body">
-          <p class="llegir__name"><button type="button" class="llegir__p" data-p="1">Parc de la Font</button></p>
+          <p class="llegir__name"><button type="button" class="llegir__p" data-p="1">Parque de la Fuente</button></p>
           <p class="llegir__info">
             <button type="button" class="llegir__p" data-p="2">2,2 km</button> ·
-            <button type="button" class="llegir__p" data-p="3">26–33 min caminant</button> ·
-            <button type="button" class="llegir__p" data-p="4">40–50 min amb pauses</button> ·
+            <button type="button" class="llegir__p" data-p="3">26–33 min caminando</button> ·
+            <button type="button" class="llegir__p" data-p="4">40–50 min con pausas</button> ·
             <button type="button" class="llegir__p" data-p="5">circular</button>
           </p>
-          <p class="llegir__addr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><button type="button" class="llegir__p" data-p="6">Carrer Major, a prop de casa</button></p>
-          <span class="llegir__go llegir__p" data-p="7" role="button" tabindex="0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 9 4.5l6 2 5.5-2v13l-5.5 2-6-2-5.5 2z"/><path d="M9 4.5v13M15 6.5v13"/></svg>Obre el mapa</span>
+          <p class="llegir__addr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><button type="button" class="llegir__p" data-p="6">Calle Mayor, cerca de casa</button></p>
+          <span class="llegir__go llegir__p" data-p="7" role="button" tabindex="0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 9 4.5l6 2 5.5-2v13l-5.5 2-6-2-5.5 2z"/><path d="M9 4.5v13M15 6.5v13"/></svg>Abrir el mapa</span>
         </div>
       </div>
       <div class="llegir__cap" aria-live="polite"><p class="llegir__ck"></p><p class="llegir__ct"></p></div>
     </div>
   </div>
   <div class="llegir__foot">
-    <p class="llegir__hint">Toca cada dada per saber què vol dir.</p>
+    <p class="llegir__hint">Toca cada dato para saber qué quiere decir.</p>
     <button class="llegir__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna-ho a veure</span>
+      <span>Vuelve a verlo</span>
     </button>
   </div>
 </div>
@@ -117,17 +117,17 @@
 
   /* ---------- EXPLICACIÓ DE CADA DADA ---------- */
   var PARTS = [
-    ["El número", "És el número de la ruta al mapa."],
-    ["El punt de sortida", "D'on surt la ruta: una plaça, un parc, un CAP o un equipament."],
-    ["La distància", "Els quilòmetres de tota la volta."],
-    ["Caminant", "El temps aproximat si camines sense aturar-te."],
-    ["Amb pauses", "El temps aproximat si fas alguna aturada per descansar, o quan ho necessitis. La reflexió es fa caminant."],
-    ["Circular", "Acabes on has començat: tornes al punt de sortida."],
-    ["L'adreça", "On és el punt de sortida, per arribar-hi."],
-    ["Obre el mapa", "Obre a pantalla completa el mapa on és la ruta, amb totes les rutes d'aquell mapa."]
+    ["El número", "Es el número de la ruta en el mapa."],
+    ["El punto de salida", "De dónde sale la ruta: una plaza, un parque, un centro de salud o un equipamiento."],
+    ["La distancia", "Los kilómetros de toda la vuelta."],
+    ["Caminando", "El tiempo aproximado si caminas sin pararte."],
+    ["Con pausas", "El tiempo aproximado si haces alguna parada para descansar, o cuando lo necesites. La reflexión se hace caminando."],
+    ["Circular", "Acabas donde has empezado: vuelves al punto de salida."],
+    ["La dirección", "Dónde está el punto de salida, para llegar."],
+    ["Abrir el mapa", "Abre a pantalla completa el mapa donde está la ruta, con todas las rutas de ese mapa."]
   ];
-  var INTRO = ["Com llegir una ruta", "Cada ruta té aquestes dades. Mira-ho."];
-  var OUTRO = ["Ja està", "Tria la que s'adapti al teu temps i a les teves possibilitats."];
+  var INTRO = ["Cómo leer una ruta", "Cada ruta tiene estos datos. Míralo."];
+  var OUTRO = ["Ya está", "Elige la que se adapte a tu tiempo y a tus posibilidades."];
 
   var STEP = 1250, LOOP0 = 2, LOOP1 = 5; // la volta es camina mentre s'expliquen les dades 2 a 5
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -151,7 +151,7 @@
     '<path d="' + loop + '" fill="none" stroke="#1a4d40" stroke-opacity=".3" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 9"/>',
     '<path class="ll-route" d="' + loop + '"/>',
     '<g class="ll-arrows"></g>',
-    '<g class="ll-start"><rect x="104" y="238" width="92" height="24" rx="12" fill="#1a4d40"/><text x="150" y="254.5" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="700" font-size="12" fill="#fff">sortida i arribada</text></g>',
+    '<g class="ll-start"><rect x="104" y="238" width="92" height="24" rx="12" fill="#1a4d40"/><text x="150" y="254.5" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="700" font-size="12" fill="#fff">salida y llegada</text></g>',
     '<g class="ll-chip"><rect x="198" y="104" width="62" height="22" rx="11" fill="#e2c668" stroke="#fff" stroke-width="2"/><text x="229" y="119.5" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="700" font-size="12" fill="#11352c">2,2 km</text></g>',
     '<g class="ll-walker"><circle class="ll-halo" r="13" fill="#e2c668"/><circle r="7" fill="#e2c668" stroke="#fff" stroke-width="3"/></g>',
     '<g class="ll-pin"><path d="M150 222c-9-11-15-18-15-25a15 15 0 0 1 30 0c0 7-6 14-15 25z" fill="#e2c668" stroke="#fff" stroke-width="2.5"/><text x="150" y="202" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="700" font-size="13" fill="#11352c">1</text></g>');

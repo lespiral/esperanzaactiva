@@ -416,3 +416,15 @@ details[open] > summary .faq__caret { transform: rotate(180deg); }
 .faq--text { box-shadow: none; }
 .faq--text summary { padding: 13px 18px; font-size: .98rem; }
 .faq--text .faq__body { padding-top: 2px; }
+
+/* ---------- Només a la web en castellà (esperanzaactiva.org) ---------- */
+/* Avís a les ciutats de Catalunya: les fitxes dels mapes són en català */
+.langnote { display: flex; gap: 10px; align-items: flex-start; margin: 0; padding: 14px 18px; border-radius: var(--radius); background: var(--sun-50); border: 1px solid var(--sun-200); color: var(--ink); font-size: .98rem; }
+.langnote .i { color: var(--sun-ink); margin-top: .1em; }
+/* «De momento, el curso está en catalán», sota els botons d'inscripció de cada ciutat */
+.block__lang { margin-top: 8px; }
+/* Enllaç a la web en català */
+.footer__sister { margin-top: .9em; }
+/* El lema de L'Espiral i Elara Social, en text (la imatge del logo no el porta) */
+.initiative__motto { font: 700 1.05rem/1.3 var(--font-head); color: var(--green-800); margin: 0 0 .35em; }
+.initiative--left > div { flex: 1 1 260px; }

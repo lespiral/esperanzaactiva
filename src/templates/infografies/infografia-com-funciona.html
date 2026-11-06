@@ -1,15 +1,15 @@
 {# infografia-com-funciona.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="volta" data-volta>
-  <div class="volta__scene" role="group" aria-label="Com funciona: practica, tria una ruta, camina i porta-ho al dia a dia; i torna a començar a cada passa">
+  <div class="volta__scene" role="group" aria-label="Cómo funciona: practica, elige una ruta, camina y llévalo al día a día; y vuelve a empezar en cada paso">
     <svg class="volta__svg" aria-hidden="true" focusable="false"></svg>
     <div class="volta__nodes"></div>
     <div class="volta__pop" aria-live="polite"><p class="volta__pk"></p><p class="volta__pt"></p><p class="volta__px"></p></div>
   </div>
   <div class="volta__foot">
-    <p class="volta__hint">Toca un punt per saber-ne més.</p>
+    <p class="volta__hint">Toca un punto para saber más.</p>
     <button class="volta__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna a caminar</span>
+      <span>Vuelve a caminar</span>
     </button>
   </div>
 </div>
@@ -163,19 +163,19 @@
 
   /* ---------- TEXTOS (els de la web; es poden canviar aquí) ---------- */
   var STEPS = [
-    { scene: "escolta", title: "Fes la pràctica", sub: "Àudio o vídeo, abans de sortir",
-      text: "Escolta l'àudio o mira el vídeo de la passa abans de sortir." },
-    { scene: "mapa", title: "Tria una ruta", sub: "La que s'adapti al teu temps",
-      text: "Mira el mapa de la teva ciutat i escull la que s'adapti al teu temps. A cada passa, la mateixa o una altra." },
-    { scene: "camina", title: "Camina i observa", sub: "Al teu ritme",
-      text: "Deixa que la pràctica t'acompanyi, al teu ritme i sense buscar respostes ràpides." },
-    { scene: "porta", title: "Porta-ho al dia a dia", sub: "Un petit pas possible",
-      text: "Pensa què t'emportes: una mirada nova, una necessitat o un petit pas possible." }
+    { scene: "escolta", title: "Haz la práctica", sub: "Audio o vídeo, antes de salir",
+      text: "Escucha el audio o mira el vídeo del paso antes de salir." },
+    { scene: "mapa", title: "Elige una ruta", sub: "La que se adapte a tu tiempo",
+      text: "Mira el mapa de tu ciudad y escoge la que se adapte a tu tiempo. En cada paso, la misma u otra." },
+    { scene: "camina", title: "Camina y observa", sub: "A tu ritmo",
+      text: "Deja que la práctica te acompañe, a tu ritmo y sin buscar respuestas rápidas." },
+    { scene: "porta", title: "Llévalo al día a día", sub: "Un pequeño paso posible",
+      text: "Piensa qué te llevas: una mirada nueva, una necesidad o un pequeño paso posible." }
   ];
-  var BACK = { title: "I torna a començar", sub: "Cada passa, una volta: per la mateixa ruta o per una altra",
-    kick: "Cada curs, 7 passes",
-    text: "Cada passa del curs fa aquesta volta. Pots caminar sempre la mateixa ruta o triar-ne una altra dels mapes de Camins d'Esperança [Activa]. Ho pots fer en 7 dies o al teu ritme." };
-  var KICK = "Com funciona · ";
+  var BACK = { title: "Y vuelve a empezar", sub: "Cada paso, una vuelta: por la misma ruta o por otra",
+    kick: "Cada curso, 7 pasos",
+    text: "Cada paso del curso da esta vuelta. Puedes caminar siempre la misma ruta o elegir otra de los mapas de Caminos de Esperanza [Activa]. Puedes hacerlo en 7 días o a tu ritmo." };
+  var KICK = "Cómo funciona · ";
 
   function route(i, d, x, y) {
     return '<g class="vt-rt vt-rt' + i + '"><path class="vt-route" d="' + d + '"/><g transform="translate(' + x + ' ' + y + ')"><g class="vt-pin">' +

@@ -1,15 +1,15 @@
 {# infografia-abans-de-sortir.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="sortir" data-sortir>
-  <div class="sortir__scene" role="group" aria-label="Abans de sortir: dues opcions, avui camino o avui no és el dia">
+  <div class="sortir__scene" role="group" aria-label="Antes de salir: dos opciones, hoy camino u hoy no es el día">
     <svg class="sortir__svg" aria-hidden="true" focusable="false"></svg>
     <div class="sortir__nodes"></div>
     <div class="sortir__pop" aria-live="polite"><p class="sortir__pk"></p><p class="sortir__pt"></p><p class="sortir__px"></p></div>
   </div>
   <div class="sortir__foot">
-    <p class="sortir__hint">Toca cada punt per saber-ne més.</p>
+    <p class="sortir__hint">Toca cada punto para saber más.</p>
     <button class="sortir__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna-ho a veure</span>
+      <span>Vuelve a verlo</span>
     </button>
   </div>
 </div>
@@ -127,21 +127,21 @@
   if (!root || root.getAttribute("data-ready")) return;
   root.setAttribute("data-ready", "1");
 
-  /* ---------- TEXTOS (els de «Abans de sortir» de la web) ---------- */
-  var DOOR = { label: "Abans de sortir", kick: "Abans de sortir", title: "Caminar és una proposta",
-    text: "Caminar és una proposta, no una obligació. Si avui no és el dia, també pots fer la pràctica en un lloc tranquil." };
-  var MSG = "Caminar és una proposta, no una obligació.";
-  var WAYS = ["Avui camino", "Avui no és el dia"];
+  /* ---------- TEXTOS (els de «Antes de salir» de la web) ---------- */
+  var DOOR = { label: "Antes de salir", kick: "Antes de salir", title: "Caminar es una propuesta",
+    text: "Caminar es una propuesta, no una obligación. Si hoy no es el día, también puedes hacer la práctica en un lugar tranquilo." };
+  var MSG = "Caminar es una propuesta, no una obligación.";
+  var WAYS = ["Hoy camino", "Hoy no es el día"];
   var CHECKS = [
-    { icon: "map", label: "Mira el mapa", text: "Consulta el mapa i comprova que l'itinerari s'adapta a les teves possibilitats." },
-    { icon: "weather", label: "Mira el temps", text: "Mira la previsió del temps abans de sortir." },
-    { icon: "eye", label: "Atenció a l'entorn", text: "Para atenció a l'entorn, als vehicles i als passos de vianants." },
-    { icon: "sign", label: "Si cal, canvia", text: "Si les condicions no són adequades, tria una altra ruta o deixa-ho per a un altre dia." }
+    { icon: "map", label: "Mira el mapa", text: "Consulta el mapa y comprueba que el itinerario se adapta a tus posibilidades." },
+    { icon: "weather", label: "Mira el tiempo", text: "Mira la previsión del tiempo antes de salir." },
+    { icon: "eye", label: "Atención al entorno", text: "Presta atención al entorno, a los vehículos y a los pasos de peatones." },
+    { icon: "sign", label: "Si hace falta, cambia", text: "Si las condiciones no son adecuadas, elige otra ruta o déjalo para otro día." }
   ];
-  var END_A = { label: "A caminar", kick: "Avui camino", title: "Camina i observa", text: "Deixa que la pràctica t'acompanyi, al teu ritme i sense buscar respostes ràpides." };
-  var END_B = { label: "Pràctica en un lloc tranquil", kick: "Avui no és el dia", title: "Pràctica en un lloc tranquil",
-    text: "Si avui no és el dia, també pots fer la pràctica en un lloc tranquil." };
-  var CHECK_KICK = "Abans de sortir · ";
+  var END_A = { label: "A caminar", kick: "Hoy camino", title: "Camina y observa", text: "Deja que la práctica te acompañe, a tu ritmo y sin buscar respuestas rápidas." };
+  var END_B = { label: "Práctica en un lugar tranquilo", kick: "Hoy no es el día", title: "Práctica en un lugar tranquilo",
+    text: "Si hoy no es el día, también puedes hacer la práctica en un lugar tranquilo." };
+  var CHECK_KICK = "Antes de salir · ";
 
   var ICON = {
     door: '<path d="M6 21V4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21"/><path d="M3.5 21h17"/><circle cx="14.5" cy="12.5" r="1"/>',

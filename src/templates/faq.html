@@ -16,16 +16,16 @@
   <section id="una-iniciativa-de" aria-labelledby="h-ini">
     <h2 class="faq-h" id="h-ini">{{ h.initiative_title }}</h2>
     <div class="initiative initiative--left">
-      {% if partners_logo %}<img class="initiative__logo" src="{{ root }}assets/img/lespiral-elara.png" alt="L'Espiral i Elara Social. Cuidem les persones. Enfortim les comunitats" width="300">{% endif %}
-      <p>{{ h.initiative_text }}</p>
+      {% if partners_logo %}<img class="initiative__logo" src="{{ root }}assets/img/lespiral-elara.png" alt="L'Espiral y Elara Social" width="300">{% endif %}
+      <div><p class="initiative__motto">{{ site.footer.motto }}</p><p>{{ h.initiative_text }}</p></div>
     </div>
     <div class="infografia infografia--in">{% include "infografies/infografia-iniciativa.html" %}</div>
   </section>
-  <section class="contact-box" id="contacte" aria-labelledby="h-contact">
+  <section class="contact-box" id="contacto" aria-labelledby="h-contact">
     <h2 id="h-contact">{{ fp.contact_title }}</h2>
     <p>{{ fp.contact_html }}</p>
     <p class="contact-box__links">
-      <a class="btn btn--primary" href="mailto:{{ site.contact.email }}">{{ icon('mail') }}Escriu-nos</a>
+      <a class="btn btn--primary" href="mailto:{{ site.contact.email }}">{{ icon('mail') }}Escríbenos</a>
       <a class="btn btn--outline" href="{{ site.contact.instagram_url }}">{{ icon('instagram') }}{{ site.contact.instagram }}</a>
     </p>
   </section>

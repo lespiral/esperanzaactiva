@@ -1,6 +1,6 @@
 {# infografia-cursos.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="vies" data-vies>
-  <div class="vies__scene" role="group" aria-label="Els cursos: portes d'entrada diferents a un mateix camí cap a l'Esperança Activa">
+  <div class="vies__scene" role="group" aria-label="Los cursos: puertas de entrada diferentes a un mismo camino hacia la Esperanza Activa">
     <svg class="vies__svg" aria-hidden="true" focusable="false"></svg>
     <div class="vies__nodes"></div>
     <div class="vies__pop" aria-live="polite">
@@ -9,10 +9,10 @@
     </div>
   </div>
   <div class="vies__foot">
-    <p class="vies__hint">Toca un curs per veure de què va.</p>
+    <p class="vies__hint">Toca un curso para ver de qué va.</p>
     <button class="vies__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna a caminar</span>
+      <span>Vuelve a caminar</span>
     </button>
   </div>
 </div>
@@ -212,25 +212,25 @@
   // BASE: com arribar a l'arrel de la web des de la pàgina on hi ha la infografia ("../" des de /cursos/)
   var BASE = "{{ root }}";
   var COURSES = [
-    { scene: "vida", title: "Quan la vida et desborda", short: "La vida et desborda", themes: "ansietat, dols, conflictes…",
-      text: "Ansietat, angoixa, massa pensaments o la sensació de no poder més.", href: "malestar-emocional/" },
-    { scene: "cuidar", title: "Quan cuidar-nos és una tasca col·lectiva", short: "Cuidar-nos junts/es", themes: "soledat, falta de suport, aïllament…",
-      text: "Soledat, cansament emocional o falta d'espais on sentir-te escoltat/da.", href: "prescripcio-social/" },
-    { scene: "mon", title: "Quan el món et preocupa", short: "El món et preocupa", themes: "canvi climàtic, futur incert…",
-      text: "Crisi climàtica, sequeres, incendis o el món que deixarem.", href: "accio-climatica/" },
+    { scene: "vida", title: "Cuando la vida te desborda", short: "La vida te desborda", themes: "ansiedad, duelos, conflictos…",
+      text: "Ansiedad, angustia, demasiados pensamientos o la sensación de no poder más.", href: "malestar-emocional/" },
+    { scene: "cuidar", title: "Cuando cuidarnos es una tarea colectiva", short: "Cuidarnos juntos/as", themes: "soledad, falta de apoyo, aislamiento…",
+      text: "Soledad, cansancio emocional o falta de espacios donde sentirte escuchado/a.", href: "cuidado-colectivo/" },
+    { scene: "mon", title: "Cuando el mundo te preocupa", short: "El mundo te preocupa", themes: "cambio climático, futuro incierto…",
+      text: "Crisis climática, sequías, incendios o el mundo que dejaremos.", href: "accion-climatica/" },
     {# El 4t curs agafa de data/site.json la frase de la targeta i si encara no està obert («soon») #}
     {% set dia = site.courses|selectattr("key", "equalto", "dia")|first %}
-    { scene: "casa", title: "Quan sostenir la vida es fa difícil", short: "Sostenir el dia a dia", themes: "feina, habitatge, precarietat…",
+    { scene: "casa", title: "Cuando sostener la vida se hace difícil", short: "Sostener el día a día", themes: "trabajo, vivienda, precariedad…",
       text: {{ dia.card|tojson }}, href: "economia-social/"{% if dia.soon %}, soon: true{% endif %} }
   ];
   // Un curs nou que encara no estigui actiu: afegeix-hi «soon: true» i surt amb la marca «Properament» i sense enllaç
   // Canvi de la web (5 de novembre): les passes són les mateixes; el que canvia és cap on s'orienta la reflexió
-  var PASSES = { kick: "Cada curs", title: "7 passes", sub: "amb la mirada de cada curs",
-    text: "Les passes són les mateixes a tots els cursos, però els àudios i els vídeos orienten la reflexió cap al tema de cada un. Ho pots fer en 7 dies o al teu ritme." };
-  var WALK = { kick: "Rutes a peu", title: "Camina per la teva ciutat",
-    text: {{ ("Ara hi ha rutes " ~ cities_with_a ~ ".")|tojson }}, href: "ciutats/", link: "Tria la teva ciutat" }; // ciutats de data/site.json
-  var END = { kick: "On porta el camí", title: "Esperança Activa", text: "Una pràctica, una caminada, un petit pas." };
-  var KICK_COURSE = "Curs gratuït", KICK_SOON = "Properament", LINK_COURSE = "És el meu cas";
+  var PASSES = { kick: "Cada curso", title: "7 pasos", sub: "con la mirada de cada curso",
+    text: "Los pasos son los mismos en todos los cursos, pero los audios y los vídeos orientan la reflexión hacia el tema de cada uno. Puedes hacerlo en 7 días o a tu ritmo." };
+  var WALK = { kick: "Rutas a pie", title: "Camina por tu ciudad",
+    text: {{ (("Ahora hay rutas " ~ cities_with_a ~ ".") if cities_with_a else "Pronto habrá rutas en las primeras ciudades.")|tojson }}, href: "ciudades/", link: "Elige tu ciudad" }; // ciutats de data/site.json
+  var END = { kick: "Adónde lleva el camino", title: "Esperanza Activa", text: "Una práctica, una caminata, un pequeño paso." };
+  var KICK_COURSE = "Curso gratuito", KICK_SOON = "Próximamente", LINK_COURSE = "Es mi caso";
 
   /* ---------- PAISATGES DELS CURSOS (64 x 64) ---------- */
   var SCENES = {

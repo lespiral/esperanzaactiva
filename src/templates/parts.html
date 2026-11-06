@@ -16,7 +16,7 @@
     {% if c.soon %}<span class="card__badge">{{ cc.soon_label }}</span>{% endif %}
     <h{{ heading_level }} class="card__title">{{ c.title }}</h{{ heading_level }}>
     <p class="card__text">{{ c.card }}</p>
-    <a class="btn btn--soft btn--block" href="{{ root }}{{ c.slug }}/">És el meu cas</a>
+    <a class="btn btn--soft btn--block" href="{{ root }}{{ c.slug }}/">Es mi caso</a>
   </li>
   {% endfor %}
 </ul>
@@ -37,18 +37,18 @@
 {%- endmacro %}
 
 {% macro city_cards(cities, root, summaries, anchor='', center=False) -%}
-{% set opts = [] %}{% for c in cities if c.slug %}{% set _ = opts.append((c.name, 'ciutat-' ~ c.slug)) %}{% endfor %}
-{{ picker('tria-ciutat', 'Vés directament a la teva ciutat', 'Tria una ciutat', opts, 'pin', 'picker--center' if center else '') }}
+{% set opts = [] %}{% for c in cities if c.slug %}{% set _ = opts.append((c.name, 'ciudad-' ~ c.slug)) %}{% endfor %}
+{% if opts|length > 1 %}{{ picker('elige-ciudad', 'Ve directamente a tu ciudad', 'Elige una ciudad', opts, 'pin', 'picker--center' if center else '') }}{% endif %}
 <ul class="cards cards--cities">
   {% for c in cities %}
   {% if c.slug %}
-  <li class="card card--city" id="ciutat-{{ c.slug }}">
+  <li class="card card--city" id="ciudad-{{ c.slug }}">
     <a class="card__link" href="{{ root }}{{ c.slug }}/{% if anchor %}#{{ anchor }}{% endif %}">
       <span class="card__icon" aria-hidden="true">{{ icon(c.icon) }}</span>
       <span class="card__title">{{ c.name }}</span>
       <span class="card__region">{{ c.region }}</span>
       <span class="card__text">{{ summaries[c.slug].text }}</span>
-      <span class="card__more">{{ 'Veure les rutes' if summaries[c.slug].has else 'Veure la ciutat' }} {{ icon('arrow') }}</span>
+      <span class="card__more">{{ 'Ver las rutas' if summaries[c.slug].has else 'Ver la ciudad' }} {{ icon('arrow') }}</span>
     </a>
   </li>
   {% else %}
@@ -56,7 +56,7 @@
     <span class="card__icon" aria-hidden="true">{{ icon(c.icon) }}</span>
     <span class="card__title">{{ c.name }}</span>
     <span class="card__region">{{ c.region }}</span>
-    <span class="card__text">Properament</span>
+    <span class="card__text">Próximamente</span>
   </li>
   {% endif %}
   {% endfor %}
@@ -71,8 +71,8 @@
 {%- endmacro %}
 
 {% macro before_walk(bw) -%}
-<aside class="note note--info" aria-labelledby="abans-de-sortir">
-  <h2 id="abans-de-sortir" class="note__title">{{ icon('info') }}{{ bw.title }}</h2>
+<aside class="note note--info" aria-labelledby="antes-de-salir">
+  <h2 id="antes-de-salir" class="note__title">{{ icon('info') }}{{ bw.title }}</h2>
   <p>{{ bw.intro }}</p>
   <div class="infografia infografia--in">{% include "infografies/infografia-abans-de-sortir.html" %}</div>
   {# La llista, en text, plegada a sota de la infografia #}
@@ -85,8 +85,8 @@
 
 {% macro safety(html, title=None, intro=None) -%}
 {% if title %}
-<aside class="note note--care" aria-labelledby="abans-de-comencar">
-  <h2 id="abans-de-comencar" class="note__title">{{ icon('lifebuoy') }}{{ title }}</h2>
+<aside class="note note--care" aria-labelledby="antes-de-empezar">
+  <h2 id="antes-de-empezar" class="note__title">{{ icon('lifebuoy') }}{{ title }}</h2>
   {% if intro %}<p class="note__p">{{ intro }}</p>{% endif %}
   <p class="note__p">{{ html }}</p>
 </aside>

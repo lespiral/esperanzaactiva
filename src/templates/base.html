@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ca">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
   <meta property="og:title" content="{{ page_title or site.name }}">
   <meta property="og:description" content="{{ page_description or site.description }}">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ca_ES">
+  <meta property="og:locale" content="es_ES">
   {% if logo %}<link rel="icon" type="image/png" sizes="48x48" href="{{ root }}assets/img/favicon-48.png"><link rel="apple-touch-icon" href="{{ root }}assets/img/apple-touch-icon.png">{% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,29 +19,29 @@
   <link rel="stylesheet" href="{{ root }}assets/site.css?v={{ version }}">
 </head>
 <body>
-  <a class="skip" href="#contingut">Salta al contingut</a>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
 
   <header class="topbar">
     <div class="wrap topbar__in">
-      <a class="brand" href="{{ root }}" aria-label="{{ site.name }}, inici">
+      <a class="brand" href="{{ root }}" aria-label="{{ site.name }}, inicio">
         {% if logo %}<img class="brand__logo" src="{{ root }}assets/img/logo.png" alt="" width="48" height="48">{% else %}<span class="brand__sun" aria-hidden="true">{{ icon('sun') }}</span>{% endif %}
-        <span class="brand__name">Camins d'Esperança<span class="brand__tag">[Activa]</span></span>
+        <span class="brand__name">{{ site.brand[0] }}<span class="brand__tag">{{ site.brand[1] }}</span></span>
       </a>
-      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Obre el menú">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir el menú">
         <span class="menu-btn__open">{{ icon('menu') }}</span><span class="menu-btn__close">{{ icon('close') }}</span>
       </button>
       <nav id="menu" class="menu" aria-label="Menú principal">
         <ul>
-          <li><a href="{{ root }}"{% if section == 'inici' %} aria-current="page"{% endif %}>Inici</a></li>
-          <li><a href="{{ root }}cursos/"{% if section == 'cursos' %} aria-current="page"{% endif %}>Els cursos</a></li>
-          <li><a href="{{ root }}ciutats/"{% if section == 'ciutats' %} aria-current="page"{% endif %}>Les ciutats</a></li>
-          <li><a href="{{ root }}preguntes/"{% if section == 'preguntes' %} aria-current="page"{% endif %}>Preguntes</a></li>
+          <li><a href="{{ root }}"{% if section == 'inicio' %} aria-current="page"{% endif %}>Inicio</a></li>
+          <li><a href="{{ root }}cursos/"{% if section == 'cursos' %} aria-current="page"{% endif %}>Los cursos</a></li>
+          <li><a href="{{ root }}ciudades/"{% if section == 'ciudades' %} aria-current="page"{% endif %}>Las ciudades</a></li>
+          <li><a href="{{ root }}preguntas/"{% if section == 'preguntas' %} aria-current="page"{% endif %}>Preguntas</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="contingut">
+  <main id="contenido">
 {% block content %}{% endblock %}
   </main>
 
@@ -52,21 +52,22 @@
         <p>{{ site.footer.initiative }}</p>
         <p class="footer__motto">{{ site.footer.motto }}</p>
         <p>{{ site.footer.gaze }}</p>
+        <p class="footer__sister">{{ site.footer.sister_text }} <a href="{{ site.footer.sister_url }}" hreflang="ca" lang="ca">{{ site.footer.sister_label }}</a></p>
       </div>
       <div class="footer__col">
-        <p class="footer__h">Els cursos</p>
+        <p class="footer__h">Los cursos</p>
         <ul>{% for c in site.courses %}<li><a href="{{ root }}{{ c.slug }}/">{{ c.title }}</a></li>{% endfor %}</ul>
       </div>
       <div class="footer__col">
-        <p class="footer__h">Les ciutats</p>
-        <ul>{% for c in site.cities %}<li>{% if c.slug %}<a href="{{ root }}{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }} · properament{% endif %}</li>{% endfor %}</ul>
+        <p class="footer__h">Las ciudades</p>
+        {% if site.cities %}<ul>{% for c in site.cities %}<li>{% if c.slug %}<a href="{{ root }}{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }} · próximamente{% endif %}</li>{% endfor %}</ul>{% else %}<p>Pronto habrá rutas.</p>{% endif %}
       </div>
       <div class="footer__col">
-        <p class="footer__h">Contacte</p>
+        <p class="footer__h">Contacto</p>
         <ul class="footer__contact">
           <li>{{ icon('mail') }}<a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
           <li>{{ icon('instagram') }}<a href="{{ site.contact.instagram_url }}">{{ site.contact.instagram }}</a></li>
-          <li>{{ icon('phone') }}{% if site.contact.phone_tel %}<a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>{% else %}Telèfon: {{ site.contact.phone }}{% endif %}</li>
+          <li>{{ icon('phone') }}{% if site.contact.phone_tel %}<a href="tel:{{ site.contact.phone_tel }}">{{ site.contact.phone }}</a>{% else %}Teléfono: {{ site.contact.phone }}{% endif %}</li>
         </ul>
       </div>
     </div>

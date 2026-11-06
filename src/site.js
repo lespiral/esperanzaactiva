@@ -1,4 +1,4 @@
-// Camins d'Esperança [Activa] · menú del mòbil, enllaços directes a seccions i desplegables per anar a una ciutat o un districte
+// Caminos de Esperanza [Activa] · menú del mòbil, enllaços directes a seccions i desplegables per anar a una ciutat o un districte
 (function () {
   var bar = document.querySelector('.topbar');
   var btn = document.querySelector('.menu-btn');
@@ -6,7 +6,7 @@
     btn.addEventListener('click', function () {
       var open = bar.classList.toggle('is-open');
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      btn.setAttribute('aria-label', open ? 'Tanca el menú' : 'Obre el menú');
+      btn.setAttribute('aria-label', open ? 'Cerrar el menú' : 'Abrir el menú');
     });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && bar.classList.contains('is-open')) { btn.click(); btn.focus(); }

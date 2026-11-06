@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Genera la web estàtica de Camins d'Esperança [Activa] a la carpeta docs/.
+"""Genera la web estàtica de Caminos de Esperanza [Activa] (esperanzaactiva.org) a la carpeta docs/.
 
 Ús:  python3 build.py
 
 L'adreça pública de la web i si ha de sortir als cercadors es configuren a
 data/site.json, a "publish": {"url": ..., "index": true/false}.
 
-Els textos són a data/site.json i les rutes a data/<ciutat>.json.
+Els textos són a data/site.json. Les rutes de cada ciutat:
+- ciutats de la resta de l'Estat: data/<ciutat>.json, en castellà;
+- ciutats de Catalunya ("source": "cat" a data/site.json): data/cat/<ciutat>.json, còpia
+  del repositori de la web en català (python3 sync_cat.py), amb els textos traduïts a
+  data/traducciones/<ciutat>.json.
 """
 import json, os, re, shutil, sys, time, unicodedata
 from pathlib import Path
@@ -55,14 +59,73 @@ def assign_maps(g, routes):
         r["map_title"] = m["title"]
 
 
-# Desplegable «Vés directament a…»: surt dins d'un bloc de curs quan hi ha
+# Desplegable «Ve directamente a…»: surt dins d'un bloc de curs quan hi ha
 # com a mínim aquests mapes o districtes per triar.
 ZONES_MIN = 3
 ZONES_TEXT = {
     # tipus: (etiqueta, primera opció, enllaç sota cada mapa per tornar al desplegable)
-    "zona": ("Vés directament a la teva zona", "Tria una zona", "Canvia de zona"),
-    "mapa": ("Vés directament al mapa", "Tria un mapa", "Canvia de mapa"),
+    "zona": ("Ve directamente a tu zona", "Elige una zona", "Cambia de zona"),
+    "mapa": ("Ve directamente al mapa", "Elige un mapa", "Cambia de mapa"),
 }
+
+
+# ---------- Ciutats de Catalunya: dades de la .cat amb els textos traduïts ----------
+# Es tradueixen els textos d'aquestes claus. Els noms de les rutes i les adreces
+# («name», «address») són noms propis i es deixen com són, si no hi ha traducció.
+TR_KEYS = {"title", "summary", "intro", "text", "note", "desc", "start", "label", "zone",
+           "nav", "placeholder", "back", "html", "district"}
+TR_OPTIONAL = {"name", "address"}
+
+
+def tr_info(s):
+    """«2,15 km · 26–32 min caminant · 35–50 min amb pauses · circular» en castellà."""
+    return s.replace(" caminant", " caminando").replace(" amb pauses", " con pausas")
+
+
+def translate(obj, tr, missing):
+    """Tradueix, dins les dades d'una ciutat, els textos de TR_KEYS amb el diccionari tr
+    (català → castellà). Els que no hi són es queden en català i van a missing."""
+    def one(v):
+        if v in tr and tr[v]:
+            return tr[v]
+        missing.add(v)
+        return v
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k in TR_KEYS and isinstance(v, str):
+                obj[k] = one(v)
+            elif k in TR_KEYS and isinstance(v, list) and all(isinstance(x, str) for x in v):
+                obj[k] = [one(x) for x in v]
+            elif k == "info" and isinstance(v, str):
+                obj[k] = tr_info(v)
+            elif k in TR_OPTIONAL and isinstance(v, str):
+                obj[k] = tr.get(v) or v
+            elif not isinstance(v, str):
+                translate(v, tr, missing)
+    elif isinstance(obj, list):
+        for x in obj:
+            translate(x, tr, missing)
+
+
+def freeze_ids(city):
+    """Abans de traduir, fixa els ids que build.py treu dels títols (grups, districtes,
+    barris i mapes), perquè les adreces directes (/vic/#parcs-…) no canviïn si es
+    retoca una traducció. Segueix les mateixes regles que process_groups i add_zones."""
+    for b in city["blocks"]:
+        course = courses[b["course"]]
+        for p in b.get("parts") or [{"groups": b.get("groups") or []}]:
+            groups = p["groups"]
+            for g in groups:
+                if g.get("sections"):
+                    g.setdefault("id", slugify(g["title"]))
+                    for s in g["sections"]:
+                        s.setdefault("id", slugify(s["title"]))
+                else:
+                    g.setdefault("id", f"{course['anchor']}-rutas" if len(groups) == 1 else slugify(g["title"]))
+            if len(groups) == 1 and len(groups[0]["maps"]) > 1:
+                for m in groups[0]["maps"]:
+                    name = m.get("zone") or m.get("label") or m["title"]
+                    m.setdefault("id", f"{course['anchor']}-{slugify(name)}")
 
 
 def add_zones(b, groups, course, cfg, pid=None):
@@ -147,7 +210,7 @@ def process_groups(groups, course):
                 assign_maps(g, s["routes"])
             g["count"] = sum(len(s["routes"]) for s in g["sections"])
         else:
-            g["id"] = g.get("id") or (f"{course['anchor']}-rutes" if len(groups) == 1 else slugify(g["title"]))
+            g["id"] = g.get("id") or (f"{course['anchor']}-rutas" if len(groups) == 1 else slugify(g["title"]))
             # Un sol grup: /vic/#quan-el-mon-ruta-5. Diversos grups (p. ex. un per districte): /barcelona/#cap-gracia-ruta-6
             prefix = course["anchor"] if len(groups) == 1 else g["id"]
             for r in g["routes"]:
@@ -162,16 +225,28 @@ def process_groups(groups, course):
 cities = []
 summaries = {}
 course_summaries = {k: {} for k in courses}
+pending = {}   # textos de les ciutats de Catalunya que encara no tenen traducció
 for c in site["cities"]:
     if not c.get("slug"):
         continue
-    city = json.loads((DATA / f"{c['slug']}.json").read_text(encoding="utf-8"))
-    city.setdefault("title", f"Caminar per {city['name']}")
+    if c.get("source") == "cat":
+        city = json.loads((DATA / "cat" / f"{c['slug']}.json").read_text(encoding="utf-8"))
+        trf = DATA / "traducciones" / f"{c['slug']}.json"
+        tr = json.loads(trf.read_text(encoding="utf-8")) if trf.exists() else {}
+        freeze_ids(city)
+        missing = set()
+        translate(city, tr, missing)
+        if missing:
+            pending[c["slug"]] = sorted(missing)
+        city["source"] = "cat"
+    else:
+        city = json.loads((DATA / f"{c['slug']}.json").read_text(encoding="utf-8"))
+    city.setdefault("title", f"Caminar por {city['name']}")
     city["icon"] = c["icon"]
     by_course = {b["course"]: b for b in city["blocks"]}
     blocks = []
     for key, course in courses.items():
-        b = by_course.get(key, {"course": key, "text": f"Encara no hi ha rutes d'aquest curs a {city['name']}. Mentrestant, pots fer el temps de reflexió de cada passa caminant a prop de casa o en un lloc tranquil."})
+        b = by_course.get(key, {"course": key, "text": f"Todavía no hay rutas de este curso en {city['name']}. Mientras tanto, puedes hacer el tiempo de reflexión de cada paso caminando cerca de casa o en un lugar tranquilo."})
         b = dict(b, course=course)
         # Un bloc pot tenir diverses parts, cada una amb el seu títol, text, avís,
         # grups i desplegable (Barcelona «Quan la vida»: rutes des dels CAP i rutes
@@ -190,8 +265,8 @@ for c in site["cities"]:
         b["parts"] = parts
         b["groups"] = [g for p in parts for g in p["groups"]]
         b["total"] = total
-        b["summary"] = b.get("summary") or ("Encara no hi ha rutes d'aquest curs" if not total else f"{total} rutes")
-        course_summaries[key][city["slug"]] = {"text": b["summary"] if total else "Encara no hi ha rutes d'aquest curs. Pots caminar a prop de casa.", "has": bool(total)}
+        b["summary"] = b.get("summary") or ("Todavía no hay rutas de este curso" if not total else f"{total} rutas")
+        course_summaries[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
         blocks.append(b)
     # Primer els cursos que tenen rutes en aquesta ciutat; després, els que encara no en tenen
     city["blocks"] = [b for b in blocks if b["total"]] + [b for b in blocks if not b["total"]]
@@ -222,11 +297,12 @@ for city in cities:
     assert not dup, f"ids repetits a {city['slug']}: {dup}"
 
 def cities_with_a(names):
-    """«a Barcelona, el Prat de Llobregat, Olot i Vic»: la llista de ciutats per a una frase.
-    L'article va en minúscula (el Prat) i «a el» es contrau («al Prat») si la llista en comença amb un."""
-    names = [re.sub(r"^(El|La|Els|Les|L')(?=[ A-ZÀ-Ý])", lambda m: m.group(1).lower(), n) for n in names]
-    s = names[0] if len(names) == 1 else ", ".join(names[:-1]) + " i " + names[-1]
-    return re.sub(r"^el ", "al ", re.sub(r"^els ", "als ", s)) if re.match(r"els? ", s) else "a " + s
+    """«en Barcelona, El Prat de Llobregat, Olot y Vic»: la llista de ciutats per a una frase.
+    Sense ciutats, torna un text buit (les plantilles posen un altre text)."""
+    if not names:
+        return ""
+    s = names[0] if len(names) == 1 else ", ".join(names[:-1]) + " y " + names[-1]
+    return "en " + s
 
 
 env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
@@ -257,15 +333,15 @@ if OUT.exists():
     shutil.rmtree(OUT)
 OUT.mkdir()
 
-render("home.html", "", section="inici")
-render("courses.html", "cursos", section="cursos", page_title="Els cursos", cp=site["courses_page"])
-render("cities.html", "ciutats", section="ciutats", page_title="Les ciutats", cp=site["cities_page"])
-render("faq.html", "preguntes", section="preguntes", page_title="Preguntes", fp=fp)
+render("home.html", "", section="inicio")
+render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site["courses_page"])
+render("cities.html", "ciudades", section="ciudades", page_title="Las ciudades", cp=site["cities_page"])
+render("faq.html", "preguntas", section="preguntas", page_title="Preguntas", fp=fp)
 for c in site["courses"]:
     render("course.html", c["slug"], section="cursos", page_title=c["title"], page_description=c["subtitle"], course=c)
 for city in cities:
-    render("city.html", city["slug"], section="ciutats", page_title=city["name"], page_description=city["summary"], city=city)
-render("404.html", "404.html", page_title="Pàgina no trobada", root=BASE, base=BASE)
+    render("city.html", city["slug"], section="ciudades", page_title=city["name"], page_description=city["summary"], city=city)
+render("404.html", "404.html", page_title="Página no encontrada", root=BASE, base=BASE)
 
 (OUT / "assets").mkdir(exist_ok=True)
 shutil.copy(SRC / "site.css", OUT / "assets" / "site.css")
@@ -282,5 +358,13 @@ else:
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}</urlset>\n', encoding="utf-8")
 if (ROOT / "CNAME").exists():
     shutil.copy(ROOT / "CNAME", OUT / "CNAME")
+
+for slug, texts in pending.items():
+    out = DATA / "traducciones" / f"{slug}.pendientes.json"
+    out.write_text(json.dumps({t: "" for t in texts}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"ATENCIÓ: {slug}: {len(texts)} textos sense traduir (surten en català). Són a {out.relative_to(ROOT)}: tradueix-los i passa'ls a data/traducciones/{slug}.json.")
+for f in (DATA / "traducciones").glob("*.pendientes.json"):
+    if f.name.split(".")[0] not in pending:
+        f.unlink()
 
 print(f"Fet: {len(cities)} ciutats, {n_routes} rutes, {sum(len(g['maps']) for c in cities for b in c['blocks'] for g in b['groups'])} mapes. adreça={SITE_URL} cercadors={'no' if NOINDEX else 'sí'}")

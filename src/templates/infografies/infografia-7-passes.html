@@ -1,22 +1,22 @@
 {# infografia-7-passes.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="espi" data-espi{% if curs %} data-curs="{{ curs }}"{% endif %}>
   <div class="espi__grid">
-    <div class="espi__scene" role="group" aria-label="L'espiral de les 7 passes; cada passa té quatre moments">
+    <div class="espi__scene" role="group" aria-label="La espiral de los 7 pasos; cada paso tiene cuatro momentos">
       <svg class="espi__svg" aria-hidden="true" focusable="false"></svg>
       <div class="espi__nodes"></div>
       <div class="espi__hub" aria-live="polite"><p class="espi__hk"></p><p class="espi__ht"></p><p class="espi__hx"></p></div>
     </div>
     <div class="espi__legend">
-      <p class="espi__lh">Cada passa, quatre moments</p>
+      <p class="espi__lh">Cada paso, cuatro momentos</p>
       <ol class="espi__moments"></ol>
       <ul class="espi__chips"></ul>
     </div>
   </div>
   <div class="espi__foot">
-    <p class="espi__hint">Toca una passa per veure'n la pregunta.</p>
+    <p class="espi__hint">Toca un paso para ver su pregunta.</p>
     <button class="espi__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna a caminar</span>
+      <span>Vuelve a caminar</span>
     </button>
   </div>
 </div>
@@ -148,24 +148,24 @@
 
   /* ---------- TEXTOS (els de la web; es poden canviar aquí) ---------- */
   var PASSES = [
-    ["Allò que estimo", "Què té valor per a mi? Què vull cuidar?"],
-    ["Allò que em sosté", "Quines persones, llocs o recursos m'ajuden?"],
-    ["Allò que em preocupa", "Què em pesa? Què necessita ser escoltat?"],
-    ["Allò que m'inspira", "Qui o què em recorda que altres camins són possibles?"],
-    ["L'esperança", "Quina direcció voldria ajudar a fer possible?"],
-    ["El meu paper", "Quin lloc puc ocupar jo dins d'aquesta història?"],
-    ["El següent pas possible", "Quina acció petita, concreta i realista puc fer ara?"]
+    ["Lo que amo", "¿Qué tiene valor para mí? ¿Qué quiero cuidar?"],
+    ["Lo que me sostiene", "¿Qué personas, lugares o recursos me ayudan?"],
+    ["Lo que me preocupa", "¿Qué me pesa? ¿Qué necesita ser escuchado?"],
+    ["Lo que me inspira", "¿Quién o qué me recuerda que otros caminos son posibles?"],
+    ["La esperanza", "¿Qué dirección me gustaría ayudar a hacer posible?"],
+    ["Mi papel", "¿Qué lugar puedo ocupar yo dentro de esta historia?"],
+    ["El siguiente paso posible", "¿Qué acción pequeña, concreta y realista puedo hacer ahora?"]
   ];
   var MOMENTS = [
-    { icon: "video", name: "Explora", time: "3-5 min", text: "Un vídeo d'introducció" },
-    { icon: "phones", name: "Practica", time: "uns 15 min", text: "Una pràctica guiada" },
-    { icon: "steps", name: "Camina", time: "", text: "Un temps de reflexió en una de les rutes" },
-    { icon: "sun", name: "Integra", time: "", text: "Un vídeo de tancament per portar-ho a la vida" }
+    { icon: "video", name: "Explora", time: "3-5 min", text: "Un vídeo de introducción" },
+    { icon: "phones", name: "Practica", time: "unos 15 min", text: "Una práctica guiada" },
+    { icon: "steps", name: "Camina", time: "", text: "Un tiempo de reflexión en una de las rutas" },
+    { icon: "sun", name: "Integra", time: "", text: "Un vídeo de cierre para llevarlo a la vida" }
   ];
-  var CHIPS = [["clock", "7 dies o al teu ritme"], ["leaf", "No cal experiència en meditació"]];
-  var HUB_START = ["L'Espiral", "7 passes", "Cada passa, quatre moments"];
-  var HUB_END = ["Cada curs", "7 passes", "Les mateixes, amb la mirada de cada curs. Toca'n una per veure-la."]; // canvi de la web
-  function kick(n) { return "Passa " + n + " de 7"; }
+  var CHIPS = [["clock", "7 días o a tu ritmo"], ["leaf", "No hace falta experiencia en meditación"]];
+  var HUB_START = ["La Espiral", "7 pasos", "Cada paso, cuatro momentos"];
+  var HUB_END = ["Cada curso", "7 pasos", "Los mismos, con la mirada de cada curso. Toca uno para verlo."]; // canvi de la web
+  function kick(n) { return "Paso " + n + " de 7"; }
 
   /* ---------- A LA PÀGINA DE CADA CURS ----------
      Posa data-curs="vida", "cuidar", "mon" o "dia" al <div class="espi" data-espi>.
@@ -180,7 +180,7 @@
   var curs = root.getAttribute("data-curs");
   if (curs) {
     if (PER_CURS[curs]) PASSES = PER_CURS[curs];
-    HUB_END = ["Aquest curs", "7 passes", "Toca'n una per veure'n la pregunta."];
+    HUB_END = ["Este curso", "7 pasos", "Toca uno para ver su pregunta."];
   }
 
   var ICON = {

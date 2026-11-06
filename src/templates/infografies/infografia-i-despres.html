@@ -1,15 +1,15 @@
 {# infografia-i-despres.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="despres" data-despres>
-  <div class="despres__scene" role="group" aria-label="Després de la setena passa, el camí s'obre en tres: petits passos concrets, continuar en comunitat o amb altres propostes, i tornar a començar">
+  <div class="despres__scene" role="group" aria-label="Después del séptimo paso, el camino se abre en tres: pequeños pasos concretos, continuar en comunidad o con otras propuestas, y volver a empezar">
     <svg class="despres__svg" aria-hidden="true" focusable="false"></svg>
     <div class="despres__nodes"></div>
     <div class="despres__pop" aria-live="polite"><p class="despres__pk"></p><p class="despres__pt"></p><p class="despres__px"></p><a class="despres__go" href="#" hidden></a></div>
   </div>
   <div class="despres__foot">
-    <p class="despres__hint">Toca cada camí per saber-ne més.</p>
+    <p class="despres__hint">Toca cada camino para saber más.</p>
     <button class="despres__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna-ho a veure</span>
+      <span>Vuelve a verlo</span>
     </button>
   </div>
 </div>
@@ -114,18 +114,18 @@
   root.setAttribute("data-ready", "1");
 
   /* ---------- TEXTOS (de la resposta «Què passa quan acabo?» de la web) ---------- */
-  var CONTACT = "#contacte"; // on porta «Escriu-nos» (a la pàgina de preguntes hi ha la caixa de contacte)
-  var GATE = { title: "Després de la passa 7", sub: "", kick: "El tancament", head: "Què passa quan acabo?",
-    text: "El tancament et deixa uns passos petits i concrets i obre la porta a continuar el camí en comunitat o amb processos més amplis, si ho vols." };
+  var CONTACT = "#contacto"; // on porta «Escriu-nos» (a la pàgina de preguntes hi ha la caixa de contacte)
+  var GATE = { title: "Después del paso 7", sub: "", kick: "El cierre", head: "¿Qué pasa cuando acabo?",
+    text: "El cierre te deja unos pasos pequeños y concretos y abre la puerta a continuar el camino en comunidad o con procesos más amplios, si quieres." };
   var WAYS = [
-    { icon: "steps", title: "Petits passos", sub: "concrets, al teu dia a dia", kick: "Un camí",
-      head: "Uns passos petits i concrets", text: "Quina acció petita, concreta i realista puc fer ara?" },
+    { icon: "steps", title: "Pequeños pasos", sub: "concretos, en tu día a día", kick: "Un camino",
+      head: "Unos pasos pequeños y concretos", text: "¿Qué acción pequeña, concreta y realista puedo hacer ahora?" },
     // Canvis de la web (5 de novembre): Elara Social per conèixer altres espais i propostes, i tornar a començar (és un camí en espiral)
-    { icon: "people", title: "En comunitat", sub: "i altres propostes", kick: "Un altre camí",
-      head: "Continuar en comunitat", text: "El tancament obre la porta a continuar el camí en comunitat o amb processos més amplis, si ho vols. A Elara Social hi trobaràs altres espais i propostes.",
+    { icon: "people", title: "En comunidad", sub: "y otras propuestas", kick: "Otro camino",
+      head: "Continuar en comunidad", text: "El cierre abre la puerta a continuar el camino en comunidad o con procesos más amplios, si quieres. En Elara Social encontrarás otros espacios y propuestas.",
       link: "Visita elarasocial.com", href: "https://elarasocial.com/" },
-    { icon: "spiral", title: "Torna a començar", sub: "és un camí en espiral", kick: "I un altre",
-      head: "Torna a començar, si cal", text: "Pots repetir la pràctica sempre que calgui revisar o aprofundir: és un camí en espiral, i es pot tornar a caminar.", wide: true }
+    { icon: "spiral", title: "Vuelve a empezar", sub: "es un camino en espiral", kick: "Y otro",
+      head: "Vuelve a empezar, si hace falta", text: "Puedes repetir la práctica siempre que haga falta revisar o profundizar: es un camino en espiral, y se puede volver a caminar.", wide: true }
   ];
   var ICON = {
     gate: '<path d="M5 21V10a7 7 0 0 1 14 0v11"/><path d="M3 21h18"/><path d="M12 21v-7"/>',

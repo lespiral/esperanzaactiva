@@ -1,15 +1,15 @@
 {# infografia-ciutats.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
 <div class="barri" data-barri>
-  <div class="barri__scene" role="group" aria-label="Un mapa: rutes a peu, curtes i llargues, que surten d'una plaça, d'un equipament i d'un espai natural a prop de casa">
+  <div class="barri__scene" role="group" aria-label="Un mapa: rutas a pie, cortas y largas, que salen de una plaza, de un equipamiento y de un espacio natural cerca de casa">
     <svg class="barri__svg" aria-hidden="true" focusable="false"></svg>
     <div class="barri__nodes"></div>
     <div class="barri__pop" aria-live="polite"><p class="barri__pk"></p><p class="barri__pt"></p><p class="barri__px"></p></div>
   </div>
   <div class="barri__foot">
-    <p class="barri__hint">Toca un punt del mapa.</p>
+    <p class="barri__hint">Toca un punto del mapa.</p>
     <button class="barri__replay" type="button" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.6h4.6"/></svg>
-      <span>Torna a caminar</span>
+      <span>Vuelve a caminar</span>
     </button>
   </div>
 </div>
@@ -146,15 +146,15 @@
 
   /* ---------- TEXTOS (els de la web; no hi surt cap ciutat, així val per a totes) ---------- */
   // Canvis de la web (5 de novembre): «poble o ciutat», durades en paraules (no en minuts) i un espai natural per a la ruta llarga
-  var HOME = { label: "A prop de casa", kick: "Cada poble o ciutat, el seu mapa", title: "Rutes a prop de casa",
-    text: "Cada curs té les seves rutes a cada poble o ciutat: el curs et dona la pràctica, i la ruta, el temps per caminar-la." };
+  var HOME = { label: "Cerca de casa", kick: "Cada pueblo o ciudad, su mapa", title: "Rutas cerca de casa",
+    text: "Cada curso tiene sus rutas en cada pueblo o ciudad: el curso te da la práctica, y la ruta, el tiempo para caminarla." };
   var ROUTES = [
-    { kind: "placa", label: "Una plaça", time: "Curta", kick: "Punt de sortida", title: "Places", text: "N'hi ha de molt curtes, d'uns 10 minuts." },
-    { kind: "equip", label: "Un equipament", time: "Mitjana", kick: "Punt de sortida", title: "Equipaments", text: "Rutes que surten de centres, equipaments o CAP a prop de casa." },
-    { kind: "parc", label: "Un espai natural", time: "Llarga", kick: "Punt de sortida", title: "Espais naturals", text: "I n'hi ha de més llargues, de més d'una hora." }
+    { kind: "placa", label: "Una plaza", time: "Corta", kick: "Punto de salida", title: "Plazas", text: "Las hay muy cortas, de unos 10 minutos." },
+    { kind: "equip", label: "Un equipamiento", time: "Media", kick: "Punto de salida", title: "Equipamientos", text: "Rutas que salen de centros, equipamientos o centros de salud cerca de casa." },
+    { kind: "parc", label: "Un espacio natural", time: "Larga", kick: "Punto de salida", title: "Espacios naturales", text: "Y las hay más largas, de más de una hora." }
   ];
-  var MORE = { label: "Cada cop més pobles i ciutats", kick: "Se n'aniran afegint més", title: "El teu poble o ciutat no hi és?",
-    text: "Fes la caminada a prop de casa o en un lloc tranquil." };
+  var MORE = { label: "Cada vez más pueblos y ciudades", kick: "Se irán añadiendo más", title: "¿Tu pueblo o ciudad no está?",
+    text: "Haz la caminata cerca de casa o en un lugar tranquilo." };
 
   var ICON = {
     home: '<path d="M4 11.5 12 4.5l8 7"/><path d="M6.5 10v9.5h11V10"/><path d="M10 19.5v-5h4v5"/>',

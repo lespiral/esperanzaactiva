@@ -5,8 +5,12 @@
 <section class="band band--tight">
   <div class="wrap">
     <div class="infografia infografia--top">{% include "infografies/infografia-ciutats.html" %}</div>
+    {% if site.cities %}
     {{ city_cards(site.cities, root, summaries, center=True) }}
     <p class="band__after">{{ h.each_course }}</p>
+    {% else %}
+    <p class="band__after">{{ cp.empty }}</p>
+    {% endif %}
   </div>
 </section>
 <div class="wrap wrap--mid stack stack--bottom">
