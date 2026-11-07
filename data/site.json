@@ -5,7 +5,7 @@
     "url": "https://esperanzaactiva.org/",
     "index": true
   },
-  "description": "Cursos digitales gratuitos de 7 pasos y rutas a pie por tu ciudad. Una práctica, una caminata, un pequeño paso.",
+  "description": "Cursos digitales gratuitos de 7 pasos y rutas a pie cerca de casa, por ciudades, pueblos y comarcas. Una práctica, una caminata, un pequeño paso.",
   "contact": {
     "email": "esperanza@elarasocial.com",
     "instagram": "@esperanzaactiva_org",
@@ -215,7 +215,7 @@
       ["El siguiente paso posible.", "¿Qué acción pequeña, concreta y realista puedo hacer ahora?"]
     ],
     "walk_title": "Y ahora, ¿dónde quieres caminar?",
-    "walk_intro": "Elige tu ciudad y haz el tiempo de reflexión de cada paso en una de las rutas. Si todavía no hay rutas cerca de ti, puedes caminar cerca de casa o por un lugar tranquilo."
+    "walk_intro": "Elige tu ciudad o tu pueblo y haz el tiempo de reflexión de cada paso en una de las rutas. Si todavía no hay rutas cerca de ti, puedes caminar cerca de casa o por un lugar tranquilo."
   },
 
   "safety_html": "Este curso no sustituye un proceso de psicoterapia ni un tratamiento médico o psicológico. Si estás pasando un momento muy difícil, habla con tu centro de salud. Si piensas en hacerte daño, llama al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
@@ -237,18 +237,18 @@
   },
 
   "home": {
-    "kicker": "Cursos digitales gratuitos · Rutas a pie por tu ciudad",
-    "lead": "Una práctica, una caminata, un pequeño paso. Elige lo que te preocupa y la ciudad donde quieres caminar.",
+    "kicker": "Cursos digitales gratuitos · Rutas a pie cerca de casa",
+    "lead": "Una práctica, una caminata, un pequeño paso. Elige lo que te preocupa y dónde quieres caminar.",
     "q1": "1. ¿Qué te trae aquí?",
     "q2": "2. ¿Dónde quieres caminar?",
-    "q2_text": "Cada ciudad tiene su mapa y sus rutas. Salen de plazas, parques y equipamientos cerca de casa. Las hay muy cortas, de unos 10 minutos, y más largas, de más de una hora.",
+    "q2_text": "Cada ciudad, pueblo o comarca tiene su mapa y sus rutas. Salen de plazas, parques, equipamientos y entidades cerca de casa. Las hay muy cortas, de unos 10 minutos, y más largas, de más de una hora.",
     "q2_cities": "Ahora hay rutas {ciudades}, y en pueblos de muchas comarcas. Se irán añadiendo más.",
     "q2_none": "Pronto habrá rutas en las primeras ciudades. Mientras tanto, puedes hacer la caminata cerca de casa o en un lugar tranquilo.",
-    "each_course": "Cada curso tiene sus rutas en cada ciudad: el curso te da la práctica, y la ruta, el tiempo para caminarla. ¿Tu ciudad no está? Haz la caminata cerca de casa o en un lugar tranquilo.",
+    "each_course": "Cada curso tiene sus rutas en cada lugar: el curso te da la práctica, y la ruta, el tiempo para caminarla. ¿No encuentras tu pueblo o tu ciudad? Haz la caminata cerca de casa o en un lugar tranquilo.",
     "how_title": "Cómo funciona",
     "how": [
       ["headphones", "1. Haz la práctica", "Escucha el audio o mira el vídeo del paso antes de salir."],
-      ["map", "2. Elige una ruta", "Mira el mapa de tu ciudad y escoge la que se adapte a tu tiempo."],
+      ["map", "2. Elige una ruta", "Mira el mapa de tu ciudad, pueblo o comarca y escoge la que se adapte a tu tiempo."],
       ["sneaker", "3. Camina y observa", "Deja que la práctica te acompañe, a tu ritmo y sin buscar respuestas rápidas."],
       ["sun", "4. Llévalo al día a día", "Piensa qué te llevas: una mirada nueva, una necesidad o un pequeño paso posible."]
     ],
@@ -263,11 +263,11 @@
     ],
     "faq_title": "Preguntas frecuentes",
     "faq": [
-      ["¿Hay rutas de todos los cursos en todas las ciudades?", "Todavía no. Cada ciudad tiene rutas pensadas para cada curso y vamos añadiendo más. Si tu ciudad todavía no tiene rutas de tu curso, puedes hacer la caminata cerca de casa o en un lugar tranquilo."],
+      ["¿Hay rutas de todos los cursos en todas las ciudades y pueblos?", "Todavía no. Las rutas se piensan para cada curso y vamos añadiendo más. Si en tu pueblo o en tu ciudad todavía no hay rutas de tu curso, puedes hacer la caminata cerca de casa o en un lugar tranquilo."],
       ["¿Es realmente gratuito?", "Sí. Solo tienes que darte de alta en la plataforma de los cursos, y puedes darte de baja cuando quieras."],
       ["¿Es terapia?", "No. Es un minicurso vivencial de prácticas y reflexión. Puede ayudar mucho, pero no sustituye la psicoterapia si estás en un momento clínicamente delicado."],
-      ["¿En qué idioma está el curso?", "De momento, los cursos están en catalán. En los mapas de las ciudades de Cataluña, las fichas de las rutas también están en catalán."],
-      ["Mi ciudad no está. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."]
+      ["¿En qué idioma está el curso?", "De momento, los cursos están en catalán. En los mapas de Cataluña, las fichas de las rutas también están en catalán."],
+      ["Donde vivo todavía no hay rutas. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."]
     ],
     "nus_title": "¿Qué es la Esperanza Activa?",
     "initiative_title": "Una iniciativa de",
@@ -276,7 +276,7 @@
 
   "courses_page": {
     "title": "Los cursos",
-    "intro": "Elige el tema que te preocupa. Cada curso es gratuito, tiene 7 pasos y sus rutas en cada ciudad."
+    "intro": "Elige el tema que te preocupa. Cada curso es gratuito, tiene 7 pasos y sus propias rutas a pie."
   },
 
   "cities_page": {
@@ -316,11 +316,11 @@
       {
         "title": "Sobre las rutas",
         "items": [
-          ["¿Hay rutas de todos los cursos en todas las ciudades?", "Todavía no. Cada ciudad tiene rutas pensadas para cada curso y vamos añadiendo más. Si tu ciudad todavía no tiene rutas de tu curso, puedes hacer la caminata cerca de casa o en un lugar tranquilo."],
-          ["Mi ciudad no está. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."],
-          ["¿Cuánto duran las rutas?", "Depende de la ciudad y de la ruta. En El Prat hay circuitos urbanos de menos de 1 km (unos 10 a 15 minutos caminando), rutas de 1,5 a 3,5 km desde los equipamientos municipales y rutas de 0,7 a 6 km por el Delta del Llobregat. En Vic, las rutas por los parques miden de 1 a 2 km (unos 20 minutos); las que salen de los centros de salud y los hospitales, unos 2 km (media hora caminando), y las de los equipamientos comunitarios, de 1,8 a 2 km (unos 20–30 minutos). En Olot, las rutas miden de 0,6 a 3,2 km (de 7 a 47 minutos caminando). En Barcelona, las rutas desde los centros de salud miden unos 2 km (media hora caminando); las de los parques y jardines, de 1,7 a 2,2 km, y las de los equipamientos comunitarios, de 1,7 a 2,1 km (unos 20–30 minutos); y las rutas «Caminant fem salut», de unos 3 a 7 km. Las rutas de la economía social y solidaria, en Barcelona, L'Hospitalet y muchos pueblos y ciudades de Cataluña, miden de 1,5 a 2,3 km (unos 18–35 minutos). En cada ruta encontrarás los kilómetros y el tiempo aproximado, caminando y con pausas."],
+          ["¿Hay rutas de todos los cursos en todas las ciudades y pueblos?", "Todavía no. Las rutas se piensan para cada curso y vamos añadiendo más. Si en tu pueblo o en tu ciudad todavía no hay rutas de tu curso, puedes hacer la caminata cerca de casa o en un lugar tranquilo."],
+          ["Donde vivo todavía no hay rutas. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."],
+          ["¿Cuánto duran las rutas?", "Depende del lugar y de la ruta. En El Prat hay circuitos urbanos de menos de 1 km (unos 10 a 15 minutos caminando), rutas de 1,5 a 3,5 km desde los equipamientos municipales y rutas de 0,7 a 6 km por el Delta del Llobregat. En Vic, las rutas por los parques miden de 1 a 2 km (unos 20 minutos); las que salen de los centros de salud y los hospitales, unos 2 km (media hora caminando), y las de los equipamientos comunitarios, de 1,8 a 2 km (unos 20–30 minutos). En Olot, las rutas miden de 0,6 a 3,2 km (de 7 a 47 minutos caminando). En Barcelona, las rutas desde los centros de salud miden unos 2 km (media hora caminando); las de los parques y jardines, de 1,7 a 2,2 km, y las de los equipamientos comunitarios, de 1,7 a 2,1 km (unos 20–30 minutos); y las rutas «Caminant fem salut», de unos 3 a 7 km. Las rutas de la economía social y solidaria, en Barcelona, L'Hospitalet y muchos pueblos y ciudades de Cataluña, miden de 1,5 a 2,3 km (unos 18–35 minutos). En cada ruta encontrarás los kilómetros y el tiempo aproximado, caminando y con pausas."],
           ["¿Las rutas son circulares?", "La mayoría sí: empiezan y acaban en el mismo lugar. Algunas van de un punto a otro; en cada ruta pone si es circular o lineal, y dónde empieza y acaba."],
-          ["¿En qué idioma están los mapas?", "En los mapas de las ciudades de Cataluña, las fichas de las rutas están en catalán. En esta web tienes, en castellano, los datos de cada ruta: el punto de salida, los kilómetros y el tiempo."],
+          ["¿En qué idioma están los mapas?", "En los mapas de Cataluña, las fichas de las rutas están en catalán. En esta web tienes, en castellano, los datos de cada ruta: el punto de salida, los kilómetros y el tiempo."],
           ["¿Qué tengo que tener en cuenta antes de salir?", "__before_walk__"]
         ]
       }

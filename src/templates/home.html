@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "parts.html" import course_cards, city_cards, faq_item %}
+{% from "parts.html" import course_cards, city_cards, faq_item, go_picker %}
 {% block content %}
 <section class="hero">
   <div class="wrap hero__in">
@@ -8,7 +8,7 @@
     <p class="hero__lead">{{ h.lead }}</p>
     <div class="hero__actions">
       <a class="btn btn--light" href="#que-te-trae-aqui">Descubre los cursos</a>
-      <a class="btn btn--ghost-light" href="#donde-quieres-caminar">Elige tu ciudad</a>
+      <a class="btn btn--ghost-light" href="#donde-quieres-caminar">Elige dónde quieres caminar</a>
     </div>
   </div>
 </section>
@@ -35,7 +35,8 @@
       <p>{{ h.q2_cities.replace('{ciudades}', cities_with_a) if site.cities else h.q2_none }}</p>
     </div>
     {% if site.cities %}
-    {{ city_cards(site.cities, root, summaries, center=True) }}
+    {{ go_picker('elige-lugar', site.cities_page.places_label, site.territories_page.places_placeholder, places_for(), root, 'picker--center') }}
+    {{ city_cards(site.cities, root, summaries, center=True, pick=False) }}
     {% if territories %}<p class="block__actions block__actions--center band__more"><a class="btn btn--soft" href="{{ root }}ciudades/#pueblos-y-comarcas">{{ icon('map') }}{{ site.cities_page.home_more }}</a></p>{% endif %}
     <p class="band__after">{{ h.each_course }}</p>
     {% endif %}
