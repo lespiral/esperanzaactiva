@@ -36,6 +36,7 @@
     </div>
     {% if site.cities %}
     {{ city_cards(site.cities, root, summaries, center=True) }}
+    {% if territories %}<p class="block__actions block__actions--center band__more"><a class="btn btn--soft" href="{{ root }}ciudades/#pueblos-y-comarcas">{{ icon('map') }}{{ site.cities_page.home_more }}</a></p>{% endif %}
     <p class="band__after">{{ h.each_course }}</p>
     {% endif %}
   </div>
