@@ -25,12 +25,24 @@
   "cities": [
     {"slug": "barcelona", "name": "Barcelona", "region": "Barcelonès", "icon": "buildings", "source": "cat"},
     {"slug": "el-prat", "name": "El Prat de Llobregat", "region": "Baix Llobregat", "icon": "building", "source": "cat"},
+    {"slug": "l-hospitalet", "name": "L'Hospitalet de Llobregat", "region": "Barcelonès", "icon": "users-three", "source": "cat"},
     {"slug": "olot", "name": "Olot", "region": "Garrotxa", "icon": "tree", "source": "cat"},
     {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"}
   ],
 
   "territories": [
-    {"slug": "baix-llobregat", "name": "Baix Llobregat", "region": "Sin El Prat, que tiene página propia", "icon": "map", "source": "cat"}
+    {"slug": "alt-pirineu-i-aran", "name": "Alt Pirineu i Aran", "region": "Alta Ribagorça, Pallars Jussà y Pallars Sobirà", "icon": "tree", "source": "cat"},
+    {"slug": "anoia-penedes-i-garraf", "name": "Anoia, Penedès i Garraf", "region": "Alt Penedès, Baix Penedès y Garraf", "icon": "plant", "source": "cat"},
+    {"slug": "baix-llobregat", "name": "Baix Llobregat", "region": "Castelldefels, Cornellà de Llobregat, Olesa de Montserrat, Sant Feliu de Llobregat y Viladecans (sin El Prat)", "icon": "map", "source": "cat"},
+    {"slug": "barcelones-nord", "name": "Barcelonès Nord", "region": "Badalona, Sant Adrià de Besòs y Santa Coloma de Gramenet", "icon": "buildings", "source": "cat"},
+    {"slug": "camp-de-tarragona", "name": "Camp de Tarragona", "region": "Alt Camp, Baix Camp, Conca de Barberà, Priorat y Tarragonès", "icon": "sun", "source": "cat"},
+    {"slug": "catalunya-central", "name": "Catalunya Central", "region": "Bages, Lluçanès y Osona (sin Vic)", "icon": "footprints", "source": "cat"},
+    {"slug": "maresme", "name": "Maresme", "region": "Mataró y Premià de Mar", "icon": "globe", "source": "cat"},
+    {"slug": "ponent", "name": "Ponent", "region": "Garrigues, Pla d'Urgell, Segarra, Segrià y Urgell", "icon": "sun", "source": "cat"},
+    {"slug": "terres-de-l-ebre", "name": "Terres de l'Ebre", "region": "Baix Ebre, Montsià y Terra Alta", "icon": "plant", "source": "cat"},
+    {"slug": "terres-gironines", "name": "Terres Gironines", "region": "Alt Empordà, Gironès y Selva (sin Olot)", "icon": "tree", "source": "cat"},
+    {"slug": "valles-occidental", "name": "Vallès Occidental", "region": "Barberà del Vallès, Sabadell, Sant Cugat del Vallès y Terrassa", "icon": "map", "source": "cat"},
+    {"slug": "valles-oriental", "name": "Vallès Oriental", "region": "Caldes de Montbui, Granollers, Sant Celoni, Santa Eulàlia de Ronçana y Santa Maria de Palautordera", "icon": "footprints", "source": "cat"}
   ],
 
   "courses": [
@@ -302,7 +314,7 @@
         "items": [
           ["¿Hay rutas de todos los cursos en todas las ciudades?", "Todavía no. Cada ciudad tiene rutas pensadas para cada curso y vamos añadiendo más. Si tu ciudad todavía no tiene rutas de tu curso, puedes hacer la caminata cerca de casa o en un lugar tranquilo."],
           ["Mi ciudad no está. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."],
-          ["¿Cuánto duran las rutas?", "Depende de la ciudad y de la ruta. En El Prat hay circuitos urbanos de menos de 1 km (unos 10 a 15 minutos caminando), rutas de 1,5 a 3,5 km desde los equipamientos municipales y rutas de 0,7 a 6 km por el Delta del Llobregat. En Vic, las rutas por los parques miden de 1 a 2 km (unos 20 minutos); las que salen de los centros de salud y los hospitales, unos 2 km (media hora caminando), y las de los equipamientos comunitarios, de 1,8 a 2 km (unos 20–30 minutos). En Olot, las rutas miden de 0,6 a 3,2 km (de 7 a 47 minutos caminando). En Barcelona, las rutas desde los centros de salud miden unos 2 km (media hora caminando); las de los parques y jardines, de 1,7 a 2,2 km, y las de los equipamientos comunitarios, de 1,7 a 2,1 km (unos 20–30 minutos); y las rutas «Caminant fem salut», de unos 3 a 7 km. En cada ruta encontrarás los kilómetros y el tiempo aproximado, caminando y con pausas."],
+          ["¿Cuánto duran las rutas?", "Depende de la ciudad y de la ruta. En El Prat hay circuitos urbanos de menos de 1 km (unos 10 a 15 minutos caminando), rutas de 1,5 a 3,5 km desde los equipamientos municipales y rutas de 0,7 a 6 km por el Delta del Llobregat. En Vic, las rutas por los parques miden de 1 a 2 km (unos 20 minutos); las que salen de los centros de salud y los hospitales, unos 2 km (media hora caminando), y las de los equipamientos comunitarios, de 1,8 a 2 km (unos 20–30 minutos). En Olot, las rutas miden de 0,6 a 3,2 km (de 7 a 47 minutos caminando). En Barcelona, las rutas desde los centros de salud miden unos 2 km (media hora caminando); las de los parques y jardines, de 1,7 a 2,2 km, y las de los equipamientos comunitarios, de 1,7 a 2,1 km (unos 20–30 minutos); y las rutas «Caminant fem salut», de unos 3 a 7 km. Las rutas de la economía social y solidaria, en Barcelona, L'Hospitalet y muchos pueblos y ciudades de Cataluña, miden de 1,5 a 2,3 km (unos 18–35 minutos). En cada ruta encontrarás los kilómetros y el tiempo aproximado, caminando y con pausas."],
           ["¿Las rutas son circulares?", "La mayoría sí: empiezan y acaban en el mismo lugar. Algunas van de un punto a otro; en cada ruta pone si es circular o lineal, y dónde empieza y acaba."],
           ["¿En qué idioma están los mapas?", "En los mapas de las ciudades de Cataluña, las fichas de las rutas están en catalán. En esta web tienes, en castellano, los datos de cada ruta: el punto de salida, los kilómetros y el tiempo."],
           ["¿Qué tengo que tener en cuenta antes de salir?", "__before_walk__"]
