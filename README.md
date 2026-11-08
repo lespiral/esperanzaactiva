@@ -38,11 +38,14 @@ Els ids de les ciutats de Catalunya (districtes, barris, mapes i rutes) es treue
 
 Els territoris (pàgines de «Pueblos y comarcas», p. ex. el Baix Llobregat) es porten igual: a `data/site.json`, la llista `territories` amb `"source": "cat"`; `sync_cat.py` copia `data/<territori>.json` a `data/cat/` i les traduccions van a `data/traducciones/<territori>.json`. Els ids dels municipis i de les rutes són els de la .cat (`/baix-llobregat/#olesa-de-montserrat-ruta-1`). Com funcionen, al README de la .cat («Pobles i comarques»).
 
+**Menú «Elige dónde quieres caminar» (8 de novembre de 2026).** A Inicio, a dalt de «Ciudades, pueblos y comarcas» i a la pàgina del curs «Cuando sostener la vida se hace difícil», en lloc del desplegable llarg de tots els pobles: provincia › comarca › pueblo o ciudad, amb un cercador. Mateix codi que a la .cat (`place_tree()` a `build.py`, macro `place_nav` a `parts.html`, `.placenav` a `site.css` i `site.js`); textos a `data/site.json` › `place_nav`. La comarca i la província de cada lloc són a `data/cat/comarques.json`, que `sync_cat.py` copia de la .cat: un poble nou s'afegeix a la .cat. Si falta un lloc, `build.py` s'atura i diu quin. Quan hi hagi ciutats de la resta de l'Estat, caldrà un nivell més (comunidad › provincia › municipio) o una taula pròpia.
+
 ## Afegir una ciutat de la resta de l'Estat
 
 1. Crea `data/<ciutat>.json` en castellà, amb la mateixa estructura que `data/cat/olot.json` (rutes agrupades per curs, amb el `mid`, el centre `ll` i el zoom `z` de cada mapa de My Maps). No s'han d'inventar dades: si en falta alguna, es deixa marcada amb `[PENDIENTE]`.
 2. A `data/site.json`, a `cities`, afegeix-hi la ciutat (`slug`, `name`, `region`, `icon`, sense `source`), en ordre alfabètic.
-3. Genera la web.
+3. El menú «Elige dónde quieres caminar» encara només coneix Catalunya: abans, cal afegir-hi la comunitat i la província (vegeu més amunt).
+4. Genera la web.
 
 Cada ruta té el botó «Abrir el mapa», que obre a pantalla completa el mapa de My Maps on és (`google.com/maps/d/viewer?mid=…`). Si un grup té diversos mapes, cada mapa diu quines rutes té amb `"routes": [1, 2, ...]`.
 

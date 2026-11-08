@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% from "parts.html" import page_head, city_cards, territory_cards, go_picker, before_walk %}
+{% from "parts.html" import page_head, city_cards, territory_cards, place_nav, before_walk %}
 {% block content %}
 {% set tp = site.territories_page %}
 {{ page_head(None, cp.title, cp.intro) }}
 {# Arriba del todo, porque en el móvil los pueblos y las comarcas quedan muy abajo #}
 <div class="wrap pagehead__after">
-  {{ go_picker('elige-lugar', cp.places_label, tp.places_placeholder, places_for(), root, 'picker--center') }}
+  {{ place_nav('elige-lugar', place_tree(), root, site.place_nav, cls='placenav--center') }}
   {% if territories and site.cities %}
   <nav class="pills pills--jump" aria-label="{{ cp.jump_label }}">
     <a class="pill" href="#ciudades">{{ icon('buildings') }}{{ cp.cities_title }}{{ icon('arrow', 'pill__down') }}</a>
@@ -34,7 +34,6 @@
   <div class="wrap">
     <h2 class="band__title" id="h-territorios">{{ tp.title }}</h2>
     <p class="band__intro">{{ tp.intro }}</p>
-    {{ go_picker('elige-pueblo', tp.places_label, tp.places_placeholder, places_for(), root, 'picker--center') }}
     {{ territory_cards(territories, root, summaries) }}
   </div>
 </section>

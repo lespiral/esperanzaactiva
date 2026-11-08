@@ -33,6 +33,12 @@ for slug in sorted(ours):
         shutil.copy(src, dst)
     print(f"{slug}: {'sense canvis' if same else 'actualitzada'}")
 
+# La comarca i la província de cada lloc (menú «Elige dónde quieres caminar»)
+src, dst = CAT / "data" / "comarques.json", ROOT / "data" / "cat" / "comarques.json"
+same = dst.exists() and dst.read_bytes() == src.read_bytes()
+if not same:
+    shutil.copy(src, dst)
+print(f"comarques.json: {'sense canvis' if same else 'actualitzada'}")
 new = [c for c in cat_site["cities"] + cat_site.get("territories", []) if c.get("slug") and c["slug"] not in ours]
 for c in new:
     print(f"La .cat té una ciutat nova: {c['name']} ({c['slug']}). Per afegir-la a la .org, posa-la a data/site.json › cities amb \"source\": \"cat\" i torna a executar aquest script.")
