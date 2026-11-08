@@ -301,12 +301,11 @@
     "box_label": "Elige dónde quieres caminar",
     "search_label": "Busca tu pueblo o ciudad",
     "search_placeholder": "Escribe el nombre, p. ej. Olesa",
-    "root": "Cataluña",
+    "root": "Comunidades",
     "crumbs_label": "Dónde estás",
-    "levels": ["Elige la provincia", "Elige la comarca", "Elige el pueblo o la ciudad"],
-    "columns": ["1. Provincia", "2. Comarca", "3. Pueblo o ciudad"],
-    "hint_prov": "Elige primero una provincia.",
-    "hint_com": "Elige una comarca.",
+    "levels": ["Elige la comunidad", "Elige la provincia", "Elige la comarca", "Elige el pueblo o la ciudad"],
+    "columns": ["1. Comunidad", "2. Provincia", "3. Comarca", "4. Pueblo o ciudad"],
+    "hints": ["", "Elige primero una comunidad.", "Elige una provincia.", "Elige una comarca."],
     "go": "Rutas",
     "results": "Resultados para «{q}»",
     "clear": "Borrar",
@@ -315,7 +314,7 @@
     "foot_course": "Ahora hay rutas de este curso en {n} pueblos y ciudades.",
     "routes": ["1 ruta", "{n} rutas"],
     "towns": ["1 pueblo o ciudad", "{n} pueblos y ciudades"],
-    "coms": ["1 comarca", "{n} comarcas"]
+    "units": [["1 comunidad", "{n} comunidades"], ["1 provincia", "{n} provincias"], ["1 comarca", "{n} comarcas"]]
   },
 
   "faq_page": {
