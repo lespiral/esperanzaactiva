@@ -81,13 +81,8 @@
   <section class="panel panel--plain" id="donde-quieres-caminar" aria-labelledby="h-walk">
     <h2 id="h-walk">{{ cc.walk_title }}</h2>
     <p>{{ cc.walk_intro }}</p>
-    {% set tp = site.territories_page %}
-    {% if territory_summaries[course.key] %}{{ place_nav('elige-lugar', place_tree(course.key), root, site.place_nav, course=True) }}{% endif %}
-    {% if site.cities %}{{ city_cards(site.cities, root, course_summaries[course.key], course.anchor, pick=not territory_summaries[course.key]) }}{% else %}<p>{{ site.cities_page.empty }}</p>{% endif %}
-    {% if territory_summaries[course.key] %}
-    <h3 class="walk__sub" id="pueblos-y-comarcas">{{ tp.title }}</h3>
-    {{ territory_cards(territories, root, territory_summaries[course.key], course.anchor) }}
-    {% endif %}
+    {% set pt = place_tree(course.key) %}
+    {% if pt.n %}{{ place_nav('elige-lugar', pt, root, site.place_nav, course=True) }}{% else %}<p>{{ site.cities_page.empty }}</p>{% endif %}
   </section>
 
   <section class="others" aria-labelledby="h-others">
