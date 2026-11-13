@@ -48,7 +48,7 @@
   {% if c.slug %}<a class="pill" href="{{ root }}{{ c.slug }}/"{% if c.slug == city.slug %} aria-current="page"{% endif %}>{{ icon(c.icon) }}{{ c.name }}</a>
   {% else %}<span class="pill pill--soon">{{ icon(c.icon) }}{{ c.name }} · próximamente</span>{% endif %}
   {% endfor %}
-  {% if territories %}<a class="pill" href="{{ root }}ciudades/#pueblos-y-comarcas">{{ icon('map') }}{{ site.territories_page.title }}</a>{% endif %}
+  <a class="pill" href="{{ root }}ciudades/">{{ icon('pin') }}{{ site.cities_page.title }}</a>
 </nav>
 {% endif %}
 

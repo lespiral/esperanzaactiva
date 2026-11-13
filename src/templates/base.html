@@ -61,7 +61,7 @@
       </div>
       <div class="footer__col">
         <p class="footer__h">{{ site.cities_page.title }}</p>
-        {% if site.cities %}<ul>{% for c in site.cities %}<li>{% if c.slug %}<a href="{{ root }}{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }} · próximamente{% endif %}</li>{% endfor %}{% if territories %}<li><a href="{{ root }}ciudades/#pueblos-y-comarcas">{{ site.territories_page.title }}</a></li>{% endif %}</ul>{% else %}<p>Pronto habrá rutas.</p>{% endif %}
+        {% if site.cities %}<ul>{% for c in site.cities %}<li>{% if c.slug %}<a href="{{ root }}{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }} · próximamente{% endif %}</li>{% endfor %}{% if territories %}<li><a href="{{ root }}ciudades/">{{ site.territories_page.title }}</a></li>{% endif %}</ul>{% else %}<p>Pronto habrá rutas.</p>{% endif %}
       </div>
       <div class="footer__col">
         <p class="footer__h">Contacto</p>
