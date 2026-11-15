@@ -1,0 +1,1793 @@
+{
+ "slug": "madrid",
+ "name": "Madrid",
+ "region": "Comunidad de Madrid",
+ "summary": "128 rutas circulares y cortas, una desde cada centro de salud de la ciudad, organizadas por distrito.",
+ "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Elige tu distrito o busca el centro de salud que te quede más cerca de casa, abre el mapa y camina.",
+ "zones": {
+  "label": "Ve directamente a tu distrito",
+  "placeholder": "Elige un distrito",
+  "back": "Cambia de distrito"
+ },
+ "blocks": [
+  {
+   "course": "vida",
+   "text": "128 rutas circulares de 1,8 a 3 km, una desde cada centro de salud de Madrid. El centro de salud es solo el punto de referencia del recorrido. Elige tu distrito o busca el centro más cercano a tu casa y camina.",
+   "summary": "128 rutas, una desde cada centro de salud",
+   "parts": [
+    {
+     "zones": {
+      "id": "madrid-centros",
+      "label": "Busca tu centro de salud",
+      "placeholder": "Elige un centro de salud",
+      "options": [
+       [
+        "Centro de Salud Abrantes · Carabanchel",
+        "carabanchel-ruta-1"
+       ],
+       [
+        "Centro de Salud Adelfas · Retiro",
+        "retiro-ruta-2"
+       ],
+       [
+        "Centro de Salud Alameda · Centro",
+        "centro-ruta-3"
+       ],
+       [
+        "Centro de Salud Alameda de Osuna · Barajas",
+        "moratalaz-vicalvaro-y-barajas-ruta-4"
+       ],
+       [
+        "Centro de Salud Alcalá de Guadaira · Puente de Vallecas",
+        "vallecas-2-ruta-5"
+       ],
+       [
+        "Centro de Salud Almendrales · Usera",
+        "usera-ruta-6"
+       ],
+       [
+        "Centro de Salud Andrés Mellado · Chamberí",
+        "chamberi-ruta-7"
+       ],
+       [
+        "Centro de Salud Ángela Uriarte · Puente de Vallecas",
+        "vallecas-2-ruta-8"
+       ],
+       [
+        "Centro de Salud Aquitania · San Blas-Canillejas",
+        "san-blas-canillejas-ruta-9"
+       ],
+       [
+        "Centro de Salud Aravaca · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-10"
+       ],
+       [
+        "Centro de Salud Argüelles · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-11"
+       ],
+       [
+        "Centro de Salud Arroyo Medialegua · Moratalaz",
+        "moratalaz-vicalvaro-y-barajas-ruta-12"
+       ],
+       [
+        "Centro de Salud Artilleros · Vicálvaro",
+        "moratalaz-vicalvaro-y-barajas-ruta-13"
+       ],
+       [
+        "Centro de Salud Avenida de Aragón · Ciudad Lineal",
+        "ciudad-lineal-ruta-14"
+       ],
+       [
+        "Centro de Salud Barrio del Pilar · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-15"
+       ],
+       [
+        "Centro de Salud Baviera · Salamanca",
+        "salamanca-ruta-16"
+       ],
+       [
+        "Centro de Salud Benita Ávila · Ciudad Lineal",
+        "ciudad-lineal-ruta-17"
+       ],
+       [
+        "Centro de Salud Buenos Aires · Puente de Vallecas",
+        "vallecas-2-ruta-18"
+       ],
+       [
+        "Centro de Salud Bustarviejo · Tetuán",
+        "tetuan-ruta-19"
+       ],
+       [
+        "Centro de Salud Cáceres · Arganzuela",
+        "arganzuela-ruta-20"
+       ],
+       [
+        "Centro de Salud Campamento · Latina",
+        "latina-ruta-21"
+       ],
+       [
+        "Centro de Salud Campo de la Paloma · Puente de Vallecas",
+        "vallecas-2-ruta-22"
+       ],
+       [
+        "Centro de Salud Canal de Panamá · Ciudad Lineal",
+        "ciudad-lineal-ruta-23"
+       ],
+       [
+        "Centro de Salud Canillejas · San Blas-Canillejas",
+        "san-blas-canillejas-ruta-24"
+       ],
+       [
+        "Centro de Salud Carabanchel Alto · Carabanchel",
+        "carabanchel-ruta-25"
+       ],
+       [
+        "Centro de Salud Caramuel · Latina",
+        "latina-ruta-26"
+       ],
+       [
+        "Centro de Salud Casa de Campo · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-27"
+       ],
+       [
+        "Centro de Salud Castelló · Salamanca",
+        "salamanca-ruta-28"
+       ],
+       [
+        "Centro de Salud Cea Bermúdez · Chamberí",
+        "chamberi-ruta-29"
+       ],
+       [
+        "Centro de Salud Cerro Almodóvar · Villa de Vallecas",
+        "vallecas-1-ruta-30"
+       ],
+       [
+        "Centro de Salud Ciudad de los Periodistas · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-31"
+       ],
+       [
+        "Centro de Salud Ciudad Jardín · Chamartín",
+        "chamartin-ruta-32"
+       ],
+       [
+        "Centro de Salud Comillas · Carabanchel",
+        "carabanchel-ruta-33"
+       ],
+       [
+        "Centro de Salud Daroca · Ciudad Lineal",
+        "ciudad-lineal-ruta-34"
+       ],
+       [
+        "Centro de Salud Delicias · Arganzuela",
+        "arganzuela-ruta-35"
+       ],
+       [
+        "Centro de Salud Doctor Castroviejo · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-36"
+       ],
+       [
+        "Centro de Salud Doctor Cirajas · Ciudad Lineal",
+        "ciudad-lineal-ruta-37"
+       ],
+       [
+        "Centro de Salud El Espinillo · Villaverde",
+        "villaverde-ruta-38"
+       ],
+       [
+        "Centro de Salud El Pardo · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-39"
+       ],
+       [
+        "Centro de Salud Eloy Gonzalo · Chamberí",
+        "chamberi-ruta-40"
+       ],
+       [
+        "Centro de Salud Embajadores · Arganzuela",
+        "arganzuela-ruta-41"
+       ],
+       [
+        "Centro de Salud Ensanche de Vallecas · Villa de Vallecas",
+        "vallecas-1-ruta-42"
+       ],
+       [
+        "Centro de Salud Entrevías · Puente de Vallecas",
+        "vallecas-1-ruta-43"
+       ],
+       [
+        "Centro de Salud Espronceda · Chamberí",
+        "chamberi-ruta-44"
+       ],
+       [
+        "Centro de Salud Estrecho de Corea · Ciudad Lineal",
+        "ciudad-lineal-ruta-45"
+       ],
+       [
+        "Centro de Salud Federica Montseny · Puente de Vallecas",
+        "vallecas-2-ruta-46"
+       ],
+       [
+        "Centro de Salud Fuencarral · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-47"
+       ],
+       [
+        "Centro de Salud Fuentelarreina · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-48"
+       ],
+       [
+        "Centro de Salud Gandhi · Ciudad Lineal",
+        "ciudad-lineal-ruta-49"
+       ],
+       [
+        "Centro de Salud García Noblejas · San Blas-Canillejas",
+        "san-blas-canillejas-ruta-50"
+       ],
+       [
+        "Centro de Salud General Fanjul · Latina",
+        "latina-ruta-51"
+       ],
+       [
+        "Centro de Salud General Ricardos · Carabanchel",
+        "carabanchel-ruta-52"
+       ],
+       [
+        "Centro de Salud Goya · Retiro",
+        "retiro-ruta-53"
+       ],
+       [
+        "Centro de Salud Guayaba · Carabanchel",
+        "carabanchel-ruta-54"
+       ],
+       [
+        "Centro de Salud Guzmán el Bueno · Chamberí",
+        "chamberi-ruta-55"
+       ],
+       [
+        "Centro de Salud Ibiza · Retiro",
+        "retiro-ruta-56"
+       ],
+       [
+        "Centro de Salud Infanta Mercedes · Tetuán",
+        "tetuan-ruta-57"
+       ],
+       [
+        "Centro de Salud Isla de Oza · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-58"
+       ],
+       [
+        "Centro de Salud Jazmín · Hortaleza",
+        "hortaleza-ruta-59"
+       ],
+       [
+        "Centro de Salud Joaquín Rodrigo · Usera",
+        "usera-ruta-60"
+       ],
+       [
+        "Centro de Salud José María Llanos · Puente de Vallecas",
+        "vallecas-1-ruta-61"
+       ],
+       [
+        "Centro de Salud José Marvá · Tetuán",
+        "tetuan-ruta-62"
+       ],
+       [
+        "Centro de Salud Justicia · Centro",
+        "centro-ruta-63"
+       ],
+       [
+        "Centro de Salud La Ventilla · Tetuán",
+        "tetuan-ruta-64"
+       ],
+       [
+        "Centro de Salud Lagasca · Salamanca",
+        "salamanca-ruta-65"
+       ],
+       [
+        "Centro de Salud Las Águilas · Latina",
+        "latina-ruta-66"
+       ],
+       [
+        "Centro de Salud Las Calesas · Usera",
+        "usera-ruta-67"
+       ],
+       [
+        "Centro de Salud Las Cortes · Centro",
+        "centro-ruta-68"
+       ],
+       [
+        "Centro de Salud Las Tablas · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-69"
+       ],
+       [
+        "Centro de Salud Lavapiés · Centro",
+        "centro-ruta-70"
+       ],
+       [
+        "Centro de Salud Legazpi · Arganzuela",
+        "arganzuela-ruta-71"
+       ],
+       [
+        "Centro de Salud Linneo · Arganzuela",
+        "arganzuela-ruta-72"
+       ],
+       [
+        "Centro de Salud Londres · Salamanca",
+        "salamanca-ruta-73"
+       ],
+       [
+        "Centro de Salud Los Alpes · San Blas-Canillejas",
+        "san-blas-canillejas-ruta-74"
+       ],
+       [
+        "Centro de Salud Los Ángeles · Villaverde",
+        "villaverde-ruta-75"
+       ],
+       [
+        "Centro de Salud Los Cármenes · Latina",
+        "latina-ruta-76"
+       ],
+       [
+        "Centro de Salud Los Rosales · Villaverde",
+        "villaverde-ruta-77"
+       ],
+       [
+        "Centro de Salud Los Yébenes · Latina",
+        "latina-ruta-78"
+       ],
+       [
+        "Centro de Salud Lucero · Latina",
+        "latina-ruta-79"
+       ],
+       [
+        "Centro de Salud Maqueda · Latina",
+        "latina-ruta-80"
+       ],
+       [
+        "Centro de Salud Mar Báltico · Hortaleza",
+        "hortaleza-ruta-81"
+       ],
+       [
+        "Centro de Salud María Auxiliadora · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-82"
+       ],
+       [
+        "Centro de Salud Martín de Vargas · Arganzuela",
+        "arganzuela-ruta-83"
+       ],
+       [
+        "Centro de Salud Martínez de la Riva · Puente de Vallecas",
+        "vallecas-1-ruta-84"
+       ],
+       [
+        "Centro de Salud Mirasierra · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-85"
+       ],
+       [
+        "Centro de Salud Monóvar · Hortaleza",
+        "hortaleza-ruta-86"
+       ],
+       [
+        "Centro de Salud Montesa · Salamanca",
+        "salamanca-ruta-87"
+       ],
+       [
+        "Centro de Salud Nuestra Señora de Fátima · Carabanchel",
+        "carabanchel-ruta-88"
+       ],
+       [
+        "Centro de Salud Numancia · Puente de Vallecas",
+        "vallecas-2-ruta-89"
+       ],
+       [
+        "Centro de Salud Núñez Morgado · Chamartín",
+        "chamartin-ruta-90"
+       ],
+       [
+        "Centro de Salud Orcasitas · Usera",
+        "usera-ruta-91"
+       ],
+       [
+        "Centro de Salud Orcasur · Usera",
+        "usera-ruta-92"
+       ],
+       [
+        "Centro de Salud Pacífico · Retiro",
+        "retiro-ruta-93"
+       ],
+       [
+        "Centro de Salud Palma Norte · Centro",
+        "centro-ruta-94"
+       ],
+       [
+        "Centro de Salud Párroco Julio Morate · Arganzuela",
+        "arganzuela-ruta-95"
+       ],
+       [
+        "Centro de Salud Paseo Imperial · Arganzuela",
+        "arganzuela-ruta-96"
+       ],
+       [
+        "Centro de Salud Pavones · Moratalaz",
+        "moratalaz-vicalvaro-y-barajas-ruta-97"
+       ],
+       [
+        "Centro de Salud Peña Prieta · Puente de Vallecas",
+        "vallecas-1-ruta-98"
+       ],
+       [
+        "Centro de Salud Potes · Villaverde",
+        "villaverde-ruta-99"
+       ],
+       [
+        "Centro de Salud Potosí · Chamartín",
+        "chamartin-ruta-100"
+       ],
+       [
+        "Centro de Salud Príncipe de Vergara · Salamanca",
+        "salamanca-ruta-101"
+       ],
+       [
+        "Centro de Salud Prosperidad · Chamartín",
+        "chamartin-ruta-102"
+       ],
+       [
+        "Centro de Salud Puerta Bonita · Carabanchel",
+        "carabanchel-ruta-103"
+       ],
+       [
+        "Centro de Salud Puerta del Ángel · Latina",
+        "latina-ruta-104"
+       ],
+       [
+        "Centro de Salud Quince de Mayo · Carabanchel",
+        "carabanchel-ruta-105"
+       ],
+       [
+        "Centro de Salud Rafael Alberti · Puente de Vallecas",
+        "vallecas-2-ruta-106"
+       ],
+       [
+        "Centro de Salud Reina Victoria · Tetuán",
+        "tetuan-ruta-107"
+       ],
+       [
+        "Centro de Salud Rejas · San Blas-Canillejas",
+        "san-blas-canillejas-ruta-108"
+       ],
+       [
+        "Centro de Salud San Andrés · Villaverde",
+        "villaverde-ruta-109"
+       ],
+       [
+        "Centro de Salud San Cristóbal · Villaverde",
+        "villaverde-ruta-110"
+       ],
+       [
+        "Centro de Salud San Fermín · Usera",
+        "usera-ruta-111"
+       ],
+       [
+        "Centro de Salud Sanchinarro · Hortaleza",
+        "hortaleza-ruta-112"
+       ],
+       [
+        "Centro de Salud Santa Hortensia · Chamartín",
+        "chamartin-ruta-113"
+       ],
+       [
+        "Centro de Salud Segovia · Centro",
+        "centro-ruta-114"
+       ],
+       [
+        "Centro de Salud Segre · Chamartín",
+        "chamartin-ruta-115"
+       ],
+       [
+        "Centro de Salud Silvano · Hortaleza",
+        "hortaleza-ruta-116"
+       ],
+       [
+        "Centro de Salud Torito · Moratalaz",
+        "moratalaz-vicalvaro-y-barajas-ruta-117"
+       ],
+       [
+        "Centro de Salud Valdebernardo · Moratalaz",
+        "moratalaz-vicalvaro-y-barajas-ruta-118"
+       ],
+       [
+        "Centro de Salud Valdezarza-Sur · Tetuán",
+        "tetuan-ruta-119"
+       ],
+       [
+        "Centro de Salud Valle Inclán · Latina",
+        "latina-ruta-120"
+       ],
+       [
+        "Centro de Salud Ventura Rodríguez · Moncloa-Aravaca",
+        "moncloa-aravaca-ruta-121"
+       ],
+       [
+        "Centro de Salud Vicente Muzas · Ciudad Lineal",
+        "ciudad-lineal-ruta-122"
+       ],
+       [
+        "Centro de Salud Vicente Soldevilla · Puente de Vallecas",
+        "vallecas-1-ruta-123"
+       ],
+       [
+        "Centro de Salud Villa de Vallecas · Villa de Vallecas",
+        "vallecas-1-ruta-124"
+       ],
+       [
+        "Centro de Salud Villaamil · Tetuán",
+        "tetuan-ruta-125"
+       ],
+       [
+        "Centro de Salud Villablanca · Vicálvaro",
+        "moratalaz-vicalvaro-y-barajas-ruta-126"
+       ],
+       [
+        "Centro de Salud Virgen de Begoña · Fuencarral-El Pardo",
+        "fuencarral-el-pardo-ruta-127"
+       ],
+       [
+        "Centro de Salud Virgen del Cortijo · Hortaleza",
+        "hortaleza-ruta-128"
+       ]
+      ]
+     },
+     "groups": []
+    },
+    {
+     "id": "rutas-por-distrito",
+     "title": "Rutas por distrito",
+     "zones": {
+      "by": "district"
+     },
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "El centro de salud es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "arganzuela",
+       "title": "Arganzuela",
+       "district": "Arganzuela",
+       "maps": [
+        {
+         "mid": "1yrNrrX8uj81QOvLGIX0oUCfUjhsbgWY",
+         "ll": "40.3975,-3.6955",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Arganzuela",
+         "label": "Arganzuela · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 20,
+         "name": "Centro de Salud Cáceres",
+         "start": "Distrito de Arganzuela",
+         "info": "1,80 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710735",
+         "address": "Calle de Cáceres 4, Madrid"
+        },
+        {
+         "n": 35,
+         "name": "Centro de Salud Delicias",
+         "start": "Distrito de Arganzuela",
+         "info": "1,93 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711007",
+         "address": "Calle de las Delicias 5, Madrid"
+        },
+        {
+         "n": 41,
+         "name": "Centro de Salud Embajadores",
+         "start": "Distrito de Arganzuela",
+         "info": "2,01 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711130",
+         "address": "Calle Cardenal Solís 6, Madrid"
+        },
+        {
+         "n": 71,
+         "name": "Centro de Salud Legazpi",
+         "start": "Distrito de Arganzuela",
+         "info": "2,70 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711479",
+         "address": "Calle de la Antracita 2, Madrid"
+        },
+        {
+         "n": 72,
+         "name": "Centro de Salud Linneo",
+         "start": "Distrito de Arganzuela",
+         "info": "2,30 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711506",
+         "address": "Calle de Linneo 3, Madrid"
+        },
+        {
+         "n": 83,
+         "name": "Centro de Salud Martín de Vargas",
+         "start": "Distrito de Arganzuela",
+         "info": "2,81 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711666",
+         "address": "Calle de Martín de Vargas 15, Madrid"
+        },
+        {
+         "n": 95,
+         "name": "Centro de Salud Párroco Julio Morate",
+         "start": "Distrito de Arganzuela",
+         "info": "2,93 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711915",
+         "address": "Calle Párroco Julio Morate 3, Madrid"
+        },
+        {
+         "n": 96,
+         "name": "Centro de Salud Paseo Imperial",
+         "start": "Distrito de Arganzuela",
+         "info": "2,76 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711920",
+         "address": "Calle de Toledo 180, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "carabanchel",
+       "title": "Carabanchel",
+       "district": "Carabanchel",
+       "maps": [
+        {
+         "mid": "1FIUsWU9bzFHw_M9DN2qhMB20IfuT9Q0",
+         "ll": "40.3780,-3.7370",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Carabanchel",
+         "label": "Carabanchel · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 1,
+         "name": "Centro de Salud Abrantes",
+         "start": "Distrito de Carabanchel",
+         "info": "2,07 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296709962",
+         "address": "Avenida de Abrantes 55, Madrid"
+        },
+        {
+         "n": 25,
+         "name": "Centro de Salud Carabanchel Alto",
+         "start": "Distrito de Carabanchel",
+         "info": "1,92 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710877",
+         "address": "Avenida de Carabanchel Alto, Madrid"
+        },
+        {
+         "n": 33,
+         "name": "Centro de Salud Comillas",
+         "start": "Distrito de Carabanchel",
+         "info": "2,18 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710988",
+         "address": "Calle de Eduardo Marquina 33, Madrid"
+        },
+        {
+         "n": 52,
+         "name": "Centro de Salud General Ricardos",
+         "start": "Distrito de Carabanchel",
+         "info": "2,19 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711283",
+         "address": "Calle del General Ricardos 131, Madrid"
+        },
+        {
+         "n": 54,
+         "name": "Centro de Salud Guayaba",
+         "start": "Distrito de Carabanchel",
+         "info": "2,87 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711302",
+         "address": "Calle de Antonia Rodríguez Sacristán 4, Madrid"
+        },
+        {
+         "n": 88,
+         "name": "Centro de Salud Nuestra Señora de Fátima",
+         "start": "Distrito de Carabanchel",
+         "info": "2,13 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711813",
+         "address": "Avenida de Nuestra Señora de Fátima 93, Madrid"
+        },
+        {
+         "n": 103,
+         "name": "Centro de Salud Puerta Bonita",
+         "start": "Distrito de Carabanchel",
+         "info": "2,02 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712059",
+         "address": "Calle de la Alegría, Madrid"
+        },
+        {
+         "n": 105,
+         "name": "Centro de Salud Quince de Mayo",
+         "start": "Distrito de Carabanchel",
+         "info": "2,70 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712073"
+        }
+       ]
+      },
+      {
+       "id": "centro",
+       "title": "Centro",
+       "district": "Centro",
+       "maps": [
+        {
+         "mid": "1AKRbPRFHtnDr7fOxQ_BpUwlxZ9RsWh4",
+         "ll": "40.4150,-3.7060",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro",
+         "label": "Centro · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 3,
+         "name": "Centro de Salud Alameda",
+         "start": "Distrito de Centro",
+         "info": "2,56 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710284"
+        },
+        {
+         "n": 63,
+         "name": "Centro de Salud Justicia",
+         "start": "Distrito de Centro",
+         "info": "2,43 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711350",
+         "address": "Calle de Regueros, Madrid"
+        },
+        {
+         "n": 68,
+         "name": "Centro de Salud Las Cortes",
+         "start": "Distrito de Centro",
+         "info": "2,33 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711446",
+         "address": "Carrera de San Jerónimo, Madrid"
+        },
+        {
+         "n": 70,
+         "name": "Centro de Salud Lavapiés",
+         "start": "Distrito de Centro",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711469"
+        },
+        {
+         "n": 94,
+         "name": "Centro de Salud Palma Norte",
+         "start": "Distrito de Centro",
+         "info": "2,28 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711911"
+        },
+        {
+         "n": 114,
+         "name": "Centro de Salud Segovia",
+         "start": "Distrito de Centro",
+         "info": "2,22 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712238"
+        }
+       ]
+      },
+      {
+       "id": "chamartin",
+       "title": "Chamartín",
+       "district": "Chamartín",
+       "maps": [
+        {
+         "mid": "1qERg5cXECiQyG8GGknezqFca2sIiBxY",
+         "ll": "40.4620,-3.6770",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamartín",
+         "label": "Chamartín · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 32,
+         "name": "Centro de Salud Ciudad Jardín",
+         "start": "Distrito de Chamartín",
+         "info": "2,26 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710955"
+        },
+        {
+         "n": 90,
+         "name": "Centro de Salud Núñez Morgado",
+         "start": "Distrito de Chamartín",
+         "info": "3,00 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711825"
+        },
+        {
+         "n": 100,
+         "name": "Centro de Salud Potosí",
+         "start": "Distrito de Chamartín",
+         "info": "2,65 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711991"
+        },
+        {
+         "n": 102,
+         "name": "Centro de Salud Prosperidad",
+         "start": "Distrito de Chamartín",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712055"
+        },
+        {
+         "n": 113,
+         "name": "Centro de Salud Santa Hortensia",
+         "start": "Distrito de Chamartín",
+         "info": "2,40 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712230"
+        },
+        {
+         "n": 115,
+         "name": "Centro de Salud Segre",
+         "start": "Distrito de Chamartín",
+         "info": "2,27 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712246"
+        }
+       ]
+      },
+      {
+       "id": "chamberi",
+       "title": "Chamberí",
+       "district": "Chamberí",
+       "maps": [
+        {
+         "mid": "1eIokyAl1ubTmkSp8cRPUEWZTqStGEms",
+         "ll": "40.4350,-3.7040",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamberí",
+         "label": "Chamberí · 5 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 7,
+         "name": "Centro de Salud Andrés Mellado",
+         "start": "Distrito de Chamberí",
+         "info": "2,56 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710451"
+        },
+        {
+         "n": 29,
+         "name": "Centro de Salud Cea Bermúdez",
+         "start": "Distrito de Chamberí",
+         "info": "2,82 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710930"
+        },
+        {
+         "n": 40,
+         "name": "Centro de Salud Eloy Gonzalo",
+         "start": "Distrito de Chamberí",
+         "info": "1,91 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711114"
+        },
+        {
+         "n": 44,
+         "name": "Centro de Salud Espronceda",
+         "start": "Distrito de Chamberí",
+         "info": "2,35 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711139"
+        },
+        {
+         "n": 55,
+         "name": "Centro de Salud Guzmán el Bueno",
+         "start": "Distrito de Chamberí",
+         "info": "2,44 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711308"
+        }
+       ]
+      },
+      {
+       "id": "ciudad-lineal",
+       "title": "Ciudad Lineal",
+       "district": "Ciudad Lineal",
+       "maps": [
+        {
+         "mid": "18XXUQtQtdjBO_hj4RakS9ntaYIU_FSw",
+         "ll": "40.4500,-3.6500",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Ciudad Lineal",
+         "label": "Ciudad Lineal · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 14,
+         "name": "Centro de Salud Avenida de Aragón",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,35 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710627"
+        },
+        {
+         "n": 17,
+         "name": "Centro de Salud Benita Ávila",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,08 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710676"
+        },
+        {
+         "n": 23,
+         "name": "Centro de Salud Canal de Panamá",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710801"
+        },
+        {
+         "n": 34,
+         "name": "Centro de Salud Daroca",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,42 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711002"
+        },
+        {
+         "n": 37,
+         "name": "Centro de Salud Doctor Cirajas",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711017"
+        },
+        {
+         "n": 45,
+         "name": "Centro de Salud Estrecho de Corea",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,67 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711161",
+         "address": "Calle del Estrecho de Corea 1, Madrid"
+        },
+        {
+         "n": 49,
+         "name": "Centro de Salud Gandhi",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,76 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711201",
+         "address": "Calle de José Arcones Gil, Madrid"
+        },
+        {
+         "n": 122,
+         "name": "Centro de Salud Vicente Muzas",
+         "start": "Distrito de Ciudad Lineal",
+         "info": "2,69 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712377",
+         "address": "Calle Vicente Muzas 8B, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "fuencarral-el-pardo",
+       "title": "Fuencarral-El Pardo",
+       "district": "Fuencarral-El Pardo",
+       "maps": [
+        {
+         "mid": "1ZpPKZptFuA2flSDURrseoFvxFOPwvl4",
+         "ll": "40.4950,-3.7100",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Fuencarral-El Pardo",
+         "label": "Fuencarral-El Pardo · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 15,
+         "name": "Centro de Salud Barrio del Pilar",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,93 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710661"
+        },
+        {
+         "n": 31,
+         "name": "Centro de Salud Ciudad de los Periodistas",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,79 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710951"
+        },
+        {
+         "n": 36,
+         "name": "Centro de Salud Doctor Castroviejo",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711011"
+        },
+        {
+         "n": 39,
+         "name": "Centro de Salud El Pardo",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,63 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711111"
+        },
+        {
+         "n": 47,
+         "name": "Centro de Salud Fuencarral",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,60 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711194"
+        },
+        {
+         "n": 48,
+         "name": "Centro de Salud Fuentelarreina",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,50 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711198"
+        },
+        {
+         "n": 69,
+         "name": "Centro de Salud Las Tablas",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711465"
+        },
+        {
+         "n": 85,
+         "name": "Centro de Salud Mirasierra",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,44 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711702"
+        },
+        {
+         "n": 127,
+         "name": "Centro de Salud Virgen de Begoña",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "info": "2,26 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712423"
+        }
+       ]
+      },
+      {
+       "id": "hortaleza",
+       "title": "Hortaleza",
+       "district": "Hortaleza",
+       "maps": [
+        {
+         "mid": "1LBb3lX3SVyZhX4emHY-0RV8CFqnbHkE",
+         "ll": "40.4720,-3.6400",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Hortaleza",
+         "label": "Hortaleza · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 59,
+         "name": "Centro de Salud Jazmín",
+         "start": "Distrito de Hortaleza",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711331"
+        },
+        {
+         "n": 81,
+         "name": "Centro de Salud Mar Báltico",
+         "start": "Distrito de Hortaleza",
+         "info": "2,34 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711632"
+        },
+        {
+         "n": 86,
+         "name": "Centro de Salud Monóvar",
+         "start": "Distrito de Hortaleza",
+         "info": "2,63 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711705"
+        },
+        {
+         "n": 112,
+         "name": "Centro de Salud Sanchinarro",
+         "start": "Distrito de Hortaleza",
+         "info": "2,41 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712224"
+        },
+        {
+         "n": 116,
+         "name": "Centro de Salud Silvano",
+         "start": "Distrito de Hortaleza",
+         "info": "2,24 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712249"
+        },
+        {
+         "n": 128,
+         "name": "Centro de Salud Virgen del Cortijo",
+         "start": "Distrito de Hortaleza",
+         "info": "2,24 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712431"
+        }
+       ]
+      },
+      {
+       "id": "latina",
+       "title": "Latina",
+       "district": "Latina",
+       "maps": [
+        {
+         "mid": "147FFwnfvP4YfbQZqvd2b_U6oMn0ioEk",
+         "ll": "40.3900,-3.7500",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Latina",
+         "label": "Latina · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 21,
+         "name": "Centro de Salud Campamento",
+         "start": "Distrito de Latina",
+         "info": "2,19 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710790"
+        },
+        {
+         "n": 26,
+         "name": "Centro de Salud Caramuel",
+         "start": "Distrito de Latina",
+         "info": "2,70 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710884"
+        },
+        {
+         "n": 51,
+         "name": "Centro de Salud General Fanjul",
+         "start": "Distrito de Latina",
+         "info": "2,91 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711210"
+        },
+        {
+         "n": 66,
+         "name": "Centro de Salud Las Águilas",
+         "start": "Distrito de Latina",
+         "info": "2,24 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711407"
+        },
+        {
+         "n": 76,
+         "name": "Centro de Salud Los Cármenes",
+         "start": "Distrito de Latina",
+         "info": "2,15 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711579"
+        },
+        {
+         "n": 78,
+         "name": "Centro de Salud Los Yébenes",
+         "start": "Distrito de Latina",
+         "info": "2,64 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711610"
+        },
+        {
+         "n": 79,
+         "name": "Centro de Salud Lucero",
+         "start": "Distrito de Latina",
+         "info": "2,14 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711614"
+        },
+        {
+         "n": 80,
+         "name": "Centro de Salud Maqueda",
+         "start": "Distrito de Latina",
+         "info": "2,59 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711626"
+        },
+        {
+         "n": 104,
+         "name": "Centro de Salud Puerta del Ángel",
+         "start": "Distrito de Latina",
+         "info": "2,33 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712066"
+        },
+        {
+         "n": 120,
+         "name": "Centro de Salud Valle Inclán",
+         "start": "Distrito de Latina",
+         "info": "2,44 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712370"
+        }
+       ]
+      },
+      {
+       "id": "moncloa-aravaca",
+       "title": "Moncloa-Aravaca",
+       "district": "Moncloa-Aravaca",
+       "maps": [
+        {
+         "mid": "1dsqt4L3Lt7GJmxDVo0aeeyafW0fdQ1c",
+         "ll": "40.4400,-3.7500",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Moncloa-Aravaca",
+         "label": "Moncloa-Aravaca · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 10,
+         "name": "Centro de Salud Aravaca",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,34 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710468",
+         "address": "Calle de Riaza 5, Madrid"
+        },
+        {
+         "n": 11,
+         "name": "Centro de Salud Argüelles",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,45 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710605",
+         "address": "Calle de Quintana 11, Madrid"
+        },
+        {
+         "n": 27,
+         "name": "Centro de Salud Casa de Campo",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,60 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710903"
+        },
+        {
+         "n": 58,
+         "name": "Centro de Salud Isla de Oza",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,54 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711318"
+        },
+        {
+         "n": 82,
+         "name": "Centro de Salud María Auxiliadora",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,20 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711640"
+        },
+        {
+         "n": 121,
+         "name": "Centro de Salud Ventura Rodríguez",
+         "start": "Distrito de Moncloa-Aravaca",
+         "info": "2,98 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712372"
+        }
+       ]
+      },
+      {
+       "id": "moratalaz-vicalvaro-y-barajas",
+       "title": "Moratalaz, Vicálvaro y Barajas",
+       "district": "Moratalaz, Vicálvaro y Barajas",
+       "maps": [
+        {
+         "mid": "1CYN6l45sl_e0156_L35BIr3GmOOHZJ4",
+         "ll": "40.4300,-3.6100",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Moratalaz, Vicálvaro y Barajas",
+         "label": "Moratalaz, Vicálvaro y Barajas · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 4,
+         "name": "Centro de Salud Alameda de Osuna",
+         "start": "Distrito de Barajas",
+         "info": "2,45 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710317"
+        },
+        {
+         "n": 12,
+         "name": "Centro de Salud Arroyo Medialegua",
+         "start": "Distrito de Moratalaz",
+         "info": "1,90 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710617"
+        },
+        {
+         "n": 13,
+         "name": "Centro de Salud Artilleros",
+         "start": "Distrito de Vicálvaro",
+         "info": "2,26 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710621"
+        },
+        {
+         "n": 97,
+         "name": "Centro de Salud Pavones",
+         "start": "Distrito de Moratalaz",
+         "info": "2,47 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711935"
+        },
+        {
+         "n": 117,
+         "name": "Centro de Salud Torito",
+         "start": "Distrito de Moratalaz",
+         "info": "2,97 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712251"
+        },
+        {
+         "n": 118,
+         "name": "Centro de Salud Valdebernardo",
+         "start": "Distrito de Moratalaz",
+         "info": "1,87 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712296"
+        },
+        {
+         "n": 126,
+         "name": "Centro de Salud Villablanca",
+         "start": "Distrito de Vicálvaro",
+         "info": "2,25 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712404"
+        }
+       ]
+      },
+      {
+       "id": "retiro",
+       "title": "Retiro",
+       "district": "Retiro",
+       "maps": [
+        {
+         "mid": "11KvqxZp6XKzb-OdCqWUs9H59GLPahLU",
+         "ll": "40.4090,-3.6750",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Retiro",
+         "label": "Retiro · 4 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 2,
+         "name": "Centro de Salud Adelfas",
+         "start": "Distrito de Retiro",
+         "info": "2,58 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710132",
+         "address": "Avenida de la Ciudad de Barcelona 190, Madrid"
+        },
+        {
+         "n": 53,
+         "name": "Centro de Salud Goya",
+         "start": "Distrito de Retiro",
+         "info": "2,34 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711296"
+        },
+        {
+         "n": 56,
+         "name": "Centro de Salud Ibiza",
+         "start": "Distrito de Retiro",
+         "info": "2,33 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711313",
+         "address": "Calle de Ibiza 7, Madrid"
+        },
+        {
+         "n": 93,
+         "name": "Centro de Salud Pacífico",
+         "start": "Distrito de Retiro",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711881",
+         "address": "Calle Reyes Magos 21, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "salamanca",
+       "title": "Salamanca",
+       "district": "Salamanca",
+       "maps": [
+        {
+         "mid": "1d0abPSjoTfJi8NYfi45UUiW0X8_FbYQ",
+         "ll": "40.4310,-3.6770",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Salamanca",
+         "label": "Salamanca · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 16,
+         "name": "Centro de Salud Baviera",
+         "start": "Distrito de Salamanca",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710671"
+        },
+        {
+         "n": 28,
+         "name": "Centro de Salud Castelló",
+         "start": "Distrito de Salamanca",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710907",
+         "address": "Calle de O'Donnell 55, Madrid",
+         "note": "Desde el 2/3/2026, el centro de salud Castelló está en la 5.ª planta del Centro de Salud Goya (calle de O'Donnell 55). La ruta sale de ese edificio."
+        },
+        {
+         "n": 65,
+         "name": "Centro de Salud Lagasca",
+         "start": "Distrito de Salamanca",
+         "info": "2,82 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711367"
+        },
+        {
+         "n": 73,
+         "name": "Centro de Salud Londres",
+         "start": "Distrito de Salamanca",
+         "info": "2,41 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711568"
+        },
+        {
+         "n": 87,
+         "name": "Centro de Salud Montesa",
+         "start": "Distrito de Salamanca",
+         "info": "2,58 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711780"
+        },
+        {
+         "n": 101,
+         "name": "Centro de Salud Príncipe de Vergara",
+         "start": "Distrito de Salamanca",
+         "info": "2,38 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712002"
+        }
+       ]
+      },
+      {
+       "id": "san-blas-canillejas",
+       "title": "San Blas-Canillejas",
+       "district": "San Blas-Canillejas",
+       "maps": [
+        {
+         "mid": "1GSTlbVkAnqPqTitvlTEwKYdpzc92zEQ",
+         "ll": "40.4350,-3.6150",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · San Blas-Canillejas",
+         "label": "San Blas-Canillejas · 5 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 9,
+         "name": "Centro de Salud Aquitania",
+         "start": "Distrito de San Blas-Canillejas",
+         "info": "1,96 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710462"
+        },
+        {
+         "n": 24,
+         "name": "Centro de Salud Canillejas",
+         "start": "Distrito de San Blas-Canillejas",
+         "info": "2,20 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710846",
+         "address": "Calle de Boltaña 5, Madrid"
+        },
+        {
+         "n": 50,
+         "name": "Centro de Salud García Noblejas",
+         "start": "Distrito de San Blas-Canillejas",
+         "info": "1,94 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711205"
+        },
+        {
+         "n": 74,
+         "name": "Centro de Salud Los Alpes",
+         "start": "Distrito de San Blas-Canillejas",
+         "info": "2,30 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711574"
+        },
+        {
+         "n": 108,
+         "name": "Centro de Salud Rejas",
+         "start": "Distrito de San Blas-Canillejas",
+         "info": "1,87 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712148"
+        }
+       ]
+      },
+      {
+       "id": "tetuan",
+       "title": "Tetuán",
+       "district": "Tetuán",
+       "maps": [
+        {
+         "mid": "1qn_3AOcqSRNrz7HPXAmnH6lkmtjHIC4",
+         "ll": "40.4600,-3.7030",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Tetuán",
+         "label": "Tetuán · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 19,
+         "name": "Centro de Salud Bustarviejo",
+         "start": "Distrito de Tetuán",
+         "info": "2,23 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710719"
+        },
+        {
+         "n": 57,
+         "name": "Centro de Salud Infanta Mercedes",
+         "start": "Distrito de Tetuán",
+         "info": "2,26 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711316"
+        },
+        {
+         "n": 62,
+         "name": "Centro de Salud José Marvá",
+         "start": "Distrito de Tetuán",
+         "info": "2,38 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711347"
+        },
+        {
+         "n": 64,
+         "name": "Centro de Salud La Ventilla",
+         "start": "Distrito de Tetuán",
+         "info": "2,15 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711353"
+        },
+        {
+         "n": 107,
+         "name": "Centro de Salud Reina Victoria",
+         "start": "Distrito de Tetuán",
+         "info": "2,40 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712145"
+        },
+        {
+         "n": 119,
+         "name": "Centro de Salud Valdezarza-Sur",
+         "start": "Distrito de Tetuán",
+         "info": "2,47 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712307"
+        },
+        {
+         "n": 125,
+         "name": "Centro de Salud Villaamil",
+         "start": "Distrito de Tetuán",
+         "info": "2,51 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712399"
+        }
+       ]
+      },
+      {
+       "id": "usera",
+       "title": "Usera",
+       "district": "Usera",
+       "maps": [
+        {
+         "mid": "1031PFXOvro-mkhWTe4RwpOvbdjOI-0A",
+         "ll": "40.3830,-3.7050",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Usera",
+         "label": "Usera · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 6,
+         "name": "Centro de Salud Almendrales",
+         "start": "Distrito de Usera",
+         "info": "2,21 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710420"
+        },
+        {
+         "n": 60,
+         "name": "Centro de Salud Joaquín Rodrigo",
+         "start": "Distrito de Usera",
+         "info": "2,25 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711335"
+        },
+        {
+         "n": 67,
+         "name": "Centro de Salud Las Calesas",
+         "start": "Distrito de Usera",
+         "info": "2,36 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711423"
+        },
+        {
+         "n": 91,
+         "name": "Centro de Salud Orcasitas",
+         "start": "Distrito de Usera",
+         "info": "2,55 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711829"
+        },
+        {
+         "n": 92,
+         "name": "Centro de Salud Orcasur",
+         "start": "Distrito de Usera",
+         "info": "2,35 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711861"
+        },
+        {
+         "n": 111,
+         "name": "Centro de Salud San Fermín",
+         "start": "Distrito de Usera",
+         "info": "2,23 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712217"
+        }
+       ]
+      },
+      {
+       "id": "vallecas-1",
+       "title": "Vallecas (1)",
+       "district": "Vallecas",
+       "maps": [
+        {
+         "mid": "1tlXWB-hcZdUiUYYxa-pXMXXP1K6Ivu4",
+         "ll": "40.3800,-3.6200",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Vallecas (1)",
+         "label": "Vallecas (1) · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 30,
+         "name": "Centro de Salud Cerro Almodóvar",
+         "start": "Distrito de Villa de Vallecas",
+         "info": "2,98 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710933"
+        },
+        {
+         "n": 42,
+         "name": "Centro de Salud Ensanche de Vallecas",
+         "start": "Distrito de Villa de Vallecas",
+         "info": "2,37 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711133"
+        },
+        {
+         "n": 43,
+         "name": "Centro de Salud Entrevías",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,68 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711136"
+        },
+        {
+         "n": 61,
+         "name": "Centro de Salud José María Llanos",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,22 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711343"
+        },
+        {
+         "n": 84,
+         "name": "Centro de Salud Martínez de la Riva",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,32 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711674"
+        },
+        {
+         "n": 98,
+         "name": "Centro de Salud Peña Prieta",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,51 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711971"
+        },
+        {
+         "n": 123,
+         "name": "Centro de Salud Vicente Soldevilla",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,29 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712383"
+        },
+        {
+         "n": 124,
+         "name": "Centro de Salud Villa de Vallecas",
+         "start": "Distrito de Villa de Vallecas",
+         "info": "2,32 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712388"
+        }
+       ]
+      },
+      {
+       "id": "vallecas-2",
+       "title": "Vallecas (2)",
+       "district": "Vallecas",
+       "maps": [
+        {
+         "mid": "15e6CqGRl3QoOjLB6Cc0XbrsmewKV4OQ",
+         "ll": "40.3900,-3.6550",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Vallecas (2)",
+         "label": "Vallecas (2) · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5,
+         "name": "Centro de Salud Alcalá de Guadaira",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,39 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710417"
+        },
+        {
+         "n": 8,
+         "name": "Centro de Salud Ángela Uriarte",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,97 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710456"
+        },
+        {
+         "n": 18,
+         "name": "Centro de Salud Buenos Aires",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,97 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710712"
+        },
+        {
+         "n": 22,
+         "name": "Centro de Salud Campo de la Paloma",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,21 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296710793"
+        },
+        {
+         "n": 46,
+         "name": "Centro de Salud Federica Montseny",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,37 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711167"
+        },
+        {
+         "n": 89,
+         "name": "Centro de Salud Numancia",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,65 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711815"
+        },
+        {
+         "n": 106,
+         "name": "Centro de Salud Rafael Alberti",
+         "start": "Distrito de Puente de Vallecas",
+         "info": "2,33 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712141"
+        }
+       ]
+      },
+      {
+       "id": "villaverde",
+       "title": "Villaverde",
+       "district": "Villaverde",
+       "maps": [
+        {
+         "mid": "19tGaLDRdRjPGbh0QX7eH-9IGgpMdzts",
+         "ll": "40.3500,-3.7050",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Villaverde",
+         "label": "Villaverde · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 38,
+         "name": "Centro de Salud El Espinillo",
+         "start": "Distrito de Villaverde",
+         "info": "2,86 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711021",
+         "address": "Calle de la Dulzura, Madrid"
+        },
+        {
+         "n": 75,
+         "name": "Centro de Salud Los Ángeles",
+         "start": "Distrito de Villaverde",
+         "info": "1,81 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711576",
+         "address": "Calle de Totanés 1, Madrid"
+        },
+        {
+         "n": 77,
+         "name": "Centro de Salud Los Rosales",
+         "start": "Distrito de Villaverde",
+         "info": "2,51 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711599",
+         "address": "Calle del Diamante 12, Madrid"
+        },
+        {
+         "n": 99,
+         "name": "Centro de Salud Potes",
+         "start": "Distrito de Villaverde",
+         "info": "2,69 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296711973",
+         "address": "Calle de Potes, Madrid"
+        },
+        {
+         "n": 109,
+         "name": "Centro de Salud San Andrés",
+         "start": "Distrito de Villaverde",
+         "info": "2,45 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712154",
+         "address": "Calle de Alberto Palacios 22, Madrid"
+        },
+        {
+         "n": 110,
+         "name": "Centro de Salud San Cristóbal",
+         "start": "Distrito de Villaverde",
+         "info": "2,53 km · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712197",
+         "address": "Calle de Benimamet 24, Madrid"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

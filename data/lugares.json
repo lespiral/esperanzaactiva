@@ -1,0 +1,8 @@
+{
+ "_": "Comunidad, provincia y comarca (o equivalente) de cada lugar que no es de Cataluña, para el menú «Elige dónde quieres caminar». La clave es el nombre del lugar sin acentos y en minúsculas (como slugify). Los de Cataluña están en data/cat/comarques.json.",
+ "madrid": [
+  "Comunidad de Madrid",
+  "Madrid",
+  "Ciudad de Madrid"
+ ]
+}

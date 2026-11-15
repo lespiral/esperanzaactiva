@@ -326,6 +326,11 @@ def places_for(course=None):
 COMARQUES = {slugify(k): v for k, v in json.loads((DATA / "cat" / "comarques.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
 
 
+# Lugares que no son de Cataluña: data/lugares.json (comunidad, provincia, comarca o equivalente)
+_lf = DATA / "lugares.json"
+LUGARES = {slugify(k): v for k, v in json.loads(_lf.read_text(encoding="utf-8")).items() if not k.startswith("_")} if _lf.exists() else {}
+
+
 def sort_key(name):
     return slugify(re.sub(r"^(El|La|Els|Les|Los|Las|L') ?", "", name))
 
@@ -333,7 +338,9 @@ def sort_key(name):
 def place_path(name):
     """On va un lloc al menú, de dalt a baix, sense el lloc: [comunitat, província, comarca].
     (A la .cat: [província, comarca].) Un nivell per columna de site.json › place_nav.
-    Ara només hi ha llocs de Catalunya (data/cat/comarques.json)."""
+    Els llocs de Catalunya són a data/cat/comarques.json; els de la resta de l'Estat, a data/lugares.json."""
+    if slugify(name) in LUGARES:
+        return LUGARES[slugify(name)]
     com, prov = COMARQUES[slugify(name)]
     return ["Cataluña", prov, com]
 
@@ -370,7 +377,7 @@ def place_tree(course=None):
             for g in b["groups"]:
                 for s in g.get("sections") or []:
                     add(s["title"], f"{t['slug']}/#{s['id']}", len(s["routes"]))
-    missing = sorted(p for p in places if slugify(p) not in COMARQUES)
+    missing = sorted(p for p in places if slugify(p) not in COMARQUES and slugify(p) not in LUGARES)
     if missing:
         sys.exit("Falten la comarca i la província d'aquests llocs a data/cat/comarques.json (s'afegeixen a la .cat i es copien amb sync_cat.py): " + ", ".join(missing))
     root = {"name": None, "kids": {}, "towns": []}

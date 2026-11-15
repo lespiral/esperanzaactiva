@@ -26,6 +26,7 @@
     {"slug": "barcelona", "name": "Barcelona", "region": "Barcelonès", "icon": "buildings", "source": "cat"},
     {"slug": "el-prat", "name": "El Prat de Llobregat", "region": "Baix Llobregat", "icon": "building", "source": "cat"},
     {"slug": "l-hospitalet", "name": "L'Hospitalet de Llobregat", "region": "Barcelonès", "icon": "users-three", "source": "cat"},
+    {"slug": "madrid", "name": "Madrid", "region": "Comunidad de Madrid", "icon": "buildings"},
     {"slug": "olot", "name": "Olot", "region": "Garrotxa", "icon": "tree", "source": "cat"},
     {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"}
   ],

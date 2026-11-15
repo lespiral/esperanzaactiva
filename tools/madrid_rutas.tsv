@@ -1,0 +1,129 @@
+n	centro	distrito	km	mapa	wikiloc	direccion
+1	Abrantes	Carabanchel	2,07	CAR	296709962	Avenida de Abrantes 55
+2	Adelfas	Retiro	2,58	RET	296710132	Avenida de la Ciudad de Barcelona 190
+3	Alameda	Centro	2,56	CEN	296710284
+4	Alameda de Osuna	Barajas	2,45	MVB	296710317
+5	Alcalá de Guadaira	Puente de Vallecas	2,39	V2	296710417
+6	Almendrales	Usera	2,21	USE	296710420
+7	Andrés Mellado	Chamberí	2,56	CHB	296710451
+8	Ángela Uriarte	Puente de Vallecas	2,97	V2	296710456
+9	Aquitania	San Blas-Canillejas	1,96	SBC	296710462
+10	Aravaca	Moncloa-Aravaca	2,34	MON	296710468	Calle de Riaza 5
+11	Argüelles	Moncloa-Aravaca	2,45	MON	296710605	Calle de Quintana 11
+12	Arroyo Medialegua	Moratalaz	1,9	MVB	296710617
+13	Artilleros	Vicálvaro	2,26	MVB	296710621
+14	Avenida de Aragón	Ciudad Lineal	2,35	CLI	296710627
+15	Barrio del Pilar	Fuencarral-El Pardo	2,93	FUE	296710661
+16	Baviera	Salamanca	2,29	SAL	296710671
+17	Benita Ávila	Ciudad Lineal	2,08	CLI	296710676
+18	Buenos Aires	Puente de Vallecas	2,97	V2	296710712
+19	Bustarviejo	Tetuán	2,23	TET	296710719
+20	Cáceres	Arganzuela	1,8	ARG	296710735	Calle de Cáceres 4
+21	Campamento	Latina	2,19	LAT	296710790
+22	Campo de la Paloma	Puente de Vallecas	2,21	V2	296710793
+23	Canal de Panamá	Ciudad Lineal	2,36	CLI	296710801
+24	Canillejas	San Blas-Canillejas	2,2	SBC	296710846	Calle de Boltaña 5
+25	Carabanchel Alto	Carabanchel	1,92	CAR	296710877	Avenida de Carabanchel Alto
+26	Caramuel	Latina	2,7	LAT	296710884
+27	Casa de Campo	Moncloa-Aravaca	2,6	MON	296710903
+28	Castelló	Salamanca	2,29	SAL	296710907	Calle de O'Donnell 55
+29	Cea Bermúdez	Chamberí	2,82	CHB	296710930
+30	Cerro Almodóvar	Villa de Vallecas	2,98	V1	296710933
+31	Ciudad de los Periodistas	Fuencarral-El Pardo	2,79	FUE	296710951
+32	Ciudad Jardín	Chamartín	2,26	CHM	296710955
+33	Comillas	Carabanchel	2,18	CAR	296710988	Calle de Eduardo Marquina 33
+34	Daroca	Ciudad Lineal	2,42	CLI	296711002
+35	Delicias	Arganzuela	1,93	ARG	296711007	Calle de las Delicias 5
+36	Doctor Castroviejo	Fuencarral-El Pardo	2,36	FUE	296711011
+37	Doctor Cirajas	Ciudad Lineal	2,29	CLI	296711017
+38	El Espinillo	Villaverde	2,86	VIL	296711021	Calle de la Dulzura
+39	El Pardo	Fuencarral-El Pardo	2,63	FUE	296711111
+40	Eloy Gonzalo	Chamberí	1,91	CHB	296711114
+41	Embajadores	Arganzuela	2,01	ARG	296711130	Calle Cardenal Solís 6
+42	Ensanche de Vallecas	Villa de Vallecas	2,37	V1	296711133
+43	Entrevías	Puente de Vallecas	2,68	V1	296711136
+44	Espronceda	Chamberí	2,35	CHB	296711139
+45	Estrecho de Corea	Ciudad Lineal	2,67	CLI	296711161	Calle del Estrecho de Corea 1
+46	Federica Montseny	Puente de Vallecas	2,37	V2	296711167
+47	Fuencarral	Fuencarral-El Pardo	2,6	FUE	296711194
+48	Fuentelarreina	Fuencarral-El Pardo	2,5	FUE	296711198
+49	Gandhi	Ciudad Lineal	2,76	CLI	296711201	Calle de José Arcones Gil
+50	García Noblejas	San Blas-Canillejas	1,94	SBC	296711205
+51	General Fanjul	Latina	2,91	LAT	296711210
+52	General Ricardos	Carabanchel	2,19	CAR	296711283	Calle del General Ricardos 131
+53	Goya	Retiro	2,34	RET	296711296
+54	Guayaba	Carabanchel	2,87	CAR	296711302	Calle de Antonia Rodríguez Sacristán 4
+55	Guzmán el Bueno	Chamberí	2,44	CHB	296711308
+56	Ibiza	Retiro	2,33	RET	296711313	Calle de Ibiza 7
+57	Infanta Mercedes	Tetuán	2,26	TET	296711316
+58	Isla de Oza	Moncloa-Aravaca	2,54	MON	296711318
+59	Jazmín	Hortaleza	2,36	HOR	296711331
+60	Joaquín Rodrigo	Usera	2,25	USE	296711335
+61	José María Llanos	Puente de Vallecas	2,22	V1	296711343
+62	José Marvá	Tetuán	2,38	TET	296711347
+63	Justicia	Centro	2,43	CEN	296711350	Calle de Regueros
+64	La Ventilla	Tetuán	2,15	TET	296711353
+65	Lagasca	Salamanca	2,82	SAL	296711367
+66	Las Águilas	Latina	2,24	LAT	296711407
+67	Las Calesas	Usera	2,36	USE	296711423
+68	Las Cortes	Centro	2,33	CEN	296711446	Carrera de San Jerónimo
+69	Las Tablas	Fuencarral-El Pardo	2,29	FUE	296711465
+70	Lavapiés	Centro	2,29	CEN	296711469
+71	Legazpi	Arganzuela	2,7	ARG	296711479	Calle de la Antracita 2
+72	Linneo	Arganzuela	2,3	ARG	296711506	Calle de Linneo 3
+73	Londres	Salamanca	2,41	SAL	296711568
+74	Los Alpes	San Blas-Canillejas	2,3	SBC	296711574
+75	Los Ángeles	Villaverde	1,81	VIL	296711576	Calle de Totanés 1
+76	Los Cármenes	Latina	2,15	LAT	296711579
+77	Los Rosales	Villaverde	2,51	VIL	296711599	Calle del Diamante 12
+78	Los Yébenes	Latina	2,64	LAT	296711610
+79	Lucero	Latina	2,14	LAT	296711614
+80	Maqueda	Latina	2,59	LAT	296711626
+81	Mar Báltico	Hortaleza	2,34	HOR	296711632
+82	María Auxiliadora	Moncloa-Aravaca	2,2	MON	296711640
+83	Martín de Vargas	Arganzuela	2,81	ARG	296711666	Calle de Martín de Vargas 15
+84	Martínez de la Riva	Puente de Vallecas	2,32	V1	296711674
+85	Mirasierra	Fuencarral-El Pardo	2,44	FUE	296711702
+86	Monóvar	Hortaleza	2,63	HOR	296711705
+87	Montesa	Salamanca	2,58	SAL	296711780
+88	Nuestra Señora de Fátima	Carabanchel	2,13	CAR	296711813	Avenida de Nuestra Señora de Fátima 93
+89	Numancia	Puente de Vallecas	2,65	V2	296711815
+90	Núñez Morgado	Chamartín	3	CHM	296711825
+91	Orcasitas	Usera	2,55	USE	296711829
+92	Orcasur	Usera	2,35	USE	296711861
+93	Pacífico	Retiro	2,36	RET	296711881	Calle Reyes Magos 21
+94	Palma Norte	Centro	2,28	CEN	296711911
+95	Párroco Julio Morate	Arganzuela	2,93	ARG	296711915	Calle Párroco Julio Morate 3
+96	Paseo Imperial	Arganzuela	2,76	ARG	296711920	Calle de Toledo 180
+97	Pavones	Moratalaz	2,47	MVB	296711935
+98	Peña Prieta	Puente de Vallecas	2,51	V1	296711971
+99	Potes	Villaverde	2,69	VIL	296711973	Calle de Potes
+100	Potosí	Chamartín	2,65	CHM	296711991
+101	Príncipe de Vergara	Salamanca	2,38	SAL	296712002
+102	Prosperidad	Chamartín	2,36	CHM	296712055
+103	Puerta Bonita	Carabanchel	2,02	CAR	296712059	Calle de la Alegría
+104	Puerta del Ángel	Latina	2,33	LAT	296712066
+105	Quince de Mayo	Carabanchel	2,7	CAR	296712073
+106	Rafael Alberti	Puente de Vallecas	2,33	V2	296712141
+107	Reina Victoria	Tetuán	2,4	TET	296712145
+108	Rejas	San Blas-Canillejas	1,87	SBC	296712148
+109	San Andrés	Villaverde	2,45	VIL	296712154	Calle de Alberto Palacios 22
+110	San Cristóbal	Villaverde	2,53	VIL	296712197	Calle de Benimamet 24
+111	San Fermín	Usera	2,23	USE	296712217
+112	Sanchinarro	Hortaleza	2,41	HOR	296712224
+113	Santa Hortensia	Chamartín	2,4	CHM	296712230
+114	Segovia	Centro	2,22	CEN	296712238
+115	Segre	Chamartín	2,27	CHM	296712246
+116	Silvano	Hortaleza	2,24	HOR	296712249
+117	Torito	Moratalaz	2,97	MVB	296712251
+118	Valdebernardo	Moratalaz	1,87	MVB	296712296
+119	Valdezarza-Sur	Tetuán	2,47	TET	296712307
+120	Valle Inclán	Latina	2,44	LAT	296712370
+121	Ventura Rodríguez	Moncloa-Aravaca	2,98	MON	296712372
+122	Vicente Muzas	Ciudad Lineal	2,69	CLI	296712377	Calle Vicente Muzas 8B
+123	Vicente Soldevilla	Puente de Vallecas	2,29	V1	296712383
+124	Villa de Vallecas	Villa de Vallecas	2,32	V1	296712388
+125	Villaamil	Tetuán	2,51	TET	296712399
+126	Villablanca	Vicálvaro	2,25	MVB	296712404
+127	Virgen de Begoña	Fuencarral-El Pardo	2,26	FUE	296712423
+128	Virgen del Cortijo	Hortaleza	2,24	HOR	296712431
