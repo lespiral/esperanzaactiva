@@ -78,7 +78,7 @@
     </div>
     <p>{{ b.text }}</p>
     <p class="block__actions">
-      {% if b.course.soon %}<span class="btn btn--soon">{{ cc.soon_label }}</span>{% else %}<a class="btn btn--primary" href="{{ b.course.thinkific }}">{{ cc.cta }}</a>{% endif %}
+      {% if b.course.soon %}<span class="btn btn--soon">{{ cc.soon_label }}</span>{% elif cc.cta_building %}<span class="btn btn--soon">{{ cc.building_label }}</span>{% else %}<a class="btn btn--primary" href="{{ b.course.thinkific }}">{{ cc.cta }}</a>{% endif %}
       <a class="btn btn--outline" href="{{ root }}{{ b.course.slug }}/">Vuelve al curso</a>
     </p>
     {% if city.see_also and b.total %}
@@ -86,7 +86,7 @@
       {% for s in city.see_also %}<li><a href="{{ root }}{{ s.href }}">{{ icon('arrow') }}<span>{{ s.text }}</span></a></li>{% endfor %}
     </ul>
     {% endif %}
-    {% if not b.course.soon %}<p class="cta-note cta-note--lang block__lang">{{ cc.lang_note }}</p>{% endif %}
+    {% if not b.course.soon and not cc.cta_building %}<p class="cta-note cta-note--lang block__lang">{{ cc.lang_note }}</p>{% endif %}
 
     {# Un bloc amb diverses parts (Barcelona «Quan la vida»): enllaços a cada part #}
     {% set titled = b.parts|selectattr('title')|list %}
