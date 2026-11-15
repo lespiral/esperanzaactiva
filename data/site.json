@@ -205,7 +205,7 @@
     "passes_list_title": "Los 7 pasos, en una lista",
     "cta_building": true,
     "building_label": "En construcción",
-    "building_text": "Estamos rehaciendo los vídeos de este curso. Pronto podrás inscribirte, también de forma gratuita.",
+    "building_html": "¿No puedes esperar? Escríbenos a <a href=\"mailto:esperanza@elarasocial.com\">esperanza@elarasocial.com</a>.",
     "soon_label": "Próximamente",
     "soon_text": "Este curso todavía no está abierto. Pronto podrás inscribirte, también de forma gratuita.",
     "passes_title": "Los 7 pasos de este curso",
