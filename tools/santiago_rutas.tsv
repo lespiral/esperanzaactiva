@@ -1,0 +1,34 @@
+n	nombre	direccion	km	mapa	wikiloc
+1	Centro de Saúde Concepción Arenal		1,93	CS	296802341
+2	Centro de Saúde de Conxo		2,43	CS	296802587
+3	Centro de Saúde das Fontiñas		2,27	CS	296802752
+4	Centro de Saúde das Galeras		2,25	CS	296802817
+5	Centro de Saúde de Vite		2,29	CS	296802871
+6	Centro Sociocultural da Trisca	Corredoira das Fraguas 92	2,31	SC1	296777695
+7	Centro Sociocultural das Fontiñas	Rúa de Berlín 13	2,31	SC1	296777965
+8	Centro Sociocultural Aurelio Aguirre de Conxo		2,36	SC1	296778009
+9	Centro Sociocultural José Saramago de Vite	Rúa do Pintor Carlos Maside 7	2,34	SC1	296778012
+10	Centro Sociocultural e Xuvenil Municipal O Ensanche	Rúa de Frei Rosendo Salvado 14	2,36	SC1	296778472
+11	Centro Sociocultural de Santa Marta		2,32	SC1	296778641
+12	Centro Sociocultural do Romaño-Vista Alegre	Travesa de Vista Alegre 46	2,24	SC1	296778758
+13	Centro Sociocultural da Pontepedriña		2,36	SC1	296778880
+14	Centro Sociocultural do Castiñeiriño Agustín Bueno		2,4	SC2	296786810
+15	Centro Sociocultural Maruxa e Coralia	Praza de Salvador Parga 4	2,38	SC2	296786867
+16	Centro Cívico da Casa Agraria	Rúa das Tabaniscas 11	2,25	SC2	296786958
+17	Biblioteca Pública Ánxel Casal	Avenida de Xoán XXIII s/n	2,1	SC2	296787130
+101	Parque da Alameda		2,08	PP1	296793614
+102	Campus Universitario Sur		2,22	PP1	296793854
+103	Carballeira de San Lourenzo		2,08	PP1	296793861
+104	Parque das Galeras		1,84	PP1	296793863
+105	Parque de Vista Alegre		2,13	PP1	296794062
+106	Parque de San Domingos de Bonaval		2,05	PP1	296794064
+107	Parque de Belvís		1,98	PP1	296794194
+108	Praza de Mazarelos		1,96	PP1	296794196
+109	Parque de Xixón		1,97	PP2	296794328
+110	Parque de Fermín Bouza Brey		2,03	PP2	296794333
+111	Parque de Pablo Iglesias		2,09	PP2	296794512
+112	Monte da Almáciga		2,14	PP2	296794517
+113	Parque Brañas do río Sar		2,25	PP2	296794626
+114	Parque de Carlomagno		2,16	PP2	296794630
+115	Parque de Eugenio Granell		2,02	PP2	296794749
+116	Praza Roxa		2,09	PP2	296794777

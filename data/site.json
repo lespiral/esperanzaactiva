@@ -28,6 +28,7 @@
     {"slug": "l-hospitalet", "name": "L'Hospitalet de Llobregat", "region": "Barcelonès", "icon": "users-three", "source": "cat"},
     {"slug": "madrid", "name": "Madrid", "region": "Comunidad de Madrid", "icon": "buildings"},
     {"slug": "olot", "name": "Olot", "region": "Garrotxa", "icon": "tree", "source": "cat"},
+    {"slug": "santiago-de-compostela", "name": "Santiago de Compostela", "region": "Galicia", "icon": "buildings"},
     {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"}
   ],
 

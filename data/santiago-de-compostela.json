@@ -1,0 +1,377 @@
+{
+ "slug": "santiago-de-compostela",
+ "name": "Santiago de Compostela",
+ "region": "Galicia",
+ "summary": "33 rutas circulares y cortas desde centros de salud, centros socioculturales y parques y plazas de la ciudad.",
+ "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Elige el curso, busca el punto de salida que te quede más cerca de casa, abre el mapa y camina. Las rutas son independientes de los equipamientos: solo los usan como punto de referencia.",
+ "blocks": [
+  {
+   "course": "vida",
+   "text": "5 rutas circulares de 1,9 a 2,4 km, una desde cada centro de salud de Santiago de Compostela. El centro de salud es solo el punto de referencia del recorrido.",
+   "summary": "5 rutas, una desde cada centro de salud",
+   "parts": [
+    {
+     "id": "rutas-vida",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "El centro de salud es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "vida",
+       "title": "Las 5 rutas",
+       "maps": [
+        {
+         "mid": "1Au67JpD2T1cHjbozWmj8cSumv9g7N2k",
+         "ll": "42.8759,-8.5441",
+         "z": 14,
+         "title": "Santiago de Compostela · Centros de salud",
+         "label": "Rutas 1 a 5 · Centros de salud",
+         "routes": [
+          1,
+          2,
+          3,
+          4,
+          5
+         ]
+        }
+       ],
+       "routes": [
+        {
+         "n": 1,
+         "name": "Centro de Saúde Concepción Arenal",
+         "info": "1,93 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802341"
+        },
+        {
+         "n": 2,
+         "name": "Centro de Saúde de Conxo",
+         "info": "2,43 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802587"
+        },
+        {
+         "n": 3,
+         "name": "Centro de Saúde das Fontiñas",
+         "info": "2,27 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802752"
+        },
+        {
+         "n": 4,
+         "name": "Centro de Saúde das Galeras",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802817"
+        },
+        {
+         "n": 5,
+         "name": "Centro de Saúde de Vite",
+         "info": "2,29 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802871"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "course": "cuidar",
+   "text": "12 rutas circulares de 2,1 a 2,4 km, desde los centros socioculturales de los barrios, un centro cívico y una biblioteca pública. Cada equipamiento es solo el punto de referencia del recorrido.",
+   "summary": "12 rutas desde centros socioculturales, un centro cívico y una biblioteca",
+   "parts": [
+    {
+     "id": "rutas-cuidar",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "El equipamiento es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "cuidar",
+       "title": "Las 12 rutas",
+       "maps": [
+        {
+         "mid": "1fIayboncZ9ETL94AbdJZFRngTFrzIjE",
+         "ll": "42.8782,-8.5448",
+         "z": 13,
+         "title": "Santiago de Compostela · Centros socioculturales (1)",
+         "label": "Rutas 6 a 13 · Centros socioculturales (1)",
+         "routes": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+         ]
+        },
+        {
+         "mid": "1Hk6PIFSGXNDCSHZ9Mdcb5IRcwiwb09w",
+         "ll": "42.8782,-8.5448",
+         "z": 13,
+         "title": "Santiago de Compostela · Centros socioculturales (2)",
+         "label": "Rutas 14 a 17 · Centros socioculturales (2)",
+         "routes": [
+          14,
+          15,
+          16,
+          17
+         ]
+        }
+       ],
+       "routes": [
+        {
+         "n": 6,
+         "name": "Centro Sociocultural da Trisca",
+         "info": "2,31 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296777695",
+         "address": "Corredoira das Fraguas 92, Santiago de Compostela"
+        },
+        {
+         "n": 7,
+         "name": "Centro Sociocultural das Fontiñas",
+         "info": "2,31 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296777965",
+         "address": "Rúa de Berlín 13, Santiago de Compostela"
+        },
+        {
+         "n": 8,
+         "name": "Centro Sociocultural Aurelio Aguirre de Conxo",
+         "info": "2,36 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778009"
+        },
+        {
+         "n": 9,
+         "name": "Centro Sociocultural José Saramago de Vite",
+         "info": "2,34 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778012",
+         "address": "Rúa do Pintor Carlos Maside 7, Santiago de Compostela"
+        },
+        {
+         "n": 10,
+         "name": "Centro Sociocultural e Xuvenil Municipal O Ensanche",
+         "info": "2,36 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778472",
+         "address": "Rúa de Frei Rosendo Salvado 14, Santiago de Compostela"
+        },
+        {
+         "n": 11,
+         "name": "Centro Sociocultural de Santa Marta",
+         "info": "2,32 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778641"
+        },
+        {
+         "n": 12,
+         "name": "Centro Sociocultural do Romaño-Vista Alegre",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778758",
+         "address": "Travesa de Vista Alegre 46, Santiago de Compostela"
+        },
+        {
+         "n": 13,
+         "name": "Centro Sociocultural da Pontepedriña",
+         "info": "2,36 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778880"
+        },
+        {
+         "n": 14,
+         "name": "Centro Sociocultural do Castiñeiriño Agustín Bueno",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296786810"
+        },
+        {
+         "n": 15,
+         "name": "Centro Sociocultural Maruxa e Coralia",
+         "info": "2,38 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296786867",
+         "address": "Praza de Salvador Parga 4, Santiago de Compostela"
+        },
+        {
+         "n": 16,
+         "name": "Centro Cívico da Casa Agraria",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296786958",
+         "address": "Rúa das Tabaniscas 11, Santiago de Compostela"
+        },
+        {
+         "n": 17,
+         "name": "Biblioteca Pública Ánxel Casal",
+         "info": "2,10 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296787130",
+         "address": "Avenida de Xoán XXIII s/n, Santiago de Compostela"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "course": "mon",
+   "text": "16 rutas circulares de 1,8 a 2,2 km, desde parques, plazas y espacios verdes de Santiago de Compostela.",
+   "summary": "16 rutas desde parques, plazas y espacios verdes",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "El parque o la plaza es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "mon",
+       "title": "Las 16 rutas",
+       "maps": [
+        {
+         "mid": "18rxxjHYFlAlPuvDZlq2Csi3T6gUG1Fk",
+         "ll": "42.8813,-8.5484",
+         "z": 14,
+         "title": "Santiago de Compostela · Parques y plazas (1)",
+         "label": "Rutas 101 a 108 · Parques y plazas (1)",
+         "routes": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+         ]
+        },
+        {
+         "mid": "1VreJ4nwjLDNXMoaDU31V4dRbTE1l2RM",
+         "ll": "42.8782,-8.5448",
+         "z": 13,
+         "title": "Santiago de Compostela · Parques y plazas (2)",
+         "label": "Rutas 109 a 116 · Parques y plazas (2)",
+         "routes": [
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116
+         ]
+        }
+       ],
+       "routes": [
+        {
+         "n": 101,
+         "name": "Parque da Alameda",
+         "info": "2,08 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296793614"
+        },
+        {
+         "n": 102,
+         "name": "Campus Universitario Sur",
+         "info": "2,22 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296793854"
+        },
+        {
+         "n": 103,
+         "name": "Carballeira de San Lourenzo",
+         "info": "2,08 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296793861"
+        },
+        {
+         "n": 104,
+         "name": "Parque das Galeras",
+         "info": "1,84 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296793863"
+        },
+        {
+         "n": 105,
+         "name": "Parque de Vista Alegre",
+         "info": "2,13 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794062"
+        },
+        {
+         "n": 106,
+         "name": "Parque de San Domingos de Bonaval",
+         "info": "2,05 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794064"
+        },
+        {
+         "n": 107,
+         "name": "Parque de Belvís",
+         "info": "1,98 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794194"
+        },
+        {
+         "n": 108,
+         "name": "Praza de Mazarelos",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794196"
+        },
+        {
+         "n": 109,
+         "name": "Parque de Xixón",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794328"
+        },
+        {
+         "n": 110,
+         "name": "Parque de Fermín Bouza Brey",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794333"
+        },
+        {
+         "n": 111,
+         "name": "Parque de Pablo Iglesias",
+         "info": "2,09 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794512"
+        },
+        {
+         "n": 112,
+         "name": "Monte da Almáciga",
+         "info": "2,14 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794517"
+        },
+        {
+         "n": 113,
+         "name": "Parque Brañas do río Sar",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794626"
+        },
+        {
+         "n": 114,
+         "name": "Parque de Carlomagno",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794630"
+        },
+        {
+         "n": 115,
+         "name": "Parque de Eugenio Granell",
+         "info": "2,02 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794749"
+        },
+        {
+         "n": 116,
+         "name": "Praza Roxa",
+         "info": "2,09 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794777"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
