@@ -1,9 +1,9 @@
 n	nombre	direccion	km	mapa	wikiloc
-1	Centro de Saúde Concepción Arenal		1,93	CS	296802341
+1	Centro de Saúde Concepción Arenal	Rúa de Santiago León de Caracas 12	1,93	CS	296802341
 2	Centro de Saúde de Conxo		2,43	CS	296802587
-3	Centro de Saúde das Fontiñas		2,27	CS	296802752
+3	Centro de Saúde das Fontiñas	Rúa de Londres 2-4	2,27	CS	296802752
 4	Centro de Saúde das Galeras		2,25	CS	296802817
-5	Centro de Saúde de Vite		2,29	CS	296802871
+5	Centro de Saúde de Vite	Rúa do Pintor Carlos Maside s/n	2,29	CS	296802871
 6	Centro Sociocultural da Trisca	Corredoira das Fraguas 92	2,31	SC1	296777695
 7	Centro Sociocultural das Fontiñas	Rúa de Berlín 13	2,31	SC1	296777965
 8	Centro Sociocultural Aurelio Aguirre de Conxo		2,36	SC1	296778009

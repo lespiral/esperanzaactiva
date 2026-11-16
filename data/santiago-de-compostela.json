@@ -45,7 +45,8 @@
          "n": 1,
          "name": "Centro de Saúde Concepción Arenal",
          "info": "1,93 km · circular · 23–29 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802341"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802341",
+         "address": "Rúa de Santiago León de Caracas 12, Santiago de Compostela"
         },
         {
          "n": 2,
@@ -57,7 +58,8 @@
          "n": 3,
          "name": "Centro de Saúde das Fontiñas",
          "info": "2,27 km · circular · 27–34 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802752"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802752",
+         "address": "Rúa de Londres 2-4, Santiago de Compostela"
         },
         {
          "n": 4,
@@ -69,7 +71,8 @@
          "n": 5,
          "name": "Centro de Saúde de Vite",
          "info": "2,29 km · circular · 27–34 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802871"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802871",
+         "address": "Rúa do Pintor Carlos Maside s/n, Santiago de Compostela"
         }
        ]
       }
