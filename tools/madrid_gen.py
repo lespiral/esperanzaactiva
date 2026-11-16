@@ -60,6 +60,12 @@ def km_fmt(k):
     return f"{float(k.replace(',', '.')):.2f}".replace(".", ",")
 
 
+def walk(k):
+    """Tiempo aproximado caminando: 12-15 min por km."""
+    km = float(k.replace(",", "."))
+    return f"{round(km * 12)}–{round(km * 15)} min caminando"
+
+
 rows = list(csv.DictReader((ROOT / "tools" / "madrid_rutas.tsv").open(encoding="utf-8"), delimiter="\t"))
 assert [int(r["n"]) for r in rows] == list(range(1, 129)), "faltan o sobran rutas"
 wl = [int(r["wikiloc"]) for r in rows]
@@ -73,7 +79,7 @@ for r in rows:
         "n": int(r["n"]),
         "name": f"Centro de Salud {r['centro']}",
         "start": f"Distrito de {r['distrito']}",
-        "info": f"{km_fmt(r['km'])} km · circular",
+        "info": f"{km_fmt(r['km'])} km · circular · {walk(r['km'])}",
         "wikiloc": f"https://www.wikiloc.com/wikiloc/view.do?id={r['wikiloc']}",
     }
     if r["direccion"]:
@@ -135,6 +141,7 @@ city = {
                     "title": "Accesibilidad y seguridad",
                     "html": [
                         "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+                        "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
                         "El centro de salud es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. "
                         "Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>.",
                     ],
