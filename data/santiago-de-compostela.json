@@ -52,7 +52,8 @@
          "n": 2,
          "name": "Centro de Saúde de Conxo",
          "info": "2,43 km · circular · 29–36 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802587"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802587",
+         "address": "Rúa de Ramón Baltar s/n, Santiago de Compostela"
         },
         {
          "n": 3,
@@ -65,7 +66,8 @@
          "n": 4,
          "name": "Centro de Saúde das Galeras",
          "info": "2,25 km · circular · 27–34 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802817"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296802817",
+         "address": "Rúa de Entrerríos 3, Santiago de Compostela"
         },
         {
          "n": 5,
@@ -150,7 +152,8 @@
          "n": 8,
          "name": "Centro Sociocultural Aurelio Aguirre de Conxo",
          "info": "2,36 km · circular · 28–35 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778009"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778009",
+         "address": "Praza de Aurelio Aguirre, Santiago de Compostela"
         },
         {
          "n": 9,
@@ -170,7 +173,8 @@
          "n": 11,
          "name": "Centro Sociocultural de Santa Marta",
          "info": "2,32 km · circular · 28–35 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778641"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778641",
+         "address": "Rúa de Antonio Rama Seoane 6, Santiago de Compostela"
         },
         {
          "n": 12,
@@ -183,7 +187,8 @@
          "n": 13,
          "name": "Centro Sociocultural da Pontepedriña",
          "info": "2,36 km · circular · 28–35 min caminando",
-         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778880"
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296778880",
+         "address": "Rúa de Samos 5, Santiago de Compostela"
         },
         {
          "n": 14,
