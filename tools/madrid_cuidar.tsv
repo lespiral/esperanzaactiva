@@ -1,0 +1,130 @@
+n	nombre	direccion	distrito	km	wikiloc
+401	Biblioteca Pío Baroja	Calle de Arganda 12	Arganzuela	2.31	296871965
+402	Centro Cultural Casa del Reloj	Paseo de la Chopera 6	Arganzuela	2.39	296872063
+403	Centro Dotacional Integrado Ángel del Río	Calle de Canarias 17	Arganzuela	2.24	296872019
+404	Centro Cultural Gloria Fuertes + Biblioteca Gloria Fuertes	Avenida de Logroño 179	Barajas	2.39	296872143
+405	Centro Cultural y Sociocultural Villa de Barajas	Calle de la Botica 7	Barajas	2.43	296872168
+406	Centro Sociocultural Teresa de Calcuta	Plaza del Navío 4	Barajas	2.33	296872226
+407	Biblioteca Ana María Matute	Calle Cortada 1	Carabanchel	2.29	296872343
+408	Biblioteca La Chata	Calle del General Ricardos 252	Carabanchel	2.28	296872351
+409	Biblioteca Luis Rosales	Calle de Antonia Rodríguez Sacristán 7	Carabanchel	2.89	296872375
+410	Biblioteca Victoria Prego	Avenida de Carabanchel Alto 53	Carabanchel	2.56	296872384
+411	Centro Cultural Fernando Lázaro Carreter	Calle de la Verdad 29	Carabanchel	2.5	296872454
+412	Centro Cultural San Francisco La Prensa	Calle de la Aliseda 4	Carabanchel	2.63	296872466
+413	Centro Sociocultural Blasco Ibáñez	Calle del Soldado José María Rey 44	Carabanchel	2.25	296872474
+414	Centro Sociocultural García Lorca	Calle de Eugenia de Montijo 105	Carabanchel	2.4	296872480
+415	Centro Sociocultural Oporto	Avenida de Oporto 78	Carabanchel	2.35	296872501
+416	Biblioteca Benito Pérez Galdós	Calle del Conde Duque 9	Centro	2.63	296872535
+417	Biblioteca Iván de Vargas	Calle de San Justo 5	Centro	2.23	296872549
+418	Biblioteca Mario Vargas Llosa	Calle de Barceló 4	Centro	2.12	296872556
+419	Centro Cultural Clara del Rey	Calle de Amaniel 29	Centro	2.3	296872561
+420	Centro Cultural Lavapiés	Calle del Olivar 46	Centro	2.8	296872574
+421	Centro Cultural Puerta de Toledo + Biblioteca Pedro Salinas	Glorieta de la Puerta de Toledo 1	Centro	2.72	296872582
+422	Espacio Cultural Serrería Belga	Calle de la Alameda 15	Centro	2.63	296872585
+423	Biblioteca Dámaso Alonso	Calle de Manuel Ferrero 1	Chamartín	2.85	296872628
+424	Centro Cultural Nicolás Salmerón + Biblioteca Francisco Ibáñez	Calle del Mantuano 51	Chamartín	2.89	296872642
+425	Centro Sociocultural Luis Gonzaga	Calle del Príncipe de Vergara 142	Chamartín	2.89	296872656
+426	Espacio Cultural Antonio López	Calle de la Pastora Imperio 4	Chamartín	2.71	296872672
+427	Biblioteca José Luis Sampedro	Calle de Felipe el Hermoso 4	Chamberí	2.45	296872687
+428	Biblioteca Ruiz Egea	Calle de Raimundo Fernández Villaverde 6	Chamberí	2.66	296872710
+429	Centro Cultural Galileo	Calle de Galileo 39	Chamberí	2.24	296872720
+430	Biblioteca La Elipa	Calle de Nuestra Señora del Villar 6	Ciudad Lineal	2.51	296872730
+431	Biblioteca Pablo Neruda	Calle de Ascao 4	Ciudad Lineal	2.87	296872790
+432	Centro Cultural La Elipa	Calle de Santa Felicidad 39	Ciudad Lineal	2.41	296872817
+433	Centro Cultural Príncipe de Asturias + Biblioteca Ciudad Lineal	Calle de los Hermanos García Noblejas 14	Ciudad Lineal	2.38	296872835
+434	Centro Sociocultural Ciudad Lineal	Calle del Poeta Blas de Otero 81	Ciudad Lineal	2.79	296872898
+435	Centro Sociocultural Siena	Calle de Siena 52	Ciudad Lineal	2.46	296872903
+436	Biblioteca Rafael Alberti	Calle de Sangenjo 38	Fuencarral-El Pardo	2.33	296872916
+437	Centro Cultural Alfredo Kraus	Glorieta de la Pradera de Vaquerizas 9	Fuencarral-El Pardo	2.16	296872922
+438	Centro Cultural La Vaguada + Biblioteca José Saramago	Avenida de Monforte de Lemos 38	Fuencarral-El Pardo	2.65	296872932
+439	Centro Sociocultural Alfonso XII (El Pardo)	Calle de Mira el Río 4	Fuencarral-El Pardo	2.47	296872995
+440	Centro Sociocultural Las Tablas	Avenida del Camino de Santiago 39	Fuencarral-El Pardo	2.54	296873021
+441	Centro Sociocultural Montecarmelo	Avenida del Santuario de Valverde 114	Fuencarral-El Pardo	2.73	296873038
+442	Centro Sociocultural Rafael de León	Calle de la Isla de Ons 14	Fuencarral-El Pardo	2.18	296873050
+443	Centro Sociocultural Valle Inclán	Calle del Arzobispo Morcillo 7	Fuencarral-El Pardo	2.39	296873060
+444	Centro Sociocultural Valverde	Plaza de las Islas Azores 1	Fuencarral-El Pardo	2.49	296873072
+445	Biblioteca Hortaleza	Calle de la Abertura 2	Hortaleza	2.24	296873076
+446	Centro Cultural Alfonso Ussía-Valdebebas	Calle de Jordi Solé Tura 34	Hortaleza	2.28	296873083
+447	Centro Cultural Carril del Conde	Calle del Carril del Conde 57	Hortaleza	2.31	296873142
+448	Centro Cultural Federico Chueca	Calle de Benita Ávila 23	Hortaleza	2.45	296873147
+449	Centro Cultural Hortaleza	Calle de Santa Virgilia 15	Hortaleza	2.13	296873162
+450	Centro Cultural Huerta de la Salud + Biblioteca Huerta de la Salud	Calle del Mar de las Antillas 8	Hortaleza	2.82	296873185
+451	Centro Cultural Sanchinarro-Hispanidad + Biblioteca María Lejárraga	Calle de la Princesa de Éboli 29	Hortaleza	2.7	296873191
+452	Centro Integrado Santiago Apóstol	Calle de Carrión de los Condes 73	Hortaleza	2.34	296873204
+453	Auditorio Paco de Lucía	Avenida de Las Águilas 2	Latina	2.55	296873211
+454	Biblioteca Antonio Mingote	Calle de Rafael Finat 51	Latina	2.87	296873233
+455	Biblioteca Ángel González	Calle de la Granja de Torrehermosa 1	Latina	2.5	296873342
+456	Centro Cultural Fernando de los Ríos + Biblioteca Aluche	Calle de Camarena 10	Latina	2.48	296873351
+457	Centro Cultural José Luis Sampedro	Calle de Castroserna 4	Latina	2.43	296873357
+458	Centro Cultural Miguel Hernández	Calle de Serradilla 13	Latina	2.24	296873368
+459	Centro Cultural Sara Montiel	Carretera de Boadilla del Monte 40	Latina	2.15	296873391
+460	Centro Sociocultural Almirante Churruca	Calle de la Fuente del Tiro 72	Latina	2.32	296873401
+461	Centro Sociocultural El Greco	Calle del Greco 29	Latina	2.54	296873466
+462	Centro Sociocultural Latina	Calle de Rodrigo de Arana 50	Latina	2.16	296873471
+463	Centro Sociocultural Rosario de Acuña	Calle de María del Carmen 65	Latina	2.74	296873634
+464	Biblioteca José Acuña	Calle de Quintana 9	Moncloa-Aravaca	2.23	296873641
+465	Centro Cultural Agustín Díaz	Paseo del Comandante Fortea 42	Moncloa-Aravaca	2.65	296873653
+466	Centro Cultural El Plantío	Calle de José Lombana Iglesias 4	Moncloa-Aravaca	2.59	296873672
+467	Centro Cultural Juan Genovés	Travesía del Caño 5	Moncloa-Aravaca	2.16	296873688
+468	Centro Cultural Juan Gris	Calle de Francos Rodríguez 100	Moncloa-Aravaca	2.36	296873698
+469	Centro Cultural Julio Cortázar	Calle de Antonio Machado 20	Moncloa-Aravaca	2.26	296873704
+470	Biblioteca Javier Marías	Calle del Corregidor Alonso de Tobar 5	Moratalaz	2.47	296873730
+471	Centro Cultural El Torito	Avenida de Moratalaz 130	Moratalaz	2.44	296873774
+472	Centro Sociocultural Eduardo Chillida + Biblioteca Miguel Delibes	Calle del Arroyo Belincoso 9	Moratalaz	2.85	296873797
+473	Centro Sociocultural Juvenil de Moratalaz	Calle de la Fuente Carrantona 10	Moratalaz	2.3	296873803
+474	Biblioteca Miguel Hernández	Avenida de Rafael Alberti 36	Puente de Vallecas	2.35	296873837
+475	Biblioteca Portazgo	Calle de Cantalapiedra 11	Puente de Vallecas	2.19	296873869
+476	Biblioteca Vallecas	Calle del Puerto del Monasterio 1	Puente de Vallecas	2.74	296873875
+477	Centro Cultural El Pozo del Tío Raimundo + Biblioteca Pozo del Tío Raimundo	Avenida de las Glorietas 19	Puente de Vallecas	2.43	296873882
+478	Centro Cultural Lope de Vega	Calle del Concejo de Teverga 1	Puente de Vallecas	2.13	296873902
+479	Centro Cultural Paco Rabal + Biblioteca Paco Rabal	Calle de Felipe de Diego 13	Puente de Vallecas	2.15	296873932
+480	Centro Intergeneracional Río Esmeralda	Calle de Río Esmeralda 15	Puente de Vallecas	2.18	296873942
+481	Centro Sociocultural Alberto Sánchez	Calle del Risco de Peloche 14	Puente de Vallecas	2.52	296874049
+482	Centro Sociocultural Aula de Aire Libre y Talleres de Creatividad	Calle de la Sierra Carbonera 74	Puente de Vallecas	2.8	296874059
+483	Biblioteca Elena Fortún	Calle del Doctor Esquerdo 189	Retiro	2.12	296874072
+484	Biblioteca Eugenio Trías	Paseo de Fernán Núñez 24	Retiro	2.58	296874078
+485	Centro Cultural Las Californias	Calle de Luis Peidro 2	Retiro	2.32	296874094
+486	Centro Cultural Mercado de Ibiza	Calle de Ibiza 8	Retiro	2.12	296874126
+487	Centro Sociocultural Clara Campoamor	Plaza de Daoíz y Velarde 2	Retiro	2.73	296874149
+488	Centro Cultural Buenavista + Biblioteca David Gistau	Avenida de los Toreros 5	Salamanca	2.45	296874159
+489	Centro Cultural Emilia Pardo Bazán	Calle de Goya 1	Salamanca	2.67	296874174
+490	Centro Cultural Quinta del Berro-Rafael Altamira	Calle de Enrique D'Almonte 1	Salamanca	2.62	296874197
+491	Centro Sociocultural Maestro Alonso	Calle del Maestro Alonso 6	Salamanca	2.42	296874331
+492	Espacio Cultural Núñez de Balboa 40	Calle de Núñez de Balboa 40	Salamanca	2.23	296874338
+493	Biblioteca José Hierro	Calle de María Sevilla Diago 15	San Blas-Canillejas	2.25	296874356
+494	Centro Cultural Antonio Machado + Biblioteca San Blas	Calle de San Román del Valle 8	San Blas-Canillejas	2.49	296874362
+495	Centro Cultural Buero Vallejo + Biblioteca Canillejas	Calle de Boltaña 27	San Blas-Canillejas	2.4	296874367
+496	Centro Cultural Ciudad Pegaso	Avenida Séptima 11	San Blas-Canillejas	2.5	296874393
+497	Centro Cultural José Luis López Vázquez	Calle de Febrero 4	San Blas-Canillejas	2.16	296874410
+498	Centro Sociocultural Miguel de Cervantes	Calle de Aliaga 5	San Blas-Canillejas	2.7	296874466
+499	Espacio Abierto Quinta de los Molinos	Calle de Juan Ignacio Luca de Tena 20	San Blas-Canillejas	2.2	296874495
+500	Biblioteca Manuel Vázquez Montalbán	Calle de Francos Rodríguez 67	Tetuán	2.72	296874522
+501	Centro Cultural Eduardo Úrculo + Biblioteca María Zambrano	Plaza de Donoso 5	Tetuán	2.5	296874601
+502	Centro Sociocultural José de Espronceda	Calle de Almansa 9	Tetuán	2.37	296874631
+503	Centro Sociocultural Tetuán	Calle de Bravo Murillo 251	Tetuán	2.41	296874640
+504	Biblioteca San Fermín	Avenida de San Fermín 10	Usera	2.77	296874651
+505	Centro Cultural Meseta de Orcasitas	Plaza de la Asociación 1	Usera	2.18	296874668
+506	Centro Cultural Orcasur + Biblioteca Gabriel García Márquez	Plaza del Pueblo 2	Usera	2.44	296874674
+507	Centro Cultural Usera 1 + Biblioteca José Hierro	Avenida de Rafaela Ybarra 49	Usera	2.64	296874684
+508	Centro Cultural Usera 2	Calle de Felipe Castro 30	Usera	2.12	296874710
+509	Centro de Educación Ambiental y Cultural Maris Stella	Calle del Doctor Tolosa Latour 16	Usera	2.54	296874727
+510	Centro Sociocultural Cánovas del Castillo	Calle de Julio Aguirre 10	Usera	2.47	296874737
+511	Centro Sociocultural Juvenil de Usera	Calle de la Cuesta 4	Usera	2.25	296874861
+512	Centro Sociocultural San Fermín	Calle de la Estafeta 33	Usera	2.65	296874872
+513	Centro Cultural El Madroño + Biblioteca Vicálvaro	Calle de Villardondiego 36	Vicálvaro	2.48	296874904
+514	Centro Cultural Fuente de San Pedro-Valderrivas	Calle del Titanio 5	Vicálvaro	2.15	296874912
+515	Centro Cultural Valdebernardo + Biblioteca Francisco Ayala	Bulevar de Indalecio Prieto 21	Vicálvaro	2.12	296874935
+516	Centro Social Polivalente de Vicálvaro	Avenida Real 12	Vicálvaro	2.25	296874966
+517	Biblioteca Gerardo Diego	Calle de Monte Aya 12	Villa de Vallecas	2.56	296874977
+518	Centro Cultural Benjamín Palencia + Biblioteca Benjamín Palencia	Avenida de la Gavia 55	Villa de Vallecas	2.55	296874991
+519	Centro Cultural Pilar Miró + Biblioteca Luis Martín Santos	Plaza de Antonio María Segovia s/n	Villa de Vallecas	2.29	296875001
+520	Centro Cultural Zazuar	Calle de Zazuar 4	Villa de Vallecas	2.42	296875007
+521	Centro Sociocultural Francisco Fatou	Calle de Manuel Vélez 10	Villa de Vallecas	2.21	296875153
+522	Biblioteca María Moliner	Calle de Villalonso 16	Villaverde	2.3	296875172
+523	Centro Cultural Los Rosales	Avenida de los Rosales 133	Villaverde	2.4	296875178
+524	Centro Sociocultural Bohemios	Calle de los Bohemios 1	Villaverde	2.34	296875200
+525	Centro Sociocultural Marconi	Acceso Colonia Marconi 4	Villaverde	2.32	296875212
+526	Centro Sociocultural San Cristóbal de los Ángeles	Plaza de Pinazo 9	Villaverde	2.44	296875227
+527	Centro Sociocultural Santa Petronila	Calle de María Martínez Oviol 12	Villaverde	2.56	296875237
+528	Centro Sociocultural Ágata	Calle del Doctor Martín Arévalo 2	Villaverde	2.63	296875243
+529	Edificio Sociocultural Marta Escudero Díaz-Tejeiro + Biblioteca Francisco Umbral	Calle del Calcio 1	Villaverde	2.56	296875255

@@ -2,8 +2,8 @@
  "slug": "madrid",
  "name": "Madrid",
  "region": "Comunidad de Madrid",
- "summary": "128 rutas circulares y cortas, una desde cada centro de salud de la ciudad, organizadas por distrito.",
- "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Elige tu distrito o busca el centro de salud que te quede más cerca de casa, abre el mapa y camina.",
+ "summary": "464 rutas circulares y cortas en Madrid y su comunidad: desde centros de salud, centros culturales y bibliotecas, parques y jardines, y entidades de la economía social y solidaria.",
+ "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, busca el punto de salida que te quede más cerca de casa, abre el mapa y camina. Las rutas son una iniciativa de Caminos de Esperanza [Activa]: los centros, los equipamientos y las entidades solo marcan el inicio y el final, y no las organizan ni las recomiendan.",
  "zones": {
   "label": "Ve directamente a tu distrito",
   "placeholder": "Elige un distrito",
@@ -1783,6 +1783,3365 @@
          "info": "2,53 km · circular · 30–38 min caminando",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296712197",
          "address": "Calle de Benimamet 24, Madrid"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "course": "cuidar",
+   "text": "129 rutas circulares de 2,1 a 2,9 km, una desde cada centro cultural, centro sociocultural y biblioteca pública de Madrid. Si un centro cultural y una biblioteca comparten edificio, es una sola ruta. El equipamiento es solo el punto de referencia del recorrido.",
+   "summary": "129 rutas desde centros culturales y bibliotecas",
+   "zones": {
+    "label": "Ve directamente a tu zona",
+    "placeholder": "Elige una zona",
+    "back": "Cambia de zona"
+   },
+   "parts": [
+    {
+     "id": "rutas-cuidar",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "El equipamiento es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "cuidar-arganzuela-barajas",
+       "title": "Arganzuela-Barajas",
+       "maps": [
+        {
+         "mid": "1zLh8PaJ7ty8gi0sZwjUrYmxiRGWJ0M0",
+         "ll": "40.4300,-3.6400",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Arganzuela-Barajas",
+         "label": "Arganzuela-Barajas · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 401,
+         "name": "Biblioteca Pío Baroja",
+         "info": "2,31 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296871965",
+         "start": "Distrito de Arganzuela",
+         "address": "Calle de Arganda 12, Madrid"
+        },
+        {
+         "n": 402,
+         "name": "Centro Cultural Casa del Reloj",
+         "info": "2,39 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872063",
+         "start": "Distrito de Arganzuela",
+         "address": "Paseo de la Chopera 6, Madrid"
+        },
+        {
+         "n": 403,
+         "name": "Centro Dotacional Integrado Ángel del Río",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872019",
+         "start": "Distrito de Arganzuela",
+         "address": "Calle de Canarias 17, Madrid"
+        },
+        {
+         "n": 404,
+         "name": "Centro Cultural Gloria Fuertes + Biblioteca Gloria Fuertes",
+         "info": "2,39 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872143",
+         "start": "Distrito de Barajas",
+         "address": "Avenida de Logroño 179, Madrid"
+        },
+        {
+         "n": 405,
+         "name": "Centro Cultural y Sociocultural Villa de Barajas",
+         "info": "2,43 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872168",
+         "start": "Distrito de Barajas",
+         "address": "Calle de la Botica 7, Madrid"
+        },
+        {
+         "n": 406,
+         "name": "Centro Sociocultural Teresa de Calcuta",
+         "info": "2,33 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872226",
+         "start": "Distrito de Barajas",
+         "address": "Plaza del Navío 4, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-carabanchel",
+       "title": "Carabanchel",
+       "maps": [
+        {
+         "mid": "1nYWwd6Pd7dDF2Hkmuv-jlbsSveU6_pk",
+         "ll": "40.3780,-3.7370",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Carabanchel",
+         "label": "Carabanchel · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 407,
+         "name": "Biblioteca Ana María Matute",
+         "info": "2,29 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872343",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle Cortada 1, Madrid"
+        },
+        {
+         "n": 408,
+         "name": "Biblioteca La Chata",
+         "info": "2,28 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872351",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle del General Ricardos 252, Madrid"
+        },
+        {
+         "n": 409,
+         "name": "Biblioteca Luis Rosales",
+         "info": "2,89 km · circular · 35–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872375",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de Antonia Rodríguez Sacristán 7, Madrid"
+        },
+        {
+         "n": 410,
+         "name": "Biblioteca Victoria Prego",
+         "info": "2,56 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872384",
+         "start": "Distrito de Carabanchel",
+         "address": "Avenida de Carabanchel Alto 53, Madrid"
+        },
+        {
+         "n": 411,
+         "name": "Centro Cultural Fernando Lázaro Carreter",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872454",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de la Verdad 29, Madrid"
+        },
+        {
+         "n": 412,
+         "name": "Centro Cultural San Francisco La Prensa",
+         "info": "2,63 km · circular · 32–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872466",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de la Aliseda 4, Madrid"
+        },
+        {
+         "n": 413,
+         "name": "Centro Sociocultural Blasco Ibáñez",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872474",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle del Soldado José María Rey 44, Madrid"
+        },
+        {
+         "n": 414,
+         "name": "Centro Sociocultural García Lorca",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872480",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de Eugenia de Montijo 105, Madrid"
+        },
+        {
+         "n": 415,
+         "name": "Centro Sociocultural Oporto",
+         "info": "2,35 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872501",
+         "start": "Distrito de Carabanchel",
+         "address": "Avenida de Oporto 78, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-centro",
+       "title": "Centro",
+       "maps": [
+        {
+         "mid": "1w-y-XtHL7J2vrsStsom3xEbodkFzxkc",
+         "ll": "40.4150,-3.7060",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro",
+         "label": "Centro · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 416,
+         "name": "Biblioteca Benito Pérez Galdós",
+         "info": "2,63 km · circular · 32–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872535",
+         "start": "Distrito de Centro",
+         "address": "Calle del Conde Duque 9, Madrid"
+        },
+        {
+         "n": 417,
+         "name": "Biblioteca Iván de Vargas",
+         "info": "2,23 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872549",
+         "start": "Distrito de Centro",
+         "address": "Calle de San Justo 5, Madrid"
+        },
+        {
+         "n": 418,
+         "name": "Biblioteca Mario Vargas Llosa",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872556",
+         "start": "Distrito de Centro",
+         "address": "Calle de Barceló 4, Madrid"
+        },
+        {
+         "n": 419,
+         "name": "Centro Cultural Clara del Rey",
+         "info": "2,30 km · circular · 28–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872561",
+         "start": "Distrito de Centro",
+         "address": "Calle de Amaniel 29, Madrid"
+        },
+        {
+         "n": 420,
+         "name": "Centro Cultural Lavapiés",
+         "info": "2,80 km · circular · 34–42 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872574",
+         "start": "Distrito de Centro",
+         "address": "Calle del Olivar 46, Madrid"
+        },
+        {
+         "n": 421,
+         "name": "Centro Cultural Puerta de Toledo + Biblioteca Pedro Salinas",
+         "info": "2,72 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872582",
+         "start": "Distrito de Centro",
+         "address": "Glorieta de la Puerta de Toledo 1, Madrid"
+        },
+        {
+         "n": 422,
+         "name": "Espacio Cultural Serrería Belga",
+         "info": "2,63 km · circular · 32–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872585",
+         "start": "Distrito de Centro",
+         "address": "Calle de la Alameda 15, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-chamartin-chamberi",
+       "title": "Chamartín-Chamberí",
+       "maps": [
+        {
+         "mid": "1VB4Ro05GaL_n7G3XULtQDyom6dRh-wQ",
+         "ll": "40.4500,-3.6900",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamartín-Chamberí",
+         "label": "Chamartín-Chamberí · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 423,
+         "name": "Biblioteca Dámaso Alonso",
+         "info": "2,85 km · circular · 34–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872628",
+         "start": "Distrito de Chamartín",
+         "address": "Calle de Manuel Ferrero 1, Madrid"
+        },
+        {
+         "n": 424,
+         "name": "Centro Cultural Nicolás Salmerón + Biblioteca Francisco Ibáñez",
+         "info": "2,89 km · circular · 35–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872642",
+         "start": "Distrito de Chamartín",
+         "address": "Calle del Mantuano 51, Madrid"
+        },
+        {
+         "n": 425,
+         "name": "Centro Sociocultural Luis Gonzaga",
+         "info": "2,89 km · circular · 35–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872656",
+         "start": "Distrito de Chamartín",
+         "address": "Calle del Príncipe de Vergara 142, Madrid"
+        },
+        {
+         "n": 426,
+         "name": "Espacio Cultural Antonio López",
+         "info": "2,71 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872672",
+         "start": "Distrito de Chamartín",
+         "address": "Calle de la Pastora Imperio 4, Madrid"
+        },
+        {
+         "n": 427,
+         "name": "Biblioteca José Luis Sampedro",
+         "info": "2,45 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872687",
+         "start": "Distrito de Chamberí",
+         "address": "Calle de Felipe el Hermoso 4, Madrid"
+        },
+        {
+         "n": 428,
+         "name": "Biblioteca Ruiz Egea",
+         "info": "2,66 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872710",
+         "start": "Distrito de Chamberí",
+         "address": "Calle de Raimundo Fernández Villaverde 6, Madrid"
+        },
+        {
+         "n": 429,
+         "name": "Centro Cultural Galileo",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872720",
+         "start": "Distrito de Chamberí",
+         "address": "Calle de Galileo 39, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-ciudad-lineal",
+       "title": "Ciudad Lineal",
+       "maps": [
+        {
+         "mid": "1H72qOL1unRe1Uv5kqjwZ41LpDVxtCFM",
+         "ll": "40.4500,-3.6500",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Ciudad Lineal",
+         "label": "Ciudad Lineal · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 430,
+         "name": "Biblioteca La Elipa",
+         "info": "2,51 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872730",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de Nuestra Señora del Villar 6, Madrid"
+        },
+        {
+         "n": 431,
+         "name": "Biblioteca Pablo Neruda",
+         "info": "2,87 km · circular · 34–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872790",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de Ascao 4, Madrid"
+        },
+        {
+         "n": 432,
+         "name": "Centro Cultural La Elipa",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872817",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de Santa Felicidad 39, Madrid"
+        },
+        {
+         "n": 433,
+         "name": "Centro Cultural Príncipe de Asturias + Biblioteca Ciudad Lineal",
+         "info": "2,38 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872835",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de los Hermanos García Noblejas 14, Madrid"
+        },
+        {
+         "n": 434,
+         "name": "Centro Sociocultural Ciudad Lineal",
+         "info": "2,79 km · circular · 33–42 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872898",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle del Poeta Blas de Otero 81, Madrid"
+        },
+        {
+         "n": 435,
+         "name": "Centro Sociocultural Siena",
+         "info": "2,46 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872903",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de Siena 52, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-fuencarral-el-pardo",
+       "title": "Fuencarral-El Pardo",
+       "maps": [
+        {
+         "mid": "1MRfZXB8-da_tJ9ruxFj9LB3rd6VY7h0",
+         "ll": "40.5000,-3.7100",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Fuencarral-El Pardo",
+         "label": "Fuencarral-El Pardo · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 436,
+         "name": "Biblioteca Rafael Alberti",
+         "info": "2,33 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872916",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle de Sangenjo 38, Madrid"
+        },
+        {
+         "n": 437,
+         "name": "Centro Cultural Alfredo Kraus",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872922",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Glorieta de la Pradera de Vaquerizas 9, Madrid"
+        },
+        {
+         "n": 438,
+         "name": "Centro Cultural La Vaguada + Biblioteca José Saramago",
+         "info": "2,65 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872932",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Avenida de Monforte de Lemos 38, Madrid"
+        },
+        {
+         "n": 439,
+         "name": "Centro Sociocultural Alfonso XII (El Pardo)",
+         "info": "2,47 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296872995",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle de Mira el Río 4, Madrid"
+        },
+        {
+         "n": 440,
+         "name": "Centro Sociocultural Las Tablas",
+         "info": "2,54 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873021",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Avenida del Camino de Santiago 39, Madrid"
+        },
+        {
+         "n": 441,
+         "name": "Centro Sociocultural Montecarmelo",
+         "info": "2,73 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873038",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Avenida del Santuario de Valverde 114, Madrid"
+        },
+        {
+         "n": 442,
+         "name": "Centro Sociocultural Rafael de León",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873050",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle de la Isla de Ons 14, Madrid"
+        },
+        {
+         "n": 443,
+         "name": "Centro Sociocultural Valle Inclán",
+         "info": "2,39 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873060",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle del Arzobispo Morcillo 7, Madrid"
+        },
+        {
+         "n": 444,
+         "name": "Centro Sociocultural Valverde",
+         "info": "2,49 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873072",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Plaza de las Islas Azores 1, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-hortaleza",
+       "title": "Hortaleza",
+       "maps": [
+        {
+         "mid": "1t5-noS4d02la0KY61-byQqsgPwEyn58",
+         "ll": "40.4720,-3.6400",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Hortaleza",
+         "label": "Hortaleza · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 445,
+         "name": "Biblioteca Hortaleza",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873076",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de la Abertura 2, Madrid"
+        },
+        {
+         "n": 446,
+         "name": "Centro Cultural Alfonso Ussía-Valdebebas",
+         "info": "2,28 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873083",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de Jordi Solé Tura 34, Madrid"
+        },
+        {
+         "n": 447,
+         "name": "Centro Cultural Carril del Conde",
+         "info": "2,31 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873142",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle del Carril del Conde 57, Madrid"
+        },
+        {
+         "n": 448,
+         "name": "Centro Cultural Federico Chueca",
+         "info": "2,45 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873147",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de Benita Ávila 23, Madrid"
+        },
+        {
+         "n": 449,
+         "name": "Centro Cultural Hortaleza",
+         "info": "2,13 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873162",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de Santa Virgilia 15, Madrid"
+        },
+        {
+         "n": 450,
+         "name": "Centro Cultural Huerta de la Salud + Biblioteca Huerta de la Salud",
+         "info": "2,82 km · circular · 34–42 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873185",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle del Mar de las Antillas 8, Madrid"
+        },
+        {
+         "n": 451,
+         "name": "Centro Cultural Sanchinarro-Hispanidad + Biblioteca María Lejárraga",
+         "info": "2,70 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873191",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de la Princesa de Éboli 29, Madrid"
+        },
+        {
+         "n": 452,
+         "name": "Centro Integrado Santiago Apóstol",
+         "info": "2,34 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873204",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de Carrión de los Condes 73, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-latina-1",
+       "title": "Latina (1/2)",
+       "maps": [
+        {
+         "mid": "1QtqgkAaaZ8TJgBD7xDgownmFc4Wz1ow",
+         "ll": "40.3900,-3.7500",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Latina (1/2)",
+         "label": "Latina (1/2) · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 453,
+         "name": "Auditorio Paco de Lucía",
+         "info": "2,55 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873211",
+         "start": "Distrito de Latina",
+         "address": "Avenida de Las Águilas 2, Madrid"
+        },
+        {
+         "n": 454,
+         "name": "Biblioteca Antonio Mingote",
+         "info": "2,87 km · circular · 34–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873233",
+         "start": "Distrito de Latina",
+         "address": "Calle de Rafael Finat 51, Madrid"
+        },
+        {
+         "n": 455,
+         "name": "Biblioteca Ángel González",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873342",
+         "start": "Distrito de Latina",
+         "address": "Calle de la Granja de Torrehermosa 1, Madrid"
+        },
+        {
+         "n": 456,
+         "name": "Centro Cultural Fernando de los Ríos + Biblioteca Aluche",
+         "info": "2,48 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873351",
+         "start": "Distrito de Latina",
+         "address": "Calle de Camarena 10, Madrid"
+        },
+        {
+         "n": 457,
+         "name": "Centro Cultural José Luis Sampedro",
+         "info": "2,43 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873357",
+         "start": "Distrito de Latina",
+         "address": "Calle de Castroserna 4, Madrid"
+        },
+        {
+         "n": 458,
+         "name": "Centro Cultural Miguel Hernández",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873368",
+         "start": "Distrito de Latina",
+         "address": "Calle de Serradilla 13, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-latina-2",
+       "title": "Latina (2/2)",
+       "maps": [
+        {
+         "mid": "1ccJiufW_gTV-Cc5yTj_t6Id0qjhZLTE",
+         "ll": "40.3900,-3.7600",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Latina (2/2)",
+         "label": "Latina (2/2) · 5 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 459,
+         "name": "Centro Cultural Sara Montiel",
+         "info": "2,15 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873391",
+         "start": "Distrito de Latina",
+         "address": "Carretera de Boadilla del Monte 40, Madrid"
+        },
+        {
+         "n": 460,
+         "name": "Centro Sociocultural Almirante Churruca",
+         "info": "2,32 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873401",
+         "start": "Distrito de Latina",
+         "address": "Calle de la Fuente del Tiro 72, Madrid"
+        },
+        {
+         "n": 461,
+         "name": "Centro Sociocultural El Greco",
+         "info": "2,54 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873466",
+         "start": "Distrito de Latina",
+         "address": "Calle del Greco 29, Madrid"
+        },
+        {
+         "n": 462,
+         "name": "Centro Sociocultural Latina",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873471",
+         "start": "Distrito de Latina",
+         "address": "Calle de Rodrigo de Arana 50, Madrid"
+        },
+        {
+         "n": 463,
+         "name": "Centro Sociocultural Rosario de Acuña",
+         "info": "2,74 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873634",
+         "start": "Distrito de Latina",
+         "address": "Calle de María del Carmen 65, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-moncloa-aravaca-moratalaz",
+       "title": "Moncloa-Aravaca-Moratalaz",
+       "maps": [
+        {
+         "mid": "1AyEk0j5ZqmuUDK32EHFar5ighzPoRcg",
+         "ll": "40.4350,-3.7000",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Moncloa-Aravaca-Moratalaz",
+         "label": "Moncloa-Aravaca-Moratalaz · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 464,
+         "name": "Biblioteca José Acuña",
+         "info": "2,23 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873641",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Calle de Quintana 9, Madrid"
+        },
+        {
+         "n": 465,
+         "name": "Centro Cultural Agustín Díaz",
+         "info": "2,65 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873653",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Paseo del Comandante Fortea 42, Madrid"
+        },
+        {
+         "n": 466,
+         "name": "Centro Cultural El Plantío",
+         "info": "2,59 km · circular · 31–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873672",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Calle de José Lombana Iglesias 4, Madrid"
+        },
+        {
+         "n": 467,
+         "name": "Centro Cultural Juan Genovés",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873688",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Travesía del Caño 5, Madrid"
+        },
+        {
+         "n": 468,
+         "name": "Centro Cultural Juan Gris",
+         "info": "2,36 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873698",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Calle de Francos Rodríguez 100, Madrid"
+        },
+        {
+         "n": 469,
+         "name": "Centro Cultural Julio Cortázar",
+         "info": "2,26 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873704",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Calle de Antonio Machado 20, Madrid"
+        },
+        {
+         "n": 470,
+         "name": "Biblioteca Javier Marías",
+         "info": "2,47 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873730",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle del Corregidor Alonso de Tobar 5, Madrid"
+        },
+        {
+         "n": 471,
+         "name": "Centro Cultural El Torito",
+         "info": "2,44 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873774",
+         "start": "Distrito de Moratalaz",
+         "address": "Avenida de Moratalaz 130, Madrid"
+        },
+        {
+         "n": 472,
+         "name": "Centro Sociocultural Eduardo Chillida + Biblioteca Miguel Delibes",
+         "info": "2,85 km · circular · 34–43 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873797",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle del Arroyo Belincoso 9, Madrid"
+        },
+        {
+         "n": 473,
+         "name": "Centro Sociocultural Juvenil de Moratalaz",
+         "info": "2,30 km · circular · 28–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873803",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle de la Fuente Carrantona 10, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-puente-de-vallecas",
+       "title": "Puente de Vallecas",
+       "maps": [
+        {
+         "mid": "1U-9xEOrs1MktUw4PlmC85YBNgKf7AQo",
+         "ll": "40.3850,-3.6600",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Puente de Vallecas",
+         "label": "Puente de Vallecas · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 474,
+         "name": "Biblioteca Miguel Hernández",
+         "info": "2,35 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873837",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Avenida de Rafael Alberti 36, Madrid"
+        },
+        {
+         "n": 475,
+         "name": "Biblioteca Portazgo",
+         "info": "2,19 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873869",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle de Cantalapiedra 11, Madrid"
+        },
+        {
+         "n": 476,
+         "name": "Biblioteca Vallecas",
+         "info": "2,74 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873875",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle del Puerto del Monasterio 1, Madrid"
+        },
+        {
+         "n": 477,
+         "name": "Centro Cultural El Pozo del Tío Raimundo + Biblioteca Pozo del Tío Raimundo",
+         "info": "2,43 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873882",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Avenida de las Glorietas 19, Madrid"
+        },
+        {
+         "n": 478,
+         "name": "Centro Cultural Lope de Vega",
+         "info": "2,13 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873902",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle del Concejo de Teverga 1, Madrid"
+        },
+        {
+         "n": 479,
+         "name": "Centro Cultural Paco Rabal + Biblioteca Paco Rabal",
+         "info": "2,15 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873932",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle de Felipe de Diego 13, Madrid"
+        },
+        {
+         "n": 480,
+         "name": "Centro Intergeneracional Río Esmeralda",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296873942",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle de Río Esmeralda 15, Madrid"
+        },
+        {
+         "n": 481,
+         "name": "Centro Sociocultural Alberto Sánchez",
+         "info": "2,52 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874049",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle del Risco de Peloche 14, Madrid"
+        },
+        {
+         "n": 482,
+         "name": "Centro Sociocultural Aula de Aire Libre y Talleres de Creatividad",
+         "info": "2,80 km · circular · 34–42 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874059",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle de la Sierra Carbonera 74, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-retiro-salamanca",
+       "title": "Retiro-Salamanca",
+       "maps": [
+        {
+         "mid": "1YEi87JSBrt6YH200PuUx07SBQzgM56s",
+         "ll": "40.4200,-3.6750",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Retiro-Salamanca",
+         "label": "Retiro-Salamanca · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 483,
+         "name": "Biblioteca Elena Fortún",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874072",
+         "start": "Distrito de Retiro",
+         "address": "Calle del Doctor Esquerdo 189, Madrid"
+        },
+        {
+         "n": 484,
+         "name": "Biblioteca Eugenio Trías",
+         "info": "2,58 km · circular · 31–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874078",
+         "start": "Distrito de Retiro",
+         "address": "Paseo de Fernán Núñez 24, Madrid"
+        },
+        {
+         "n": 485,
+         "name": "Centro Cultural Las Californias",
+         "info": "2,32 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874094",
+         "start": "Distrito de Retiro",
+         "address": "Calle de Luis Peidro 2, Madrid"
+        },
+        {
+         "n": 486,
+         "name": "Centro Cultural Mercado de Ibiza",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874126",
+         "start": "Distrito de Retiro",
+         "address": "Calle de Ibiza 8, Madrid"
+        },
+        {
+         "n": 487,
+         "name": "Centro Sociocultural Clara Campoamor",
+         "info": "2,73 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874149",
+         "start": "Distrito de Retiro",
+         "address": "Plaza de Daoíz y Velarde 2, Madrid"
+        },
+        {
+         "n": 488,
+         "name": "Centro Cultural Buenavista + Biblioteca David Gistau",
+         "info": "2,45 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874159",
+         "start": "Distrito de Salamanca",
+         "address": "Avenida de los Toreros 5, Madrid"
+        },
+        {
+         "n": 489,
+         "name": "Centro Cultural Emilia Pardo Bazán",
+         "info": "2,67 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874174",
+         "start": "Distrito de Salamanca",
+         "address": "Calle de Goya 1, Madrid"
+        },
+        {
+         "n": 490,
+         "name": "Centro Cultural Quinta del Berro-Rafael Altamira",
+         "info": "2,62 km · circular · 31–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874197",
+         "start": "Distrito de Salamanca",
+         "address": "Calle de Enrique D'Almonte 1, Madrid"
+        },
+        {
+         "n": 491,
+         "name": "Centro Sociocultural Maestro Alonso",
+         "info": "2,42 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874331",
+         "start": "Distrito de Salamanca",
+         "address": "Calle del Maestro Alonso 6, Madrid"
+        },
+        {
+         "n": 492,
+         "name": "Espacio Cultural Núñez de Balboa 40",
+         "info": "2,23 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874338",
+         "start": "Distrito de Salamanca",
+         "address": "Calle de Núñez de Balboa 40, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-san-blas-canillejas",
+       "title": "San Blas-Canillejas",
+       "maps": [
+        {
+         "mid": "18j8M85D9reOBDtPvi-nY7CK3gehK2aI",
+         "ll": "40.4350,-3.6150",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · San Blas-Canillejas",
+         "label": "San Blas-Canillejas · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 493,
+         "name": "Biblioteca José Hierro",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874356",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de María Sevilla Diago 15, Madrid"
+        },
+        {
+         "n": 494,
+         "name": "Centro Cultural Antonio Machado + Biblioteca San Blas",
+         "info": "2,49 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874362",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de San Román del Valle 8, Madrid"
+        },
+        {
+         "n": 495,
+         "name": "Centro Cultural Buero Vallejo + Biblioteca Canillejas",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874367",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Boltaña 27, Madrid"
+        },
+        {
+         "n": 496,
+         "name": "Centro Cultural Ciudad Pegaso",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874393",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Avenida Séptima 11, Madrid"
+        },
+        {
+         "n": 497,
+         "name": "Centro Cultural José Luis López Vázquez",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874410",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Febrero 4, Madrid"
+        },
+        {
+         "n": 498,
+         "name": "Centro Sociocultural Miguel de Cervantes",
+         "info": "2,70 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874466",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Aliaga 5, Madrid"
+        },
+        {
+         "n": 499,
+         "name": "Espacio Abierto Quinta de los Molinos",
+         "info": "2,20 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874495",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Juan Ignacio Luca de Tena 20, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-tetuan-usera-1",
+       "title": "Tetuán-Usera (1/2)",
+       "maps": [
+        {
+         "mid": "1CpA4G1TMV4tWDOTfXTCMi_qr8VFMCnE",
+         "ll": "40.4200,-3.7000",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Tetuán-Usera (1/2)",
+         "label": "Tetuán-Usera (1/2) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 500,
+         "name": "Biblioteca Manuel Vázquez Montalbán",
+         "info": "2,72 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874522",
+         "start": "Distrito de Tetuán",
+         "address": "Calle de Francos Rodríguez 67, Madrid"
+        },
+        {
+         "n": 501,
+         "name": "Centro Cultural Eduardo Úrculo + Biblioteca María Zambrano",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874601",
+         "start": "Distrito de Tetuán",
+         "address": "Plaza de Donoso 5, Madrid"
+        },
+        {
+         "n": 502,
+         "name": "Centro Sociocultural José de Espronceda",
+         "info": "2,37 km · circular · 28–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874631",
+         "start": "Distrito de Tetuán",
+         "address": "Calle de Almansa 9, Madrid"
+        },
+        {
+         "n": 503,
+         "name": "Centro Sociocultural Tetuán",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874640",
+         "start": "Distrito de Tetuán",
+         "address": "Calle de Bravo Murillo 251, Madrid"
+        },
+        {
+         "n": 504,
+         "name": "Biblioteca San Fermín",
+         "info": "2,77 km · circular · 33–42 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874651",
+         "start": "Distrito de Usera",
+         "address": "Avenida de San Fermín 10, Madrid"
+        },
+        {
+         "n": 505,
+         "name": "Centro Cultural Meseta de Orcasitas",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874668",
+         "start": "Distrito de Usera",
+         "address": "Plaza de la Asociación 1, Madrid"
+        },
+        {
+         "n": 506,
+         "name": "Centro Cultural Orcasur + Biblioteca Gabriel García Márquez",
+         "info": "2,44 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874674",
+         "start": "Distrito de Usera",
+         "address": "Plaza del Pueblo 2, Madrid"
+        },
+        {
+         "n": 507,
+         "name": "Centro Cultural Usera 1 + Biblioteca José Hierro",
+         "info": "2,64 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874684",
+         "start": "Distrito de Usera",
+         "address": "Avenida de Rafaela Ybarra 49, Madrid"
+        },
+        {
+         "n": 508,
+         "name": "Centro Cultural Usera 2",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874710",
+         "start": "Distrito de Usera",
+         "address": "Calle de Felipe Castro 30, Madrid"
+        },
+        {
+         "n": 509,
+         "name": "Centro de Educación Ambiental y Cultural Maris Stella",
+         "info": "2,54 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874727",
+         "start": "Distrito de Usera",
+         "address": "Calle del Doctor Tolosa Latour 16, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-usera-vicalvaro-2",
+       "title": "Usera-Vicálvaro (2/2)",
+       "maps": [
+        {
+         "mid": "1sZ4yqRwALXIpN7v6SBFgK986SNDpeCM",
+         "ll": "40.4000,-3.6200",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Usera-Vicálvaro (2/2)",
+         "label": "Usera-Vicálvaro (2/2) · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 510,
+         "name": "Centro Sociocultural Cánovas del Castillo",
+         "info": "2,47 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874737",
+         "start": "Distrito de Usera",
+         "address": "Calle de Julio Aguirre 10, Madrid"
+        },
+        {
+         "n": 511,
+         "name": "Centro Sociocultural Juvenil de Usera",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874861",
+         "start": "Distrito de Usera",
+         "address": "Calle de la Cuesta 4, Madrid"
+        },
+        {
+         "n": 512,
+         "name": "Centro Sociocultural San Fermín",
+         "info": "2,65 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874872",
+         "start": "Distrito de Usera",
+         "address": "Calle de la Estafeta 33, Madrid"
+        },
+        {
+         "n": 513,
+         "name": "Centro Cultural El Madroño + Biblioteca Vicálvaro",
+         "info": "2,48 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874904",
+         "start": "Distrito de Vicálvaro",
+         "address": "Calle de Villardondiego 36, Madrid"
+        },
+        {
+         "n": 514,
+         "name": "Centro Cultural Fuente de San Pedro-Valderrivas",
+         "info": "2,15 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874912",
+         "start": "Distrito de Vicálvaro",
+         "address": "Calle del Titanio 5, Madrid"
+        },
+        {
+         "n": 515,
+         "name": "Centro Cultural Valdebernardo + Biblioteca Francisco Ayala",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874935",
+         "start": "Distrito de Vicálvaro",
+         "address": "Bulevar de Indalecio Prieto 21, Madrid"
+        },
+        {
+         "n": 516,
+         "name": "Centro Social Polivalente de Vicálvaro",
+         "info": "2,25 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874966",
+         "start": "Distrito de Vicálvaro",
+         "address": "Avenida Real 12, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-villa-de-vallecas-villaverde-1",
+       "title": "Villa de Vallecas-Villaverde (1/2)",
+       "maps": [
+        {
+         "mid": "1FEWsbE3lnOQ7XWAzfo4U2W_vCDrfpnM",
+         "ll": "40.3600,-3.6500",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Villa de Vallecas-Villaverde (1/2)",
+         "label": "Villa de Vallecas-Villaverde (1/2) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 517,
+         "name": "Biblioteca Gerardo Diego",
+         "info": "2,56 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874977",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Calle de Monte Aya 12, Madrid"
+        },
+        {
+         "n": 518,
+         "name": "Centro Cultural Benjamín Palencia + Biblioteca Benjamín Palencia",
+         "info": "2,55 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296874991",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Avenida de la Gavia 55, Madrid"
+        },
+        {
+         "n": 519,
+         "name": "Centro Cultural Pilar Miró + Biblioteca Luis Martín Santos",
+         "info": "2,29 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875001",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Plaza de Antonio María Segovia s/n, Madrid"
+        },
+        {
+         "n": 520,
+         "name": "Centro Cultural Zazuar",
+         "info": "2,42 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875007",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Calle de Zazuar 4, Madrid"
+        },
+        {
+         "n": 521,
+         "name": "Centro Sociocultural Francisco Fatou",
+         "info": "2,21 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875153",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Calle de Manuel Vélez 10, Madrid"
+        },
+        {
+         "n": 522,
+         "name": "Biblioteca María Moliner",
+         "info": "2,30 km · circular · 28–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875172",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de Villalonso 16, Madrid"
+        },
+        {
+         "n": 523,
+         "name": "Centro Cultural Los Rosales",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875178",
+         "start": "Distrito de Villaverde",
+         "address": "Avenida de los Rosales 133, Madrid"
+        },
+        {
+         "n": 524,
+         "name": "Centro Sociocultural Bohemios",
+         "info": "2,34 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875200",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de los Bohemios 1, Madrid"
+        },
+        {
+         "n": 525,
+         "name": "Centro Sociocultural Marconi",
+         "info": "2,32 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875212",
+         "start": "Distrito de Villaverde",
+         "address": "Acceso Colonia Marconi 4, Madrid"
+        },
+        {
+         "n": 526,
+         "name": "Centro Sociocultural San Cristóbal de los Ángeles",
+         "info": "2,44 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875227",
+         "start": "Distrito de Villaverde",
+         "address": "Plaza de Pinazo 9, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "cuidar-villaverde-2",
+       "title": "Villaverde (2/2)",
+       "maps": [
+        {
+         "mid": "1I0jnJQdhmEaSAy0u7pHPvGXb0Tr1Jew",
+         "ll": "40.3500,-3.7050",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Villaverde (2/2)",
+         "label": "Villaverde (2/2) · 3 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 527,
+         "name": "Centro Sociocultural Santa Petronila",
+         "info": "2,56 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875237",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de María Martínez Oviol 12, Madrid"
+        },
+        {
+         "n": 528,
+         "name": "Centro Sociocultural Ágata",
+         "info": "2,63 km · circular · 32–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875243",
+         "start": "Distrito de Villaverde",
+         "address": "Calle del Doctor Martín Arévalo 2, Madrid"
+        },
+        {
+         "n": 529,
+         "name": "Edificio Sociocultural Marta Escudero Díaz-Tejeiro + Biblioteca Francisco Umbral",
+         "info": "2,56 km · circular · 31–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296875255",
+         "start": "Distrito de Villaverde",
+         "address": "Calle del Calcio 1, Madrid"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "course": "mon",
+   "text": "89 rutas circulares de 1,6 a 3 km, desde parques, jardines y plazas de los distritos de Madrid.",
+   "summary": "89 rutas desde parques y jardines",
+   "zones": {
+    "label": "Ve directamente a tu zona",
+    "placeholder": "Elige una zona",
+    "back": "Cambia de zona"
+   },
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "El parque o el jardín es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "mon-centro-arganzuela",
+       "title": "Centro-Arganzuela",
+       "maps": [
+        {
+         "mid": "1Of8V3cOtlXz02UsLcRXOW9mhx_L9kMg",
+         "ll": "40.4050,-3.7000",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro-Arganzuela",
+         "label": "Centro-Arganzuela · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 600,
+         "name": "Parque de Atenas",
+         "info": "1,93 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296944753",
+         "start": "Distrito de Centro",
+         "address": "Calle de Segovia 28, Madrid"
+        },
+        {
+         "n": 601,
+         "name": "Parque de la Cornisa",
+         "info": "1,70 km · circular · 20–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945041",
+         "start": "Distrito de Centro"
+        },
+        {
+         "n": 602,
+         "name": "Jardines de las Vistillas",
+         "info": "2,06 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945076",
+         "start": "Distrito de Centro",
+         "address": "Calle de la Morería 12, Madrid"
+        },
+        {
+         "n": 603,
+         "name": "Jardines de Sabatini",
+         "info": "2,09 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945137",
+         "start": "Distrito de Centro",
+         "address": "Calle de Bailén 2, Madrid"
+        },
+        {
+         "n": 604,
+         "name": "Jardines del Príncipe de Anglona",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945172",
+         "start": "Distrito de Centro",
+         "address": "Plaza de la Paja 6, Madrid"
+        },
+        {
+         "n": 605,
+         "name": "Parque Enrique Tierno Galván",
+         "info": "2,09 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945190",
+         "start": "Distrito de Arganzuela",
+         "address": "Calle de Meneses 4, Madrid"
+        },
+        {
+         "n": 606,
+         "name": "Parque de las Peñuelas",
+         "info": "1,90 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945242",
+         "start": "Distrito de Arganzuela",
+         "address": "Calle de Gargantilla 2, Madrid"
+        },
+        {
+         "n": 607,
+         "name": "Parque del Bronce",
+         "info": "1,85 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945282",
+         "start": "Distrito de Arganzuela"
+        },
+        {
+         "n": 608,
+         "name": "Plaza de Luca de Tena",
+         "info": "1,73 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945341",
+         "start": "Distrito de Arganzuela"
+        },
+        {
+         "n": 609,
+         "name": "Madrid Río (tramo de Arganzuela)",
+         "info": "1,90 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945395",
+         "start": "Distrito de Arganzuela"
+        }
+       ]
+      },
+      {
+       "id": "mon-retiro-salamanca",
+       "title": "Retiro-Salamanca",
+       "maps": [
+        {
+         "mid": "1T5F6ZHOomnwvIKNp-zW9DMpSD7FhBzo",
+         "ll": "40.4200,-3.6750",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Retiro-Salamanca",
+         "label": "Retiro-Salamanca · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 610,
+         "name": "Jardines del Buen Retiro",
+         "info": "1,78 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945446",
+         "start": "Distrito de Retiro",
+         "address": "Plaza de la Independencia 7, Madrid"
+        },
+        {
+         "n": 611,
+         "name": "Parque Roma",
+         "info": "2,00 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945488",
+         "start": "Distrito de Retiro",
+         "address": "Calle de Juan Esplandiú 4, Madrid"
+        },
+        {
+         "n": 612,
+         "name": "Parque Martin Luther King",
+         "info": "1,89 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945504",
+         "start": "Distrito de Retiro",
+         "address": "Calle del Cerro Negro 1, Madrid"
+        },
+        {
+         "n": 615,
+         "name": "Quinta de la Fuente del Berro",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945579",
+         "start": "Distrito de Salamanca",
+         "address": "Calle de Enrique D'Almonte 1, Madrid"
+        },
+        {
+         "n": 616,
+         "name": "Parque de Sancho Dávila",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945609",
+         "start": "Distrito de Salamanca",
+         "address": "Plaza de América Española 4, Madrid"
+        },
+        {
+         "n": 617,
+         "name": "Parque de Las Avenidas",
+         "info": "1,73 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945698",
+         "start": "Distrito de Salamanca",
+         "address": "Avenida de Brasilia 6, Madrid"
+        },
+        {
+         "n": 618,
+         "name": "Parque María Eva Duarte de Perón",
+         "info": "1,78 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945739",
+         "start": "Distrito de Salamanca",
+         "address": "Calle del Doctor Gómez Ulla 9, Madrid"
+        },
+        {
+         "n": 619,
+         "name": "Jardines del Descubrimiento",
+         "info": "2,00 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945766",
+         "start": "Distrito de Salamanca",
+         "address": "Calle de Goya 2, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-chamartin-tetuan",
+       "title": "Chamartín-Tetuán",
+       "maps": [
+        {
+         "mid": "1CXqJXXVfaQQIWuuRo-sYatHX3PER-bA",
+         "ll": "40.4600,-3.6900",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamartín-Tetuán",
+         "label": "Chamartín-Tetuán · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 620,
+         "name": "Parque de Berlín",
+         "info": "1,95 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945823",
+         "start": "Distrito de Chamartín",
+         "address": "Avenida de Ramón y Cajal 2, Madrid"
+        },
+        {
+         "n": 621,
+         "name": "Pinar de Chamartín",
+         "info": "1,73 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945896",
+         "start": "Distrito de Chamartín"
+        },
+        {
+         "n": 622,
+         "name": "Jardines de San Fernando",
+         "info": "2,07 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945941",
+         "start": "Distrito de Chamartín"
+        },
+        {
+         "n": 624,
+         "name": "Paseo de los Cerezos",
+         "info": "1,67 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296945984",
+         "start": "Distrito de Chamartín"
+        },
+        {
+         "n": 625,
+         "name": "Parque Agustín Rodríguez Sahagún (Huerta del Obispo)",
+         "info": "1,81 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946014",
+         "start": "Distrito de Tetuán",
+         "address": "Paseo de la Dirección 200, Madrid"
+        },
+        {
+         "n": 626,
+         "name": "Parque Agustín Rodríguez Sahagún",
+         "info": "1,68 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946047",
+         "start": "Distrito de Tetuán",
+         "address": "Paseo de la Dirección 300, Madrid"
+        },
+        {
+         "n": 627,
+         "name": "Parque de La Ventilla",
+         "info": "1,77 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946096",
+         "start": "Distrito de Tetuán",
+         "address": "Calle de la Vía Límite 51, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-chamberi-fuencarral-el-pardo",
+       "title": "Chamberí-Fuencarral-El Pardo",
+       "maps": [
+        {
+         "mid": "1bUjTZDpWMjUejF8VbeX9hKs2TtQKUjQ",
+         "ll": "40.4600,-3.7000",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamberí-Fuencarral-El Pardo",
+         "label": "Chamberí-Fuencarral-El Pardo · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 629,
+         "name": "Jardines de Enrique Herreros",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946174",
+         "start": "Distrito de Chamberí"
+        },
+        {
+         "n": 630,
+         "name": "Plaza de Olavide",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946193",
+         "start": "Distrito de Chamberí"
+        },
+        {
+         "n": 631,
+         "name": "Plaza del Conde del Valle de Súchil",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946242",
+         "start": "Distrito de Chamberí"
+        },
+        {
+         "n": 632,
+         "name": "Parque de José Luis Sampedro",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946368",
+         "start": "Distrito de Chamberí"
+        },
+        {
+         "n": 633,
+         "name": "Parque de La Vaguada",
+         "info": "1,87 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946515",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Paseo de la Vaguada 13, Madrid"
+        },
+        {
+         "n": 634,
+         "name": "Parque del Norte-Carmen Tagle",
+         "info": "2,11 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946542",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle del Arzobispo Morcillo 7, Madrid"
+        },
+        {
+         "n": 635,
+         "name": "Parque de Alcazaba",
+         "info": "1,72 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946602",
+         "start": "Distrito de Fuencarral-El Pardo",
+         "address": "Calle de Ribadavia 45, Madrid"
+        },
+        {
+         "n": 637,
+         "name": "Parque Gabriela Mistral",
+         "info": "1,91 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946652",
+         "start": "Distrito de Fuencarral-El Pardo"
+        }
+       ]
+      },
+      {
+       "id": "mon-moncloa-aravaca-latina",
+       "title": "Moncloa-Aravaca-Latina",
+       "maps": [
+        {
+         "mid": "1uzPjj4NYjCRAmkaUL6ve8l8Vm8MWRho",
+         "ll": "40.4200,-3.7500",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Moncloa-Aravaca-Latina",
+         "label": "Moncloa-Aravaca-Latina · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 638,
+         "name": "Parque del Oeste",
+         "info": "2,07 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946675",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Paseo de Moret 2, Madrid"
+        },
+        {
+         "n": 639,
+         "name": "Parque de la Bombilla",
+         "info": "1,90 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946708",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Avenida de Valladolid 4, Madrid"
+        },
+        {
+         "n": 640,
+         "name": "Parque de la Dehesa de la Villa",
+         "info": "1,79 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946734",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Carretera de la Dehesa de la Villa 1, Madrid"
+        },
+        {
+         "n": 641,
+         "name": "Casa de Campo",
+         "info": "2,99 km · circular · 36–45 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946746",
+         "start": "Distrito de Moncloa-Aravaca"
+        },
+        {
+         "n": 642,
+         "name": "Parque de Arroyo Pozuelo",
+         "info": "1,89 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946772",
+         "start": "Distrito de Moncloa-Aravaca",
+         "address": "Calle de Arroyo Pozuelo, s/n, Madrid"
+        },
+        {
+         "n": 643,
+         "name": "Parque de Las Cruces",
+         "info": "1,85 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946840",
+         "start": "Distrito de Latina",
+         "address": "Avenida de los Poblados 74, Madrid"
+        },
+        {
+         "n": 644,
+         "name": "Parque de Caramuel",
+         "info": "1,66 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946857",
+         "start": "Distrito de Latina",
+         "address": "Calle de Caramuel 53, Madrid"
+        },
+        {
+         "n": 645,
+         "name": "Parque de Aluche",
+         "info": "2,07 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946874",
+         "start": "Distrito de Latina",
+         "address": "Calle del Tembleque 45, Madrid"
+        },
+        {
+         "n": 646,
+         "name": "Parque del Cerro Almodóvar",
+         "info": "1,71 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946942",
+         "start": "Distrito de Latina",
+         "address": "Calle de Marcelino Castillo 29, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-carabanchel-usera",
+       "title": "Carabanchel-Usera",
+       "maps": [
+        {
+         "mid": "1OZk59gXGSFDu79OEpo_cFHwJN1xe9L8",
+         "ll": "40.3800,-3.7200",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Carabanchel-Usera",
+         "label": "Carabanchel-Usera · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 647,
+         "name": "Parque de San Isidro",
+         "info": "1,60 km · circular · 19–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296946988",
+         "start": "Distrito de Carabanchel",
+         "address": "Paseo de la Ermita del Santo 74, Madrid"
+        },
+        {
+         "n": 648,
+         "name": "Parque de la Volatería",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947028",
+         "start": "Distrito de Carabanchel",
+         "address": "Vía Lusitana 1, Madrid"
+        },
+        {
+         "n": 649,
+         "name": "Parque de Comillas",
+         "info": "2,10 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947073",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de Miguel Soriano 1, Madrid"
+        },
+        {
+         "n": 650,
+         "name": "Parque de la Peseta (Salvador Allende)",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947123",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle de Salvador Allende 3, Madrid"
+        },
+        {
+         "n": 651,
+         "name": "Parque de Eugenia de Montijo",
+         "info": "1,77 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947228",
+         "start": "Distrito de Carabanchel",
+         "address": "Calle del Parque de Eugenia de Montijo 3, Madrid"
+        },
+        {
+         "n": 652,
+         "name": "Parque de Pradolongo",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947272",
+         "start": "Distrito de Usera",
+         "address": "Avenida de Rafaela Ybarra 85, Madrid"
+        },
+        {
+         "n": 653,
+         "name": "Parque de Olof Palme",
+         "info": "1,89 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947329",
+         "start": "Distrito de Usera",
+         "address": "Calle de los Cerecinos 1, Madrid"
+        },
+        {
+         "n": 654,
+         "name": "Parque de Mujeres de Orcasitas",
+         "info": "1,93 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947377",
+         "start": "Distrito de Usera",
+         "address": "Ronda de las Cooperativas 6, Madrid"
+        },
+        {
+         "n": 655,
+         "name": "Parque Lineal del Manzanares (tramo de Usera)",
+         "info": "1,90 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947427",
+         "start": "Distrito de Usera"
+        },
+        {
+         "n": 656,
+         "name": "Madrid Río (tramo de Usera)",
+         "info": "1,66 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947457",
+         "start": "Distrito de Usera"
+        }
+       ]
+      },
+      {
+       "id": "mon-puente-de-vallecas-moratalaz",
+       "title": "Puente de Vallecas-Moratalaz",
+       "maps": [
+        {
+         "mid": "1wcPxh6LmrreKN0o-XtjKmWdvvR826Y4",
+         "ll": "40.4000,-3.6400",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Puente de Vallecas-Moratalaz",
+         "label": "Puente de Vallecas-Moratalaz · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 657,
+         "name": "Parque Lineal de Palomeras",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947500",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Avenida de la Albufera 293, Madrid"
+        },
+        {
+         "n": 658,
+         "name": "Parque del Cerro del Tío Pío",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947538",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle de Benjamín Palencia 2, Madrid"
+        },
+        {
+         "n": 659,
+         "name": "Parque de Azorín",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947551",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Avenida de la Albufera 142, Madrid"
+        },
+        {
+         "n": 660,
+         "name": "Parque de Payaso Fofó",
+         "info": "1,86 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947602",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Calle del Payaso Fofó 11, Madrid"
+        },
+        {
+         "n": 661,
+         "name": "Jardines del Campo de la Paloma",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947643",
+         "start": "Distrito de Puente de Vallecas",
+         "address": "Avenida de Rafael Alberti 38, Madrid"
+        },
+        {
+         "n": 662,
+         "name": "Parque de Moratalaz",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947663",
+         "start": "Distrito de Moratalaz",
+         "address": "Avenida de Moratalaz 183, Madrid"
+        },
+        {
+         "n": 663,
+         "name": "Parque de Martala (Dionisio Ridruejo)",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947686",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle de Molina de Segura 1, Madrid"
+        },
+        {
+         "n": 664,
+         "name": "Parque de Vandel-Pavones Este",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947709",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle de Molina de Segura 10, Madrid"
+        },
+        {
+         "n": 665,
+         "name": "Parque de Darwin",
+         "info": "1,62 km · circular · 19–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947748",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle de Manuel María Arrillaga 29 B, Madrid"
+        },
+        {
+         "n": 666,
+         "name": "Parque de José Bergamín",
+         "info": "1,64 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947798",
+         "start": "Distrito de Moratalaz",
+         "address": "Calle de José Bergamín 12, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-ciudad-lineal-hortaleza",
+       "title": "Ciudad Lineal-Hortaleza",
+       "maps": [
+        {
+         "mid": "1Bx05a9XhLS1F7hW1srUR79jiYJX1GwE",
+         "ll": "40.4600,-3.6500",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Ciudad Lineal-Hortaleza",
+         "label": "Ciudad Lineal-Hortaleza · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 667,
+         "name": "Parque de El Calero",
+         "info": "1,84 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947843",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de José del Hierro 1, Madrid"
+        },
+        {
+         "n": 668,
+         "name": "Parque de Arriaga",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947862",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Avenida de Daroca 95, Madrid"
+        },
+        {
+         "n": 669,
+         "name": "Parque Pinar de la Elipa",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947912",
+         "start": "Distrito de Ciudad Lineal",
+         "address": "Calle de Félix Rodríguez de la Fuente 26, Madrid"
+        },
+        {
+         "n": 670,
+         "name": "Parque Forestal de Valdebebas-Felipe VI",
+         "info": "1,62 km · circular · 19–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947939",
+         "start": "Distrito de Hortaleza",
+         "address": "Avenida de las Fuerzas Armadas 11, Madrid"
+        },
+        {
+         "n": 671,
+         "name": "Parque de Juan Pablo II",
+         "info": "1,63 km · circular · 20–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296947991",
+         "start": "Distrito de Hortaleza",
+         "address": "Avenida de Machupichu 1, Madrid"
+        },
+        {
+         "n": 672,
+         "name": "Parque de Alfredo Kraus",
+         "info": "1,91 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948028",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle del Mar Adriático 5, Madrid"
+        },
+        {
+         "n": 673,
+         "name": "Parque de Pinar del Rey",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948074",
+         "start": "Distrito de Hortaleza",
+         "address": "Carretera de Canillas 1, Madrid"
+        },
+        {
+         "n": 674,
+         "name": "Parque de Villa Rosa-Paco Caño",
+         "info": "2,01 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948090",
+         "start": "Distrito de Hortaleza",
+         "address": "Calle de Aconcagua 2, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-villaverde-villa-de-vallecas",
+       "title": "Villaverde-Villa de Vallecas",
+       "maps": [
+        {
+         "mid": "1VhZoT1AtIxdNQkG26DkbwHuRIHikMwI",
+         "ll": "40.3600,-3.6600",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Villaverde-Villa de Vallecas",
+         "label": "Villaverde-Villa de Vallecas · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 675,
+         "name": "Parque de Plata y Castañar",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948123",
+         "start": "Distrito de Villaverde",
+         "address": "Glorieta del Mirador del Sur 1, Madrid"
+        },
+        {
+         "n": 676,
+         "name": "Parque de la Dehesa Boyal",
+         "info": "1,60 km · circular · 19–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948180",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de Burjasot 1 A, Madrid"
+        },
+        {
+         "n": 677,
+         "name": "Parque Forestal Julio Alguacil Gómez",
+         "info": "1,88 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948234",
+         "start": "Distrito de Villaverde",
+         "address": "Avenida de Rafaela Ybarra, Madrid"
+        },
+        {
+         "n": 678,
+         "name": "Parque de Ciudad de los Ángeles",
+         "info": "1,93 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948287",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de Anoeta 14 B, Madrid"
+        },
+        {
+         "n": 679,
+         "name": "Parque de El Espinillo",
+         "info": "1,86 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948308",
+         "start": "Distrito de Villaverde",
+         "address": "Calle de la Unanimidad 23, Madrid"
+        },
+        {
+         "n": 680,
+         "name": "Parque de Vallecas Villa-Cataratas",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948346",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Calle de Babilafuente 2, Madrid"
+        },
+        {
+         "n": 681,
+         "name": "Parque de la Cañada",
+         "info": "1,72 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948410",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Avenida de la Gavia 66, Madrid"
+        },
+        {
+         "n": 683,
+         "name": "Entorno del Bulevar de la Naturaleza",
+         "info": "1,85 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948475",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Calle de Tineo, s/n, Madrid"
+        },
+        {
+         "n": 684,
+         "name": "Parque de Puerto Porzuna-La Granja de San Ildefonso",
+         "info": "2,08 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948521",
+         "start": "Distrito de Villa de Vallecas",
+         "address": "Avenida del Mayorazgo, s/n, Madrid"
+        }
+       ]
+      },
+      {
+       "id": "mon-vicalvaro-san-blas-canillejas-barajas",
+       "title": "Vicálvaro-San Blas-Canillejas-Barajas",
+       "maps": [
+        {
+         "mid": "1A0ZU2Zi_QcVdmsHQfl1NJX8JFx86jv0",
+         "ll": "40.4400,-3.6000",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Vicálvaro-San Blas-Canillejas-Barajas",
+         "label": "Vicálvaro-San Blas-Canillejas-Barajas · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 685,
+         "name": "Parque de Cuña Verde de Vicálvaro",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948571",
+         "start": "Distrito de Vicálvaro",
+         "address": "Avenida de Daroca 300, Madrid"
+        },
+        {
+         "n": 686,
+         "name": "Parque de Vicalvarada",
+         "info": "1,66 km · circular · 20–25 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948638",
+         "start": "Distrito de Vicálvaro",
+         "address": "Calle de Villablanca 1, Madrid"
+        },
+        {
+         "n": 687,
+         "name": "Parque de Valdebernardo Este",
+         "info": "2,06 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948694",
+         "start": "Distrito de Vicálvaro",
+         "address": "Calle del Cordel de Pavones 2, Madrid"
+        },
+        {
+         "n": 688,
+         "name": "Parque Forestal de Vicálvaro",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948756",
+         "start": "Distrito de Vicálvaro",
+         "address": "Paseo del Polideportivo 1, Madrid"
+        },
+        {
+         "n": 689,
+         "name": "Pinar de Santa Eugenia",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948785",
+         "start": "Distrito de Vicálvaro",
+         "address": "Avenida del Mediterráneo, Madrid"
+        },
+        {
+         "n": 690,
+         "name": "Parque de San Blas-El Paraíso",
+         "info": "1,86 km · circular · 22–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948821",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Avenida de Arcentales 4, Madrid"
+        },
+        {
+         "n": 691,
+         "name": "Quinta de los Molinos",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948882",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Alcalá 527, Madrid"
+        },
+        {
+         "n": 692,
+         "name": "Quinta de Torre Arias",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948902",
+         "start": "Distrito de San Blas-Canillejas",
+         "address": "Calle de Alcalá 551, Madrid"
+        },
+        {
+         "n": 693,
+         "name": "Parque de Juan Carlos I",
+         "info": "2,00 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948934",
+         "start": "Distrito de Barajas",
+         "address": "Glorieta de Don Juan de Borbón y Battemberg, s/n, Madrid"
+        },
+        {
+         "n": 694,
+         "name": "Parque de El Capricho de la Alameda de Osuna",
+         "info": "1,80 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296948960",
+         "start": "Distrito de Barajas",
+         "address": "Paseo de la Alameda de Osuna 25, Madrid"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "course": "dia",
+   "text": "118 rutas circulares de 1,6 a 3,2 km, desde entidades de la economía social y solidaria del Mercado Social de Madrid: cooperativas, asociaciones y empresas de la ciudad, y también de Alcalá de Henares, Collado Villalba, Getafe, Torrelodones y Villaviciosa de Odón. Cada ruta lleva una breve descripción de lo que hace la entidad.",
+   "summary": "118 rutas desde entidades de economía social",
+   "zones": {
+    "label": "Ve directamente a tu zona",
+    "placeholder": "Elige una zona",
+    "back": "Cambia de zona"
+   },
+   "parts": [
+    {
+     "id": "rutas-dia",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Es un paseo urbano: respeta los semáforos y los pasos de peatones.",
+       "Los tiempos son aproximados, caminando a un ritmo tranquilo (entre 12 y 15 minutos por kilómetro) y sin contar las pausas.",
+       "La entidad es solo el punto de referencia del recorrido: no organiza ni recomienda esta actividad. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "dia-centro-1",
+       "title": "Centro (1/4)",
+       "maps": [
+        {
+         "mid": "1lsskGCdQlOSEpejCyZ1h1VQw8umX5Iw",
+         "ll": "40.4150,-3.7050",
+         "z": 15,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro (1/4)",
+         "label": "Centro (1/4) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 201,
+         "name": "Adeia",
+         "info": "2,08 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296832828",
+         "address": "Calle del Conde de Xiquena 9, Madrid",
+         "desc": "Cooperativa de trabajo con 25 años de experiencia en asesoría jurídica, económico-financiera, laboral y formativa para personas y entidades."
+        },
+        {
+         "n": 202,
+         "name": "La Marea",
+         "info": "1,62 km · circular · 19–24 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296832890",
+         "address": "Calle del Conde de Xiquena 9, Madrid",
+         "desc": "Medio de comunicación cooperativo creado en 2012 por periodistas junto a lectores."
+        },
+        {
+         "n": 203,
+         "name": "Formación Laburo",
+         "info": "1,80 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296832958",
+         "address": "Calle de la Alameda 22, Madrid",
+         "desc": "Cooperativa de innovación social sin ánimo de lucro dedicada a la formación."
+        },
+        {
+         "n": 204,
+         "name": "Rebel Streaming",
+         "info": "2,23 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833003",
+         "address": "Calle de la Alameda 22, Madrid",
+         "desc": "Productora audiovisual especializada en emisiones en directo."
+        },
+        {
+         "n": 205,
+         "name": "Calcetines Mestizaje",
+         "info": "2,67 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833085",
+         "address": "Calle de San Millán 6, Madrid",
+         "desc": "Diseño y fabricación de calcetines con más de 30 modelos."
+        },
+        {
+         "n": 206,
+         "name": "enRRRedando",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833116",
+         "address": "Calle del Rosario 15, Madrid",
+         "desc": "Comunicación sostenible con materiales y papeles ecológicos."
+        },
+        {
+         "n": 207,
+         "name": "QUINTA DEL SORDO",
+         "info": "2,20 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833127",
+         "address": "Calle del Rosario 15, Madrid",
+         "desc": "Espacio de creación cultural y coworking para arte, diseño y cultura, con cafetería."
+        },
+        {
+         "n": 208,
+         "name": "SolenCoop",
+         "info": "1,96 km · circular · 24–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833193",
+         "address": "Calle de Toledo 108, Madrid",
+         "desc": "Cooperativa de eficiencia energética: fotovoltaica, aerotermia y suelo radiante."
+        },
+        {
+         "n": 209,
+         "name": "404 Comunicación Popular",
+         "info": "2,38 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833201",
+         "address": "Calle de Ave María 37, Madrid",
+         "desc": "Proyecto de medioactivismo que comunica las acciones del movimiento popular y la defensa de los derechos humanos."
+        },
+        {
+         "n": 210,
+         "name": "Agresta",
+         "info": "2,30 km · circular · 28–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833226",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Cooperativa de asesoría y consultoría."
+        }
+       ]
+      },
+      {
+       "id": "dia-centro-2",
+       "title": "Centro (2/4)",
+       "maps": [
+        {
+         "mid": "1z4uVNdZ39b01xDXgnJC_gwOQVzbjHc8",
+         "ll": "40.4150,-3.7050",
+         "z": 15,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro (2/4)",
+         "label": "Centro (2/4) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 211,
+         "name": "BATÏQ Arquitectura",
+         "info": "2,22 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833230",
+         "address": "Calle de Miguel Servet 13, Madrid",
+         "desc": "Estudio de arquitectura y diseño urbano que promueve entornos inclusivos, con atención a la accesibilidad universal, el envejecimiento y la perspectiva de género."
+        },
+        {
+         "n": 212,
+         "name": "Coop57 SCCL",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833236",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Cooperativa de servicios financieros éticos y solidarios que contribuye a la transformación social de la economía."
+        },
+        {
+         "n": 213,
+         "name": "Corio Psicología",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833306",
+         "address": "Calle de Tres Peces 6, Madrid",
+         "desc": "Gabinete de psicología que ofrece terapia y formación."
+        },
+        {
+         "n": 214,
+         "name": "dinamia s. coop. mad",
+         "info": "1,76 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833317",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Consultora social especializada en proyectos económicos, sociales y educativos, activa desde 2004."
+        },
+        {
+         "n": 215,
+         "name": "Ecooo",
+         "info": "2,07 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833324",
+         "address": "Calle de la Escuadra 11, Madrid",
+         "desc": "Cooperativa sin ánimo de lucro que fomenta la participación ciudadana en energía y economía social y solidaria."
+        },
+        {
+         "n": 216,
+         "name": "El Molino",
+         "info": "2,37 km · circular · 28–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833355",
+         "address": "Calle de Santa Isabel 42, Madrid",
+         "desc": "Escuela de música y otras artes en el centro de Madrid: coros, combos, orquestas e instrumentos."
+        },
+        {
+         "n": 217,
+         "name": "Eleventh Floor",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833359",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Estudio creativo cooperativo de producción audiovisual con sede en Madrid."
+        },
+        {
+         "n": 218,
+         "name": "Espacio Dejando Huella",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833369",
+         "address": "Calle del Doctor Fourquet 29, Madrid",
+         "desc": "Espacio cálido y seguro para niñas, niños y familias, con un día a día sin prisas."
+        },
+        {
+         "n": 219,
+         "name": "Fixi Dixi Bike Coop Lavapies",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833484",
+         "address": "Calle de la Fe 9, Madrid",
+         "desc": "Tienda y taller de bicicletas con reparto de media carga."
+        },
+        {
+         "n": 220,
+         "name": "Germinando",
+         "info": "2,02 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833488",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Cooperativa de iniciativa social: investigación, consultoría, apoyo al emprendimiento y formación."
+        }
+       ]
+      },
+      {
+       "id": "dia-centro-3",
+       "title": "Centro (3/4)",
+       "maps": [
+        {
+         "mid": "1aAbkci945Wv-coIK1iehLdPNs4O8U6Q",
+         "ll": "40.4150,-3.7050",
+         "z": 15,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro (3/4)",
+         "label": "Centro (3/4) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 221,
+         "name": "Guacamayo Tropical",
+         "info": "2,15 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833491",
+         "address": "Calle de la Sombrerería 6, Madrid",
+         "desc": "Movimiento contracultural alrededor de la cumbia, con eventos desde hace 12 años."
+        },
+        {
+         "n": 222,
+         "name": "Implícate",
+         "info": "1,98 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833503",
+         "address": "Calle de San Simón 6, Madrid",
+         "desc": "Agencia creativa que trabaja para ONG y empresas con propósito social."
+        },
+        {
+         "n": 223,
+         "name": "Kinema",
+         "info": "2,52 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833510",
+         "address": "Ronda de Atocha 18, Madrid",
+         "desc": "Consultoría en economía social, gestoría contable, fiscal y laboral, y psicología."
+        },
+        {
+         "n": 224,
+         "name": "La Oveja Negra Taberna Vegana",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833530",
+         "address": "Calle de Buenavista 42, Madrid",
+         "desc": "Cooperativa de restauración vegana formada mayoritariamente por mujeres y personas LGTBI+."
+        },
+        {
+         "n": 225,
+         "name": "Librecoop",
+         "info": "2,75 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833606",
+         "address": "Calle de la Escuadra 11, Madrid",
+         "desc": "Cooperativa de software libre para el cambio social."
+        },
+        {
+         "n": 226,
+         "name": "Mayú Sociedad Cooperativa",
+         "info": "2,68 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833620",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Cooperativa de asesoría legal, laboral, fiscal y contable, gestión de proyectos y formación."
+        },
+        {
+         "n": 227,
+         "name": "NOEZ, Oficina de diseño para la innovación social",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833634",
+         "address": "Calle del Duque de Fernán Núñez 2, Madrid",
+         "desc": "Estudio de diseño gráfico y web para proyectos sociales."
+        },
+        {
+         "n": 228,
+         "name": "PANTERA. LA TIENDA DEL SINDICATO",
+         "info": "1,82 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833638",
+         "address": "Calle de Dos Hermanas 14, Madrid",
+         "desc": "Tienda de ropa y complementos del Sindicato de Manteros de Madrid, antirracista y de defensa de derechos laborales."
+        },
+        {
+         "n": 229,
+         "name": "Senda de Cuidados",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833667",
+         "address": "Calle del Duque de Alba 13, Madrid",
+         "desc": "Servicios de atención al hogar y cuidados de personas, con condiciones dignas para quienes los prestan."
+        },
+        {
+         "n": 230,
+         "name": "Yoga Nosaltres.",
+         "info": "2,28 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833680",
+         "address": "Calle de la Esperanza 5, Madrid",
+         "desc": "Yoga adaptado a cada persona."
+        }
+       ]
+      },
+      {
+       "id": "dia-centro-4",
+       "title": "Centro (4/4)",
+       "maps": [
+        {
+         "mid": "1NUomTE6reLOUXeBgttBGMkJM8rDiAS0",
+         "ll": "40.4150,-3.7050",
+         "z": 15,
+         "title": "Rutas de Esperanza Activa - Madrid · Centro (4/4)",
+         "label": "Centro (4/4) · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 231,
+         "name": "Ánima Fisioterapia",
+         "info": "2,10 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833713",
+         "address": "Calle de la Sombrerería 7, Madrid",
+         "desc": "Centro de fisioterapia en Lavapiés con fisioterapia manual, pilates terapéutico e hipopresivos."
+        },
+        {
+         "n": 232,
+         "name": "Asociación Estivalia",
+         "info": "2,26 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833720",
+         "address": "Calle de Manuela Malasaña 9, Madrid"
+        },
+        {
+         "n": 233,
+         "name": "La Imprenta",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833724",
+         "address": "Calle de Monteleón 5, Madrid",
+         "desc": "Librería, editorial independiente y centro cultural con recitales, presentaciones, talleres y exposiciones."
+        },
+        {
+         "n": 234,
+         "name": "Red Jurídica Cooperativa",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833737",
+         "address": "Calle de Alberto Aguilera 7, Madrid",
+         "desc": "Equipo de abogadas y abogados comprometido con la realidad social."
+        },
+        {
+         "n": 235,
+         "name": "Sodepaz",
+         "info": "1,91 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833742",
+         "address": "Calle de la Palma 69, Madrid",
+         "desc": "Cooperación internacional, sensibilización, comercio justo y viajes solidarios."
+        },
+        {
+         "n": 236,
+         "name": "ASOCIACIÓN EMPATIA",
+         "info": "2,36 km · circular · 28–35 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833753",
+         "address": "Calle de San Bernardo 5, Madrid",
+         "desc": "Asociación que trabaja por los animales: da a conocer la explotación y el maltrato animal y busca soluciones."
+        },
+        {
+         "n": 237,
+         "name": "Anarres",
+         "info": "2,26 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833814",
+         "address": "Calle de Toledo 14, Madrid",
+         "desc": "Desarrollo de aplicaciones web y móviles con compromiso social y defensa del software libre."
+        },
+        {
+         "n": 238,
+         "name": "Andaira",
+         "info": "2,11 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833818",
+         "address": "Calle de la Montera 9, Madrid",
+         "desc": "Consultora social con unos veinte años de trayectoria en investigación, evaluación, formación y consultoría."
+        },
+        {
+         "n": 239,
+         "name": "Cyclos",
+         "info": "1,73 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833828",
+         "address": "Calle de la Montera 34, Madrid",
+         "desc": "Proyecto de economía social con alimentación y restauración, energías renovables, ecoeficiencia, educación y asesoría."
+        },
+        {
+         "n": 240,
+         "name": "Slow Fashion Next",
+         "info": "2,14 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833837",
+         "address": "Calle de la Gran Vía 40, Madrid",
+         "desc": "Plataforma de moda sostenible con formación y divulgación."
+        }
+       ]
+      },
+      {
+       "id": "dia-arganzuela-1",
+       "title": "Arganzuela (1/3)",
+       "maps": [
+        {
+         "mid": "1IxoAPVEyro0iR2Uj0sUNvFP1_aQOqZ8",
+         "ll": "40.3950,-3.6950",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Arganzuela (1/3)",
+         "label": "Arganzuela (1/3) · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 241,
+         "name": "Albahaca Ecotienda",
+         "info": "2,06 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833846",
+         "address": "Calle de Moratines 16, Madrid"
+        },
+        {
+         "n": 242,
+         "name": "Altekio",
+         "info": "2,10 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833884",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa que impulsa la transformación ecosocial con facilitación, consultoría, investigación y formación."
+        },
+        {
+         "n": 243,
+         "name": "Andecha",
+         "info": "2,03 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296833969",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Equipo de trabajo comunitario del ámbito psicosocial: intervención social, consultoría y formación."
+        },
+        {
+         "n": 244,
+         "name": "Atención psicológica IDEALOGA",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834003",
+         "address": "Paseo de las Acacias 5, Madrid",
+         "desc": "Centro de psicología que ofrece psicoterapia presencial y online para adultos, infancia, adolescencia y parejas."
+        },
+        {
+         "n": 245,
+         "name": "BELBURS ECONOMISTAS",
+         "info": "2,19 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834018",
+         "address": "Calle de Rafael de Riego 52, Madrid",
+         "desc": "Asesoría contable, fiscal y laboral."
+        },
+        {
+         "n": 246,
+         "name": "CLINICA VETERINARIA LABRADOR",
+         "info": "2,07 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834048",
+         "address": "Calle de Martín de Vargas 34, Madrid",
+         "desc": "Clínica veterinaria familiar con consulta, analíticas, radiografías, cirugía y odontología."
+        },
+        {
+         "n": 247,
+         "name": "Dabne Soc. Coop. MAd.",
+         "info": "2,47 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834055",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa que desarrolla webs sencillas y acompaña a mujeres emprendedoras en el marco de la economía solidaria."
+        },
+        {
+         "n": 248,
+         "name": "Dicha&Hecho",
+         "info": "2,43 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834058",
+         "address": "Calle del Ferrocarril 13, Madrid",
+         "desc": "Marca de productos de limpieza ecológicos líquidos envasados en cajitas de cartón reciclado."
+        }
+       ]
+      },
+      {
+       "id": "dia-arganzuela-2",
+       "title": "Arganzuela (2/3)",
+       "maps": [
+        {
+         "mid": "1SfmrmIOUEewgLFxaN5dCYS8SI4wCZl0",
+         "ll": "40.3950,-3.6950",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Arganzuela (2/3)",
+         "label": "Arganzuela (2/3) · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 249,
+         "name": "DOCUMFY S.COOP.MAD.",
+         "info": "1,70 km · circular · 20–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834109",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa de proyectos audiovisuales: vídeos corporativos, documentales, tutoriales, eventos y streaming."
+        },
+        {
+         "n": 250,
+         "name": "EL ARENERO",
+         "info": "1,99 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834136",
+         "address": "Calle del Labrador 20, Madrid",
+         "desc": "Proyecto de educación infantil nacido en 2013 en Arganzuela, creado por seis familias sin escuela pública que contrataron un educador."
+        },
+        {
+         "n": 251,
+         "name": "El viejo hortelano",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834145",
+         "address": "Calle de Soria 3, Madrid",
+         "desc": "Supermercado de autoservicio de alimentación ecológica."
+        },
+        {
+         "n": 252,
+         "name": "Freepress Coop",
+         "info": "1,77 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834148",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa de comunicación para el cambio social."
+        },
+        {
+         "n": 253,
+         "name": "Fundació Periodisme Plural - El Diario de la Educación",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834169",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Medio de periodismo libre e independiente al servicio de la educación."
+        },
+        {
+         "n": 254,
+         "name": "Garúa, S. Coop. Mad.",
+         "info": "2,46 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834175",
+         "address": "Calle del Labrador 20, Madrid",
+         "desc": "Cooperativa de trabajo asociado e iniciativa social de saberes y proyectos ecosociales."
+        },
+        {
+         "n": 255,
+         "name": "Heliconia.coop.mad",
+         "info": "2,18 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834220",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa orgánica y adaptable, que suma capacidades según el entorno."
+        },
+        {
+         "n": 256,
+         "name": "IDEAS",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834248",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Importación y distribución de productos ecológicos y de comercio justo, con campañas de sensibilización."
+        }
+       ]
+      },
+      {
+       "id": "dia-arganzuela-3",
+       "title": "Arganzuela (3/3)",
+       "maps": [
+        {
+         "mid": "1GZdRWuQNyIiqr_AVM-MxziEsQWstzCQ",
+         "ll": "40.3950,-3.6950",
+         "z": 14,
+         "title": "Rutas de Esperanza Activa - Madrid · Arganzuela (3/3)",
+         "label": "Arganzuela (3/3) · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 257,
+         "name": "Latitud 40º",
+         "info": "1,72 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834256",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Cooperativa de arquitectura de proyectos bioclimáticos y Passivhaus."
+        },
+        {
+         "n": 258,
+         "name": "Proyecto JAK",
+         "info": "1,77 km · circular · 21–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834262",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Iniciativa de personas asociadas para financiarse con ahorro y ayudas reintegrables sin intereses."
+        },
+        {
+         "n": 259,
+         "name": "PUCHE 29 CONSULTORIA, ASESORIA Y FORMACIÓN",
+         "info": "1,82 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834272",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Gestoría contable, fiscal y laboral, y consultoría para entidades sin ánimo de lucro."
+        },
+        {
+         "n": 260,
+         "name": "Rompeolas Locales y Aulas de Ensayo",
+         "info": "1,90 km · circular · 23–28 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834279",
+         "address": "Calle de Tarragona 18, Madrid",
+         "desc": "Cooperativa de locales y aulas de ensayo, nacida de proyectos de producción musical."
+        },
+        {
+         "n": 261,
+         "name": "Sepra",
+         "info": "1,95 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834434",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Servicio de prevención de riesgos laborales para empresas, con formación."
+        },
+        {
+         "n": 262,
+         "name": "Tangente",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834469",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Grupo cooperativo con soluciones creativas ante retos de justicia social y ambiental."
+        },
+        {
+         "n": 263,
+         "name": "Traza Consultoría",
+         "info": "3,17 km · circular · 38–48 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834476",
+         "address": "Paseo de las Acacias 3, Madrid",
+         "desc": "Consultoría social, ambiental y territorial."
+        }
+       ]
+      },
+      {
+       "id": "dia-vallecas-usera-villaverde-1",
+       "title": "Vallecas-Usera-Villaverde (1/2)",
+       "maps": [
+        {
+         "mid": "1QwxbnQ4s_Y8CPvkAl2hZIvQQNR9vNnk",
+         "ll": "40.3700,-3.6800",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Vallecas-Usera-Villaverde (1/2)",
+         "label": "Vallecas-Usera-Villaverde (1/2) · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 264,
+         "name": "Anartic Soluciones Informáticas",
+         "info": "2,13 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834482",
+         "address": "Calle de Sierra Salvada 34, Madrid",
+         "desc": "Cooperativa de soluciones informáticas para entidades de economía social y organizaciones, con enfoque de economía circular."
+        },
+        {
+         "n": 265,
+         "name": "Ecoelectricista",
+         "info": "2,17 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834490",
+         "address": "Calle de la Peña de la Miel 3, Madrid",
+         "desc": "Instalaciones eléctricas saludables y biocompatibles, iluminación, domótica y ahorro energético."
+        },
+        {
+         "n": 266,
+         "name": "Endesys",
+         "info": "2,24 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834499",
+         "address": "Calle de San Moisés 4, Madrid",
+         "desc": "Cooperativa de servicios informáticos integrales para centros educativos, empresas y administraciones."
+        },
+        {
+         "n": 267,
+         "name": "Equivia Iniciativas Sociales de Prevencion y Transformacion Socail. S. Coop. Mad",
+         "info": "2,45 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834548",
+         "address": "Calle del Teniente Muñoz Díaz 29, Madrid",
+         "desc": "Cooperativa de iniciativa social para la prevención de la violencia."
+        },
+        {
+         "n": 268,
+         "name": "GRIGRI Projects",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834550",
+         "address": "Calle Pont de Molins 68, Madrid",
+         "desc": "Plataforma de investigación y producción cultural centrada en diseño participativo, comunicación gráfica e intervención urbana."
+        },
+        {
+         "n": 269,
+         "name": "La Pesada de Vallekas",
+         "info": "2,16 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834553",
+         "address": "Calle de Carlos Martín Álvarez 70, Madrid",
+         "desc": "Tienda de barrio vegana y sostenible, al estilo de un colmado."
+        }
+       ]
+      },
+      {
+       "id": "dia-vallecas-usera-villaverde-2",
+       "title": "Vallecas-Usera-Villaverde (2/2)",
+       "maps": [
+        {
+         "mid": "1Sxk1FeZo55C2LxDUCJ36y06L95A9ixM",
+         "ll": "40.3700,-3.6800",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Vallecas-Usera-Villaverde (2/2)",
+         "label": "Vallecas-Usera-Villaverde (2/2) · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 270,
+         "name": "SOCAIRE",
+         "info": "2,67 km · circular · 32–40 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834559",
+         "address": "Calle de Calero Pita 27, Madrid",
+         "desc": "Entidad que combate la pobreza energética con asesoramiento y auditorías energéticas."
+        },
+        {
+         "n": 271,
+         "name": "SOCIAL MOUSE",
+         "info": "2,49 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834563",
+         "address": "Calle de Buendía 33, Madrid",
+         "desc": "Consultoría de marketing digital para entidades sociales."
+        },
+        {
+         "n": 272,
+         "name": "Veguiterráneo",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834567",
+         "address": "Calle de Montseny 35, Madrid",
+         "desc": "Cooperativa fundada en 2019 por tres amigxs, de restauración y turismo con respeto a los derechos humanos y el medio ambiente."
+        },
+        {
+         "n": 273,
+         "name": "FAM Y LIAS. Recursos para la Diversidad",
+         "info": "2,53 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834619",
+         "address": "Bulevar de la Naturaleza 10, Madrid",
+         "desc": "Cooperativa de iniciativa social: inclusión, igualdad de oportunidades e inserción sociolaboral."
+        },
+        {
+         "n": 274,
+         "name": "Afri Comportamiento Animal",
+         "info": "1,97 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834622",
+         "address": "Paseo de Gigantes y Cabezudos 10, Madrid",
+         "desc": "Asociación que acerca la etología y ayuda con problemas de comportamiento de perros y gatos, promoviendo su bienestar."
+        },
+        {
+         "n": 275,
+         "name": "FORET SERVICIOS INTEGRALES",
+         "info": "2,60 km · circular · 31–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834659",
+         "address": "Calle de Ciudad de Frías 12, Madrid",
+         "desc": "Empresa de inserción que genera empleo para personas en riesgo de exclusión social."
+        }
+       ]
+      },
+      {
+       "id": "dia-chamberi-moncloa",
+       "title": "Chamberí-Moncloa",
+       "maps": [
+        {
+         "mid": "1NLG9b7EoxEhIX2p9e_Iu6LTEGRLyhi8",
+         "ll": "40.4350,-3.7100",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Chamberí-Moncloa",
+         "label": "Chamberí-Moncloa · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 276,
+         "name": "AQUO S. COOP. MAD",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834672",
+         "address": "Calle de Covarrubias 22, Madrid",
+         "desc": "Cooperativa de trabajo que ofrece asesoría jurídica, laboral y contable."
+        },
+        {
+         "n": 277,
+         "name": "Atención Psicológica Lugares Comunes",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834687",
+         "address": "Calle de Andrés Mellado 7, Madrid",
+         "desc": "Equipo de salud mental que ofrece psicoterapia humanista individual, de pareja, familiar y grupal."
+        },
+        {
+         "n": 278,
+         "name": "BEGRANEL",
+         "info": "2,29 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834723",
+         "address": "Avenida de Filipinas 4, Madrid"
+        },
+        {
+         "n": 279,
+         "name": "Economistas sin Fronteras",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834802",
+         "address": "Calle de Gaztambide 50, Madrid",
+         "desc": "ONG de desarrollo fundada en 1997 en el ámbito universitario, comprometida con la desigualdad y la economía solidaria."
+        },
+        {
+         "n": 280,
+         "name": "Granel de la villa",
+         "info": "2,42 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834817",
+         "address": "Calle de Donoso Cortés 1, Madrid",
+         "desc": "Tienda a granel de alimentación, cuidado personal y limpieza, con enfoque de sostenibilidad."
+        },
+        {
+         "n": 281,
+         "name": "ROPEGUN Mountains Streetwear",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834820",
+         "address": "Calle de Bravo Murillo 15, Madrid",
+         "desc": "Marca de ropa creada en 2017 por amantes de la montaña y la defensa del medio ambiente."
+        },
+        {
+         "n": 282,
+         "name": "SETEM MCM",
+         "info": "2,50 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834823",
+         "address": "Calle de Gaztambide 50, Madrid",
+         "desc": "Tienda de comercio justo y campañas de sensibilización como Ropa Limpia."
+        },
+        {
+         "n": 283,
+         "name": "Zentro Empatía",
+         "info": "2,39 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834859",
+         "address": "Calle de Hilarión Eslava 55, Madrid",
+         "desc": "Espacio interdisciplinar de atención a la salud con una visión global."
+        },
+        {
+         "n": 284,
+         "name": "3 Letras PAN",
+         "info": "2,02 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834870",
+         "address": "Calle Nueva Zelanda 32, Madrid",
+         "desc": "Obrador artesano con tienda abierta al público y tienda online, que elabora a diario una amplia variedad de panes y productos."
+        }
+       ]
+      },
+      {
+       "id": "dia-tetuan-fuencarral",
+       "title": "Tetuán-Fuencarral",
+       "maps": [
+        {
+         "mid": "1yXleH6YHqDpnpM81EdAUlXxBjFTyMQo",
+         "ll": "40.4700,-3.7000",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Tetuán-Fuencarral",
+         "label": "Tetuán-Fuencarral · 8 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 285,
+         "name": "Gato Sueco Editorial",
+         "info": "2,58 km · circular · 31–39 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834921",
+         "address": "Calle de Valverde 40, Madrid",
+         "desc": "Edición de libros infantiles, diseño gráfico, talleres de creatividad y cuentacuentos en español e inglés."
+        },
+        {
+         "n": 286,
+         "name": "Ocio Alternativo y Sostenible Medinat Mayrit",
+         "info": "1,91 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834923",
+         "address": "Avenida de Monforte de Lemos 139, Madrid",
+         "desc": "Actividades de ocio, talleres de manualidades y educación ambiental para niños y adultos."
+        },
+        {
+         "n": 287,
+         "name": "TASCA BAREA SLL",
+         "info": "2,15 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834942",
+         "address": "Calle de Rodas 2, Madrid",
+         "desc": "Tasca de proximidad que trabaja con pequeños productores y cooperativas."
+        },
+        {
+         "n": 288,
+         "name": "amoved",
+         "info": "2,42 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834947",
+         "address": "Calle de Francos Rodríguez 15, Madrid",
+         "desc": "Entidad de «artesanía digital» que acompaña a organizaciones sociales en el diseño de herramientas y aplicaciones a medida."
+        },
+        {
+         "n": 289,
+         "name": "Barainca Servicios Fiscales",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834958",
+         "address": "Calle de Lazaga 3, Madrid"
+        },
+        {
+         "n": 290,
+         "name": "Madrid Active School",
+         "info": "2,28 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296834988",
+         "address": "Calle de María Zayas 8, Madrid",
+         "desc": "Escuela activa autorizada de infantil, primaria y secundaria con pedagogía alternativa."
+        },
+        {
+         "n": 291,
+         "name": "PRÓXIMO A MADRID",
+         "info": "2,17 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835025",
+         "address": "Calle de Bravo Murillo 122, Madrid",
+         "desc": "Proyecto que acerca a los consumidores productos locales y artesanos de Madrid."
+        },
+        {
+         "n": 292,
+         "name": "Supermercado LA OSA S.Coop.Mad",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835029",
+         "address": "Avenida de Asturias 57, Madrid",
+         "desc": "Supermercado cooperativo y participativo de 800 m² en Ventilla-Almenara (Tetuán)."
+        }
+       ]
+      },
+      {
+       "id": "dia-carabanchel-latina",
+       "title": "Carabanchel-Latina",
+       "maps": [
+        {
+         "mid": "1jxlHOwJYy6YGCUcHwXNuHkVVmx-mP7s",
+         "ll": "40.3900,-3.7400",
+         "z": 13,
+         "title": "Rutas de Esperanza Activa - Madrid · Carabanchel-Latina",
+         "label": "Carabanchel-Latina · 7 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 293,
+         "name": "ARCADUZ CERAMICA",
+         "info": "2,12 km · circular · 25–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835032",
+         "address": "Calle de los Hermanos del Moral 13, Madrid",
+         "desc": "Taller de alfarería en Madrid y Murcia."
+        },
+        {
+         "n": 294,
+         "name": "Cocina Conversa",
+         "info": "1,94 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835039",
+         "address": "Calle de Tordesillas 27, Madrid",
+         "desc": "Proyecto dedicado a la enseñanza de cocina y alimentación saludable."
+        },
+        {
+         "n": 295,
+         "name": "Codenta clínicasdentales",
+         "info": "2,06 km · circular · 25–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835043",
+         "address": "Calle de Guabairo 9, Madrid",
+         "desc": "Clínicas dentales cooperativas de especialidades orientadas a la salud bucodental de la población."
+        },
+        {
+         "n": 296,
+         "name": "Hola Por Qué",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835060",
+         "address": "Calle de Nicolás Morales 38, Madrid",
+         "desc": "Serigrafía y gráfica artesanal."
+        },
+        {
+         "n": 297,
+         "name": "Kambalache",
+         "info": "2,17 km · circular · 26–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835090",
+         "address": "Avenida de la Emperatriz Isabel 3, Madrid",
+         "desc": "Tienda de ropa, calzado y complementos de segunda mano que promueve el consumo consciente."
+        },
+        {
+         "n": 298,
+         "name": "Colegio Lourdes Fuhem",
+         "info": "2,49 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835094",
+         "address": "Calle de San Roberto 8, Madrid",
+         "desc": "Colegio concertado de la Fundación FUHEM, con un proyecto educativo basado en la innovación, el rigor académico y el desarrollo integral de la persona."
+        },
+        {
+         "n": 299,
+         "name": "Vivir sin plástico",
+         "info": "1,80 km · circular · 22–27 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835098",
+         "address": "Paseo de Extremadura 60, Madrid",
+         "desc": "Web de referencia del movimiento residuo cero, creada en 2015 por Patricia Reina y Fernando Gómez."
+        }
+       ]
+      },
+      {
+       "id": "dia-retiro-salamanca-moratalaz-hortaleza-ciudad-lineal",
+       "title": "Retiro-Salamanca-Moratalaz-Hortaleza-Ciudad Lineal",
+       "maps": [
+        {
+         "mid": "1sH9zk_UsuPGYh1MzS8evqS6GADyQdnM",
+         "ll": "40.4400,-3.6600",
+         "z": 12,
+         "title": "Rutas de Esperanza Activa - Madrid · Retiro-Salamanca-Moratalaz-Hortaleza-Ciudad Lineal",
+         "label": "Retiro-Salamanca-Moratalaz-Hortaleza-Ciudad Lineal · 10 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 300,
+         "name": "Observatorio Internacional de Ciudadanía y Medio Ambiente Sostenible (CIMAS)",
+         "info": "1,91 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835102",
+         "address": "Calle de los Hermanos García Noblejas 41, Madrid",
+         "desc": "Profesionales de las ciencias sociales comprometidos con su entorno social y político."
+        },
+        {
+         "n": 301,
+         "name": "Catering solidario",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835108",
+         "address": "Calle de Oña 9, Madrid",
+         "desc": "Cooperativa de catering con comida natural y de calidad, comprometida social y ambientalmente."
+        },
+        {
+         "n": 302,
+         "name": "Espacio Danos Tiempo",
+         "info": "2,47 km · circular · 30–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835142",
+         "address": "Calle de Mar de Bering 5, Madrid",
+         "desc": "Asociación sin ánimo de lucro del barrio de Hortaleza, activa desde 2007."
+        },
+        {
+         "n": 303,
+         "name": "Alkon",
+         "info": "2,41 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835255",
+         "address": "Calle de Lituania 6, Madrid",
+         "desc": "Empresa de soluciones tecnológicas que ayuda a digitalizar negocios."
+        },
+        {
+         "n": 304,
+         "name": "Cronopios Idiomas",
+         "info": "2,51 km · circular · 30–38 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835264",
+         "address": "Calle de Espalter 12, Madrid",
+         "desc": "Escuela de español para extranjeros nacida en 2012 como cooperativa de trabajo, con cursos intensivos."
+        },
+        {
+         "n": 305,
+         "name": "Ruiz Salgado Abogados-Consultores. Especialidad administrativo y ambiental.",
+         "info": "2,44 km · circular · 29–37 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835292",
+         "address": "Calle de Gutenberg 3, Madrid",
+         "desc": "Despacho de asesoramiento jurídico administrativo y ambiental."
+        },
+        {
+         "n": 306,
+         "name": "Seryes",
+         "info": "2,40 km · circular · 29–36 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835300",
+         "address": "Avenida del Mediterráneo 23, Madrid",
+         "desc": "Correduría de seguros para personas, hogares y empresas."
+        },
+        {
+         "n": 307,
+         "name": "Provivienda",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835304",
+         "address": "Calle de Sancho Dávila 20, Madrid",
+         "desc": "Asociación que trabaja desde 1989 por el derecho a la vivienda en igualdad de condiciones."
+        },
+        {
+         "n": 308,
+         "name": "sAtt ecoarquitectura; SATÉLITE ARQUITECTURA S.L.P.",
+         "info": "2,73 km · circular · 33–41 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835320",
+         "address": "Calle de Villanueva 35, Madrid",
+         "desc": "Oficina de arquitectura basada en la ecología social y ambiental."
+        },
+        {
+         "n": 309,
+         "name": "TALLER SOCIAL CICLISTA GUINDALERA",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835388",
+         "address": "Calle de Martínez Izquierdo 53, Madrid",
+         "desc": "Taller de bicis que ayuda con la mecánica a cambio de la voluntad."
+        }
+       ]
+      },
+      {
+       "id": "dia-comunidad-de-madrid",
+       "title": "Comunidad de Madrid",
+       "maps": [
+        {
+         "mid": "1GvvhZYzMPCJC6zSVnyNAJATjtPbEvDk",
+         "ll": "40.5000,-3.7000",
+         "z": 9,
+         "title": "Rutas de Esperanza Activa - Madrid · Comunidad de Madrid",
+         "label": "Comunidad de Madrid · 9 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 310,
+         "name": "Agencia Contentos",
+         "info": "2,29 km · circular · 27–34 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835395",
+         "address": "Calle de Suiza 24, Alcalá de Henares",
+         "desc": "Agencia creativa de diseño gráfico y audiovisual."
+        },
+        {
+         "n": 311,
+         "name": "Batucada Bloco Virado",
+         "info": "2,13 km · circular · 26–32 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835398",
+         "address": "Calle Mayor 26, Alcalá de Henares",
+         "desc": "Batucada de Alcalá de Henares, creada en 2014, que toca samba y otros ritmos en fiestas y pasacalles."
+        },
+        {
+         "n": 312,
+         "name": "Simbiótica",
+         "info": "2,01 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835429",
+         "address": "Calle Mayor 26, Alcalá de Henares",
+         "desc": "Cooperativa de desarrollo de software y consultoría tecnológica responsable."
+        },
+        {
+         "n": 313,
+         "name": "Triskel Apps",
+         "info": "2,22 km · circular · 27–33 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835440",
+         "address": "Calle Mayor 26, Alcalá de Henares",
+         "desc": "Desarrollo de aplicaciones móviles que respetan la libertad y la privacidad."
+        },
+        {
+         "n": 314,
+         "name": "Ínsula Coworking",
+         "info": "2,01 km · circular · 24–30 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835448",
+         "address": "Calle Mayor 26, Alcalá de Henares",
+         "desc": "Espacio de coworking en el centro de Alcalá de Henares."
+        },
+        {
+         "n": 315,
+         "name": "Centro de Fisioterapia Lucía Villafañe",
+         "info": "1,74 km · circular · 21–26 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835479",
+         "address": "Urbanización La Chopera 54, Collado Villalba",
+         "desc": "Fisioterapia y acompañamiento en situaciones de dolor o lesión, y tratamiento de la postura."
+        },
+        {
+         "n": 316,
+         "name": "Biolibere Supermercado Cooperativo",
+         "info": "2,04 km · circular · 24–31 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835485",
+         "address": "Calle de Rosa Luxemburgo 5, Getafe",
+         "desc": "Supermercado cooperativo ecológico con tienda online y punto de recogida en Getafe."
+        },
+        {
+         "n": 317,
+         "name": "BOOOOOO. Creatividad y Género.",
+         "info": "1,92 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835490",
+         "address": "Avenida de Torrelodones 15, Torrelodones",
+         "desc": "Cooperativa creada en 2012 que reúne a profesionales de la intervención social y del mundo creativo para ofrecer asesorías, formaciones y proyectos con perspectiva de género."
+        },
+        {
+         "n": 318,
+         "name": "Lasgaya",
+         "info": "1,95 km · circular · 23–29 min caminando",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296835497",
+         "address": "Calle de San Lorenzo 42, Villaviciosa de Odón",
+         "desc": "Cooperativa de trabajo ecofeminista de mujeres con larga trayectoria profesional y compromiso ecosocial."
         }
        ]
       }

@@ -1,0 +1,90 @@
+n	nombre	direccion	distrito	km	mapa	wikiloc
+600	Parque de Atenas	Calle de Segovia 28	Centro	1.93	1	296944753
+601	Parque de la Cornisa		Centro	1.7	1	296945041
+602	Jardines de las Vistillas	Calle de la Morería 12	Centro	2.06	1	296945076
+603	Jardines de Sabatini	Calle de Bailén 2	Centro	2.09	1	296945137
+604	Jardines del Príncipe de Anglona	Plaza de la Paja 6	Centro	1.99	1	296945172
+605	Parque Enrique Tierno Galván	Calle de Meneses 4	Arganzuela	2.09	1	296945190
+606	Parque de las Peñuelas	Calle de Gargantilla 2	Arganzuela	1.9	1	296945242
+607	Parque del Bronce		Arganzuela	1.85	1	296945282
+608	Plaza de Luca de Tena		Arganzuela	1.73	1	296945341
+609	Madrid Río (tramo de Arganzuela)		Arganzuela	1.9	1	296945395
+610	Jardines del Buen Retiro	Plaza de la Independencia 7	Retiro	1.78	2	296945446
+611	Parque Roma	Calle de Juan Esplandiú 4	Retiro	2.0	2	296945488
+612	Parque Martin Luther King	Calle del Cerro Negro 1	Retiro	1.89	2	296945504
+615	Quinta de la Fuente del Berro	Calle de Enrique D'Almonte 1	Salamanca	1.92	2	296945579
+616	Parque de Sancho Dávila	Plaza de América Española 4	Salamanca	1.94	2	296945609
+617	Parque de Las Avenidas	Avenida de Brasilia 6	Salamanca	1.73	2	296945698
+618	Parque María Eva Duarte de Perón	Calle del Doctor Gómez Ulla 9	Salamanca	1.78	2	296945739
+619	Jardines del Descubrimiento	Calle de Goya 2	Salamanca	2.0	2	296945766
+620	Parque de Berlín	Avenida de Ramón y Cajal 2	Chamartín	1.95	3	296945823
+621	Pinar de Chamartín		Chamartín	1.73	3	296945896
+622	Jardines de San Fernando		Chamartín	2.07	3	296945941
+624	Paseo de los Cerezos		Chamartín	1.67	3	296945984
+625	Parque Agustín Rodríguez Sahagún (Huerta del Obispo)	Paseo de la Dirección 200	Tetuán	1.81	3	296946014
+626	Parque Agustín Rodríguez Sahagún	Paseo de la Dirección 300	Tetuán	1.68	3	296946047
+627	Parque de La Ventilla	Calle de la Vía Límite 51	Tetuán	1.77	3	296946096
+629	Jardines de Enrique Herreros		Chamberí	2.03	4	296946174
+630	Plaza de Olavide		Chamberí	1.94	4	296946193
+631	Plaza del Conde del Valle de Súchil		Chamberí	2.03	4	296946242
+632	Parque de José Luis Sampedro		Chamberí	2.12	4	296946368
+633	Parque de La Vaguada	Paseo de la Vaguada 13	Fuencarral-El Pardo	1.87	4	296946515
+634	Parque del Norte-Carmen Tagle	Calle del Arzobispo Morcillo 7	Fuencarral-El Pardo	2.11	4	296946542
+635	Parque de Alcazaba	Calle de Ribadavia 45	Fuencarral-El Pardo	1.72	4	296946602
+637	Parque Gabriela Mistral		Fuencarral-El Pardo	1.91	4	296946652
+638	Parque del Oeste	Paseo de Moret 2	Moncloa-Aravaca	2.07	5	296946675
+639	Parque de la Bombilla	Avenida de Valladolid 4	Moncloa-Aravaca	1.9	5	296946708
+640	Parque de la Dehesa de la Villa	Carretera de la Dehesa de la Villa 1	Moncloa-Aravaca	1.79	5	296946734
+641	Casa de Campo		Moncloa-Aravaca	2.99	5	296946746
+642	Parque de Arroyo Pozuelo	Calle de Arroyo Pozuelo, s/n	Moncloa-Aravaca	1.89	5	296946772
+643	Parque de Las Cruces	Avenida de los Poblados 74	Latina	1.85	5	296946840
+644	Parque de Caramuel	Calle de Caramuel 53	Latina	1.66	5	296946857
+645	Parque de Aluche	Calle del Tembleque 45	Latina	2.07	5	296946874
+646	Parque del Cerro Almodóvar	Calle de Marcelino Castillo 29	Latina	1.71	5	296946942
+647	Parque de San Isidro	Paseo de la Ermita del Santo 74	Carabanchel	1.6	6	296946988
+648	Parque de la Volatería	Vía Lusitana 1	Carabanchel	1.99	6	296947028
+649	Parque de Comillas	Calle de Miguel Soriano 1	Carabanchel	2.1	6	296947073
+650	Parque de la Peseta (Salvador Allende)	Calle de Salvador Allende 3	Carabanchel	1.97	6	296947123
+651	Parque de Eugenia de Montijo	Calle del Parque de Eugenia de Montijo 3	Carabanchel	1.77	6	296947228
+652	Parque de Pradolongo	Avenida de Rafaela Ybarra 85	Usera	1.97	6	296947272
+653	Parque de Olof Palme	Calle de los Cerecinos 1	Usera	1.89	6	296947329
+654	Parque de Mujeres de Orcasitas	Ronda de las Cooperativas 6	Usera	1.93	6	296947377
+655	Parque Lineal del Manzanares (tramo de Usera)		Usera	1.9	6	296947427
+656	Madrid Río (tramo de Usera)		Usera	1.66	6	296947457
+657	Parque Lineal de Palomeras	Avenida de la Albufera 293	Puente de Vallecas	1.92	7	296947500
+658	Parque del Cerro del Tío Pío	Calle de Benjamín Palencia 2	Puente de Vallecas	1.96	7	296947538
+659	Parque de Azorín	Avenida de la Albufera 142	Puente de Vallecas	1.96	7	296947551
+660	Parque de Payaso Fofó	Calle del Payaso Fofó 11	Puente de Vallecas	1.86	7	296947602
+661	Jardines del Campo de la Paloma	Avenida de Rafael Alberti 38	Puente de Vallecas	1.99	7	296947643
+662	Parque de Moratalaz	Avenida de Moratalaz 183	Moratalaz	2.04	7	296947663
+663	Parque de Martala (Dionisio Ridruejo)	Calle de Molina de Segura 1	Moratalaz	1.99	7	296947686
+664	Parque de Vandel-Pavones Este	Calle de Molina de Segura 10	Moratalaz	1.96	7	296947709
+665	Parque de Darwin	Calle de Manuel María Arrillaga 29 B	Moratalaz	1.62	7	296947748
+666	Parque de José Bergamín	Calle de José Bergamín 12	Moratalaz	1.64	7	296947798
+667	Parque de El Calero	Calle de José del Hierro 1	Ciudad Lineal	1.84	8	296947843
+668	Parque de Arriaga	Avenida de Daroca 95	Ciudad Lineal	2.03	8	296947862
+669	Parque Pinar de la Elipa	Calle de Félix Rodríguez de la Fuente 26	Ciudad Lineal	1.97	8	296947912
+670	Parque Forestal de Valdebebas-Felipe VI	Avenida de las Fuerzas Armadas 11	Hortaleza	1.62	8	296947939
+671	Parque de Juan Pablo II	Avenida de Machupichu 1	Hortaleza	1.63	8	296947991
+672	Parque de Alfredo Kraus	Calle del Mar Adriático 5	Hortaleza	1.91	8	296948028
+673	Parque de Pinar del Rey	Carretera de Canillas 1	Hortaleza	1.96	8	296948074
+674	Parque de Villa Rosa-Paco Caño	Calle de Aconcagua 2	Hortaleza	2.01	8	296948090
+675	Parque de Plata y Castañar	Glorieta del Mirador del Sur 1	Villaverde	1.99	9	296948123
+676	Parque de la Dehesa Boyal	Calle de Burjasot 1 A	Villaverde	1.6	9	296948180
+677	Parque Forestal Julio Alguacil Gómez	Avenida de Rafaela Ybarra	Villaverde	1.88	9	296948234
+678	Parque de Ciudad de los Ángeles	Calle de Anoeta 14 B	Villaverde	1.93	9	296948287
+679	Parque de El Espinillo	Calle de la Unanimidad 23	Villaverde	1.86	9	296948308
+680	Parque de Vallecas Villa-Cataratas	Calle de Babilafuente 2	Villa de Vallecas	2.04	9	296948346
+681	Parque de la Cañada	Avenida de la Gavia 66	Villa de Vallecas	1.72	9	296948410
+683	Entorno del Bulevar de la Naturaleza	Calle de Tineo, s/n	Villa de Vallecas	1.85	9	296948475
+684	Parque de Puerto Porzuna-La Granja de San Ildefonso	Avenida del Mayorazgo, s/n	Villa de Vallecas	2.08	9	296948521
+685	Parque de Cuña Verde de Vicálvaro	Avenida de Daroca 300	Vicálvaro	1.97	10	296948571
+686	Parque de Vicalvarada	Calle de Villablanca 1	Vicálvaro	1.66	10	296948638
+687	Parque de Valdebernardo Este	Calle del Cordel de Pavones 2	Vicálvaro	2.06	10	296948694
+688	Parque Forestal de Vicálvaro	Paseo del Polideportivo 1	Vicálvaro	1.92	10	296948756
+689	Pinar de Santa Eugenia	Avenida del Mediterráneo	Vicálvaro	2.18	10	296948785
+690	Parque de San Blas-El Paraíso	Avenida de Arcentales 4	San Blas-Canillejas	1.86	10	296948821
+691	Quinta de los Molinos	Calle de Alcalá 527	San Blas-Canillejas	1.99	10	296948882
+692	Quinta de Torre Arias	Calle de Alcalá 551	San Blas-Canillejas	2.03	10	296948902
+693	Parque de Juan Carlos I	Glorieta de Don Juan de Borbón y Battemberg, s/n	Barajas	2.0	10	296948934
+694	Parque de El Capricho de la Alameda de Osuna	Paseo de la Alameda de Osuna 25	Barajas	1.8	10	296948960
