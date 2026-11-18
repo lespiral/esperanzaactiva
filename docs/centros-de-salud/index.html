@@ -14,7 +14,7 @@
 <link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@600;700&display=swap">
-  <link rel="stylesheet" href="../assets/site.css?v=1795011816">
+  <link rel="stylesheet" href="../assets/site.css?v=1795011997">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -102,7 +102,7 @@
 .nus__tag--pain.nus--t { transform: translate(-50%, 0); max-width: 290px; }
 .nus__pl { display: block; }
 /* Centre de salut (adaptació 18/11/2026): gris fins que hi arriben els fils, i després en color */
-.nus__hcbtn { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); padding: 0 0 12% 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; display: flex; align-items: flex-end; justify-content: center; text-align: center; font-family: var(--fh); font-weight: 700; line-height: 1.15; color: var(--cmuted); transition: color .6s; }
+.nus__hcbtn { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); padding: 0 0 25% 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; display: flex; align-items: flex-end; justify-content: center; text-align: center; font-family: var(--fh); font-weight: 700; line-height: 1.15; color: var(--cmuted); transition: color .6s; }
 .nus__hcbtn.is-on { color: var(--c9); }
 .nus__hcbtn.is-sel span { text-decoration: underline; text-decoration-color: var(--cs); text-decoration-thickness: 3px; text-underline-offset: 3px; }
 .nus__hcbtn:focus { outline: none; }
@@ -356,7 +356,7 @@
     });
     var rr = G.rr, ki = rr / 48;
     out.push('<g class="nus__hc" transform="translate(' + r1(G.hc[0]) + ',' + r1(G.hc[1]) + ')"><circle class="hc-ring" r="' + r1(rr) + '" stroke-width="3"/>' +
-      '<g transform="translate(0 ' + r1(-rr * .33) + ') scale(' + r3(ki) + ') translate(-32 -35.5)"><rect class="hc-body" x="13" y="19" width="38" height="33" rx="2"/>' +
+      '<g transform="translate(0 ' + r1(-rr * .36) + ') scale(' + r3(ki) + ') translate(-32 -35.5)"><rect class="hc-body" x="13" y="19" width="38" height="33" rx="2"/>' +
       '<path class="hc-line" d="M11 19h42M13 19v33h38V19"/><path class="hc-cross" d="M29 24h6v6h6v6h-6v6h-6v-6h-6v-6h6z"/>' +
       '<rect class="hc-door" x="28" y="44" width="8" height="8" rx="1"/></g></g>');
     var cols = ["#2e7561", "#22604f", "#c9a53c", "#1a4d40", "#2e7561", "#6f5711", "#22604f"], R = G.R, sc = G.tall ? .9 : 1;
@@ -1149,6 +1149,6 @@
     </div>
   </footer>
 
-  <script src="../assets/site.js?v=1795011816" defer></script>
+  <script src="../assets/site.js?v=1795011997" defer></script>
 </body>
 </html>
