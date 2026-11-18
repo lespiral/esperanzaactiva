@@ -19,8 +19,8 @@ if not (CAT / "data" / "site.json").exists():
 
 site = json.loads((ROOT / "data" / "site.json").read_text(encoding="utf-8"))
 cat_site = json.loads((CAT / "data" / "site.json").read_text(encoding="utf-8"))
-places = site["cities"] + site.get("territories", [])
-ours = {c["slug"] for c in places if c.get("source") == "cat"}
+places = site["cities"] + site.get("territories", []) + site.get("subpages", [])
+ours = {c.get("file", c["slug"]) for c in places if c.get("source") == "cat"}
 
 (ROOT / "data" / "cat").mkdir(exist_ok=True)
 for slug in sorted(ours):

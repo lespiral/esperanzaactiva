@@ -78,7 +78,7 @@ ZONES_TEXT = {
 # Es tradueixen els textos d'aquestes claus. Els noms de les rutes i les adreces
 # («name», «address») són noms propis i es deixen com són, si no hi ha traducció.
 TR_KEYS = {"title", "summary", "intro", "text", "note", "desc", "start", "label", "zone",
-           "nav", "placeholder", "back", "html", "district", "map_pending"}
+           "nav", "placeholder", "back", "html", "district", "map_pending", "empty", "count"}
 TR_OPTIONAL = {"name", "address"}
 
 
@@ -242,35 +242,40 @@ summaries = {}
 course_summaries = {k: {} for k in courses}
 territory_summaries = {k: {} for k in courses}
 pending = {}   # textos de les ciutats de Catalunya que encara no tenen traducció
-for c in site["cities"] + site.get("territories", []):
+subpages = []
+for c in site["cities"] + site.get("territories", []) + site.get("subpages", []):
     if not c.get("slug"):
         continue
     is_territory = c in site.get("territories", [])
+    is_subpage = c in site.get("subpages", [])
+    fname = c.get("file", c["slug"])
     if c.get("source") == "cat":
-        city = json.loads((DATA / "cat" / f"{c['slug']}.json").read_text(encoding="utf-8"))
-        trf = DATA / "traducciones" / f"{c['slug']}.json"
+        city = json.loads((DATA / "cat" / f"{fname}.json").read_text(encoding="utf-8"))
+        trf = DATA / "traducciones" / f"{fname}.json"
         tr = json.loads(trf.read_text(encoding="utf-8")) if trf.exists() else {}
         freeze_ids(city)
         missing = set()
         translate(city, tr, missing)
         if missing:
-            pending[c["slug"]] = sorted(missing)
+            pending[fname] = sorted(missing)
         city["source"] = "cat"
     else:
-        city = json.loads((DATA / f"{c['slug']}.json").read_text(encoding="utf-8"))
+        city = json.loads((DATA / f"{fname}.json").read_text(encoding="utf-8"))
     city.setdefault("title", f"Caminar por {city['name']}")
     city["icon"] = c["icon"]
-    city["kind"] = "territory" if is_territory else "city"
+    city["kind"] = "territory" if is_territory else "subpage" if is_subpage else "city"
     # Enllaços a una altra pàgina, p. ex. {"text": ..., "city": "el-prat", "course": "dia"} → el-prat/#cuando-sostener
     for s in city.get("see_also") or []:
         s["href"] = f"{s['city']}/#{courses[s['course']]['anchor']}"
     by_course = {b["course"]: b for b in city["blocks"]}
     blocks = []
     for key, course in courses.items():
-        if is_territory and key not in by_course:
+        if (is_territory or is_subpage) and key not in by_course:
             continue
         b = by_course.get(key, {"course": key, "text": f"Todavía no hay rutas de este curso en {city['name']}. Mientras tanto, puedes hacer el tiempo de reflexión de cada paso caminando cerca de casa o en un lugar tranquilo."})
         b = dict(b, course=course)
+        for sa in b.get("see_also") or []:   # enllaç de bloc: {"text", "href"} (adreça relativa a l'arrel) o {"text", "city", "course"}
+            sa["href"] = sa.get("href") or f"{sa['city']}/#{courses[sa['course']]['anchor']}"
         # Un bloc pot tenir diverses parts, cada una amb el seu títol, text, avís,
         # grups i desplegable (Barcelona «Quan la vida»: rutes des dels CAP i rutes
         # «Caminant fem salut»). Sense "parts", el bloc és una sola part sense títol.
@@ -285,14 +290,20 @@ for c in site["cities"] + site.get("territories", []):
             # La primera part manté el desplegable del curs (#quan-la-vida-tria); les altres, el seu (#caminant-fem-salut-tria)
             cfg = dict(city.get("zones") or {}, **(b.get("zones") or {}), **(p.get("zones") or {}))
             add_zones(p, p["groups"], course, cfg, pid=None if i == 0 else f"{p['id']}-tria")
+        if b.get("notice"):
+            b["notice"] = dict(b["notice"], html=[Markup(h) for h in b["notice"]["html"]])
         b["parts"] = parts
         b["groups"] = [g for p in parts for g in p["groups"]]
         b["total"] = total
         b["summary"] = b.get("summary") or ("Todavía no hay rutas de este curso" if not total else f"{total} rutas")
-        (territory_summaries if is_territory else course_summaries)[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
+        if not is_subpage:
+            (territory_summaries if is_territory else course_summaries)[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
         blocks.append(b)
     # Primer els cursos que tenen rutes en aquesta ciutat; després, els que encara no en tenen
     city["blocks"] = [b for b in blocks if b["total"]] + [b for b in blocks if not b["total"]]
+    if is_subpage:   # página colgada de una ciudad: no sale en las listas de ciudades, menús ni resúmenes
+        subpages.append(city)
+        continue
     summaries[city["slug"]] = {"text": city["summary"], "has": True}
     (territories if is_territory else cities).append(city)
 
@@ -425,7 +436,7 @@ def place_tree(course=None):
 # Sanity checks
 all_ids = []
 n_routes = 0
-for city in cities + territories:
+for city in cities + territories + subpages:
     ids = []
     for b in city["blocks"]:
         ids.append(b["course"]["anchor"])
@@ -449,7 +460,7 @@ for city in cities + territories:
 # Cerca per ubicació: punt d'inici de cada ruta (data/inicis.json, per pàgina i id de ruta) → docs/assets/rutas.json
 INICIS = json.loads((DATA / "inicis.json").read_text(encoding="utf-8")) if (DATA / "inicis.json").exists() else {}
 RUTAS, sense_inici = [], []
-for city in cities + territories:
+for city in cities + territories + subpages:
     ll = INICIS.get(city["slug"], {})
     for b in city["blocks"]:
         ci = list(courses).index(b["course"]["key"])
@@ -515,6 +526,8 @@ for c in site["courses"]:
     render("course.html", c["slug"], section="cursos", page_title=c["title"], page_description=c["subtitle"], course=c)
 for city in cities:
     render("city.html", city["slug"], section="ciudades", page_title=city["name"], page_description=city["summary"], city=city)
+for t in subpages:
+    render("city.html", t["slug"], section="ciudades", page_title=t["name"], page_description=t["summary"], city=t)
 for t in territories:
     render("city.html", t["slug"], section="ciudades", page_title=t["name"], page_description=t["summary"], city=t)
 render("404.html", "404.html", page_title="Página no encontrada", root=BASE, base=BASE)
