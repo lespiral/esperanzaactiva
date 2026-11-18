@@ -204,6 +204,8 @@ for s in fp["sections"]:
     s["id"] = slugify(s["title"])
     # Cada pregunta: [pregunta, resposta] o [pregunta, resposta, infografia] (p. ex. "i-despres": la infografia surt dins la resposta)
     s["items"] = [(it[0], bw_html if it[1] == "__before_walk__" else Markup(f"<p>{it[1]}</p>"), slugify(it[0]), it[2] if len(it) > 2 else None) for it in s["items"]]
+hp = site["health_page"]
+hp["safety_html"] = Markup(hp["safety_html"])
 site["home"]["faq"] = [(q, Markup("<p>{}</p>").format(a)) for q, a in site["home"]["faq"]]
 
 def process_groups(groups, course):
@@ -485,7 +487,7 @@ env.globals.update(icon=icon, site=site, noindex=NOINDEX, version=str(int(time.t
                    territory_summaries=territory_summaries, places_for=places_for, place_tree=place_tree,
                    territories=[t for t in site.get("territories", []) if t.get("slug")],
                    cities_with_a=cities_with_a([c["name"] for c in site["cities"] if c.get("slug")]),
-                   h=site["home"], cc=site["course_common"])
+                   h=site["home"], cc=site["course_common"], hp=hp)
 
 
 PAGES = []
@@ -511,6 +513,7 @@ render("home.html", "", section="inicio")
 render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site["courses_page"])
 render("cities.html", "ciudades", section="ciudades", page_title=site["cities_page"]["title"], cp=site["cities_page"])
 render("faq.html", "preguntas", section="preguntas", page_title="Preguntas", fp=fp)
+render("health.html", "centros-de-salud", section="centros", page_title="Para centros de salud", page_description=hp["lead"], hp=hp)
 for c in site["courses"]:
     render("course.html", c["slug"], section="cursos", page_title=c["title"], page_description=c["subtitle"], course=c)
 for city in cities:
