@@ -187,11 +187,11 @@
     if (!g.tall) {
       // Ordinador: d'esquerra a dreta (nus → centre de salut → tres fils → corda → persones)
       H = Math.round(clamp(W * .4, 380, 440));
-      g.K = [W * .08, H * .5]; g.rk = clamp(W * .045, 36, 52);
-      g.hcs = Math.round(clamp(W * .08, 56, 70)); g.HC = [W * .27, H * .5];
+      g.K = [W * .09, H * .5]; g.rk = clamp(W * .045, 36, 52);
+      g.hcs = Math.round(clamp(W * .08, 56, 70)); g.HC = [W * .235, H * .5];
       g.B0 = [W * .5, H * .5]; g.R = Math.round(Math.min(H * .25, W * .1)); g.E = [W * .68, H * .5]; g.C = [g.E[0] + g.R, H * .5];
       g.dir = [1, 0]; g.spread = [0, H * .24]; g.entry = Math.PI; g.tagT = .6; g.capDx = -18;
-      g.painLab = { x: g.K[0], y: g.K[1] - g.rk - 14, cls: "nus--a" };
+      g.painLab = { x: (g.K[0] + g.HC[0]) / 2, y: g.K[1] - g.rk - 14, cls: "nus--a" };
     } else {
       // Mòbil: de dalt a baix
       g.K = [W * .5, 100]; g.rk = 36;
@@ -205,7 +205,7 @@
     // El camí del nus fins al centre de salut (puntejat, amb una punta de fletxa)
     var rc = g.hcs * .68 + 5;
     if (!g.tall) {
-      var x0 = g.K[0] + g.rk + 10, x1 = g.HC[0] - rc;
+      var x0 = g.K[0] + g.rk + 4, x1 = g.HC[0] - rc;
       g.route = "M" + r1(x0) + "," + r1(g.K[1]) + "H" + r1(x1) + "M" + r1(x1 - 8) + "," + r1(g.K[1] - 7) + "L" + r1(x1) + "," + r1(g.K[1]) + "L" + r1(x1 - 8) + "," + r1(g.K[1] + 7);
     } else {
       var y0 = g.K[1] + g.rk + 10, y1 = g.HC[1] - rc;
