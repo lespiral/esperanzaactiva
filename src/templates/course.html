@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "parts.html" import page_head, city_cards, territory_cards, place_nav, safety %}
+{% from "parts.html" import page_head, city_cards, territory_cards, place_nav, safety, nearby %}
 
 {# Botó d'inscripció (porta directament al formulari de Thinkific), «Próximamente» si el curs encara no està obert, o «En construcción» (sense enllaç) mentre cc.cta_building sigui true #}
 {% macro cta(course, note=True) -%}
@@ -94,7 +94,7 @@
     <p>{{ cc.walk_intro }}</p>
     {% if course.walk_note %}<p>{{ course.walk_note }}</p>{% endif %}
     {% set pt = place_tree(course.key) %}
-    {% if pt.n %}{{ place_nav('elige-lugar', pt, root, site.place_nav, course=True) }}{% else %}<p>{{ site.cities_page.empty }}</p>{% endif %}
+    {% if pt.n %}{{ place_nav('elige-lugar', pt, root, site.place_nav, course=True) }}{{ nearby(site.nearby, root, course.key) }}{% else %}<p>{{ site.cities_page.empty }}</p>{% endif %}
   </section>
 
   <section class="others" aria-labelledby="h-others">

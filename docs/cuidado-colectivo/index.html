@@ -14,7 +14,7 @@
 <link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@600;700&display=swap">
-  <link rel="stylesheet" href="../assets/site.css?v=1794952361">
+  <link rel="stylesheet" href="../assets/site.css?v=1794999283">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -836,7 +836,23 @@
     </div>
     <p class="placenav__foot">Ahora hay rutas de este curso en 5 pueblos y ciudades.</p>
   </section>
-</div>  </section>
+</div><section class="nearby" data-nearby data-src="../assets/rutas.json" data-root="../" data-course="cuidar" data-labels='{"away": "a {d}", "course_go": "Ir al curso", "course_none": "Todav\u00eda no hay rutas de este curso.", "denied": "No hemos podido saber d\u00f3nde est\u00e1s. Puedes escribir una direcci\u00f3n.", "far": "Todav\u00eda no hay rutas de este curso cerca de ti: la m\u00e1s cercana est\u00e1 a {d}.", "go": "Ver la ruta", "here": "tu ubicaci\u00f3n", "locating": "Buscando tu ubicaci\u00f3n\u2026", "map": "Abrir el mapa", "network": "No hemos podido buscar la direcci\u00f3n ahora mismo. Int\u00e9ntalo de nuevo en unos minutos.", "note": "Las distancias son en l\u00ednea recta hasta el punto de inicio.", "notfound": "No encontramos esa direcci\u00f3n. Prueba con la calle y la poblaci\u00f3n.", "results": "Rutas que empiezan m\u00e1s cerca de {where}", "searching": "Buscando la direcci\u00f3n\u2026", "unsupported": "Tu navegador no permite usar la ubicaci\u00f3n. Puedes escribir una direcci\u00f3n."}' aria-labelledby="nearby-h-cuidar">
+  <h3 class="nearby__title" id="nearby-h-cuidar">Encuentra las rutas más cercanas a ti</h3>
+  <p class="nearby__intro">Usa tu ubicación o escribe una dirección y te mostramos, para cada curso, las rutas que empiezan más cerca.</p>
+  <div class="nearby__form">
+    <button class="btn btn--primary nearby__locate" type="button"><svg class="i" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true" focusable="false"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg>Usar mi ubicación</button>
+    <form class="nearby__addr" role="search">
+      <label class="nearby__label" for="nearby-q-cuidar">O escribe una dirección</label>
+      <div class="nearby__row">
+        <input class="nearby__input" id="nearby-q-cuidar" type="search" placeholder="Calle, número y población" autocomplete="street-address" enterkeyhint="search">
+        <button class="btn btn--outline nearby__go" type="submit">Buscar</button>
+      </div>
+    </form>
+  </div>
+  <p class="nearby__privacy">Tu ubicación no sale de tu dispositivo. Si escribes una dirección, se envía a Nominatim (OpenStreetMap) para localizarla.</p>
+  <p class="nearby__status" role="status" aria-live="polite"></p>
+  <div class="nearby__results" hidden></div>
+</section>  </section>
 
   <section class="others" aria-labelledby="h-others">
     <h2 id="h-others">Otros cursos</h2>
@@ -876,6 +892,6 @@
     </div>
   </footer>
 
-  <script src="../assets/site.js?v=1794952361" defer></script>
+  <script src="../assets/site.js?v=1794999283" defer></script>
 </body>
 </html>

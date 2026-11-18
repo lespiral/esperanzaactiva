@@ -306,6 +306,33 @@
     "kicker": "Pueblos y comarcas"
   },
 
+  "nearby": {
+    "title": "Encuentra las rutas más cercanas a ti",
+    "intro": "Usa tu ubicación o escribe una dirección y te mostramos, para cada curso, las rutas que empiezan más cerca.",
+    "locate": "Usar mi ubicación",
+    "address_label": "O escribe una dirección",
+    "address_placeholder": "Calle, número y población",
+    "search": "Buscar",
+    "privacy": "Tu ubicación no sale de tu dispositivo. Si escribes una dirección, se envía a Nominatim (OpenStreetMap) para localizarla.",
+    "js": {
+      "locating": "Buscando tu ubicación…",
+      "searching": "Buscando la dirección…",
+      "denied": "No hemos podido saber dónde estás. Puedes escribir una dirección.",
+      "unsupported": "Tu navegador no permite usar la ubicación. Puedes escribir una dirección.",
+      "notfound": "No encontramos esa dirección. Prueba con la calle y la población.",
+      "network": "No hemos podido buscar la dirección ahora mismo. Inténtalo de nuevo en unos minutos.",
+      "results": "Rutas que empiezan más cerca de {where}",
+      "here": "tu ubicación",
+      "note": "Las distancias son en línea recta hasta el punto de inicio.",
+      "course_none": "Todavía no hay rutas de este curso.",
+      "far": "Todavía no hay rutas de este curso cerca de ti: la más cercana está a {d}.",
+      "away": "a {d}",
+      "go": "Ver la ruta",
+      "map": "Abrir el mapa",
+      "course_go": "Ir al curso"
+    }
+  },
+
   "place_nav": {
     "box_label": "Elige dónde quieres caminar",
     "search_label": "Busca tu pueblo o ciudad",
