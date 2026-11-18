@@ -48,15 +48,20 @@
 .nus__tag--pain.nus--r { transform: translate(0, -50%); }
 .nus__tag--pain.nus--b { transform: translate(-50%, 0); max-width: 250px; }
 .nus__tag--pain.nus--c { transform: translate(-50%, -50%); }
+.nus__tag--pain.nus--a { transform: translate(-50%, -100%); max-width: 250px; }
 .nus__tag--pain.nus--t { transform: translate(-50%, 0); max-width: 290px; }
 .nus__pl { display: block; }
 /* Centre de salut (adaptació 18/11/2026): gris fins que hi arriben els fils, i després en color */
-.nus__hcbtn { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); padding: 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; }
+.nus__hcbtn { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); padding: 0 0 12% 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; display: flex; align-items: flex-end; justify-content: center; text-align: center; font-family: var(--fh); font-weight: 700; line-height: 1.15; color: var(--cmuted); transition: color .6s; }
+.nus__hcbtn.is-on { color: var(--c9); }
+.nus__hcbtn.is-sel span { text-decoration: underline; text-decoration-color: var(--cs); text-decoration-thickness: 3px; text-underline-offset: 3px; }
 .nus__hcbtn:focus { outline: none; }
 .nus__hcbtn:focus-visible { outline: 3px solid var(--c7); outline-offset: 2px; }
-.nus__tag--pain.nus--a { transform: translate(-50%, -100%); max-width: 250px; }
-.nus__tag--hc, .nus__tag--hc.is-on { border-radius: 16px; --col: #b9c2be; color: var(--cmuted); opacity: 1; transform: translate(-50%, 0); background: rgba(255,255,255,.92); transition: border-color .6s, color .6s, box-shadow .3s; }
-.nus__tag--hc.is-on { --col: #2e7561; color: var(--c9); }
+/* «se transforman en…»: quadre sobre el tros de trena que surt del centre */
+.nus__saytag { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); width: max-content; padding: 5px 12px 6px; border-radius: 999px; border: 2px solid #2e7561; background: #fff; color: var(--c6); opacity: 0; transition: opacity .5s; pointer-events: none; }
+.nus.is-say .nus__saytag { opacity: 1; }
+.nus__say-in2 { display: flex; align-items: center; gap: .35em; font: italic 700 clamp(13.5px, calc(var(--sw, 1000px) * .0165), 15.5px)/1.25 var(--fb); white-space: nowrap; }
+.nus__say-in2 svg { flex: none; width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
 .hc-ring { fill: #fff; stroke: #c9d2ce; transition: stroke .8s; }
 .hc-body { fill: #e3e7e5; transition: fill .8s; }
 .hc-line { fill: none; stroke: #8e9b95; stroke-width: 2.4; stroke-linejoin: round; transition: stroke .8s; }
@@ -148,8 +153,8 @@
   /* ---------- RITME (ms) ----------
      El nus tremola (dolor) → surt «es transformen en…» → el nus es desembolica →
      en surten els tres fils → la corda → les persones → Esperança Activa. */
-  var T = { travel0: 900, travel1: 2100, hc: 2100, say: 2500, threads0: 2500, threads1: 3900,
-            braid0: 3800, braid1: 5300, figs0: 5200, figStep: 150, center: 6400, end: 7100 };
+  var T = { travel0: 900, travel1: 2100, hc: 2100, b1a: 2300, b1b: 3100, say: 2700, threads0: 3100, threads1: 4400,
+            braid0: 4300, braid1: 5700, figs0: 5600, figStep: 150, center: 6800, end: 7500 };
   var TALL = 720;
 
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -185,25 +190,31 @@
   function geometry(W) {
     var g = { W: W, tall: W < TALL }, H;
     if (!g.tall) {
-      // Ordinador: d'esquerra a dreta (nus → centre de salut → tres fils → corda → persones)
+      // Ordinador: nus → centre de salut → tros de trena → tres fils → corda → persones
       H = Math.round(clamp(W * .4, 380, 440));
-      g.K = [W * .09, H * .5]; g.rk = clamp(W * .045, 36, 52);
-      g.hcs = Math.round(clamp(W * .08, 56, 70)); g.HC = [W * .235, H * .5];
-      g.B0 = [W * .5, H * .5]; g.R = Math.round(Math.min(H * .25, W * .1)); g.E = [W * .68, H * .5]; g.C = [g.E[0] + g.R, H * .5];
-      g.dir = [1, 0]; g.spread = [0, H * .24]; g.entry = Math.PI; g.tagT = .6; g.capDx = -18;
-      g.painLab = { x: (g.K[0] + g.HC[0]) / 2, y: g.K[1] - g.rk - 14, cls: "nus--a" };
+      g.K = [W * .075, H * .5]; g.rk = clamp(W * .045, 36, 52);
+      g.hcs = Math.round(clamp(W * .1, 76, 84)); g.HC = [W * .245, H * .5];
+      var rr = g.hcs * .68;
+      g.S = [W * .526, H * .5]; g.B0 = [W * .68, H * .5];
+      g.R = Math.round(Math.min(H * .24, W * .095)); g.E = [W * .72, H * .5]; g.C = [g.E[0] + g.R, H * .5];
+      g.dir = [1, 0]; g.spread = [0, H * .22]; g.entry = Math.PI; g.tagT = .5;
+      g.painLab = { x: (g.K[0] + g.HC[0]) / 2, y: g.K[1] - g.rk - 24, cls: "nus--a" };
+      g.say = [(g.HC[0] + rr + g.S[0]) / 2, H * .5];
     } else {
       // Mòbil: de dalt a baix
       g.K = [W * .5, 100]; g.rk = 36;
-      g.hcs = 52; g.HC = [W * .5, 208];
-      g.B0 = [W * .5, 372]; g.R = Math.round(Math.min(W * .25, 95)); g.E = [W * .5, 434]; g.C = [W * .5, 434 + g.R];
-      g.dir = [0, 1]; g.spread = [W * .34, 0]; g.entry = -Math.PI / 2; g.tagT = .72; g.capDx = 0;
+      g.hcs = 76; g.HC = [W * .5, 244];
+      var rr = g.hcs * .68;
+      g.S = [W * .5, 244 + rr + 80]; g.B0 = [W * .5, 244 + rr + 80 + 124];
+      g.R = Math.round(Math.min(W * .25, 95)); g.E = [W * .5, g.B0[1] + 50]; g.C = [W * .5, g.E[1] + g.R];
+      g.dir = [0, 1]; g.spread = [W * .34, 0]; g.entry = -Math.PI / 2; g.tagT = .55;
       g.painLab = { x: g.K[0], y: 12, cls: "nus--t" };
+      g.say = [W * .5, (244 + rr + g.S[1]) / 2];
       H = Math.round(g.C[1] + g.R + 64);
     }
-    g.H = H; g.hc = g.HC;
+    g.H = H; g.hc = g.HC; g.rr = rr;
     // El camí del nus fins al centre de salut (puntejat, amb una punta de fletxa)
-    var rc = g.hcs * .68 + 5;
+    var rc = rr + 5;
     if (!g.tall) {
       var x0 = g.K[0] + g.rk + 4, x1 = g.HC[0] - rc;
       g.route = "M" + r1(x0) + "," + r1(g.K[1]) + "H" + r1(x1) + "M" + r1(x1 - 8) + "," + r1(g.K[1] - 7) + "L" + r1(x1) + "," + r1(g.K[1]) + "L" + r1(x1 - 8) + "," + r1(g.K[1] + 7);
@@ -224,7 +235,7 @@
     for (var j = 0; j < 11; j++) g.kQ.push(loose(11, j, j * 2.6 + .7, g.rk * (.3 + .5 * rnd()), .3));
     // Tres fils que surten del nus i s'ajunten
     g.threads = [-1, 0, 1].map(function (o, i) {
-      var p0 = g.HC, p3 = g.B0, L = [p3[0] - p0[0], p3[1] - p0[1]];
+      var p0 = g.S, p3 = g.B0, L = [p3[0] - p0[0], p3[1] - p0[1]];
       var c1 = [p0[0] + L[0] * .3 + g.spread[0] * o, p0[1] + L[1] * .3 + g.spread[1] * o];
       var c2 = [p0[0] + L[0] * .72 + g.spread[0] * o, p0[1] + L[1] * .72 + g.spread[1] * o];
       var mid = bez(p0, c1, c2, p3, g.tagT);
@@ -242,6 +253,16 @@
     var A = g.tall ? 5 : 6, lam = g.tall ? 40 : 48;
     g.strands = [0, 1, 2].map(function (k) {
       var ph = k * 2 * Math.PI / 3, pts = cl.map(function (c, i) {
+        var o = A * Math.sin(2 * Math.PI * (i * step) / lam + ph);
+        return r1(c[0] + c[2] * o) + "," + r1(c[1] + c[3] * o);
+      });
+      return "M" + pts.join("L");
+    });
+    // El tros de trena que surt del centre de salut (de la seva porta fins on es separen els tres fils)
+    var cl1 = [], dx1 = g.S[0] - g.HC[0], dy1 = g.S[1] - g.HC[1], len1 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+    for (s = 0; s < len1; s += step) cl1.push([g.HC[0] + dx1 * s / len1, g.HC[1] + dy1 * s / len1, dy1 / len1 * -1, dx1 / len1]);
+    g.strands1 = [0, 1, 2].map(function (k) {
+      var ph = k * 2 * Math.PI / 3, pts = cl1.map(function (c, i) {
         var o = A * Math.sin(2 * Math.PI * (i * step) / lam + ph);
         return r1(c[0] + c[2] * o) + "," + r1(c[1] + c[3] * o);
       });
@@ -275,13 +296,17 @@
     G.threads.forEach(function (t, i) {
       out.push('<path class="nus__thread" d="' + t.d + '" pathLength="1" fill="none" stroke="' + THREADS[i].col + '" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 1" stroke-dashoffset="1"/>');
     });
+    G.strands1.forEach(function (d, i) {
+      out.push('<path class="nus__strand nus__b1" d="' + d + '" pathLength="1" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1" stroke-dashoffset="1"/>' +
+        '<path class="nus__strand nus__b1" d="' + d + '" pathLength="1" fill="none" stroke="' + THREADS[i].col + '" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1" stroke-dashoffset="1"/>');
+    });
     G.strands.forEach(function (d, i) {
       out.push('<path class="nus__strand" d="' + d + '" pathLength="1" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1" stroke-dashoffset="1"/>' +
         '<path class="nus__strand" d="' + d + '" pathLength="1" fill="none" stroke="' + THREADS[i].col + '" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1" stroke-dashoffset="1"/>');
     });
-    var hs = G.hcs, k = hs / 64;
-    out.push('<g class="nus__hc" transform="translate(' + r1(G.hc[0]) + ',' + r1(G.hc[1]) + ')"><circle class="hc-ring" r="' + r1(hs * .68) + '" stroke-width="3"/>' +
-      '<g transform="scale(' + r3(k) + ') translate(-32 -32)"><rect class="hc-body" x="13" y="19" width="38" height="33" rx="2"/>' +
+    var rr = G.rr, ki = rr / 48;
+    out.push('<g class="nus__hc" transform="translate(' + r1(G.hc[0]) + ',' + r1(G.hc[1]) + ')"><circle class="hc-ring" r="' + r1(rr) + '" stroke-width="3"/>' +
+      '<g transform="translate(0 ' + r1(-rr * .33) + ') scale(' + r3(ki) + ') translate(-32 -35.5)"><rect class="hc-body" x="13" y="19" width="38" height="33" rx="2"/>' +
       '<path class="hc-line" d="M11 19h42M13 19v33h38V19"/><path class="hc-cross" d="M29 24h6v6h6v6h-6v6h-6v-6h-6v-6h6z"/>' +
       '<rect class="hc-door" x="28" y="44" width="8" height="8" rx="1"/></g></g>');
     var cols = ["#2e7561", "#22604f", "#c9a53c", "#1a4d40", "#2e7561", "#6f5711", "#22604f"], R = G.R, sc = G.tall ? .9 : 1;
@@ -303,18 +328,18 @@
       html.push('<div class="nus__node" style="left:' + r1(t.mid[0]) + 'px;top:' + r1(t.mid[1]) + 'px"><button type="button" class="nus__tag" data-k="t' + i + '" style="--col:' + THREADS[i].col + '">' + esc(THREADS[i].label) + '</button></div>');
     });
     html.push('<div class="nus__node" style="left:' + r1(G.C[0]) + 'px;top:' + r1(G.C[1]) + 'px"><button type="button" class="nus__center" data-k="center"><b>' + esc(CENTER.title) + '</b><span>' + esc(CENTER.sub) + '</span></button></div>');
-    html.push('<div class="nus__node" style="left:' + r1(G.hc[0]) + 'px;top:' + r1(G.hc[1]) + 'px"><button type="button" class="nus__hcbtn" data-k="hc" aria-label="' + esc(HC.title) + '" style="width:' + r1(G.hcs * 1.36) + 'px;height:' + r1(G.hcs * 1.36) + 'px"></button></div>');
     var hcArrow = G.tall ? "M12 4.5v15M6 13.5l6 6 6-6" : "M4.5 12h15M13.5 6l6 6-6 6";
-    html.push('<div class="nus__node" style="left:' + r1(G.hc[0] + G.capDx) + 'px;top:' + r1(G.hc[1] + G.hcs * .68 + 8) + 'px"><button type="button" class="nus__tag nus__tag--hc" data-k="hc-tag">' +
-      '<span class="nus__pl">' + esc(HC.label) + '</span><span class="nus__say"><span class="nus__say-in">' + esc(HC.say) + '…<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + hcArrow + '"/></svg></span></span></button></div>');
+    html.push('<div class="nus__node" style="left:' + r1(G.hc[0]) + 'px;top:' + r1(G.hc[1]) + 'px"><button type="button" class="nus__hcbtn" data-k="hc" aria-label="' + esc(HC.title) + '" style="width:' + r1(G.rr * 2) + 'px;height:' + r1(G.rr * 2) + 'px;font-size:' + r1(clamp(G.rr * .27, 13, 15.5)) + 'px"><span>Tu centro<br>de salud</span></button></div>');
+    html.push('<div class="nus__node" style="left:' + r1(G.say[0]) + 'px;top:' + r1(G.say[1]) + 'px"><div class="nus__saytag"><span class="nus__say-in2">' + esc(HC.say) + '…<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + hcArrow + '"/></svg></span></div></div>');
     nodesBox.innerHTML = html.join("");
 
     G.hcEl = svg.querySelector(".nus__hc");
-    G.hcTag = nodesBox.querySelector(".nus__tag--hc");
+    G.hcBtn = nodesBox.querySelector(".nus__hcbtn");
+    G.b1Els = Array.prototype.slice.call(svg.querySelectorAll(".nus__b1"));
     G.knotEl = svg.querySelector(".nus__knot");
     G.knotPaths = svg.querySelectorAll(".nus__knot path");
     G.threadEls = Array.prototype.slice.call(svg.querySelectorAll(".nus__thread"));
-    G.strandEls = Array.prototype.slice.call(svg.querySelectorAll(".nus__strand"));
+    G.strandEls = Array.prototype.slice.call(svg.querySelectorAll(".nus__strand:not(.nus__b1)"));
     G.figEls = Array.prototype.slice.call(svg.querySelectorAll(".nus__fig"));
     G.tags = Array.prototype.slice.call(nodesBox.querySelectorAll("[data-k^='t']"));
     G.center = nodesBox.querySelector(".nus__center");
@@ -369,6 +394,8 @@
       p.setAttribute("stroke-dashoffset", r3(off));
       p.style.opacity = off >= 1 ? 0 : 1; // sense el puntet de la punta abans d'hora
     });
+    var b1 = clamp((t - T.b1a) / (T.b1b - T.b1a), 0, 1);
+    G.b1Els.forEach(function (p) { p.setAttribute("stroke-dashoffset", r3(1 - b1)); p.style.opacity = b1 > 0 ? 1 : 0; });
     var br = clamp((t - T.braid0) / (T.braid1 - T.braid0), 0, 1);
     G.strandEls.forEach(function (p) { p.setAttribute("stroke-dashoffset", r3(1 - br)); p.style.opacity = br > 0 ? 1 : 0; });
     var figsOn = G.figEls.map(function (f, i) { return t >= T.figs0 + i * T.figStep ? 1 : 0; }).join("");
@@ -378,8 +405,8 @@
     if (key === lastKey) return;
     lastKey = key;
     root.classList.toggle("is-say", t >= T.say);
-    G.hcEl.classList.toggle("is-on", hcOn); G.hcTag.classList.toggle("is-on", hcOn);
-    G.hcTag.classList.toggle("is-sel", S.sel === "hc"); 
+    G.hcEl.classList.toggle("is-on", hcOn); G.hcBtn.classList.toggle("is-on", hcOn);
+    G.hcBtn.classList.toggle("is-sel", S.sel === "hc");
     root.classList.toggle("is-done", t >= T.end);
     G.figEls.forEach(function (f, i) { f.classList.toggle("is-on", figsOn.charAt(i) === "1"); });
     G.tags.forEach(function (g, i) { g.classList.toggle("is-on", tagsOn.charAt(i) === "1"); g.classList.toggle("is-sel", S.sel === "t" + i); });
