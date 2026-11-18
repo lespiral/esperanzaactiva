@@ -2,38 +2,38 @@
 {% from "parts.html" import page_head, place_nav, safety, nearby %}
 {# Pàgina per a professionals dels centres de salut (/centros-de-salud/). Textos a data/site.json › health_page. #}
 {% block content %}
-{{ page_head(hp.kicker, hp.title, hp.lead) }}
+{{ page_head(hp.kicker, hp.title, hp.lead|hl, cls='pagehead--health') }}
 
-<div class="wrap wrap--mid stack stack--bottom">
-  <section id="un-camino" aria-labelledby="h-nus">
-    <h2 id="h-nus">{{ hp.nus_title }}</h2>
-    <p>{{ hp.nus_intro }}</p>
-    <div class="infografia infografia--in">{% include "infografies/infografia-centros-esperanca-activa.html" %}</div>
-  </section>
-
+<div class="wrap wrap--mid stack stack--bottom health">
   <section id="como-funciona" aria-labelledby="h-how">
-    <h2 id="h-how">{{ hp.how_title }}</h2>
-    <p>{{ hp.how_intro }}</p>
+    <h2 class="health__h2" id="h-how">{{ hp.how_title }}</h2>
+    <p>{{ hp.how_intro|hl }}</p>
     <div class="infografia infografia--in">{% include "infografies/infografia-centros-de-salud.html" %}</div>
   </section>
 
+  <section id="un-camino" aria-labelledby="h-nus">
+    <h2 class="health__h2" id="h-nus">{{ hp.nus_title }}</h2>
+    <p>{{ hp.nus_intro|hl }}</p>
+    <div class="infografia infografia--in">{% include "infografies/infografia-centros-esperanca-activa.html" %}</div>
+  </section>
+
   <section class="panel" id="que-es" aria-labelledby="h-what">
-    <h2 id="h-what">{{ hp.what_title }}</h2>
-    {% for p in hp.what %}<p>{{ p }}</p>{% endfor %}
+    <h2 class="health__h2" id="h-what">{{ hp.what_title }}</h2>
+    {% for p in hp.what %}<p>{{ p|hl }}</p>{% endfor %}
     <h3 class="health__sub">{{ hp.why_title }}</h3>
-    <ul class="checks">{% for i in hp.why %}<li>{{ icon('check') }}<span>{{ i }}</span></li>{% endfor %}</ul>
+    <ul class="checks">{% for i in hp.why %}<li>{{ icon('check') }}<span>{{ i|hl }}</span></li>{% endfor %}</ul>
   </section>
 
   <section class="panel" id="quien-orienta" aria-labelledby="h-who">
-    <h2 id="h-who">{{ hp.who_title }}</h2>
-    <p>{{ hp.who_intro }}</p>
-    <ul class="checks">{% for l, t in hp.who %}<li>{{ icon('check') }}<span><strong>{{ l }}</strong> {{ t }}</span></li>{% endfor %}</ul>
-    <p>{{ hp.who_end }}</p>
+    <h2 class="health__h2" id="h-who">{{ hp.who_title }}</h2>
+    <p>{{ hp.who_intro|hl }}</p>
+    <ul class="checks">{% for l, t in hp.who %}<li>{{ icon('check') }}<span><strong>{{ l }}</strong> {{ t|hl }}</span></li>{% endfor %}</ul>
+    <p>{{ hp.who_end|hl }}</p>
   </section>
 
   <section id="que-curso-orientar" aria-labelledby="h-courses">
-    <h2 id="h-courses">{{ hp.courses_title }}</h2>
-    <p>{{ hp.courses_intro }}</p>
+    <h2 class="health__h2" id="h-courses">{{ hp.courses_title }}</h2>
+    <p>{{ hp.courses_intro|hl }}</p>
     <ul class="cards cards--3 health__courses">
       {% for c in site.courses if c.key in hp.courses_for %}
       <li class="card card--course">
@@ -47,22 +47,22 @@
   </section>
 
   <section class="panel" id="como-darlo-a-conocer" aria-labelledby="h-share">
-    <h2 id="h-share">{{ hp.share_title }}</h2>
-    <p>{{ hp.share_intro }}</p>
+    <h2 class="health__h2" id="h-share">{{ hp.share_title }}</h2>
+    <p>{{ hp.share_intro|hl }}</p>
     <blockquote class="health__quote">{{ hp.share_text }}</blockquote>
-    <p>{{ hp.share_extra }}</p>
+    <p>{{ hp.share_extra|hl }}</p>
   </section>
 
   <section class="panel panel--plain" id="tu-centro" aria-labelledby="h-routes">
-    <h2 id="h-routes">{{ hp.routes_title }}</h2>
-    <p>{{ hp.routes_intro }}</p>
+    <h2 class="health__h2" id="h-routes">{{ hp.routes_title }}</h2>
+    <p>{{ hp.routes_intro|hl }}</p>
     {% set pt = place_tree('vida') %}
     {% if pt.n %}{{ place_nav('elige-lugar', pt, root, site.place_nav, course=True) }}{{ nearby(site.nearby, root, 'vida') }}{% endif %}
   </section>
 
   <section class="panel" id="sin-compromiso" aria-labelledby="h-limits">
-    <h2 id="h-limits">{{ hp.limits_title }}</h2>
-    <ul class="checks">{% for i in hp.limits %}<li>{{ icon('check') }}<span>{{ i }}</span></li>{% endfor %}</ul>
+    <h2 class="health__h2" id="h-limits">{{ hp.limits_title }}</h2>
+    <ul class="checks">{% for i in hp.limits %}<li>{{ icon('check') }}<span>{{ i|hl }}</span></li>{% endfor %}</ul>
   </section>
 
   {{ safety(hp.safety_html) }}
@@ -76,4 +76,24 @@
     </p>
   </section>
 </div>
+<script>
+(function () {
+  var hs = document.querySelectorAll(".health__h2");
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } }); }, { threshold: .6 });
+    Array.prototype.forEach.call(hs, function (h) { io.observe(h); });
+  } else Array.prototype.forEach.call(hs, function (h) { h.classList.add("is-in"); });
+  // El títol de la capçalera, paraula a paraula
+  var h1 = document.querySelector(".pagehead--health h1");
+  if (h1 && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+    var words = h1.textContent.trim().split(/\s+/);
+    h1.textContent = "";
+    words.forEach(function (w, i) {
+      var s = document.createElement("span"); s.className = "w"; s.style.setProperty("--i", i); s.textContent = w;
+      h1.appendChild(s); if (i < words.length - 1) h1.appendChild(document.createTextNode(" "));
+    });
+    h1.classList.add("is-split");
+  }
+})();
+</script>
 {% endblock %}
