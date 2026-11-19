@@ -12,6 +12,8 @@
  "blocks": [
   {
    "course": "vida",
+   "origin": "de los centros de salud (una ruta por centro)",
+   "credit": "El centro de salud es solo el punto de referencia del recorrido.",
    "text": "128 rutas circulares de 1,8 a 3 km, una desde cada centro de salud de Madrid. El centro de salud es solo el punto de referencia del recorrido. Elige tu distrito o busca el centro más cercano a tu casa y camina.",
    "summary": "128 rutas, una desde cada centro de salud",
    "parts": [
@@ -1792,6 +1794,8 @@
   },
   {
    "course": "cuidar",
+   "origin": "de centros culturales, centros socioculturales y bibliotecas públicas",
+   "credit": "Si un centro cultural y una biblioteca comparten edificio, es una sola ruta.",
    "text": "129 rutas circulares de 2,1 a 2,9 km, una desde cada centro cultural, centro sociocultural y biblioteca pública de Madrid. Si un centro cultural y una biblioteca comparten edificio, es una sola ruta. El equipamiento es solo el punto de referencia del recorrido.",
    "summary": "129 rutas desde centros culturales y bibliotecas",
    "zones": {
@@ -3104,6 +3108,7 @@
   },
   {
    "course": "mon",
+   "origin": "de parques, jardines y plazas de los distritos",
    "text": "89 rutas circulares de 1,6 a 3 km, desde parques, jardines y plazas de los distritos de Madrid.",
    "summary": "89 rutas desde parques y jardines",
    "zones": {
@@ -3976,6 +3981,8 @@
   },
   {
    "course": "dia",
+   "origin": "de entidades de la economía social y solidaria del Mercado Social de Madrid",
+   "credit": "También hay rutas desde entidades de Alcalá de Henares, Collado Villalba, Getafe, Torrelodones y Villaviciosa de Odón. Cada ruta lleva una breve descripción de lo que hace la entidad.",
    "text": "118 rutas circulares de 1,6 a 3,2 km, desde entidades de la economía social y solidaria del Mercado Social de Madrid: cooperativas, asociaciones y empresas de la ciudad, y también de Alcalá de Henares, Collado Villalba, Getafe, Torrelodones y Villaviciosa de Odón. Cada ruta lleva una breve descripción de lo que hace la entidad.",
    "summary": "118 rutas desde entidades de economía social",
    "zones": {

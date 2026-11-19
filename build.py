@@ -12,7 +12,7 @@ Els textos són a data/site.json. Les rutes de cada ciutat:
   del repositori de la web en català (python3 sync_cat.py), amb els textos traduïts a
   data/traducciones/<ciutat>.json.
 """
-import json, os, re, shutil, sys, time, unicodedata
+import json, math, os, re, shutil, sys, time, unicodedata
 from pathlib import Path
 from urllib.parse import quote
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -78,7 +78,7 @@ ZONES_TEXT = {
 # Es tradueixen els textos d'aquestes claus. Els noms de les rutes i les adreces
 # («name», «address») són noms propis i es deixen com són, si no hi ha traducció.
 TR_KEYS = {"title", "summary", "intro", "text", "note", "desc", "start", "label", "zone",
-           "nav", "placeholder", "back", "html", "district", "map_pending", "empty", "count"}
+           "nav", "placeholder", "back", "html", "district", "map_pending", "empty", "count", "origin", "credit"}
 TR_OPTIONAL = {"name", "address"}
 
 
@@ -110,6 +110,39 @@ def translate(obj, tr, missing):
     elif isinstance(obj, list):
         for x in obj:
             translate(x, tr, missing)
+
+
+def _route_list(groups):
+    for g in groups:
+        for s in g.get("sections") or []:
+            yield from s["routes"]
+        yield from g.get("routes") or []
+
+
+def _fmt(x, up=False):
+    """Un decimal, redondeado hacia abajo (mínimo) o hacia arriba (máximo) para que el rango incluya todas las rutas; sin «,0»."""
+    v = (math.ceil(x * 10 - 1e-9) if up else math.floor(x * 10 + 1e-9)) / 10
+    return f"{v:.1f}".replace(".", ",").removesuffix(",0")
+
+
+def _rang(fa, fb):
+    return fa if fa == fb else f"{fa}–{fb}"
+
+
+def telegraph(groups):
+    """«N rutas · X–Y km · A–B min caminando», calculado a partir del campo «info» de cada ruta
+    («2,56 km · 31–38 min caminando · …»): rango mínimo–máximo global de todas las rutas del curso."""
+    routes = list(_route_list(groups))
+    kms, mins = [], []
+    for r in routes:
+        m = re.match(r"([\d,]+) km", r["info"]); w = re.search(r"(\d+)–(\d+) min caminando", r["info"])
+        assert m and w, f"«info» no reconocido en la ruta {r.get('id')}: {r['info']}"
+        kms.append(float(m.group(1).replace(",", "."))); mins += [int(w.group(1)), int(w.group(2))]
+    n = len(routes)
+    # Una sola ruta: su distancia redondeada; varias: el rango que las incluye todas
+    km = f"{round(kms[0], 1):.1f}".replace(".", ",").removesuffix(",0") if n == 1 else _rang(_fmt(min(kms)), _fmt(max(kms), True))
+    return f"{n} {'ruta' if n == 1 else 'rutas'} · {km} km · {_rang(str(min(mins)), str(max(mins)))} min caminando"
+
 
 
 def freeze_ids(city):
@@ -298,9 +331,20 @@ for c in site["cities"] + site.get("territories", []) + site.get("subpages", [])
         b["groups"] = [g for p in parts for g in p["groups"]]
         b["total"] = total
         b["summary"] = b.get("summary") or ("Todavía no hay rutas de este curso" if not total else f"{total} rutas")
+        b["tele"] = telegraph(b["groups"]) if total else "Todavía no hay rutas de este curso"
         if not is_subpage:
             (territory_summaries if is_territory else course_summaries)[key][city["slug"]] = {"text": b["summary"] if total else "Todavía no hay rutas de este curso. Puedes caminar cerca de casa.", "has": bool(total)}
         blocks.append(b)
+    # Meta descripción: número de rutas por curso (formato corto), calculado; el «summary» del JSON solo vale si no hay ninguna ruta
+    counts = [f"{b['course']['short']}: {b['total']}" for b in blocks if b["total"]]
+    if counts and not is_territory:   # las páginas de territorio ya llevan su meta telegráfica en el JSON
+        city["summary"] = "Rutas a pie por curso. " + " · ".join(counts) + "."
+    # Páginas con resumen de uso + datos telegráficos: cada bloque con rutas lleva «origin» (de dónde salen, con la preposición).
+    # Los territorios siempre lo usan; cada curso dice de dónde salen con «territory_line» en data/site.json (o con «origin» en el bloque).
+    city["tele"] = is_territory or any(b.get("origin") for b in blocks)
+    for b in blocks:
+        ok = b.get("origin") or (is_territory and b["course"].get("territory_line"))
+        assert not (city["tele"] and b["total"]) or ok, f"{city['slug']}: el bloque {b['course']['key']} necesita «origin» (o «territory_line» en el curso)"
     # Primer els cursos que tenen rutes en aquesta ciutat; després, els que encara no en tenen
     city["blocks"] = [b for b in blocks if b["total"]] + [b for b in blocks if not b["total"]]
     if is_subpage:   # página colgada de una ciudad: no sale en las listas de ciudades, menús ni resúmenes
