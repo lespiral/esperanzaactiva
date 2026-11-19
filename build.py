@@ -78,7 +78,7 @@ ZONES_TEXT = {
 # Es tradueixen els textos d'aquestes claus. Els noms de les rutes i les adreces
 # («name», «address») són noms propis i es deixen com són, si no hi ha traducció.
 TR_KEYS = {"title", "summary", "intro", "text", "note", "desc", "start", "label", "zone",
-           "nav", "placeholder", "back", "html", "district", "map_pending", "empty", "count", "origin", "credit"}
+           "nav", "placeholder", "back", "html", "district", "map_pending", "empty", "count", "credit"}
 TR_OPTIONAL = {"name", "address"}
 
 
@@ -339,12 +339,8 @@ for c in site["cities"] + site.get("territories", []) + site.get("subpages", [])
     counts = [f"{b['course']['short']}: {b['total']}" for b in blocks if b["total"]]
     if counts and not is_territory:   # las páginas de territorio ya llevan su meta telegráfica en el JSON
         city["summary"] = "Rutas a pie por curso. " + " · ".join(counts) + "."
-    # Páginas con resumen de uso + datos telegráficos: cada bloque con rutas lleva «origin» (de dónde salen, con la preposición).
-    # Los territorios siempre lo usan; cada curso dice de dónde salen con «territory_line» en data/site.json (o con «origin» en el bloque).
-    city["tele"] = is_territory or any(b.get("origin") for b in blocks)
-    for b in blocks:
-        ok = b.get("origin") or (is_territory and b["course"].get("territory_line"))
-        assert not (city["tele"] and b["total"]) or ok, f"{city['slug']}: el bloque {b['course']['key']} necesita «origin» (o «territory_line» en el curso)"
+    # Todas las páginas de lugar llevan el resumen de uso + datos telegráficos; la frase de dónde salen es genérica por curso (data/site.json › origin_generic)
+    city["tele"] = True
     # Primer els cursos que tenen rutes en aquesta ciutat; després, els que encara no en tenen
     city["blocks"] = [b for b in blocks if b["total"]] + [b for b in blocks if not b["total"]]
     if is_subpage:   # página colgada de una ciudad: no sale en las listas de ciudades, menús ni resúmenes

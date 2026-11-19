@@ -7,7 +7,6 @@
  "blocks": [
   {
    "course": "vida",
-   "origin": "de los centros de salud (una ruta por centro)",
    "credit": "El centro de salud es solo el punto de referencia del recorrido.",
    "text": "5 rutas circulares de 1,9 a 2,4 km, una desde cada centro de salud de Santiago de Compostela. El centro de salud es solo el punto de referencia del recorrido.",
    "summary": "5 rutas, una desde cada centro de salud",
@@ -86,7 +85,6 @@
   },
   {
    "course": "cuidar",
-   "origin": "de los centros socioculturales de los barrios, de un centro cívico y de una biblioteca pública",
    "text": "12 rutas circulares de 2,1 a 2,4 km, desde los centros socioculturales de los barrios, un centro cívico y una biblioteca pública. Cada equipamiento es solo el punto de referencia del recorrido.",
    "summary": "12 rutas desde centros socioculturales, un centro cívico y una biblioteca",
    "parts": [
@@ -229,7 +227,6 @@
   },
   {
    "course": "mon",
-   "origin": "de parques, plazas y espacios verdes de la ciudad",
    "text": "16 rutas circulares de 1,8 a 2,2 km, desde parques, plazas y espacios verdes de Santiago de Compostela.",
    "summary": "16 rutas desde parques, plazas y espacios verdes",
    "parts": [
