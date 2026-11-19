@@ -492,11 +492,23 @@ def cities_with_a(names):
 env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
 def hl(s):
     """Posa en <strong> el que va entre **…** (paraules clau, amb subratllat suau a la pàgina de centres)."""
-    return Markup(re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", str(Markup.escape(s))))
+    return Markup(re.sub(r"\*\*(.+?)\*\*", r'<strong class="mk">\1</strong>', str(Markup.escape(s))))
 
 
 env.filters["hl"] = hl
-env.globals.update(icon=icon, site=site, noindex=NOINDEX, version=str(int(time.time())),
+
+
+def _marca(o):
+    """Els textos de data/site.json amb **…** surten amb les paraules clau subratllades."""
+    if isinstance(o, dict):
+        return {k: _marca(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [_marca(v) for v in o]
+    return hl(o) if isinstance(o, str) and "**" in o else o
+
+
+site_t = _marca(site)
+env.globals.update(icon=icon, site=site_t, noindex=NOINDEX, version=str(int(time.time())),
                    logo=(SRC / "img" / "logo.png").exists(),
                    partners_logo=(SRC / "img" / "lespiral-elara.png").exists(),
                    facilitator_photo=(SRC / "img" / "aleix-boronat.jpg").exists(),
@@ -504,7 +516,7 @@ env.globals.update(icon=icon, site=site, noindex=NOINDEX, version=str(int(time.t
                    territory_summaries=territory_summaries, places_for=places_for, place_tree=place_tree,
                    territories=[t for t in site.get("territories", []) if t.get("slug")],
                    cities_with_a=cities_with_a([c["name"] for c in site["cities"] if c.get("slug")]),
-                   h=site["home"], cc=site["course_common"], hp=hp)
+                   h=site_t["home"], cc=site_t["course_common"], hp=hp)
 
 
 PAGES = []
@@ -516,6 +528,8 @@ def render(template, path, **ctx):
     canonical = None if path.endswith(".html") else SITE_URL + (path + "/" if path else "")
     if canonical:
         PAGES.append(canonical)
+    if isinstance(ctx.get("page_description"), str):
+        ctx["page_description"] = ctx["page_description"].replace("**", "")
     html = env.get_template(template).render(root=root, canonical=canonical, **ctx)
     dest = OUT / path / "index.html" if not path.endswith(".html") else OUT / path
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -527,8 +541,8 @@ if OUT.exists():
 OUT.mkdir()
 
 render("home.html", "", section="inicio")
-render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site["courses_page"])
-render("cities.html", "ciudades", section="ciudades", page_title=site["cities_page"]["title"], cp=site["cities_page"])
+render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site_t["courses_page"])
+render("cities.html", "ciudades", section="ciudades", page_title=site_t["cities_page"]["title"], cp=site_t["cities_page"])
 render("faq.html", "preguntas", section="preguntas", page_title="Preguntas", fp=fp)
 render("health.html", "centros-de-salud", section="centros", page_title="Para centros de salud", page_description=hp["lead"].replace("**", ""), hp=hp)
 for c in site["courses"]:

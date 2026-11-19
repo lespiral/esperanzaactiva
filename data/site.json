@@ -156,7 +156,7 @@
       "title": "Cuando sostener la vida se hace difícil",
       "short": "Sostener el día a día",
       "subtitle": "Trabajo, vivienda, precariedad e incertidumbre económica",
-      "walk_note": "Las rutas de este curso salen de entidades de la economía social y solidaria de Cataluña: cooperativas, asociaciones y fundaciones. Las encontrarás por territorios o, directamente, por tu pueblo.",
+      "walk_note": "Las rutas de este curso salen de **entidades de la economía social y solidaria** de Cataluña: cooperativas, asociaciones y fundaciones. Las encontrarás por territorios o, directamente, por tu pueblo.",
       "card": "Precariedad, no llegar a fin de mes, la vivienda o los ritmos de trabajo.",
       "icon": "house",
       "soon": true,
@@ -209,7 +209,7 @@
       "Este recorrido de 7 pasos se inspira en el Trabajo que Reconecta, creado por Joanna Macy, y en las siete frases para completar que Chris Johnstone ofrece en activehope.training. La Esperanza Activa no es un sentimiento que llega o no llega: es una práctica. Partir de la realidad tal como es, reconocer hacia dónde queremos que vayan las cosas y dar un paso en esa dirección. Estas rutas la hacen breve, accesible y repetible, para caminarla cuando te haga falta."
     ],
     "before_title": "Antes de empezar",
-    "before_text": "El recorrido te invita a acercarte a lo que te preocupa sin forzarte y respetando tus límites. Si alguna práctica te remueve más de lo que puedes sostener en ese momento, puedes parar, descansar y retomarla otro día.",
+    "before_text": "El recorrido te invita a acercarte a lo que te preocupa **sin forzarte** y respetando tus límites. Si alguna práctica te remueve más de lo que puedes sostener en ese momento, puedes parar, descansar y retomarla otro día.",
     "passes_list_title": "Los 7 pasos, en una lista",
     "cta_building": true,
     "building_label": "En construcción",
@@ -228,7 +228,7 @@
       ["El siguiente paso posible.", "¿Qué acción pequeña, concreta y realista puedo hacer ahora?"]
     ],
     "walk_title": "Y ahora, ¿dónde quieres caminar?",
-    "walk_intro": "Elige tu ciudad o tu pueblo y haz el tiempo de reflexión de cada paso en una de las rutas. Si todavía no hay rutas cerca de ti, puedes caminar cerca de casa o por un lugar tranquilo."
+    "walk_intro": "Elige tu ciudad o tu pueblo y haz el **tiempo de reflexión** de cada paso en una de las rutas. Si todavía no hay rutas cerca de ti, puedes caminar cerca de casa o por un lugar tranquilo."
   },
 
   "safety_html": "Este curso no sustituye un proceso de psicoterapia ni un tratamiento médico o psicológico. Si estás pasando un momento muy difícil, habla con tu centro de salud. Si piensas en hacerte daño, llama al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
@@ -254,7 +254,7 @@
     "lead": "Una práctica, una caminata, un pequeño paso. Elige lo que te preocupa y dónde quieres caminar.",
     "q1": "1. ¿Qué te trae aquí?",
     "q2": "2. ¿Dónde quieres caminar?",
-    "q2_text": "Cada ciudad, pueblo o comarca tiene su mapa y sus rutas. Salen de plazas, parques, equipamientos y entidades cerca de casa. Las hay muy cortas, de unos 10 minutos, y más largas, de más de una hora.",
+    "q2_text": "Cada ciudad, pueblo o comarca tiene su **mapa y sus rutas**. Salen de plazas, parques, equipamientos y entidades **cerca de casa**. Las hay muy cortas, de unos 10 minutos, y más largas, de más de una hora.",
     "q2_cities": "Ahora hay rutas {ciudades}, y en pueblos de muchas comarcas. Se irán añadiendo más.",
     "q2_none": "Pronto habrá rutas en las primeras ciudades. Mientras tanto, puedes hacer la caminata cerca de casa o en un lugar tranquilo.",
     "each_course": "Cada curso tiene sus rutas en cada lugar: el curso te da la práctica, y la ruta, el tiempo para caminarla. ¿No encuentras tu pueblo o tu ciudad? Haz la caminata cerca de casa o en un lugar tranquilo.",
@@ -266,7 +266,7 @@
       ["sun", "4. Llévalo al día a día", "Piensa qué te llevas: una mirada nueva, una necesidad o un pequeño paso posible."]
     ],
     "seven_title": "Cada curso, 7 pasos",
-    "seven_text": "Todos los cursos siguen la Espiral del Trabajo que Reconecta, de Joanna Macy, adaptada en siete pasos sencillos. Puedes hacerlo en 7 días o a tu ritmo, y no hace falta experiencia en meditación.",
+    "seven_text": "Todos los cursos siguen la Espiral del Trabajo que Reconecta, de Joanna Macy, adaptada en **siete pasos sencillos**. Puedes hacerlo en 7 días o **a tu ritmo**, y **no hace falta experiencia** en meditación.",
     "seven_moments_title": "Cada paso tiene cuatro momentos:",
     "seven_moments": [
       ["Explora:", "un vídeo de introducción de 3 a 5 minutos."],
@@ -289,14 +289,14 @@
 
   "courses_page": {
     "title": "Los cursos",
-    "intro": "Elige el tema que te preocupa. Cada curso es gratuito, tiene 7 pasos y sus propias rutas a pie."
+    "intro": "Elige el tema que te preocupa. Cada curso es **gratuito**, tiene **7 pasos** y sus propias **rutas a pie**."
   },
 
   "cities_page": {
     "city_intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso de los cursos de Caminos de Esperanza [Activa]. Cada curso tiene sus rutas: elige el tuyo y camina.",
     "independent_note": "Rutas independientes. Estas rutas son una propuesta de Esperanza Activa para caminar por tu cuenta. No las organizan ni las recomiendan los centros, entidades o equipamientos que aparecen como punto de partida, ni sus gestores o administradores: el lugar es solo la referencia donde empieza y termina el recorrido. Antes de salir, valora el estado del camino, el tiempo y tus propias fuerzas, y camina a tu ritmo.",
     "title": "Ciudades, pueblos y comarcas",
-    "intro": "Caminar para hacer el tiempo de reflexión de cada paso. Hay rutas en ciudades y en pueblos de muchas comarcas: elige dónde quieres caminar y tu curso.",
+    "intro": "Caminar para hacer el **tiempo de reflexión** de cada paso. Hay rutas en ciudades y en pueblos de muchas comarcas: elige dónde quieres caminar y tu curso.",
     "places_label": "Ve directamente a tu pueblo o ciudad",
     "jump_label": "Ir a",
     "cities_title": "Ciudades",
@@ -306,7 +306,7 @@
 
   "territories_page": {
     "title": "Pueblos y comarcas",
-    "intro": "Las rutas del curso «Cuando sostener la vida se hace difícil» salen de entidades de la economía social y solidaria de Cataluña: cooperativas, asociaciones y fundaciones. Las encontrarás por territorios o, directamente, por tu pueblo.",
+    "intro": "Las rutas del curso «Cuando sostener la vida se hace difícil» salen de **entidades de la economía social y solidaria** de Cataluña: cooperativas, asociaciones y fundaciones. Las encontrarás por territorios o, directamente, por tu pueblo.",
     "places_label": "Ve directamente a tu pueblo",
     "places_placeholder": "Elige un pueblo o una ciudad",
     "kicker": "Pueblos y comarcas"

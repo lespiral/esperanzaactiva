@@ -76,24 +76,4 @@
     </p>
   </section>
 </div>
-<script>
-(function () {
-  var hs = document.querySelectorAll(".health__h2");
-  if ("IntersectionObserver" in window) {
-    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } }); }, { threshold: .6 });
-    Array.prototype.forEach.call(hs, function (h) { io.observe(h); });
-  } else Array.prototype.forEach.call(hs, function (h) { h.classList.add("is-in"); });
-  // El títol de la capçalera, paraula a paraula
-  var h1 = document.querySelector(".pagehead--health h1");
-  if (h1 && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
-    var words = h1.textContent.trim().split(/\s+/);
-    h1.textContent = "";
-    words.forEach(function (w, i) {
-      var s = document.createElement("span"); s.className = "w"; s.style.setProperty("--i", i); s.textContent = w;
-      h1.appendChild(s); if (i < words.length - 1) h1.appendChild(document.createTextNode(" "));
-    });
-    h1.classList.add("is-split");
-  }
-})();
-</script>
 {% endblock %}
