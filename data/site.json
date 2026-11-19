@@ -72,22 +72,18 @@
       "for_lead": "Hay momentos en los que cuesta encontrar orientación.",
       "for_list": [
         "Estás pasando por una separación, un duelo o una pérdida importante.",
-        "Tienes un conflicto familiar o en tus relaciones que te preocupa.",
-        "Estás viviendo una etapa de ansiedad, estrés, tristeza o cansancio emocional.",
+        "Tienes un conflicto familiar o relacional que te preocupa.",
+        "Vives una etapa de ansiedad, estrés, tristeza o cansancio emocional.",
         "Te sientes bloqueado/a o no tienes claro hacia dónde ir.",
-        "Te cuesta encontrar espacio mental porque la preocupación ocupa demasiado sitio.",
-        "Te gustaría concretar un primer paso posible ante lo que estás viviendo."
+        "Te cuesta encontrar espacio mental porque la preocupación ocupa demasiado lugar."
       ],
-      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás:",
+      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás empezar a:",
       "gains": [
         "reconectar con lo que todavía tiene valor para ti;",
-        "reconocer a personas y recursos que pueden sostenerte;",
-        "poner palabras a una preocupación concreta;",
-        "observarla con un poco más de perspectiva;",
-        "identificar a personas o experiencias que te inspiran;",
-        "explorar qué necesitas y hacia dónde te gustaría orientarte;",
+        "poner palabras a una preocupación concreta y observarla con un poco más de perspectiva;",
+        "reconocer a las personas y los recursos que pueden sostenerte;",
         "distinguir entre lo que puedes hacer y lo que no depende solo de ti;",
-        "y concretar un primer paso asumible."
+        "explorar qué necesitas y hacia dónde te gustaría orientarte, y concretar un primer paso asumible."
       ],
       "gains_end": "No se trata de que el problema desaparezca en siete pasos. Se trata de poder relacionarte con él con un poco más de presencia, apoyo y orientación."
     },
@@ -110,19 +106,16 @@
         "Sientes que muchas personas tienen que afrontar momentos difíciles con poco apoyo.",
         "Te preocupa la falta de espacios donde hablar y sentirte escuchado/a sin juicio.",
         "Te gustaría cuidar mejor tus vínculos o aprender a pedir apoyo cuando lo necesitas.",
-        "Te interesan los grupos de ayuda mutua, las redes comunitarias u otras formas colectivas de cuidado.",
-        "Te gustaría transformar una preocupación en una orientación y un primer paso posible."
+        "Te falta sentirte parte de un grupo, con personas con quienes compartir una etapa de la vida o unos mismos intereses.",
+        "Te interesan los grupos de ayuda mutua, las redes comunitarias u otras formas colectivas de cuidado."
       ],
-      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás:",
+      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás empezar a:",
       "gains": [
-        "reconectar con lo que tiene valor para ti;",
-        "reconocer a personas, vínculos y recursos que pueden sostenerte;",
-        "poner palabras a una preocupación concreta;",
-        "identificar experiencias o personas que te inspiran;",
-        "explorar qué futuro más humano y cuidador te gustaría;",
+        "reconocer los vínculos y las personas que ya te sostienen, y a quién te gustaría tener más cerca;",
+        "poner palabras a lo que te preocupa y a lo que te falta: escucha, compañía, apoyo;",
+        "imaginar qué futuro más humano y cuidador te gustaría;",
         "diferenciar entre cuidar y tener que cargar con todo;",
-        "encontrar qué papel puede tener sentido para ti;",
-        "y concretar un primer paso posible."
+        "encontrar qué papel quieres tener en una red de apoyo y concretar un primer paso posible, como acercarte a un grupo o a un espacio de tu comunidad."
       ],
       "gains_end": "No se trata de que, en siete pasos, desaparezca el malestar. Se trata de poder relacionarte con él con un poco más de apoyo, claridad y posibilidad de respuesta."
     },
@@ -141,22 +134,19 @@
       "thinkific": "https://espiral-elara-social.thinkific.com/enroll/3836823",
       "for_lead": "La preocupación ecológica también habla de tu vínculo con el mundo vivo.",
       "for_list": [
-        "Te preocupa el cambio climático y el futuro del planeta.",
+        "Te preocupan el cambio climático, los incendios, las sequías o el futuro del planeta.",
         "Te duele la degradación de los ecosistemas o la pérdida de biodiversidad.",
-        "Te preocupan los incendios, las sequías, la contaminación o la desaparición de espacios naturales.",
         "Sientes impotencia porque lo que puedes hacer individualmente parece insuficiente.",
         "Te gustaría implicarte, pero no tienes claro de qué manera.",
         "Ya participas en iniciativas ambientales y quieres sostener el compromiso sin agotarte."
       ],
-      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás:",
+      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás empezar a:",
       "gains": [
         "reconectar con lo que amas del mundo vivo;",
-        "identificar apoyos, personas e iniciativas que te inspiran;",
         "poner palabras a una preocupación ecológica concreta;",
-        "explorar qué futuro te gustaría contribuir a cuidar;",
+        "identificar personas e iniciativas que te inspiran y te sostienen;",
         "diferenciar responsabilidad de hiperresponsabilización;",
-        "encontrar qué papel puede tener sentido para ti;",
-        "y concretar un primer paso realista y asumible."
+        "explorar qué futuro te gustaría contribuir a cuidar, qué papel puedes tener en él y concretar un primer paso realista."
       ],
       "gains_end": "No se trata de resolver la crisis climática individualmente. Se trata de encontrar una manera más clara y sostenible de situarte ante lo que te importa."
     },
@@ -177,26 +167,19 @@
       "thinkific": "https://espiral-elara-social.thinkific.com/enroll/3835907",
       "for_lead": "Hay preocupaciones que no son solo personales.",
       "for_list": [
-        "Te preocupa la precariedad laboral o la dificultad de construir una vida estable.",
-        "Te genera inquietud el acceso a la vivienda o la presión económica cotidiana.",
-        "Sientes cansancio ante unos ritmos de trabajo cada vez más exigentes.",
-        "Te preocupa una organización de la economía excesivamente centrada en la productividad y la competencia.",
-        "Te gustaría que el trabajo tuviera más sentido y fuera más coherente con tus valores.",
+        "Te preocupan la precariedad, el acceso a la vivienda o la presión económica del día a día.",
+        "Sientes cansancio ante ritmos de trabajo cada vez más exigentes.",
+        "Te preocupa una economía demasiado centrada en la productividad y la competencia, y te gustaría un trabajo con más sentido y más coherente con tus valores.",
         "Te interesan la cooperación, el cuidado, el apoyo mutuo y las formas comunitarias de organizar la vida.",
-        "Ante los problemas sociales, a veces oscilas entre la impotencia y la sensación de que deberías hacer más.",
-        "Te gustaría transformar una preocupación en una orientación y un primer paso posible."
+        "Ante los problemas sociales, a veces oscilas entre la impotencia y la sensación de que deberías hacer más."
       ],
-      "gains_intro": "Al completar esta primera vuelta a la Espiral habrás explorado una manera de:",
+      "gains_intro": "Al completar esta primera vuelta a la Espiral podrás empezar a:",
       "gains": [
         "reconectar con lo que amas y tiene valor para ti;",
-        "reconocer a personas, redes y recursos que también sostienen la vida;",
-        "poner palabras a una preocupación concreta;",
-        "mirarla sin tener que solucionarla inmediatamente;",
-        "encontrar personas, proyectos o experiencias que te inspiren;",
-        "identificar hacia qué futuro te gustaría orientarte;",
-        "diferenciar entre responsabilidad e hiperresponsabilización;",
-        "explorar qué papel puedes tener dentro de una respuesta más amplia y colectiva;",
-        "y concretar un primer paso realista, asumible y coherente con lo que te importa."
+        "reconocer a las personas, redes y recursos que también sostienen la vida;",
+        "poner palabras a una preocupación concreta y mirarla sin tener que resolverla enseguida;",
+        "encontrar personas, proyectos o experiencias que te inspiren, y diferenciar responsabilidad de hiperresponsabilización;",
+        "explorar qué papel puedes tener dentro de una respuesta más colectiva y concretar un primer paso realista y coherente con lo que te importa."
       ],
       "gains_end": "Al final, no necesariamente habrás resuelto el problema que te preocupa. Pero puedes haber cambiado la posición desde la que te relacionas con él: con un poco más de espacio, apoyo, claridad y posibilidad de respuesta."
     }
@@ -205,7 +188,7 @@
   "course_common": {
     "kicker": "Curso digital gratuito · 7 pasos hacia la Esperanza Activa",
     "for_title": "Es para ti si…",
-    "for_after": "Este recorrido puede ser para ti si:",
+    "for_after": "Este curso puede ser para ti si:",
     "facts": [
       ["heart", "Gratuito"],
       ["headphones", "En línea y, de momento, en catalán"],
