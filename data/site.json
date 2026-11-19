@@ -16,7 +16,9 @@
   "footer": {
     "initiative": "Una iniciativa de L'Espiral y Elara Social",
     "motto": "Cuidamos a las personas. Fortalecemos las comunidades",
-    "gaze": "Con la mirada de la salud mental comunitaria.",
+    "gaze_intro": "Trabajamos desde la intersección entre:",
+    "gaze_list": ["Salud mental comunitaria", "Economía Social y Solidaria", "Acción climática y cultura del bien común"],
+    "gaze_end": "Nuestra mirada integra el proceso personal y la transformación colectiva a través del marco del Trabajo que Reconecta.",
     "cities_link": "Descubre una ruta cerca de tu pueblo",
     "sister_text": "En catalán:",
     "sister_label": "esperançaactiva.cat",
