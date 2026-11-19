@@ -538,7 +538,7 @@ def hl(s):
 
 def elara(s):
     """Enllaça «Elara Social» amb la seva web (el text es manté escapat)."""
-    return Markup(str(Markup.escape(s)).replace("Elara Social", '<a href="https://elarasocial.com/" target="_blank" rel="noopener">Elara Social</a>'))
+    return Markup(str(Markup.escape(s)).replace("Elara Social", '<a href="https://elarasocial.com/es/" target="_blank" rel="noopener">Elara Social</a>'))
 
 
 
