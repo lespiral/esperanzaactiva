@@ -5,7 +5,7 @@
     "url": "https://esperanzaactiva.org/",
     "index": true
   },
-  "description": "Cursos digitales gratuitos de 7 pasos y rutas a pie cerca de casa, por ciudades, pueblos y comarcas. Una práctica, una caminata, un pequeño paso.",
+  "description": "Cursos digitales gratuitos de 7 pasos para convertir lo que te preocupa en un primer paso posible, con rutas a pie cerca de casa. Una práctica, una caminata, un pequeño paso.",
   "contact": {
     "email": "esperanza@elarasocial.com",
     "instagram": "@esperanzaactiva_org",
@@ -265,8 +265,9 @@
   },
 
   "home": {
-    "kicker": "Cursos digitales gratuitos · Rutas a pie cerca de casa",
-    "lead": "Una práctica, una caminata, un pequeño paso. Elige lo que te preocupa y dónde quieres caminar.",
+    "title": "Caminos de Esperanza [Activa] · Cursos gratuitos y rutas a pie para cuidarte",
+    "kicker": "Una práctica, una caminata, un pequeño paso.",
+    "lead": "Cursos digitales gratuitos de 7 pasos para convertir lo que te preocupa en un primer paso posible, con rutas a pie cerca de casa.",
     "q1": "1. ¿Qué te trae aquí?",
     "q2": "2. ¿Dónde quieres caminar?",
     "q2_text": "Cada ciudad, pueblo o comarca tiene su **mapa y sus rutas**. **Cerca de casa**. Las hay muy cortas, de unos 10 minutos, y más largas, de más de una hora.",
