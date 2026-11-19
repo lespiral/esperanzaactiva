@@ -60,8 +60,7 @@
         <ul>{% for c in site.courses %}<li><a href="{{ root }}{{ c.slug }}/">{{ c.title }}</a></li>{% endfor %}</ul>
       </div>
       <div class="footer__col">
-        <p class="footer__h">{{ site.cities_page.title }}</p>
-        {% if site.cities %}<ul>{% for c in site.cities %}<li>{% if c.slug %}<a href="{{ root }}{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }} · próximamente{% endif %}</li>{% endfor %}{% if territories %}<li><a href="{{ root }}ciudades/">{{ site.territories_page.title }}</a></li>{% endif %}</ul>{% else %}<p>Pronto habrá rutas.</p>{% endif %}
+        <p class="footer__h"><a href="{{ root }}ciudades/">{{ site.cities_page.title }}</a></p>
       </div>
       <div class="footer__col">
         <p class="footer__h">Contacto</p>
