@@ -536,8 +536,14 @@ def hl(s):
     """Posa en <strong> el que va entre **…** (paraules clau, amb subratllat suau a la pàgina de centres)."""
     return Markup(re.sub(r"\*\*(.+?)\*\*", r'<strong class="mk">\1</strong>', str(Markup.escape(s))))
 
+def elara(s):
+    """Enllaça «Elara Social» amb la seva web (el text es manté escapat)."""
+    return Markup(str(Markup.escape(s)).replace("Elara Social", '<a href="https://elarasocial.com/" target="_blank" rel="noopener">Elara Social</a>'))
+
+
 
 env.filters["hl"] = hl
+env.filters["elara"] = elara
 
 
 def _marca(o):

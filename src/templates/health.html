@@ -62,7 +62,7 @@
 
   <section class="panel" id="sin-compromiso" aria-labelledby="h-limits">
     <h2 class="health__h2" id="h-limits">{{ hp.limits_title }}</h2>
-    <ul class="checks">{% for i in hp.limits %}<li>{{ icon('check') }}<span>{{ i|hl }}</span></li>{% endfor %}</ul>
+    <ul class="checks">{% for i in hp.limits %}<li>{{ icon('check') }}<span>{{ i|hl|elara }}</span></li>{% endfor %}</ul>
   </section>
 
   {{ safety(hp.safety_html) }}
