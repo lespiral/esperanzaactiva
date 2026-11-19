@@ -359,6 +359,57 @@
     "units": [["1 comunidad", "{n} comunidades"], ["1 provincia", "{n} provincias"], ["1 comarca", "{n} comarcas"]]
   },
 
+  "health_page": {
+    "kicker": "Para centros de salud",
+    "title": "Un recurso comunitario para tu centro de salud",
+    "lead": "Cursos en línea **gratuitos** y rutas a pie que parten de tu centro. Una opción más para **orientar** a las personas que llegan con malestar emocional.",
+    "nus_title": "Un camino que pasa por tu centro",
+    "nus_intro": "Muchas personas llegan al centro de salud con dolor e incertidumbre. Allí reciben un **recurso** y, con él, ese malestar puede transformarse en **claridad, apoyo y una acción posible**, sostenidos por la comunidad.",
+    "how_title": "Cómo puede entrar en tu centro",
+    "how_intro": "Tu centro no tiene que organizar nada: solo **orientar**. El resto lo hace cada persona a su ritmo.",
+    "what_title": "Qué es Caminos de Esperanza [Activa]",
+    "what": [
+      "Son **cursos en línea gratuitos, de 7 pasos**, para afrontar lo que nos preocupa con más presencia, apoyo y un pequeño paso posible. Cada paso combina una breve explicación con una práctica guiada de audio o vídeo, y una caminata de reflexión.",
+      "Cada curso va acompañado de **rutas a pie, cortas y circulares**, que parten de equipamientos del barrio, como los centros de salud. La persona las hace sola y a su ritmo."
+    ],
+    "why_title": "Por qué encaja con lo que hace tu centro",
+    "why": [
+      "Es un **recurso comunitario, gratuito y sin lista de espera**.",
+      "Da a las personas con malestar emocional **algo concreto que hacer** entre consultas, cerca de casa.",
+      "Parte de un lugar que ya conocen: tu centro.",
+      "Respeta los límites de cada persona: puede parar y retomarlo otro día."
+    ],
+    "who_title": "¿Quién puede orientar hacia este recurso?",
+    "who_intro": "Cualquier persona del equipo. Si en tu centro hay alguien que orienta hacia recursos comunitarios, es quien mejor encaja:",
+    "who": [
+      ["En Cataluña:", "el referente de bienestar emocional y comunitario del centro, o quien lleve la prescripción social (enfermería, trabajo social o medicina de familia)."],
+      ["En Madrid y otras comunidades:", "suele ser el trabajo social sanitario o el equipo de salud comunitaria, que recomiendan activos para la salud del barrio."]
+    ],
+    "who_end": "No hace falta **ningún trámite**: es un recurso público y gratuito, abierto a cualquier persona.",
+    "courses_title": "Qué curso orientar",
+    "courses_intro": "Estos dos son los que mejor encajan con lo que llega a un centro de salud.",
+    "courses_for": {
+      "vida": "Para personas con ansiedad, duelos, conflictos, cansancio o momentos de vulnerabilidad.",
+      "cuidar": "Para personas con soledad, cansancio emocional o falta de espacios donde sentirse escuchadas."
+    },
+    "course_btn": "Ver el curso",
+    "share_title": "Cómo darlo a conocer",
+    "share_intro": "Lo más sencillo es comentarlo en consulta o dar el enlace. Si te sirve, puedes usar este texto:",
+    "share_text": "Hay un recurso gratuito que puede acompañarte entre consultas: cursos en línea de 7 pasos y rutas a pie por tu barrio. Lo tienes en esperanzaactiva.org",
+    "share_extra": "Si te sirve una ficha para el equipo o un cartel con código QR para la sala de espera, escríbenos.",
+    "routes_title": "Encuentra la ruta de tu centro",
+    "routes_intro": "Mira si ya hay una ruta que parte de tu centro de salud o de uno cercano. Si todavía no hay ninguna, escríbenos.",
+    "limits_title": "Sin compromiso",
+    "limits": [
+      "No hace falta **ningún convenio ni trámite**: los cursos y las rutas son públicos y gratuitos.",
+      "El centro **no gestiona inscripciones ni acompaña las rutas**. La actividad la ofrecen L'Espiral y Elara Social.",
+      "El nombre del centro aparece como punto de partida de la ruta.",
+      "Los cursos no sustituyen la atención clínica ni un tratamiento médico o psicológico."
+    ],
+    "safety_html": "Si una persona está pasando un momento muy difícil, la atención sigue siendo la del centro de salud. Si piensa en hacerse daño, puede llamar al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
+    "contact_title": "¿Hablamos?",
+    "contact_html": "Si quieres que tu centro tenga ruta, o que te contemos el recurso al equipo, escríbenos."
+  },
   "faq_page": {
     "title": "Preguntas frecuentes",
     "sections": [

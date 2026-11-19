@@ -562,3 +562,27 @@ html:not(.js) .placenav__list[data-name]::before { content: attr(data-name); dis
 .rfilter__input { width: 100%; max-width: 420px; padding: 10px 12px; font: inherit; border: 1px solid #bcc9c3; border-radius: 8px; background: #fff; }
 .rfilter__status { margin: 8px 0 0; min-height: 1.2em; font-size: .95rem; }
 .group[hidden], .route[hidden] { display: none; }
+
+/* Pàgina «Para centros de salud» (18/11/2026) */
+.health__sub { font-size: 1.1rem; margin: 22px 0 12px; }
+.health__courses { margin-top: 18px; }
+.health__quote { margin: 14px 0; padding: 16px 20px; border-left: 5px solid var(--sun); background: var(--green-50); border-radius: 0 var(--radius) var(--radius) 0; font-size: 1.05rem; line-height: 1.5; color: var(--green-900); }
+
+/* Pàgina «Para centros de salud»: títols amb l'ona i el sol, paraules clau subratllades i capçalera animada (com a elarasocial.com) */
+.health {
+  --onada: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 18'%3E%3Cpath d='M3 10C14 3 26 3 38 9s24 7 36 1 20-6 28-2' fill='none' stroke='%232e7561' stroke-width='3.2' stroke-linecap='round'/%3E%3Ccircle cx='112' cy='8' r='5' fill='%23e2c668'/%3E%3C/svg%3E");
+}
+.health__h2 { font-size: clamp(1.5rem, 3.4vw, 2rem); font-weight: 800; letter-spacing: -.014em; line-height: 1.18; margin-bottom: 18px; }
+.health__h2::after { content: ""; display: block; width: 104px; height: 16px; margin: 12px 0 0; background: var(--onada) no-repeat left center / contain; }
+.health strong, .pagehead--health strong { color: var(--green-900); font-weight: 700; background: linear-gradient(transparent 58%, rgba(185, 212, 173, .6) 58%); padding: 0 .03em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.pagehead--health .kicker { display: inline-flex; align-items: center; gap: 9px; max-width: 100%; padding: 6px 15px 6px 11px; border-radius: 14px; background: var(--green-100); color: var(--green-800); font: 700 .9rem/1.35 var(--font-head); letter-spacing: .005em; text-transform: none; margin-bottom: 18px; text-align: left; }
+.pagehead--health .kicker::before { content: ""; flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(226, 198, 104, .38); }
+.pagehead--health h1 { font-size: clamp(2.1rem, 5.6vw, 3.3rem); line-height: 1.12; font-weight: 800; letter-spacing: -.02em; }
+.pagehead--health .lead { font-size: clamp(1.1rem, 2.3vw, 1.28rem); line-height: 1.55; }
+@media (prefers-reduced-motion: no-preference) {
+  .js .health__h2::after { clip-path: inset(0 100% 0 0); transition: clip-path 1.2s .25s cubic-bezier(.6, 0, .2, 1); }
+  .js .health__h2.is-in::after { clip-path: inset(0 0 0 0); }
+  .js .pagehead--health h1:not(.is-split) { opacity: 0; }
+  .pagehead--health h1 .w { display: inline-block; animation: health-word .8s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--i) * 65ms + 60ms); }
+  @keyframes health-word { from { opacity: 0; transform: translateY(.55em); } to { opacity: 1; transform: none; } }
+}
