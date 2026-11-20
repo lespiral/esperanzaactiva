@@ -195,7 +195,7 @@
       ["heart", "Gratuito"],
       ["headphones", "En línea y, de momento, en catalán"],
       ["footprints", "7 pasos, a tu ritmo"],
-      ["plant", "No hace falta experiencia en meditación"]
+      ["plant", "No hace falta experiencia previa"]
     ],
     "cta": "Empieza el curso gratuito",
     "lang_note": "De momento, el curso está en catalán.",
@@ -269,7 +269,7 @@
       ["sun", "4. Llévalo al día a día", "Piensa qué te llevas: una mirada nueva, una necesidad o un pequeño paso posible."]
     ],
     "seven_title": "Cada curso, 7 pasos",
-    "seven_text": "Todos los cursos siguen la Espiral del Trabajo que Reconecta, de Joanna Macy, adaptada en **siete pasos sencillos**. Puedes hacerlo en 7 días o **a tu ritmo**, y **no hace falta experiencia** en meditación.",
+    "seven_text": "Todos los cursos siguen la Espiral del Trabajo que Reconecta, de Joanna Macy, adaptada en **siete pasos sencillos**. Puedes hacerlo en 7 días o **a tu ritmo**, y **no hace falta experiencia previa**.",
     "seven_moments_title": "Cada paso tiene tres momentos:",
     "seven_moments": [
       ["Practica:", "una práctica guiada de unos 15 minutos."],
@@ -418,7 +418,7 @@
       {
         "title": "Sobre los cursos",
         "items": [
-          ["¿Tengo que tener experiencia en meditación?", "No. Las prácticas están pensadas para que sean accesibles y progresivas."],
+          ["¿Tengo que tener experiencia previa?", "No. Las prácticas están pensadas para que sean accesibles y progresivas."],
           ["¿Es terapia?", "No. Es un minicurso vivencial de prácticas y reflexión. Puede ayudar mucho, pero no sustituye la psicoterapia si estás en un momento clínicamente delicado. Si estás pasando un momento muy difícil, habla con tu centro de salud. Si piensas en hacerte daño, llama al <a href=\"tel:024\">024</a>."],
           ["¿Y si me preocupa desbordarme emocionalmente?", "Es una preocupación habitual. El curso está planteado como un espacio seguro y respetuoso donde tú marcas el ritmo: puedes parar, respirar o dejarlo cuando lo necesites. Si estás en un momento especialmente sensible, nos lo puedes comentar antes y lo valoramos juntos."],
           ["¿Es realmente gratuito?", "Sí. Solo tienes que darte de alta en nuestra plataforma. Guardaremos tus datos para enviarte futuras comunicaciones, y siempre podrás darte de baja."],
