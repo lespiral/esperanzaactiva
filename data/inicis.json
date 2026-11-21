@@ -1102,7 +1102,9 @@
 "cuando-cuidarnos-ruta-8":"42.18220,2.48938",
 "cuando-cuidarnos-ruta-9":"42.18085,2.48916",
 "cuando-cuidarnos-ruta-10":"42.18176,2.48973",
-"cuando-cuidarnos-ruta-11":"42.18276,2.48724"
+"cuando-cuidarnos-ruta-11":"42.18276,2.48724",
+"cuando-el-mundo-ruta-1":"42.18081,2.48604",
+"cuando-el-mundo-ruta-2":"42.17180,2.47884"
 },
 "ponent":{
 "juneda-ruta-1":"41.54659,0.82850",
@@ -1984,7 +1986,9 @@
 "cuando-cuidarnos-ruta-10":"42.10198,1.84475",
 "cuando-sostener-ruta-1":"42.10509,1.84742",
 "cuando-sostener-ruta-2":"42.09937,1.84781",
-"cuando-sostener-ruta-3":"41.94441,1.88066"
+"cuando-sostener-ruta-3":"41.94441,1.88066",
+"cuando-el-mundo-ruta-1":"42.10395,1.84430",
+"cuando-el-mundo-ruta-2":"42.09800,1.84085"
 },
 "ripoll":{
 "cuando-la-vida-ruta-1":"42.19804,2.19287",
@@ -2003,7 +2007,11 @@
 "cuando-cuidarnos-ruta-9":"42.20265,2.19209",
 "cuando-sostener-ruta-1":"42.19954,2.19092",
 "cuando-sostener-ruta-2":"42.21169,2.20494",
-"cuando-sostener-ruta-3":"42.32018,2.48166"
+"cuando-sostener-ruta-3":"42.32018,2.48166",
+"cuando-el-mundo-ruta-1":"42.20114,2.19022",
+"cuando-el-mundo-ruta-2":"42.20110,2.19019",
+"cuando-el-mundo-ruta-3":"42.19991,2.18727",
+"cuando-el-mundo-ruta-4":"42.19597,2.19375"
 },
 "la-seu-d-urgell":{
 "cuando-la-vida-ruta-1":"42.35544,1.45927",
@@ -2028,6 +2036,8 @@
 "cuando-cuidarnos-ruta-14":"42.35952,1.45957",
 "cuando-cuidarnos-ruta-15":"42.35856,1.46185",
 "cuando-cuidarnos-ruta-16":"42.35838,1.46003",
-"cuando-sostener-ruta-1":"42.35764,1.45727"
+"cuando-sostener-ruta-1":"42.35764,1.45727",
+"cuando-el-mundo-ruta-1":"42.35878,1.47328",
+"cuando-el-mundo-ruta-2":"42.35665,1.45163"
 }
 }
