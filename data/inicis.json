@@ -511,7 +511,13 @@
 "manresa-ruta-5":"41.72613,1.82584",
 "prats-de-llucanes-ruta-1":"42.00892,2.03188",
 "torello-ruta-1":"42.04861,2.26489",
-"tona-ruta-1":"41.84889,2.22798"
+"tona-ruta-1":"41.84889,2.22798",
+"manlleu-ruta-1":"42.00491,2.28572",
+"sant-vicenc-de-torello-ruta-1":"42.06136,2.25445",
+"torello-osonament-ruta-1":"42.05174,2.25090",
+"olost-ruta-1":"41.98592,2.09592",
+"els-hostalets-de-balenya-ruta-1":"41.81554,2.23556",
+"taradell-ruta-1":"41.87147,2.28463"
 },
 "el-prat":{
 "cuando-la-vida-ruta-1":"41.32894,2.10212",
@@ -1084,6 +1090,8 @@
 "cuando-sostener-ruta-1":"42.18301,2.49182",
 "cuando-sostener-ruta-2":"42.18301,2.49182",
 "cuando-sostener-ruta-3":"42.18301,2.49182",
+"cuando-sostener-ruta-4":"42.18110,2.48795",
+"cuando-sostener-ruta-5":"42.14442,2.57133",
 "cuando-cuidarnos-ruta-1":"42.18221,2.48802",
 "cuando-cuidarnos-ruta-2":"42.18588,2.47377",
 "cuando-cuidarnos-ruta-3":"42.18077,2.48928",
@@ -1973,7 +1981,10 @@
 "cuando-cuidarnos-ruta-7":"42.10010,1.84180",
 "cuando-cuidarnos-ruta-8":"42.09919,1.84721",
 "cuando-cuidarnos-ruta-9":"42.10159,1.85265",
-"cuando-cuidarnos-ruta-10":"42.10198,1.84475"
+"cuando-cuidarnos-ruta-10":"42.10198,1.84475",
+"cuando-sostener-ruta-1":"42.10509,1.84742",
+"cuando-sostener-ruta-2":"42.09937,1.84781",
+"cuando-sostener-ruta-3":"41.94441,1.88066"
 },
 "ripoll":{
 "cuando-la-vida-ruta-1":"42.19804,2.19287",
@@ -1989,7 +2000,10 @@
 "cuando-cuidarnos-ruta-6":"42.21147,2.20531",
 "cuando-cuidarnos-ruta-7":"42.19963,2.18851",
 "cuando-cuidarnos-ruta-8":"42.19280,2.19489",
-"cuando-cuidarnos-ruta-9":"42.20265,2.19209"
+"cuando-cuidarnos-ruta-9":"42.20265,2.19209",
+"cuando-sostener-ruta-1":"42.19954,2.19092",
+"cuando-sostener-ruta-2":"42.21169,2.20494",
+"cuando-sostener-ruta-3":"42.32018,2.48166"
 },
 "la-seu-d-urgell":{
 "cuando-la-vida-ruta-1":"42.35544,1.45927",
@@ -2013,6 +2027,7 @@
 "cuando-cuidarnos-ruta-13":"42.35541,1.46143",
 "cuando-cuidarnos-ruta-14":"42.35952,1.45957",
 "cuando-cuidarnos-ruta-15":"42.35856,1.46185",
-"cuando-cuidarnos-ruta-16":"42.35838,1.46003"
+"cuando-cuidarnos-ruta-16":"42.35838,1.46003",
+"cuando-sostener-ruta-1":"42.35764,1.45727"
 }
 }
