@@ -558,7 +558,7 @@ def _marca(o):
 
 
 site_t = _marca(site)
-env.globals.update(icon=icon, site=site_t, noindex=NOINDEX, version=str(int(time.time())),
+env.globals.update(icon=icon, school_privacy_url=json.loads((DATA / "legal.json").read_text(encoding="utf-8")).get("school_privacy_url", ""), site=site_t, noindex=NOINDEX, version=str(int(time.time())),
                    logo=(SRC / "img" / "logo.png").exists(),
                    partners_logo=(SRC / "img" / "lespiral-elara.png").exists(),
                    facilitator_photo=(SRC / "img" / "aleix-boronat.jpg").exists(),
@@ -610,6 +610,14 @@ for t in subpages:
     render("city.html", t["slug"], section="ciudades", page_title=t["name"], page_description=t["summary"], city=t)
 for t in territories:
     render("city.html", t["slug"], section="ciudades", page_title=t["name"], page_description=t["summary"], city=t)
+# Textos legales (data/legal.json): aviso legal, política de privacidad y política de cookies
+_legal = json.loads((DATA / "legal.json").read_text(encoding="utf-8"))
+_school = _legal.get("school_privacy_url", "")
+_school_html = (f'<a href="{_school}" target="_blank" rel="noopener">política de privacidad de la escuela en línea</a>' if _school
+                else "[Por confirmar: enlace de la política de privacidad de la escuela en línea]")
+for _slug, _p in _legal["pages"].items():
+    _body = _p["html"].replace("{{root}}", "../").replace("{{updated}}", _legal["updated"]).replace("{{school}}", _school_html)
+    render("legal.html", _slug, section="legal", page_title=_p["title"], page_description=_p["desc"], lp={"title": _p["title"], "body": Markup(_body)})
 render("404.html", "404.html", page_title="Página no encontrada", root=BASE, base=BASE)
 
 (OUT / "assets").mkdir(exist_ok=True)
@@ -622,6 +630,8 @@ shutil.copy(SRC / "site.css", OUT / "assets" / "site.css")
 shutil.copy(SRC / "site.js", OUT / "assets" / "site.js")
 if (SRC / "img").exists():
     shutil.copytree(SRC / "img", OUT / "assets" / "img")
+if (SRC / "fonts").exists():
+    shutil.copytree(SRC / "fonts", OUT / "assets" / "fonts")
 (OUT / ".nojekyll").write_text("")
 if NOINDEX:
     (OUT / "robots.txt").write_text("User-agent: *\nDisallow: /\n")

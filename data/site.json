@@ -40,7 +40,7 @@
     "field": "Tu correo electrónico",
     "button": "Avísame cuando se abra",
     "note": "Solo te escribimos para avisarte. Puedes darte de baja cuando quieras.",
-    "privacy": "",
+    "privacy": "Más información: <a href=\"/politica-de-privacidad/\">política de privacidad</a> y <a href=\"https://espiral-elara-social.thinkific.com/pages/privacy\" target=\"_blank\" rel=\"noopener\">política de privacidad de la escuela en línea</a>.",
     "opening_label": "Fecha de apertura del primer curso:",
     "opening": "",
     "subject": "Avísame cuando se abra el primer curso",
