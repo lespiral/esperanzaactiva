@@ -594,6 +594,9 @@ render("home.html", "", section="inicio")
 render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site_t["courses_page"])
 render("cities.html", "ciudades", section="ciudades", page_title=site_t["cities_page"]["title"], cp=site_t["cities_page"])
 render("faq.html", "preguntas", section="preguntas", page_title="Preguntas", fp=fp)
+ep = site["edu_page"]
+ep["safety_html"] = Markup(ep["safety_html"])
+render("educ.html", "centros-educativos", section="educativos", page_title="Para centros educativos", page_description=ep["lead"].replace("**", ""), ep=ep)
 render("health.html", "centros-de-salud", section="centros", page_title="Para centros de salud", page_description=hp["lead"].replace("**", ""), hp=hp)
 _nb = dict(site_t["nearby"]); _nb.update({k: v for k, v in site_t["afins_page"]["nearby"].items() if k != "js"}); _nb["js"] = {**site_t["nearby"]["js"], **site_t["afins_page"]["nearby"]["js"]}
 site_t["afins_page"]["nearby_L"] = _nb

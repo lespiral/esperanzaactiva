@@ -331,7 +331,7 @@
       "title": "¿Queréis hacer este camino con vuestro equipo?",
       "text": "Si sois una cooperativa, asociación o colectivo, podemos adaptar los 7 pasos y las caminatas a vuestro espacio. Estamos empezando y buscamos las primeras entidades aliadas.",
       "pending": "La primera colaboración es una prueba piloto gratuita, que diseñamos juntos.",
-      "buttons": [["Entidades y espacios afines", "entidades-y-espacios-afines/"], ["Para centros de salud", "centros-de-salud/"]]
+      "buttons": [["Entidades y espacios afines", "entidades-y-espacios-afines/"], ["Para centros de salud", "centros-de-salud/"], ["Para centros educativos", "centros-educativos/"]]
     },
     "therapy": {
       "title": "No es terapia",
@@ -605,6 +605,67 @@
     ],
     "routes_map_url": "https://www.google.com/maps/d/viewer?mid=1blWNcMkPScCNo4YNSuHZMJNlyCT9jy0",
     "routes_map_btn": "Abrir el mapa de las rutas"
+  },
+  "edu_page": {
+    "kicker": "Para centros educativos",
+    "title": "Un recurso para la comunidad educativa",
+    "lead": "Cursos en línea **gratuitos** y rutas a pie circulares que salen de la puerta del centro educativo. Una propuesta para **docentes, educadores y familias**.",
+    "how_title": "Cómo puede llegar a tu centro",
+    "how_intro": "Tu centro no tiene que organizar nada: solo **compartirlo**. El resto lo hace cada persona a su ritmo.",
+    "nus_title": "Un camino que pasa por tu centro",
+    "nus_intro": "Muchas personas de la comunidad educativa llevan dolor, preocupación o cansancio. En el centro pueden encontrar un **recurso** y, con él, ese malestar puede transformarse en **claridad, apoyo y una acción posible**, sostenidos por la comunidad.",
+    "what_title": "Qué es Caminos de Esperanza [Activa]",
+    "what": [
+      "Son **cursos en línea gratuitos, de 7 pasos**, para afrontar lo que nos preocupa con más presencia, apoyo y un pequeño paso posible. Cada paso combina una breve explicación con una práctica guiada de audio o vídeo y una caminata de reflexión.",
+      "Cada curso va acompañado de **rutas a pie, cortas y circulares**. Las de esta página salen de la puerta de centros educativos. La persona las hace sola y a su ritmo."
+    ],
+    "why_title": "Por qué puede encajar en tu centro",
+    "why": [
+      "Es un **recurso comunitario y gratuito**.",
+      "Da a docentes, educadores y familias **algo concreto que hacer** fuera del horario escolar, cerca del centro.",
+      "Parte de un lugar que ya conocen: tu centro.",
+      "Respeta los límites de cada persona: puede parar y retomarlo otro día."
+    ],
+    "who_title": "Quién puede compartirlo",
+    "who_intro": "Cualquier persona de la comunidad educativa:",
+    "who": [
+      [
+        "Docentes y educadores:",
+        "pueden comentarlo o pasar el enlace a compañeros y a familias."
+      ],
+      [
+        "Equipos directivos y de orientación:",
+        "pueden incluirlo entre los recursos que ya comparten."
+      ],
+      [
+        "Familias y AMPA:",
+        "pueden darlo a conocer a otras familias."
+      ]
+    ],
+    "who_end": "No hace falta **ningún trámite**: es un recurso abierto a cualquier persona.",
+    "courses_title": "Qué curso elegir",
+    "courses_intro": "Estos dos son los que más se acercan a las necesidades del día a día de un centro educativo.",
+    "courses_for": {
+      "vida": "Para momentos de cansancio, estrés, duelo o vulnerabilidad.",
+      "cuidar": "Para quien cuida de otras personas y necesita espacios donde sentirse escuchado."
+    },
+    "course_btn": "Ver el curso",
+    "share_title": "Cómo darlo a conocer",
+    "share_intro": "Lo más sencillo es comentarlo o pasar el enlace. Si te sirve, puedes usar este texto:",
+    "share_text": "Hay un recurso gratuito para docentes, educadores y familias: cursos en línea de 7 pasos y rutas a pie circulares que salen de la puerta del centro. Lo encontrarás en esperanzaactiva.org",
+    "routes_title": "Encuentra la ruta de tu centro",
+    "routes_intro": "Cada ruta es circular, corta y sale de la puerta de un centro educativo.",
+    "routes_soon": "Estamos preparando las rutas. Pronto podrás encontrar la de tu centro. Si quieres que te avisemos, escríbenos.",
+    "limits_title": "Sin compromiso",
+    "limits": [
+      "No hace falta **ningún convenio ni trámite**: los cursos y las rutas son públicos y gratuitos.",
+      "El centro **no gestiona inscripciones ni acompaña las rutas**. La actividad la ofrecen L'Espiral y Elara Social.",
+      "El nombre del centro aparece como punto de salida de la ruta.",
+      "Los cursos no sustituyen la atención psicológica ni un tratamiento médico."
+    ],
+    "safety_html": "Si una persona está pasando un momento muy difícil, la atención sigue siendo la de su centro de salud. Si piensa en hacerse daño, puede llamar al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
+    "contact_title": "¿Hablamos?",
+    "contact_html": "Si quieres que te expliquemos el recurso en tu centro, o que te avisemos cuando esté la ruta, escríbenos."
   },
   "faq_page": {
     "title": "Preguntas frecuentes",
