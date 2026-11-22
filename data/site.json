@@ -33,7 +33,6 @@
   },
 
 
-  "map_gate": {"btn": "Mostrar el mapa", "text": "Este mapa es de Google My Maps y no se carga hasta que lo muestres.", "note": "Al mostrarlo, tu navegador se conecta a Google. <a href=\"/politica-de-cookies/\">Más información</a>."},
   "waitlist": {
     "mode": "mailto",
     "action": "",
