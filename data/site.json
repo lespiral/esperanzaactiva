@@ -32,12 +32,6 @@
     "notify": "Avísame cuando se abra"
   },
 
-  "langbar": {
-    "here": "Estás en esperanzaactiva.org · rutas de toda España",
-    "ask": "¿Eres de Cataluña?",
-    "link": "Ver la versión en catalán (esperançaactiva.cat)",
-    "lang": "ca"
-  },
 
   "waitlist": {
     "mode": "mailto",
