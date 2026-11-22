@@ -25,6 +25,34 @@
     "sister_url": "https://xn--esperanaactiva-mjb.cat/"
   },
 
+  "nav": {
+    "entities": "Para centros de salud",
+    "entities_url": "centros-de-salud/",
+    "entities_section": "centros",
+    "notify": "Avísame cuando se abra"
+  },
+
+  "langbar": {
+    "here": "Estás en esperanzaactiva.org · rutas de toda España",
+    "ask": "¿Eres de Cataluña?",
+    "link": "Ver la versión en catalán (esperançaactiva.cat)",
+    "lang": "ca"
+  },
+
+  "waitlist": {
+    "mode": "mailto",
+    "action": "",
+    "title": "Te avisamos cuando se abra el primer curso",
+    "field": "Tu correo electrónico",
+    "button": "Avísame cuando se abra",
+    "note": "Solo te escribimos para avisarte. Puedes darte de baja cuando quieras.",
+    "privacy": "[PENDIENTE: privacidad]",
+    "opening_label": "Fecha de apertura del primer curso:",
+    "opening": "[PENDIENTE]",
+    "subject": "Avísame cuando se abra el primer curso",
+    "subject_course": "Avísame cuando se abra el curso: {curs}"
+  },
+
   "cities": [
     {"slug": "barcelona", "name": "Barcelona", "region": "Barcelonès", "icon": "buildings", "source": "cat"},
     {"slug": "berga", "name": "Berga", "region": "Berguedà", "icon": "tree", "source": "cat"},
@@ -282,9 +310,37 @@
       ["¿Es realmente gratuito?", "Sí. Solo tienes que darte de alta en la plataforma de los cursos, y puedes darte de baja cuando quieras."],
       ["¿Es terapia?", "No. Es un minicurso vivencial de prácticas y reflexión. Puede ayudar mucho, pero no sustituye la psicoterapia si estás en un momento clínicamente delicado."],
       ["¿En qué idioma está el curso?", "De momento, los cursos están en catalán. En los mapas de Cataluña, las fichas de las rutas también están en catalán."],
-      ["Donde vivo todavía no hay rutas. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."]
+      ["Donde vivo todavía no hay rutas. ¿Puedo hacer el curso?", "Claro. Puedes hacer el tiempo de reflexión en un paseo cerca de casa o en un lugar tranquilo."],
+      ["Soy de una entidad: ¿podemos hacerlo con nuestro equipo?", "Sí, es lo que queremos probar. <a href=\"mailto:esperanza@elarasocial.com\">Escríbenos</a> y lo diseñamos juntos. <span class=\"pending\">[PENDIENTE: respuesta definitiva]</span>"]
     ],
     "nus_title": "¿Qué es la Esperanza Activa?",
+    "nus_lead": "No es optimismo ni esperar que todo vaya bien. Es mirar de frente lo que nos preocupa y elegir, con otras personas, un paso concreto.",
+    "hero_actions": {
+      "soon": ["Encuentra una ruta cerca de ti", "Avísame cuando se abra el primer curso"],
+      "open": ["Descubre los cursos", "Elige dónde quieres caminar"]
+    },
+    "stats": {
+      "label": "El proyecto en cifras",
+      "areas_by": "top",
+      "places": "pueblos y ciudades con rutas",
+      "areas": "comunidades autónomas",
+      "courses_soon": "cursos en preparación",
+      "courses": "cursos",
+      "steps": "pasos por curso, gratuitos"
+    },
+    "entities": {
+      "kicker": "Para entidades",
+      "title": "¿Queréis hacer este camino con vuestro equipo?",
+      "text": "Si sois una cooperativa, asociación o colectivo, podemos adaptar los 7 pasos y las caminatas a vuestro espacio. Estamos empezando y buscamos las primeras entidades aliadas.",
+      "pending": "[PENDIENTE: condiciones de la primera colaboración]",
+      "buttons": [["Para centros de salud", "centros-de-salud/"]],
+      "mail": "Escríbenos"
+    },
+    "therapy": {
+      "title": "No es terapia",
+      "text": "Es un curso vivencial de prácticas y reflexión: no sustituye la psicoterapia ni un tratamiento médico o psicológico. Si estás pasando un momento muy difícil, habla con tu centro de salud. Y si lo necesitas, llama:",
+      "phones": [["024", "si piensas en hacerte daño"], ["112", "emergencia"]]
+    },
     "initiative_title": "Una iniciativa de",
     "initiative_text": "L'Espiral y Elara Social, con la mirada de la salud mental comunitaria."
   },
@@ -354,6 +410,7 @@
     "results": "Resultados para «{q}»",
     "clear": "Borrar",
     "none": "Todavía no hay rutas en este pueblo. Puedes hacer el curso igualmente y caminar cerca de casa.",
+    "none_link": {"text": "¿Eres de Cataluña?", "label": "esperançaactiva.cat (en catalán)", "url": "https://xn--esperanaactiva-mjb.cat/", "lang": "ca"},
     "foot": "Ahora hay rutas en {n} pueblos y ciudades.",
     "foot_course": "Ahora hay rutas de este curso en {n} pueblos y ciudades.",
     "routes": ["1 ruta", "{n} rutas"],
@@ -437,6 +494,12 @@
           ["¿Las rutas son circulares?", "La mayoría sí: empiezan y acaban en el mismo lugar. Algunas van de un punto a otro; en cada ruta pone si es circular o lineal, y dónde empieza y acaba."],
           ["¿En qué idioma están los mapas?", "En los mapas de Cataluña, las fichas de las rutas están en catalán. En esta web tienes, en castellano, los datos de cada ruta: el punto de salida, los kilómetros y el tiempo."],
           ["¿Qué tengo que tener en cuenta antes de salir?", "__before_walk__"]
+        ]
+      },
+      {
+        "title": "Para entidades",
+        "items": [
+          ["Soy de una entidad: ¿podemos hacerlo con nuestro equipo?", "Sí, es lo que queremos probar. <a href=\"mailto:esperanza@elarasocial.com\">Escríbenos</a> y lo diseñamos juntos. <span class=\"pending\">[PENDIENTE: respuesta definitiva]</span>"]
         ]
       }
     ],

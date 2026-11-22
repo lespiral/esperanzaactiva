@@ -1,22 +1,46 @@
 {% extends "base.html" %}
-{% from "parts.html" import course_cards, faq_item, place_nav, nearby %}
+{% from "parts.html" import course_cards, faq_item, place_nav, nearby, waitlist, therapy_box %}
 {% block content %}
+{# Mientras algún curso sea «Próximamente» (soon), el primer botón lleva a las rutas y el segundo a la lista de espera; si ninguno lo es, vuelven los textos de siempre (h.hero_actions.open) #}
+{% set soon = site.courses|selectattr('soon')|list|length > 0 %}
+{% set pt = place_tree() if site.cities else none %}
 <section class="hero">
   <div class="wrap hero__in">
     <p class="hero__kicker">{{ h.kicker }}</p>
     <h1 class="hero__title">{{ site.brand[0] }} <span>{{ site.brand[1] }}</span></h1>
     <p class="hero__lead">{{ h.lead }}</p>
     <div class="hero__actions">
-      <a class="btn btn--light" href="#que-te-trae-aqui">Descubre los cursos</a>
-      <a class="btn btn--ghost-light" href="#donde-quieres-caminar">Elige dónde quieres caminar</a>
+      {% if soon %}
+      <a class="btn btn--light" href="#donde-quieres-caminar">{{ h.hero_actions.soon[0] }}</a>
+      <a class="btn btn--ghost-light" href="#t-avisem">{{ h.hero_actions.soon[1] }}</a>
+      {% else %}
+      <a class="btn btn--light" href="#que-te-trae-aqui">{{ h.hero_actions.open[0] }}</a>
+      <a class="btn btn--ghost-light" href="#donde-quieres-caminar">{{ h.hero_actions.open[1] }}</a>
+      {% endif %}
     </div>
   </div>
 </section>
+
+{# Franja de cifras: todo sale del build (lugares con rutas, comunidades —o comarcas—, cursos y pasos), nada escrito a mano #}
+{% if h.stats and pt %}
+{% set areas = (pt.lists|selectattr('level', 'equalto', pt.depth - 1)|list|length) if h.stats.areas_by == 'leaf' else (pt.lists[0]['items']|length) %}
+<section class="stats" aria-label="{{ h.stats.label }}">
+  <div class="wrap">
+    <ul class="stats__list">
+      <li><span class="stats__n">{{ pt.n }}</span><span class="stats__l">{{ h.stats.places }}</span></li>
+      <li><span class="stats__n">{{ areas }}</span><span class="stats__l">{{ h.stats.areas }}</span></li>
+      <li><span class="stats__n">{{ site.courses|length }}</span><span class="stats__l">{{ h.stats.courses_soon if soon else h.stats.courses }}</span></li>
+      <li><span class="stats__n">{{ cc.passes|length }}</span><span class="stats__l">{{ h.stats.steps }}</span></li>
+    </ul>
+  </div>
+</section>
+{% endif %}
 
 <section class="band band--white" id="que-es-la-esperanza-activa" aria-labelledby="h-nus">
   <div class="wrap">
     <h2 class="band__title" id="h-nus">{{ h.nus_title }}</h2>
     {% include "infografies/infografia-esperanca-activa.html" %}
+    {% if h.nus_lead %}<p class="lede">{{ h.nus_lead }}</p>{% endif %}
   </div>
 </section>
 
@@ -24,6 +48,7 @@
   <div class="wrap">
     <h2 class="band__title" id="h-q1">{{ h.q1 }}</h2>
     {{ course_cards(site.courses, root) }}
+    {% if soon and site.waitlist %}{{ waitlist(site.waitlist, site.waitlist.subject) }}{% endif %}
   </div>
 </section>
 
@@ -35,7 +60,7 @@
       <p>{{ h.q2_cities.replace('{ciudades}', cities_with_a) if site.cities else h.q2_none }}</p>
     </div>
     {% if site.cities %}
-    {{ place_nav('elige-lugar', place_tree(), root, site.place_nav, cls='placenav--center') }}
+    {{ place_nav('elige-lugar', pt, root, site.place_nav, cls='placenav--center') }}
     {{ nearby(site.nearby, root) }}
     <p class="band__after">{{ h.each_course }}</p>
     {% endif %}
@@ -61,8 +86,26 @@
   </div>
 </section>
 
+{% if h.entities %}
+<section class="band band--deep" id="para-entidades" aria-labelledby="entidades-h">
+  <div class="wrap">
+    <div class="entities">
+      <p class="entities__kicker">{{ h.entities.kicker }}</p>
+      <h2 class="entities__title" id="entidades-h">{{ h.entities.title }}</h2>
+      <p>{{ h.entities.text }}</p>
+      <p><span class="pending">{{ h.entities.pending }}</span></p>
+      <div class="entities__actions">
+        {% for label, url in h.entities.buttons %}<a class="btn {{ 'btn--light' if loop.first else 'btn--ghost-light' }}" href="{{ root }}{{ url }}">{{ label }}</a>{% endfor %}
+        {% if h.entities.mail %}<a class="btn btn--ghost-light" href="mailto:{{ site.contact.email }}">{{ icon('mail') }}{{ h.entities.mail }}</a>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="band band--white" id="preguntas-frecuentes" aria-labelledby="h-faq">
   <div class="wrap wrap--narrow">
+    {% if h.therapy %}{{ therapy_box(h.therapy) }}{% endif %}
     <h2 class="band__title" id="h-faq">{{ h.faq_title }}</h2>
     <div class="faqs">
       {% for q, a in h.faq %}{{ faq_item(q, a) }}{% endfor %}
