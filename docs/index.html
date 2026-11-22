@@ -14,7 +14,7 @@
 <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png"><link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@600;700&display=swap">
-  <link rel="stylesheet" href="assets/site.css?v=1795349774">
+  <link rel="stylesheet" href="assets/site.css?v=1795350118">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -40,7 +40,7 @@
           <li><a href="cursos/">Los cursos</a></li>
           <li><a href="ciudades/">Ciudades, pueblos y comarcas</a></li>
           <li><a href="preguntas/">Preguntas</a></li>
-<li><a href="centros-de-salud/">Para centros de salud</a></li><li class="menu__cta"><a href="#t-avisem">Avísame cuando se abra</a></li>        </ul>
+<li><a href="entidades-y-espacios-afines/">Para entidades</a></li><li class="menu__cta"><a href="#t-avisem">Avísame cuando se abra</a></li>        </ul>
       </nav>
     </div>
   </header>
@@ -1236,6 +1236,8 @@
     { icon: "sun", name: "Integra", time: "", text: "Un vídeo de cierre para llevarlo a la vida" }
   ];
   var CHIPS = [["clock", "7 días o a tu ritmo"], ["leaf", "No hace falta experiencia previa"]];
+  var ritme = root.getAttribute("data-ritme");
+  if (ritme) CHIPS[0][1] = ritme;
   var HUB_START = ["La Espiral", "7 pasos", "Cada paso, tres momentos"];
   var HUB_END = ["Cada curso", "7 pasos", "Los mismos, con la mirada de cada curso. Toca uno para verlo."]; // canvi de la web
   function kick(n) { return "Paso " + n + " de 7"; }
@@ -1532,7 +1534,7 @@
       <p>Si sois una cooperativa, asociación o colectivo, podemos adaptar los 7 pasos y las caminatas a vuestro espacio. Estamos empezando y buscamos las primeras entidades aliadas.</p>
       <p><strong>La primera colaboración es una prueba piloto gratuita, que diseñamos juntos.</strong></p>
       <div class="entities__actions">
-<a class="btn btn--light" href="centros-de-salud/">Para centros de salud</a><a class="btn btn--ghost-light" href="mailto:esperanza@elarasocial.com"><svg class="i" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true" focusable="false"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></svg>Escríbenos</a>      </div>
+<a class="btn btn--light" href="entidades-y-espacios-afines/">Entidades y espacios afines</a><a class="btn btn--ghost-light" href="centros-de-salud/">Para centros de salud</a>      </div>
     </div>
   </div>
 </section>
@@ -1610,6 +1612,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=1795349774" defer></script>
+  <script src="assets/site.js?v=1795350118" defer></script>
 </body>
 </html>

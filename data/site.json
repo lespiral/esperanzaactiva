@@ -26,9 +26,9 @@
   },
 
   "nav": {
-    "entities": "Para centros de salud",
-    "entities_url": "centros-de-salud/",
-    "entities_section": "centros",
+    "entities": "Para entidades",
+    "entities_url": "entidades-y-espacios-afines/",
+    "entities_section": "entidades",
     "notify": "Avísame cuando se abra"
   },
 
@@ -333,8 +333,7 @@
       "title": "¿Queréis hacer este camino con vuestro equipo?",
       "text": "Si sois una cooperativa, asociación o colectivo, podemos adaptar los 7 pasos y las caminatas a vuestro espacio. Estamos empezando y buscamos las primeras entidades aliadas.",
       "pending": "La primera colaboración es una prueba piloto gratuita, que diseñamos juntos.",
-      "buttons": [["Para centros de salud", "centros-de-salud/"]],
-      "mail": "Escríbenos"
+      "buttons": [["Entidades y espacios afines", "entidades-y-espacios-afines/"], ["Para centros de salud", "centros-de-salud/"]]
     },
     "therapy": {
       "title": "No es terapia",
@@ -468,6 +467,146 @@
     "safety_html": "Si una persona está pasando un momento muy difícil, la atención sigue siendo la del centro de salud. Si piensa en hacerse daño, puede llamar al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
     "contact_title": "¿Hablamos?",
     "contact_html": "Si quieres que tu centro tenga ruta, o que te contemos el recurso al equipo, escríbenos."
+  },
+  "afins_page": {
+    "how_title": "Cómo llega a las personas del espacio",
+    "how_intro": "El espacio no tiene que organizar nada: solo **compartirlo**. El resto lo hace cada persona a su ritmo.",
+    "nus_title": "Un camino que pasa por el espacio",
+    "nus_intro": "Muchas personas llegan a un espacio con dolor, incertidumbre o cansancio. Allí encuentran un **recurso** y, con él, ese malestar puede transformarse en **claridad, apoyo y una acción posible**, sostenidos por la comunidad.",
+    "spiral_title": "Un recorrido en espiral, no una sola vuelta",
+    "spiral_intro": "Los cursos siguen la **Espiral del Trabajo que Reconecta**, de Joanna Macy, adaptada en siete pasos sencillos. No se hacen una sola vez: cada persona puede volver a ellos y, en cada vuelta, ir un poco más allá. Así aprende a usar su propia espiral para acompañarse en el tránsito del malestar a la acción compartida.",
+    "kicker": "Para entidades y espacios afines",
+    "title": "Un recurso para las personas que pasan por el espacio",
+    "lead": "Una **caminata corta, gratuita y con mapa** que sale de la puerta del espacio, para que las personas que vienen puedan **tomar conciencia de cómo se sienten** y llevar lo que descubren a la vida cotidiana.",
+    "res_title": "Una práctica guiada y una caminata que sale de la puerta del espacio",
+    "res_intro": "Una manera sencilla de ofrecer **algo más** a las personas que vienen al espacio: clientes, alumnos, personas usuarias o participantes de un grupo.",
+    "res": [
+      [
+        "headphones",
+        "Una práctica en línea guiada",
+        "Gratuita y conectada con lo que cada persona necesita."
+      ],
+      [
+        "footprints",
+        "Una ruta a pie corta",
+        "Gratuita y con mapa, empieza en la puerta del espacio."
+      ],
+      [
+        "users-three",
+        "Cada persona, a su ritmo",
+        "El espacio no tiene que organizar ni acompañar nada."
+      ],
+      [
+        "heart",
+        "Tomar conciencia",
+        "Caminando, invita a notar cómo nos sentimos y qué nos sostiene."
+      ],
+      [
+        "sun",
+        "Llevarlo a la vida cotidiana",
+        "Se puede repetir y volver a ella otro día."
+      ]
+    ],
+    "res_end": "Sirve igual para quien viene a una **sesión**, a una **clase**, a un **taller** o a un **servicio**.",
+    "what_title": "Qué es Caminos de Esperanza [Activa]",
+    "what": [
+      "Son **cursos en línea gratuitos, de 7 pasos**, para afrontar lo que nos preocupa con más presencia, apoyo y un pequeño paso posible. Cada paso combina una breve explicación con una práctica guiada de audio o vídeo y una caminata de reflexión.",
+      "Cada curso va acompañado de **rutas a pie, cortas y con mapa**, que parten de entidades, equipamientos y espacios como este. La persona las hace sola y a su ritmo, y así conoce lugares reales donde hay gente que hace una tarea colectiva."
+    ],
+    "courses_btn": "Ver los cursos",
+    "courses_title": "Los cuatro cursos",
+    "nearby": {
+      "title": "Encuentra el espacio más cercano a ti",
+      "intro": "Usa tu ubicación o escribe una dirección y te mostramos los espacios con ruta, del más cercano al más lejano.",
+      "js": {
+        "results": "Espacios más cercanos a {where}",
+        "far": "Todavía no hay ningún espacio cerca de ti: el más cercano está a {d}."
+      }
+    },
+    "share_title": "Cómo darlo a conocer",
+    "share_intro": "Lo más sencillo es comentarlo o pasar el enlace de la ruta del espacio. Si te sirve, puedes usar este texto para un boletín, las redes o el tablón:",
+    "share_text": "Una caminata corta, gratuita y con mapa sale de la puerta de [nombre del espacio]. Forma parte de Caminos de Esperanza [Activa]: cursos en línea gratuitos y rutas a pie para cuidarnos y actuar juntas. Toda la información, en esperanzaactiva.org",
+    "share_extra": "Si quieres, también podemos preparar un **código QR** que lleve directamente a la ruta del espacio, para colgarlo en la recepción o en la sala.",
+    "routes_title": "Encuentra la ruta de cada espacio",
+    "routes_intro": "Cada espacio sale en el mapa con un marcador, con el nombre, la dirección y los enlaces a su ruta. Cada espacio tiene su ruta circular, que sale de su puerta. Los espacios **promotores** son los que impulsan el proyecto; los espacios **afines** son otros espacios independientes que comparten la mirada.",
+    "map_url": "https://www.google.com/maps/d/viewer?mid=190F3Xpvz2uEHsPec602iahqN84nJ3Ms",
+    "map_btn": "Abrir el mapa a pantalla completa",
+    "safety_html": "Si una persona está pasando un momento muy difícil, la atención sigue siendo la de su centro de salud o servicio de referencia. Si piensa en hacerse daño, puede llamar al <a href=\"tel:024\">024</a>. En una emergencia, al <a href=\"tel:112\">112</a>.",
+    "join_title": "¿Quieres ser un espacio afín? Súmate",
+    "join_intro": "Esta página es para espacios que comparten tres ámbitos de trabajo:",
+    "join": [
+      "**Salud mental comunitaria.**",
+      "**Economía social y solidaria.**",
+      "**Acción climática y cultura del bien común.**"
+    ],
+    "join_end": "Si un espacio se reconoce en ellos, puede escribirnos y le preparamos la ruta desde su puerta. **Solo sale en el mapa quien lo confirma.** Dos proyectos pueden ser independientes, sin formar ninguna asociación ni empresa conjunta, y compartir una mirada común.",
+    "contact_title": "¿Hablamos?",
+    "contact_html": "Si un espacio quiere tener ruta, o que presentemos el recurso al equipo, puede escribirnos.",
+    "map_mid": "190F3Xpvz2uEHsPec602iahqN84nJ3Ms",
+    "map_title": "Espacios afines · Caminos de Esperanza [Activa]",
+    "espais_title": "Las rutas",
+    "espais_note": "A medida que se sumen nuevos espacios, se añadirán aquí y en el mapa. Por ahora, los espacios están en Cataluña y las fichas de los mapas están en catalán.",
+    "espais_open": "Abrir el mapa",
+    "espais_wl": "Abrirla en Wikiloc",
+    "espais_web": "Web del espacio",
+    "espais": [
+      {
+        "id": "pra-cui-001",
+        "ll": "41.32182,2.09493",
+        "town": "El Prat de Llobregat",
+        "tag": "Espacio promotor",
+        "name": "L'Espiral del Prat",
+        "start": "Paseo urbano desde L'Espiral del Prat",
+        "info": "Ruta circular · 1,29 km · 16–20 min caminando · 25–40 min con pausas",
+        "address": "Carrer de Jaume Casanovas, 177, local 2, El Prat de Llobregat",
+        "desc": "Centro de psicología que ofrece psicoterapia gestalt y mindfulness terapéutico, y organiza talleres, sesiones de grupo y cursos.",
+        "web": "https://lespiral.cat",
+        "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297339249"
+      },
+      {
+        "id": "pra-cui-002",
+        "ll": "41.32182,2.09493",
+        "town": "El Prat de Llobregat",
+        "tag": "Espacio promotor",
+        "name": "Elara Social",
+        "start": "Paseo por los caminos del río Llobregat desde Elara Social",
+        "info": "Ruta circular · 6,42 km · 75–95 min caminando · 90–115 min con pausas · desnivel aproximado de 2 a 14 m",
+        "address": "Carrer de Jaume Casanovas, 177, local 2, El Prat de Llobregat (misma dirección que L'Espiral del Prat)",
+        "note": "Es una ruta larga: conviene llevar agua y calzado cómodo.",
+        "desc": "Acompaña a personas, grupos y comunidades a encontrar sentido y orientación en plena crisis ecosocial, combinando salud mental, economía solidaria y acción climática. Impulsor de Caminos de Esperanza [Activa].",
+        "web": "https://elarasocial.com",
+        "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297339523"
+      },
+      {
+        "id": "vic-cui-002",
+        "ll": "41.933989,2.254349",
+        "town": "Vic",
+        "tag": "Espacio afín",
+        "name": "Osona Ioga",
+        "start": "Paseo urbano desde Osona Ioga",
+        "info": "Ruta circular · 1,32 km · 16–20 min caminando · 25–40 min con pausas",
+        "address": "Ronda de Francesc Camprodon, 25, 1r 1a, Vic",
+        "desc": "Espacio de salud y bienestar de Vic con un equipo de profesionales. Ofrece clases de yoga y Feldenkrais, terapia Gestalt, terapias y masajes, espacio de familias e infancia, talleres, retiros y alquiler de salas.",
+        "web": "https://osonaioga.com/",
+        "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297255848"
+      },
+      {
+        "id": "vic-cui-003",
+        "ll": "41.933989,2.254349",
+        "town": "Vic",
+        "tag": "Espacio promotor",
+        "name": "L'Espiral d'Osona",
+        "start": "Paseo urbano desde L'Espiral d'Osona",
+        "info": "Ruta circular · 1,16 km · 14–17 min caminando",
+        "address": "Ronda de Francesc Camprodon, 25, 1r 1a, Vic",
+        "host": "Los acoge: Osona Ioga.",
+        "desc": "Centro de psicoterapia y mindfulness de Vic.",
+        "web": "https://espiralosona.com/",
+        "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297345095"
+      }
+    ],
+    "routes_map_url": "https://www.google.com/maps/d/viewer?mid=1blWNcMkPScCNo4YNSuHZMJNlyCT9jy0",
+    "routes_map_btn": "Abrir el mapa de las rutas"
   },
   "faq_page": {
     "title": "Preguntas frecuentes",

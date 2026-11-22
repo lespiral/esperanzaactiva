@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% from "parts.html" import course_cards, page_head, safety, nearby %}
+{# Página para entidades y espacios afines (/entidades-y-espacios-afines/), versión en castellano de la de la .cat (22 de noviembre de 2026). Textos en data/site.json › afins_page. #}
+{% block content %}
+{{ page_head(pp.kicker, pp.title, pp.lead|hl, green=True) }}
+
+<div class="wrap wrap--mid stack stack--bottom health">
+  <section id="recurs" class="afins-recurs" aria-labelledby="h-res">
+    <h2 class="health__h2" id="h-res">{{ pp.res_title }}</h2>
+    <p class="afins-recurs__intro">{{ pp.res_intro|hl }}</p>
+    <ul class="cards feat">
+      {% for ic, t, x in pp.res %}
+      <li class="card feat__item">
+        <span class="feat__icon" aria-hidden="true">{{ icon(ic) }}</span>
+        <div><h3 class="feat__title">{{ t }}</h3><p class="feat__text">{{ x }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="callout">{{ icon('check') }}<span>{{ pp.res_end|hl }}</span></p>
+  </section>
+
+  <section id="como-funciona" aria-labelledby="h-how">
+    <h2 class="health__h2" id="h-how">{{ pp.how_title }}</h2>
+    <p>{{ pp.how_intro|hl }}</p>
+    <div class="infografia infografia--in">{% include "infografies/infografia-afines-volta.html" %}</div>
+  </section>
+
+  <section id="un-camino" aria-labelledby="h-nus">
+    <h2 class="health__h2" id="h-nus">{{ pp.nus_title }}</h2>
+    <p>{{ pp.nus_intro|hl }}</p>
+    <div class="infografia infografia--in">{% include "infografies/infografia-afines-nus.html" %}</div>
+  </section>
+
+  <section id="espiral" aria-labelledby="h-spiral">
+    <h2 class="health__h2" id="h-spiral">{{ pp.spiral_title }}</h2>
+    <p>{{ pp.spiral_intro|hl }}</p>
+    <div class="infografia infografia--in">{% with ritme = "7 sesiones enlazadas en espiral" %}{% include "infografies/infografia-7-passes.html" %}{% endwith %}</div>
+  </section>
+
+  <section class="panel" id="que-es" aria-labelledby="h-what">
+    <h2 class="health__h2" id="h-what">{{ pp.what_title }}</h2>
+    {% for p in pp.what %}<p>{{ p|hl }}</p>{% endfor %}
+    <p class="health__more"><a class="btn btn--primary" href="{{ root }}cursos/">{{ pp.courses_btn }}</a></p>
+  </section>
+
+  <section id="los-cursos" aria-labelledby="h-courses">
+    <h2 class="health__h2" id="h-courses">{{ pp.courses_title }}</h2>
+    {{ course_cards(site.courses, root) }}
+  </section>
+
+  <section class="panel panel--plain" id="rutas-de-los-espacios" aria-labelledby="h-routes">
+    <h2 class="health__h2" id="h-routes">{{ pp.routes_title }}</h2>
+    <p>{{ pp.routes_intro|hl }}</p>
+    {{ nearby(pp.nearby_L, root, src='assets/espais.json', nid='espais', max=4) }}
+    {% if pp.map_mid %}
+    <figure class="map">
+      <div class="map__frame">
+        <iframe src="https://www.google.com/maps/d/embed?mid={{ pp.map_mid }}&amp;ehbc=2E312F" title="Mapa: {{ pp.map_title }}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <figcaption><a href="{{ pp.map_url }}" target="_blank" rel="noopener">{{ icon('external') }}{{ pp.map_btn }}</a> &nbsp;·&nbsp; <a href="{{ pp.routes_map_url }}" target="_blank" rel="noopener">{{ icon('map') }}{{ pp.routes_map_btn }}</a></figcaption>
+    </figure>
+    {% endif %}
+    <details class="routes" id="las-rutas">
+      <summary><span><strong>{{ pp.espais_title }}</strong><small>{{ pp.espais|length }} rutas</small></span>{{ icon('caret', 'faq__caret') }}</summary>
+      <ol class="routes__list">
+        {% for e in pp.espais %}
+        <li class="route" id="{{ e.id }}">
+          <span class="route__n" aria-hidden="true">{{ loop.index }}</span>
+          <div class="route__body">
+            <span class="route__tag">{{ e.tag }}</span>
+            <h4 class="route__name">{{ e.name }}</h4>
+            <p class="route__start">{{ e.start }}</p>
+            {% if e.info %}<p class="route__info">{{ e.info }}</p>{% endif %}
+            <p class="route__addr">{{ icon('pin') }}<span>{{ e.address }}{% if e.host %} <strong class="route__host">{{ e.host }}</strong>{% endif %}</span></p>
+            {% if e.note %}<p class="route__note">{{ e.note }}</p>{% endif %}
+            <p class="route__desc">{{ e.desc }}</p>
+            <div class="route__links">
+              <a class="route__go" href="{{ pp.routes_map_url }}" target="_blank" rel="noopener" aria-label="{{ pp.espais_open }}: {{ e.name }} (pestaña nueva)">{{ icon('map') }}{{ pp.espais_open }}</a>
+              {%- if e.wikiloc %}<a class="route__wl" href="{{ e.wikiloc }}" target="_blank" rel="noopener" aria-label="{{ pp.espais_wl }}: {{ e.name }} (pestaña nueva)">{{ icon('external') }}{{ pp.espais_wl }}</a>{% endif -%}
+              {%- if e.web %}<a class="route__wl" href="{{ e.web }}" target="_blank" rel="noopener" aria-label="{{ pp.espais_web }}: {{ e.name }} (pestaña nueva)">{{ icon('external') }}{{ pp.espais_web }}</a>{% endif -%}
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+    <p class="health__more">{{ pp.espais_note }}</p>
+  </section>
+
+  {{ safety(pp.safety_html) }}
+
+  <section class="panel" id="como-darlo-a-conocer" aria-labelledby="h-share">
+    <h2 class="health__h2" id="h-share">{{ pp.share_title }}</h2>
+    <p>{{ pp.share_intro|hl }}</p>
+    <blockquote class="health__quote">{{ pp.share_text }}</blockquote>
+    <p>{{ pp.share_extra|hl }}</p>
+  </section>
+
+  <section class="panel panel--plain" id="sumate" aria-labelledby="h-join">
+    <h2 class="health__h2" id="h-join">{{ pp.join_title }}</h2>
+    <p>{{ pp.join_intro|hl }}</p>
+    <ul class="checks">{% for i in pp.join %}<li>{{ icon('check') }}<span>{{ i|hl }}</span></li>{% endfor %}</ul>
+    <p>{{ pp.join_end|hl }}</p>
+    <p class="health__more"><a class="btn btn--primary" href="mailto:{{ site.contact.email }}">{{ icon('mail') }}Escríbenos</a></p>
+  </section>
+
+  <section class="contact-box" id="contacto" aria-labelledby="h-contact">
+    <h2 id="h-contact">{{ pp.contact_title }}</h2>
+    <p>{{ pp.contact_html }}</p>
+    <p class="contact-box__links">
+      <a class="btn btn--primary" href="mailto:{{ site.contact.email }}">{{ icon('mail') }}Escríbenos</a>
+      <a class="btn btn--outline" href="{{ site.contact.instagram_url }}">{{ icon('instagram') }}{{ site.contact.instagram }}</a>
+    </p>
+  </section>
+</div>
+{% endblock %}

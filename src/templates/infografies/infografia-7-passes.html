@@ -1,5 +1,5 @@
 {# infografia-7-passes.html: copiat del bloc INICI–FINAL de la carpeta «Infografies web» (5 de novembre de 2026). #}
-<div class="espi" data-espi{% if curs %} data-curs="{{ curs }}"{% endif %}>
+<div class="espi" data-espi{% if ritme %} data-ritme="{{ ritme }}"{% endif %}{% if curs %} data-curs="{{ curs }}"{% endif %}>
   <div class="espi__grid">
     <div class="espi__scene" role="group" aria-label="La espiral de los 7 pasos; cada paso tiene tres momentos">
       <svg class="espi__svg" aria-hidden="true" focusable="false"></svg>
@@ -162,6 +162,8 @@
     { icon: "sun", name: "Integra", time: "", text: "Un vídeo de cierre para llevarlo a la vida" }
   ];
   var CHIPS = [["clock", "7 días o a tu ritmo"], ["leaf", "No hace falta experiencia previa"]];
+  var ritme = root.getAttribute("data-ritme");
+  if (ritme) CHIPS[0][1] = ritme;
   var HUB_START = ["La Espiral", "7 pasos", "Cada paso, tres momentos"];
   var HUB_END = ["Cada curso", "7 pasos", "Los mismos, con la mirada de cada curso. Toca uno para verlo."]; // canvi de la web
   function kick(n) { return "Paso " + n + " de 7"; }

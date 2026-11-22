@@ -595,6 +595,10 @@ render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=s
 render("cities.html", "ciudades", section="ciudades", page_title=site_t["cities_page"]["title"], cp=site_t["cities_page"])
 render("faq.html", "preguntas", section="preguntas", page_title="Preguntas", fp=fp)
 render("health.html", "centros-de-salud", section="centros", page_title="Para centros de salud", page_description=hp["lead"].replace("**", ""), hp=hp)
+_nb = dict(site_t["nearby"]); _nb.update({k: v for k, v in site_t["afins_page"]["nearby"].items() if k != "js"}); _nb["js"] = {**site_t["nearby"]["js"], **site_t["afins_page"]["nearby"]["js"]}
+site_t["afins_page"]["nearby_L"] = _nb
+site_t["afins_page"]["safety_html"] = Markup(site["afins_page"]["safety_html"])
+render("afines.html", "entidades-y-espacios-afines", section="entidades", page_title="Para entidades y espacios afines", page_description=site["afins_page"]["lead"].replace("**", ""), pp=site_t["afins_page"])
 for c in site["courses"]:
     render("course.html", c["slug"], section="cursos", page_title=c["title"], page_description=c["subtitle"], course=c)
 for city in cities:
@@ -606,6 +610,10 @@ for t in territories:
 render("404.html", "404.html", page_title="Página no encontrada", root=BASE, base=BASE)
 
 (OUT / "assets").mkdir(exist_ok=True)
+# Búsqueda por ubicación de la página de espacios afines: solo las rutas de estos espacios (assets/espais.json, mismo formato que rutas.json)
+_ap = site["afins_page"]
+_esp = [[float(e["ll"].split(",")[0]), float(e["ll"].split(",")[1]), 0, "entidades-y-espacios-afines", e["town"], e["id"], e["name"], _ap["routes_map_url"].split("mid=")[-1]] for e in _ap["espais"]]
+(OUT / "assets" / "espais.json").write_text(json.dumps({"courses": [{"k": "espais", "t": "", "s": ""}], "routes": _esp}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 (OUT / "assets" / "rutas.json").write_text(json.dumps({"courses": [{"k": k, "t": c["title"], "s": c["slug"]} for k, c in courses.items()], "routes": RUTAS}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 shutil.copy(SRC / "site.css", OUT / "assets" / "site.css")
 shutil.copy(SRC / "site.js", OUT / "assets" / "site.js")
