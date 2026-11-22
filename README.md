@@ -38,7 +38,7 @@ Els ids de les ciutats de Catalunya (districtes, barris, mapes i rutes) es treue
 
 Els territoris (pàgines de «Pueblos y comarcas», p. ex. el Baix Llobregat) es porten igual: a `data/site.json`, la llista `territories` amb `"source": "cat"`; `sync_cat.py` copia `data/<territori>.json` a `data/cat/` i les traduccions van a `data/traducciones/<territori>.json`. Els ids dels municipis i de les rutes són els de la .cat (`/baix-llobregat/#olesa-de-montserrat-ruta-1`). Com funcionen, al README de la .cat («Pobles i comarques»).
 
-**Menú «Elige dónde quieres caminar» (8 de novembre de 2026).** A Inicio, a dalt de «Ciudades, pueblos y comarcas» i a la pàgina del curs «Cuando sostener la vida se hace difícil», en lloc del desplegable llarg de tots els pobles: comunidad › provincia › comarca › pueblo o ciudad, amb un cercador (a la .cat comença per la província). Ara només hi ha Cataluña. Mateix codi que a la .cat (`place_tree()` a `build.py`, macro `place_nav` a `parts.html`, `.placenav` a `site.css` i `site.js`); els nivells i els textos són a `data/site.json` › `place_nav` (una columna per nivell) i el camí de cada lloc el dona `place_path()` a `build.py`. Si les columnes no hi caben (menys d'uns 240 px cada una), el menú va pas a pas. La comarca i la província de cada lloc de Catalunya són a `data/cat/comarques.json`, que `sync_cat.py` copia de la .cat: un poble nou s'afegeix a la .cat. Si falta un lloc, `build.py` s'atura i diu quin. Per a les ciutats de la resta de l'Estat, `place_path()` ha de saber-ne la comunidad, la provincia i la comarca (p. ex. amb una taula pròpia, `data/lugares.json`); on no hi ha comarques, caldrà decidir què va en aquest nivell.
+**Menú «Elige dónde quieres caminar» (8 de novembre de 2026).** A Inicio, a dalt de «Ciudades, pueblos y comarcas» i a la pàgina del curs «Cuando sostener la vida se hace difícil», en lloc del desplegable llarg de tots els pobles: comunidad › provincia › comarca › pueblo o ciudad, amb un cercador (a la .cat comença per la província). Ara hi ha Cataluña, Comunidad de Madrid i Galicia a la .org. Mateix codi que a la .cat (`place_tree()` a `build.py`, macro `place_nav` a `parts.html`, `.placenav` a `site.css` i `site.js`); els nivells i els textos són a `data/site.json` › `place_nav` (una columna per nivell) i el camí de cada lloc el dona `place_path()` a `build.py`. Si les columnes no hi caben (menys d'uns 240 px cada una), el menú va pas a pas. La comarca i la província de cada lloc de Catalunya són a `data/cat/comarques.json`, que `sync_cat.py` copia de la .cat: un poble nou s'afegeix a la .cat. Si falta un lloc, `build.py` s'atura i diu quin. Per a les ciutats de la resta de l'Estat, `place_path()` ha de saber-ne la comunidad, la provincia i la comarca (p. ex. amb una taula pròpia, `data/lugares.json`); on no hi ha comarques, caldrà decidir què va en aquest nivell.
 
 ## Afegir una ciutat de la resta de l'Estat
 
@@ -65,3 +65,15 @@ Cada ruta té el botó «Abrir el mapa», que obre a pantalla completa el mapa d
 - «CAP» és «centro de salud» als textos; els noms propis dels centres (CAP Garrotxa) es mantenen.
 - No es parla de «prescripción social».
 - Colors i lletres, els de la .cat: verd #1A4D40, groc #E2C668, crema #F8F5EF; Montserrat i Lato.
+
+## Redisseny de novembre de 2026 (CTA, avís, xifres, entitats, ajuda)
+
+Tot és a `data/site.json` i les plantilles; el mateix codi a la .cat i a la .org.
+- **Botons del hero:** `home.hero_actions`. `soon` (si hi ha algun curs amb `"soon": true`) o `open` (quan tots els cursos estiguin oberts).
+- **Franja de xifres:** `home.stats`. Les xifres es calculen en generar (llocs, àrees, cursos, passes); `areas_by` és `leaf` (comarques, .cat) o `top` (comunitats, .org). No s'escriu cap xifra a mà.
+- **Avís «Avisa'm quan s'obri»:** `waitlist` (macro `waitlist` a `parts.html`). `mode: "mailto"` obre un correu a `contact.email` amb l'assumpte; `mode: "form"` mostra un camp de correu que envia a `action`. L'aspecte és el mateix. `opening` (data d'obertura) i `privacy` buits = no es mostren.
+- **Banda «Per a entitats»:** `home.entities` (text, botons i, a la .org, `mail`). La pregunta d'entitats és a `home.faq` i a `faq_page`.
+- **Caixa «No és teràpia»:** `home.therapy`. La .cat porta 061/024/112; la .org, només 024/112 (el 061 és de Catalunya).
+- **Menú:** `nav.entities*` i `nav.notify` (botó d'avís al mòbil). **.org:** franja superior `langbar` amb enllaç a la .cat. **.cat:** `place_nav.none_link` als resultats buits del cercador.
+- **Mòbil i accessibilitat:** al final de `src/site.css`. Les infografies tenen lletres de 11–13,5 px i alguns botons petits: es van deixar perquè són ginys posicionats.
+- La .org ja no és «només Cataluña»: té també Madrid i Santiago de Compostela (veure `data/lugares.json`).
