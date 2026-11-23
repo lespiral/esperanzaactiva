@@ -84,7 +84,7 @@ TR_OPTIONAL = {"name", "address"}
 
 def tr_info(s):
     """«2,15 km · 26–32 min caminant · 35–50 min amb pauses · circular» en castellà."""
-    return s.replace(" caminant", " caminando").replace(" amb pauses", " con pausas").replace("anada i tornada", "ida y vuelta")
+    return s.replace(" caminant", " caminando").replace(" amb pauses", " con pausas").replace("amb tram d'anada i tornada", "con tramo de ida y vuelta").replace("anada i tornada", "ida y vuelta")
 
 
 def translate(obj, tr, missing):
