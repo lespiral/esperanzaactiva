@@ -64,8 +64,6 @@
   "Traçats i punts d'inici": "Trazados y puntos de inicio",
   "16 rutes des d'entitats del Tercer Sector Social, biblioteques i centres educatius": "16 rutas desde entidades del Tercer Sector Social, bibliotecas y centros educativos",
   "7 rutes circulars curtes, de 0,84 a 1,91 km (de 10 a 29 minuts caminant), que surten d'un centre educatiu públic de Ripoll (escola, institut, llar d'infants, escola de música o d'adults) i hi tornen: una ruta per centre. Són un temps per caminar i reflexionar: portar a la vida quotidiana el que has après al curs «Quan cuidar-nos és una tasca col·lectiva», adonar-te de com et sents i pensar en petites accions que contribueixin al teu benestar i al de les persones que t'envolten. Tria el centre que et quedi més a prop.": "7 rutas circulares cortas, de 0,84 a 1,91 km (de 10 a 29 minutos caminando), que salen de un centro educativo público de Ripoll (escuela, instituto, escuela infantil, escuela de música o de adultos) y vuelven a él: una ruta por centro. Son un tiempo para caminar y reflexionar: llevar a la vida cotidiana lo que has aprendido en el curso «Cuando cuidarnos es una tarea colectiva», darte cuenta de cómo te sientes y pensar en pequeñas acciones que contribuyan a tu bienestar y al de las personas que te rodean. Elige el centro que te quede más cerca.",
-  "Aproximadament un 26 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 26 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 27 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 27 % del recorrido se hace de ida y vuelta por el mismo camino.",
   "Centre públic d'educació especial.": "Centro público de educación especial.",
   "Centre públic de formació de persones adultes.": "Centro público de formación de personas adultas.",
   "Centres educatius": "Centros educativos",
@@ -81,5 +79,6 @@
   "Ripollès · mapa 02 de 03 · Ripoll, Campdevànol i 1 municipi més": "Ripollès · mapa 02 de 03 · Ripoll, Campdevànol y 1 municipio más",
   "Ripollès · mapa 1 de 3": "Ripollès · mapa 1 de 3",
   "Ripollès · mapa 2 de 3": "Ripollès · mapa 2 de 3",
-  "Rutes des de centres educatius": "Rutas desde centros educativos"
+  "Rutes des de centres educatius": "Rutas desde centros educativos",
+  "Una part del recorregut es fa d'anada i tornada pel mateix camí.": "Una parte del recorrido se hace de ida y vuelta por el mismo camino."
 }

@@ -85,16 +85,6 @@
   "Traçats i punts d'inici": "Trazados y puntos de inicio",
   "18 rutes circulars curtes, de 1,13 a 1,98 km (de 14 a 30 minuts caminant), que surten d'un centre educatiu públic d'Olot (escola, institut, llar d'infants, escola de música o d'adults) i hi tornen: una ruta per centre. Són un temps per caminar i reflexionar: portar a la vida quotidiana el que has après al curs «Quan cuidar-nos és una tasca col·lectiva», adonar-te de com et sents i pensar en petites accions que contribueixin al teu benestar i al de les persones que t'envolten. Tria el centre que et quedi més a prop.": "18 rutas circulares cortas, de 1,13 a 1,98 km (de 14 a 30 minutos caminando), que salen de un centro educativo público de Olot (escuela, instituto, escuela infantil, escuela de música o de adultos) y vuelven a él: una ruta por centro. Son un tiempo para caminar y reflexionar: llevar a la vida cotidiana lo que has aprendido en el curso «Cuando cuidarnos es una tarea colectiva», darte cuenta de cómo te sientes y pensar en pequeñas acciones que contribuyan a tu bienestar y al de las personas que te rodean. Elige el centro que te quede más cerca.",
   "29 rutes des d'entitats del Tercer Sector Social, biblioteques i centres educatius": "29 rutas desde entidades del Tercer Sector Social, bibliotecas y centros educativos",
-  "Aproximadament un 10 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 10 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 11 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 11 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 13 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 13 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 14 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 14 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 15 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 15 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 16 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 16 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 22 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 22 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 25 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 25 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 34 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 34 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 35 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 35 % del recorrido se hace de ida y vuelta por el mismo camino.",
   "Centre públic de formació de persones adultes.": "Centro público de formación de personas adultas.",
   "Centres educatius": "Centros educativos",
   "Els traçats s'han reconstruït sobre OpenStreetMap a partir de la ubicació de cada centre: no són traçats oficials i no s'han revisat a peu. Algunes rutes tornen per una part del mateix camí (la fitxa de cada ruta ho diu). Camina amb atenció al trànsit i a l'estat dels camins. El centre només és el punt de sortida de la ruta: no l'organitza ni la recomana.": "Los trazados se han reconstruido sobre OpenStreetMap a partir de la ubicación de cada centro: no son trazados oficiales y no se han revisado a pie. Algunas rutas vuelven por una parte del mismo camino (la ficha de cada ruta lo dice). Camina con atención al tráfico y al estado de los caminos. El centro solo es el punto de salida de la ruta: no la organiza ni la recomienda.",
@@ -115,5 +105,6 @@
   "Mapa 2 de 5 (5 rutes)": "Mapa 2 de 5 (5 rutas)",
   "Mapa 3 de 5 (9 rutes)": "Mapa 3 de 5 (9 rutas)",
   "Mapa 4 de 5 (4 rutes)": "Mapa 4 de 5 (4 rutas)",
-  "Rutes des de centres educatius": "Rutas desde centros educativos"
+  "Rutes des de centres educatius": "Rutas desde centros educativos",
+  "Una part del recorregut es fa d'anada i tornada pel mateix camí.": "Una parte del recorrido se hace de ida y vuelta por el mismo camino."
 }

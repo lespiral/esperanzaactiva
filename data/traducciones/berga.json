@@ -60,11 +60,6 @@
   "Traçats i punts d'inici": "Trazados y puntos de inicio",
   "10 rutes circulars curtes, de 1,09 a 1,84 km (de 13 a 28 minuts caminant), que surten d'un centre educatiu públic de Berga (escola, institut, llar d'infants, escola de música o d'adults) i hi tornen: una ruta per centre. Són un temps per caminar i reflexionar: portar a la vida quotidiana el que has après al curs «Quan cuidar-nos és una tasca col·lectiva», adonar-te de com et sents i pensar en petites accions que contribueixin al teu benestar i al de les persones que t'envolten. Tria el centre que et quedi més a prop.": "10 rutas circulares cortas, de 1,09 a 1,84 km (de 13 a 28 minutos caminando), que salen de un centro educativo público de Berga (escuela, instituto, escuela infantil, escuela de música o de adultos) y vuelven a él: una ruta por centro. Son un tiempo para caminar y reflexionar: llevar a la vida cotidiana lo que has aprendido en el curso «Cuando cuidarnos es una tarea colectiva», darte cuenta de cómo te sientes y pensar en pequeñas acciones que contribuyan a tu bienestar y al de las personas que te rodean. Elige el centro que te quede más cerca.",
   "20 rutes des d'entitats del Tercer Sector Social, biblioteques i centres educatius": "20 rutas desde entidades del Tercer Sector Social, bibliotecas y centros educativos",
-  "Aproximadament un 10 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 10 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 17 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 17 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 25 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 25 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 26 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 26 % del recorrido se hace de ida y vuelta por el mismo camino.",
-  "Aproximadament un 42 % del recorregut es fa d'anada i tornada pel mateix camí.": "Aproximadamente un 42 % del recorrido se hace de ida y vuelta por el mismo camino.",
   "Berguedà · mapa 03 de 05 · Gironella, Berga": "Berguedà · mapa 03 de 05 · Gironella, Berga",
   "Berguedà · mapa 04 de 05 · Berga, Casserres i 2 municipis més": "Berguedà · mapa 04 de 05 · Berga, Casserres y 2 municipios más",
   "Berguedà · mapa 3 de 5": "Berguedà · mapa 3 de 5",
@@ -81,5 +76,6 @@
   "Llar d'infants pública d'educació infantil de 0 a 3 anys.": "Escuela infantil pública de educación infantil de 0 a 3 años.",
   "Mapa 3 de 5 (7 rutes)": "Mapa 3 de 5 (7 rutas)",
   "Mapa 4 de 5 (3 rutes)": "Mapa 4 de 5 (3 rutas)",
-  "Rutes des de centres educatius": "Rutas desde centros educativos"
+  "Rutes des de centres educatius": "Rutas desde centros educativos",
+  "Una part del recorregut es fa d'anada i tornada pel mateix camí.": "Una parte del recorrido se hace de ida y vuelta por el mismo camino."
 }
