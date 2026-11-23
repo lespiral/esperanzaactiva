@@ -2,7 +2,7 @@
  "slug": "santiago-de-compostela",
  "name": "Santiago de Compostela",
  "region": "Galicia",
- "summary": "33 rutas circulares y cortas desde centros de salud, centros socioculturales y parques y plazas de la ciudad.",
+ "summary": "37 rutas cortas desde centros de salud, centros socioculturales, parques y plazas y miradores de la ciudad.",
  "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Elige el curso, busca el punto de salida que te quede más cerca de casa, abre el mapa y camina. Las rutas son independientes de los equipamientos: solo los usan como punto de referencia.",
  "blocks": [
   {
@@ -227,8 +227,8 @@
   },
   {
    "course": "mon",
-   "text": "16 rutas circulares de 1,8 a 2,2 km, desde parques, plazas y espacios verdes de Santiago de Compostela.",
-   "summary": "16 rutas desde parques, plazas y espacios verdes",
+   "text": "Hay dos tipos de rutas: 16 rutas circulares de 1,8 a 2,2 km, desde parques, plazas y espacios verdes de Santiago de Compostela, y 4 rutas cortas que salen de un mirador.",
+   "summary": "16 rutas desde parques y plazas y 4 desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -376,6 +376,74 @@
          "name": "Praza Roxa",
          "info": "2,09 km · circular · 25–31 min caminando",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=296794777"
+        }
+       ]
+      }
+     ],
+     "title": "Rutas desde parques y plazas",
+     "nav": "Rutas desde parques y plazas"
+    },
+    {
+     "id": "miradores",
+     "title": "Rutas desde miradores",
+     "nav": "Rutas desde miradores",
+     "text": "4 rutas cortas (de 1,0 a 1,5 km) que salen de un mirador y vuelven a él. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 204 es de ida y vuelta y está en un entorno rural, lejos del casco urbano.",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "miradores-rutas",
+       "title": "Las 4 rutas",
+       "maps": [
+        {
+         "mid": "1tHKiKKvl0l4k6AoGULflLRBQ4aD9aj8",
+         "ll": "42.9080,-8.5650",
+         "z": 11,
+         "title": "Santiago de Compostela · Miradores (rutas 201–204)",
+         "label": "Rutas 201 a 204 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 201,
+         "name": "Miradoiro das Fontiñas",
+         "start": "Inicio y final: Miradoiro das Fontiñas",
+         "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "desc": "El recorrido transcurre por la rúa de Roma y por los caminos y escaleras del Parque de Carlomagno, antes de volver al mirador de las Fontiñas.",
+         "note": "Accesibilidad y seguridad: Calle y caminos peatonales; hay escaleras, así que no es un recorrido accesible para sillas de ruedas ni cochecitos.",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297879130"
+        },
+        {
+         "n": 202,
+         "name": "Miradoiro de Santiago de Compostela",
+         "start": "Inicio y final: Miradoiro de Santiago de Compostela",
+         "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "desc": "El recorrido transcurre por caminos y escaleras del Bosque de Galicia, por la travesía de la Calzada de Sar y por la rúa de Diego Bernal, antes de volver al mirador.",
+         "note": "Accesibilidad y seguridad: Caminos de monte y escaleras, con pendientes; no es un recorrido accesible para sillas de ruedas ni cochecitos. Un tramo va por una calle con circulación de vehículos: ve con atención.",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297879309"
+        },
+        {
+         "n": 203,
+         "name": "Miradoiro do Pedroso",
+         "start": "Inicio y final: Miradoiro do Pedroso",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "desc": "El recorrido transcurre por la estrada do Pedroso y por un camino que la acompaña, formando un circuito estrecho alrededor del mirador, antes de volver a él.",
+         "note": "Accesibilidad y seguridad: Carretera y camino del Monte Pedroso, con una zona de pendiente; no es un recorrido accesible para sillas de ruedas ni cochecitos. La estrada do Pedroso está abierta a vehículos: ve con atención.",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297879461"
+        },
+        {
+         "n": 204,
+         "name": "Miradoiro da Espiñeira",
+         "start": "Inicio y final: Miradoiro da Espiñeira",
+         "info": "0,99 km · 12–15 min caminando · 20–35 min con pausas · ida y vuelta",
+         "desc": "El recorrido sale del mirador de la Espiñeira por un camino del monte hasta el camiño do Camión, a unos 490 m, y vuelve por el mismo camino.",
+         "note": "Accesibilidad y seguridad: Camino de monte en entorno rural, a unos 10 km del casco urbano; revisa el estado del camino antes de ir y lleva calzado adecuado. No es accesible para sillas de ruedas ni cochecitos.",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297879574"
         }
        ]
       }
