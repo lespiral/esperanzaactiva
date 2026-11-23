@@ -756,3 +756,22 @@ strong.mk { color: var(--green-900); font-weight: 700; background: linear-gradie
 .map__gate-note { margin: 0; max-width: 34em; font-size: .92rem; color: var(--muted); }
 .map__gate-note a { text-decoration: underline; text-underline-offset: 3px; }
 
+
+/* ---------- Entidades hacia Elara Social y páginas de redirección (23/11/2026) ---------- */
+.ext__i { width: 1em; height: 1em; margin-left: 6px; flex: none; }
+.ext__note { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.ext__note--on { position: static; width: auto; height: auto; margin: 0 0 0 8px; overflow: visible; clip: auto; font-weight: 400; font-size: .875rem; opacity: .85; white-space: normal; }
+.ext__note--block { display: block; margin: 0 0 0 8px; }
+.menu__ext { gap: 0; flex-wrap: wrap; }
+@media (max-width: 820px) {
+  .menu__ext .ext__note { position: static; width: auto; height: auto; margin: 0 0 0 8px; overflow: visible; clip: auto; font-weight: 400; font-size: .875rem; white-space: normal; }
+}
+.footer__in { grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr; }
+@media (max-width: 900px) { .footer__in { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .footer__in { grid-template-columns: 1fr; } }
+.footer ul a .ext__note--on { color: #c9d9d2; }
+.footer .ext__note--block { margin-left: 0; }
+.entities__actions .btn { flex-wrap: wrap; justify-content: center; text-align: center; }
+.redirect { text-align: center; padding: 48px 20px; }
+.redirect .btn { max-width: 100%; margin-top: 12px; }
+.redirect p > a:not(.btn) { display: inline-flex; align-items: center; min-height: 44px; }

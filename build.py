@@ -575,9 +575,12 @@ PAGES = []
 def render(template, path, **ctx):
     depth = len([p for p in path.split("/") if p])
     root = ctx.pop("root", "../" * depth)
+    redirect_to = ctx.get("redirect_to")
     canonical = None if path.endswith(".html") else SITE_URL + (path + "/" if path else "")
-    if canonical:
+    if canonical and not redirect_to:
         PAGES.append(canonical)
+    if redirect_to:   # página de redirección: el canonical es la página nueva y no sale en el sitemap
+        canonical = redirect_to
     if isinstance(ctx.get("page_description"), str):
         ctx["page_description"] = ctx["page_description"].replace("**", "")
     html = env.get_template(template).render(root=root, canonical=canonical, **ctx)
@@ -589,6 +592,19 @@ def render(template, path, **ctx):
 if OUT.exists():
     shutil.rmtree(OUT)
 OUT.mkdir()
+
+# ---- Redirecciones hacia las páginas de entidades de Elara Social (data/site.json › redirects) ----
+# GitHub Pages no hace 301: cada página antigua pasa a ser una página con meta refresh, canonical y enlace visible.
+_rd = site["redirects"]
+REDIR = {src_: dst for src_, dst in _rd["items"]} if (_rd.get("active") or os.environ.get("REDIRECTS") == "1") else {}
+_render = render
+
+
+def render(template, path, **ctx):
+    if path in REDIR:
+        return _render("redirect.html", path, section="entidades", page_title=_rd["title"], redirect_to=REDIR[path], rd=_rd, root=ctx.get("root", "../" * len([p for p in path.split("/") if p])))
+    return _render(template, path, **ctx)
+
 
 render("home.html", "", section="inicio")
 render("courses.html", "cursos", section="cursos", page_title="Los cursos", cp=site_t["courses_page"])
