@@ -77,3 +77,8 @@ Tot és a `data/site.json` i les plantilles; el mateix codi a la .cat i a la .or
 - **Menú:** `nav.entities*` i `nav.notify` (botó d'avís al mòbil). **.org:** franja superior `langbar` amb enllaç a la .cat. **.cat:** `place_nav.none_link` als resultats buits del cercador.
 - **Mòbil i accessibilitat:** al final de `src/site.css`. Les infografies tenen lletres de 11–13,5 px i alguns botons petits: es van deixar perquè són ginys posicionats.
 - La .org ja no és «només Cataluña»: té també Madrid i Santiago de Compostela (veure `data/lugares.json`).
+
+## Entidades hacia Elara Social y redirecciones (23 de noviembre de 2026, rama `entitats-camins`)
+
+- **Menú, banda de la portada, FAQ y pie:** «Para entidades» lleva a https://elarasocial.com/es/entidades/caminos/ (enlace externo, marcado «se abre en Elara Social»). Textos en `data/site.json` › `nav`, `home.entities`, `home.faq`/`faq_page` y `footer.entities_*`.
+- **Redirecciones** (`data/site.json` › `redirects`, `active: true`): `/entidades-y-espacios-afines/` → `…/es/entidades/caminos/#entidades`; `/centros-de-salud/` → `#salud`; `/centros-educativos/` → `#escuelas`. GitHub Pages no hace 301: cada página es una página con meta refresh, canonical a la nueva, enlace visible y fuera del sitemap (`redirect.html`, `build.py`). **Solo se publican el mismo día que la página nueva de Elara Social** (`/es/entidades/caminos/`). Para renders de prueba sin tocar `docs/`: no hay `BUILD_OUT` en la .org; probar siempre en una rama.
