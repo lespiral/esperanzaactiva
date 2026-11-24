@@ -746,5 +746,15 @@
       ["centros-de-salud", "https://elarasocial.com/es/entidades/caminos/#salud"],
       ["centros-educativos", "https://elarasocial.com/es/entidades/caminos/#escuelas"]
     ]
+  },
+  "consent": {
+      "text": "Si aceptas, verás aquí los mapas de Google My Maps: tu navegador se conectará a Google (recibe tu IP y puede usar cookies). Si no, puedes seguir cada ruta con su enlace de Wikiloc, cuando lo hay.",
+      "link": "Política de cookies",
+      "accept": "Aceptar",
+      "reject": "Rechazar",
+      "prefs": "Preferencias de cookies",
+      "aria": "Mapas de Google y cookies",
+      "placeholder": "El mapa de Google My Maps no se carga hasta que aceptes las cookies de mapas.",
+      "show": "Aceptar y ver los mapas"
   }
 }

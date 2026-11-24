@@ -11,7 +11,7 @@
   <meta property="og:description" content="Titular y condiciones de uso de la web Caminos de Esperanza [Activa].">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
-<link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="stylesheet" href="../assets/site.css?v=1795553189">
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="stylesheet" href="../assets/site.css?v=1795558943">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -100,10 +100,19 @@
         <a href="../aviso-legal/">Aviso legal</a>
         <a href="../politica-de-privacidad/">Política de privacidad</a>
         <a href="../politica-de-cookies/">Política de cookies</a>
+        <button type="button" class="footer__prefs" data-consent="open">Preferencias de cookies</button>
       </nav>
     </div>
   </footer>
 
-  <script src="../assets/site.js?v=1795553189" defer></script>
+  <div class="consent" id="consent" role="region" aria-label="Mapas de Google y cookies" hidden>
+    <p>Si aceptas, verás aquí los mapas de Google My Maps: tu navegador se conectará a Google (recibe tu IP y puede usar cookies). Si no, puedes seguir cada ruta con su enlace de Wikiloc, cuando lo hay. <a href="../politica-de-cookies/">Política de cookies</a></p>
+    <div class="consent__btns">
+      <button type="button" class="btn btn--primary" data-consent="accept">Aceptar</button>
+      <button type="button" class="btn btn--outline" data-consent="reject">Rechazar</button>
+    </div>
+  </div>
+
+  <script src="../assets/site.js?v=1795558943" defer></script>
 </body>
 </html>
