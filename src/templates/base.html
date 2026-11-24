@@ -101,9 +101,18 @@
         <a href="{{ root }}aviso-legal/">Aviso legal</a>
         <a href="{{ root }}politica-de-privacidad/">Política de privacidad</a>
         <a href="{{ root }}politica-de-cookies/">Política de cookies</a>
+        <button type="button" class="footer__prefs" data-consent="open">{{ site.consent.prefs }}</button>
       </nav>
     </div>
   </footer>
+
+  <div class="consent" id="consent" role="region" aria-label="{{ site.consent.aria }}" hidden>
+    <p>{{ site.consent.text }} <a href="{{ root }}politica-de-cookies/">{{ site.consent.link }}</a></p>
+    <div class="consent__btns">
+      <button type="button" class="btn btn--primary" data-consent="accept">{{ site.consent.accept }}</button>
+      <button type="button" class="btn btn--outline" data-consent="reject">{{ site.consent.reject }}</button>
+    </div>
+  </div>
 
   <script src="{{ root }}assets/site.js?v={{ version }}" defer></script>
 </body>

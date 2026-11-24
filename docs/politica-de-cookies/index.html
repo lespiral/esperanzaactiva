@@ -11,7 +11,7 @@
   <meta property="og:description" content="Qué cookies y servicios de otras empresas usa la web Caminos de Esperanza [Activa].">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
-<link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="stylesheet" href="../assets/site.css?v=1795553189">
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/img/favicon-48.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">  <link rel="stylesheet" href="../assets/site.css?v=1795558621">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -45,11 +45,11 @@
 </section>
 <div class="wrap wrap--narrow legal">
 
-<p class="legal__date">Última actualización: 22 de noviembre de 2026</p>
+<p class="legal__date">Última actualización: 24 de noviembre de 2026</p>
 <h2>Qué usa esta web</h2>
-<p>Esta web no usa cookies propias ni de análisis. Los tipos de letra se sirven desde la propia web: tu navegador no se conecta a Google para cargarlos.</p>
+<p>Esta web no usa cookies propias ni de análisis. Los tipos de letra se sirven desde la propia web: tu navegador no se conecta a Google para cargarlos. Los mapas de Google solo se cargan si los aceptas.</p>
 <h2>Mapas de Google My Maps</h2>
-<p>Algunas páginas de rutas (ciudades, pueblos y comarcas, entidades y espacios afines) muestran mapas de Google My Maps. Al cargarse la página, tu navegador se conecta a Google, que recibe tu dirección IP y datos técnicos del navegador y puede usar cookies o tecnologías similares según sus propias condiciones. Nosotros no usamos estos datos. También puedes abrir cada mapa directamente en Google My Maps con el enlace «Abrir el mapa a pantalla completa».</p>
+<p>Algunas páginas de rutas (ciudades, pueblos y comarcas, entidades y espacios afines) muestran mapas de Google My Maps. Estos mapas no se cargan hasta que los aceptas en el aviso que aparece al entrar en una de esas páginas. Si los aceptas, tu navegador se conecta a Google, que recibe tu dirección IP y datos técnicos del navegador y puede usar cookies o tecnologías similares según sus propias condiciones. Nosotros no usamos estos datos. Si no los aceptas, no se carga ningún mapa y no se conecta nada a Google, pero puedes abrir cada mapa directamente en Google My Maps con el enlace «Abrir el mapa a pantalla completa», con lo que sí te conectas a Google. Guardamos tu elección en tu navegador (almacenamiento local), solo para recordarla; no la enviamos a ningún sitio. Puedes cambiarla en cualquier momento con el enlace «Preferencias de cookies» del pie de página (si rechazas después de aceptar, la página se recarga para quitar los mapas).</p>
 <h2>Enlaces a otras páginas</h2>
 <p>Los botones «Abrir el mapa», «Ábrela en Wikiloc» y el enlace a Instagram te llevan a páginas de otras empresas solo si haces clic. Allí se aplican sus políticas.</p>
 <h2>Cambios</h2>
@@ -95,10 +95,19 @@
         <a href="../aviso-legal/">Aviso legal</a>
         <a href="../politica-de-privacidad/">Política de privacidad</a>
         <a href="../politica-de-cookies/">Política de cookies</a>
+        <button type="button" class="footer__prefs" data-consent="open">Preferencias de cookies</button>
       </nav>
     </div>
   </footer>
 
-  <script src="../assets/site.js?v=1795553189" defer></script>
+  <div class="consent" id="consent" role="region" aria-label="Mapas de Google y cookies" hidden>
+    <p>Esta web muestra mapas de Google My Maps. Si los aceptas, tu navegador se conectará a Google, que recibirá tu dirección IP y podrá usar cookies. Hasta entonces no se carga ningún mapa. Puedes cambiarlo cuando quieras. <a href="../politica-de-cookies/">Política de cookies</a></p>
+    <div class="consent__btns">
+      <button type="button" class="btn btn--primary" data-consent="accept">Aceptar</button>
+      <button type="button" class="btn btn--outline" data-consent="reject">Rechazar</button>
+    </div>
+  </div>
+
+  <script src="../assets/site.js?v=1795558621" defer></script>
 </body>
 </html>
