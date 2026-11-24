@@ -1,0 +1,115 @@
+{
+ "slug": "segovia",
+ "name": "Segovia",
+ "region": "Castilla y León",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,33 a 1,48 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 509 es de ida y vuelta, no circular.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A",
+         "ll": "40.9481,-4.1184",
+         "z": 13,
+         "title": "Segovia · Miradores (rutas 501–510)",
+         "label": "Rutas 501 a 510 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 501,
+         "name": "Mirador del Acueducto",
+         "start": "Inicio y final: Mirador del Acueducto",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917178"
+        },
+        {
+         "n": 502,
+         "name": "Mirador de la Muralla",
+         "start": "Inicio y final: Mirador de la Muralla",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917207"
+        },
+        {
+         "n": 503,
+         "name": "Mirador de la Piedad",
+         "start": "Inicio y final: Mirador de la Piedad",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917209"
+        },
+        {
+         "n": 504,
+         "name": "Mirador del Valle del Clamores",
+         "start": "Inicio y final: Mirador del Valle del Clamores",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917213",
+         "note": "Empieza cerca de la ruta 505 y comparten tramo."
+        },
+        {
+         "n": 505,
+         "name": "Mirador de la Plaza de la Reina Victoria Eugenia",
+         "start": "Inicio y final: Mirador de la Plaza de la Reina Victoria Eugenia",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917216",
+         "note": "Empieza cerca de la ruta 504 y comparten tramo."
+        },
+        {
+         "n": 506,
+         "name": "Mirador del Alcázar y los Dos Valles",
+         "start": "Inicio y final: Mirador del Alcázar y los Dos Valles",
+         "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917219"
+        },
+        {
+         "n": 507,
+         "name": "Mirador de la Veracruz",
+         "start": "Inicio y final: Mirador de la Veracruz",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917222"
+        },
+        {
+         "n": 508,
+         "name": "Mirador de la Pradera de San Marcos",
+         "start": "Inicio y final: Mirador de la Pradera de San Marcos",
+         "info": "1,33 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917227"
+        },
+        {
+         "n": 509,
+         "name": "Mirador Altos de la Fuencisla",
+         "start": "Inicio y final: Mirador Altos de la Fuencisla",
+         "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917231"
+        },
+        {
+         "n": 510,
+         "name": "Mirador del Terminillo",
+         "start": "Inicio y final: Mirador del Terminillo",
+         "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917236"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

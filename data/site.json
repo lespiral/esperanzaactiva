@@ -55,14 +55,25 @@
   "cities": [
     {"slug": "barcelona", "name": "Barcelona", "region": "Barcelonès", "icon": "buildings", "source": "cat"},
     {"slug": "berga", "name": "Berga", "region": "Berguedà", "icon": "tree", "source": "cat"},
+    {"slug": "cartagena", "name": "Cartagena", "region": "Región de Murcia", "icon": "buildings"},
+    {"slug": "cordoba", "name": "Córdoba", "region": "Andalucía", "icon": "bank"},
+    {"slug": "cuenca", "name": "Cuenca", "region": "Castilla-La Mancha", "icon": "bank"},
     {"slug": "el-prat", "name": "El Prat de Llobregat", "region": "Baix Llobregat", "icon": "building", "source": "cat"},
+    {"slug": "ferrol", "name": "Ferrol", "region": "Galicia", "icon": "buildings"},
+    {"slug": "gijon", "name": "Gijón", "region": "Principado de Asturias", "icon": "buildings"},
+    {"slug": "granada", "name": "Granada", "region": "Andalucía", "icon": "bank"},
     {"slug": "l-hospitalet", "name": "L'Hospitalet de Llobregat", "region": "Barcelonès", "icon": "users-three", "source": "cat"},
     {"slug": "la-seu-d-urgell", "name": "La Seu d'Urgell", "region": "Alt Urgell", "icon": "footprints", "source": "cat"},
     {"slug": "madrid", "name": "Madrid", "region": "Comunidad de Madrid", "icon": "buildings"},
+    {"slug": "malaga", "name": "Málaga", "region": "Andalucía", "icon": "buildings"},
     {"slug": "olot", "name": "Olot", "region": "Garrotxa", "icon": "tree", "source": "cat"},
     {"slug": "ripoll", "name": "Ripoll", "region": "Ripollès", "icon": "bank", "source": "cat"},
+    {"slug": "santa-cruz-de-tenerife", "name": "Santa Cruz de Tenerife", "region": "Canarias", "icon": "buildings"},
     {"slug": "santiago-de-compostela", "name": "Santiago de Compostela", "region": "Galicia", "icon": "buildings"},
-    {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"}
+    {"slug": "segovia", "name": "Segovia", "region": "Castilla y León", "icon": "bank"},
+    {"slug": "toledo", "name": "Toledo", "region": "Castilla-La Mancha", "icon": "bank"},
+    {"slug": "vic", "name": "Vic", "region": "Osona", "icon": "bank", "source": "cat"},
+    {"slug": "zaragoza", "name": "Zaragoza", "region": "Aragón", "icon": "buildings"}
   ],
 
   "territories": [

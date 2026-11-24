@@ -1,0 +1,113 @@
+{
+ "slug": "zaragoza",
+ "name": "Zaragoza",
+ "region": "Aragón",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,16 a 1,46 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 870 es de ida y vuelta, no circular.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4",
+         "ll": "41.6488,-0.8891",
+         "z": 12,
+         "title": "Zaragoza · Miradores (rutas 861–870)",
+         "label": "Rutas 861 a 870 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 861,
+         "name": "Mirador del Río Gállego",
+         "start": "Inicio y final: Mirador del Río Gállego",
+         "info": "1,16 km · 14–18 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941566"
+        },
+        {
+         "n": 862,
+         "name": "Mirador del Galacho de Juslibol",
+         "start": "Inicio y final: Mirador del Galacho de Juslibol",
+         "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941599"
+        },
+        {
+         "n": 863,
+         "name": "Mirador del Rincón de Goya",
+         "start": "Inicio y final: Mirador del Rincón de Goya",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941604"
+        },
+        {
+         "n": 864,
+         "name": "Mirador del Pilar",
+         "start": "Inicio y final: Mirador del Pilar",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941608"
+        },
+        {
+         "n": 865,
+         "name": "Balcón de San Lázaro",
+         "start": "Inicio y final: Balcón de San Lázaro",
+         "info": "1,42 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941610"
+        },
+        {
+         "n": 866,
+         "name": "Mirador del Cabezo de Buenavista",
+         "start": "Inicio y final: Mirador del Cabezo de Buenavista",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941613"
+        },
+        {
+         "n": 867,
+         "name": "Mirador Puerto Venecia",
+         "start": "Inicio y final: Mirador Puerto Venecia",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941616"
+        },
+        {
+         "n": 868,
+         "name": "Atalaya",
+         "start": "Inicio y final: Atalaya",
+         "info": "1,28 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941622"
+        },
+        {
+         "n": 869,
+         "name": "Mirador de las Aves del Ebro",
+         "start": "Inicio y final: Mirador de las Aves del Ebro",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941626"
+        },
+        {
+         "n": 870,
+         "name": "Mirador de Torrecilla",
+         "start": "Inicio y final: Mirador de Torrecilla",
+         "info": "1,46 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941629"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

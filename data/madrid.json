@@ -2,7 +2,7 @@
  "slug": "madrid",
  "name": "Madrid",
  "region": "Comunidad de Madrid",
- "summary": "464 rutas circulares y cortas en Madrid y su comunidad: desde centros de salud, centros culturales y bibliotecas, parques y jardines, y entidades de la economía social y solidaria.",
+ "summary": "474 rutas circulares y cortas en Madrid y su comunidad: desde centros de salud, centros culturales y bibliotecas, parques y jardines, y entidades de la economía social y solidaria.",
  "intro": "Paseos urbanos para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, busca el punto de salida que te quede más cerca de casa, abre el mapa y camina. Las rutas son una iniciativa de Caminos de Esperanza [Activa]: los centros, los equipamientos y las entidades solo marcan el inicio y el final, y no las organizan ni las recomiendan.",
  "zones": {
   "label": "Ve directamente a tu distrito",
@@ -3106,8 +3106,8 @@
   },
   {
    "course": "mon",
-   "text": "89 rutas circulares de 1,6 a 3 km, desde parques, jardines y plazas de los distritos de Madrid.",
-   "summary": "89 rutas desde parques y jardines",
+   "text": "89 rutas circulares de 1,6 a 3 km, desde parques, jardines y plazas de los distritos de Madrid, y 10 rutas cortas que salen de un mirador.",
+   "summary": "89 rutas desde parques y jardines y 10 desde miradores",
    "zones": {
     "label": "Ve directamente a tu zona",
     "placeholder": "Elige una zona",
@@ -3972,7 +3972,112 @@
         }
        ]
       }
-     ]
+     ],
+     "title": "Rutas desde parques y jardines",
+     "nav": "Rutas desde parques y jardines"
+    },
+    {
+     "id": "miradores",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "miradores-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8",
+         "ll": "40.4168,-3.7038",
+         "z": 12,
+         "title": "Madrid · Miradores (rutas 701–710)",
+         "label": "Rutas 701 a 710 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 701,
+         "name": "Mirador del Palacio Real",
+         "start": "Inicio y final: Mirador del Palacio Real",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917086",
+         "note": "El inicio queda a 94 m del punto del IGN, dentro del Campo del Moro."
+        },
+        {
+         "n": 702,
+         "name": "Mirador del Templo de Debod",
+         "start": "Inicio y final: Mirador del Templo de Debod",
+         "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917280"
+        },
+        {
+         "n": 703,
+         "name": "Mirador de Bailén",
+         "start": "Inicio y final: Mirador de Bailén",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917288"
+        },
+        {
+         "n": 704,
+         "name": "Mirador de la Huerta de la Partida",
+         "start": "Inicio y final: Mirador de la Huerta de la Partida",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917292"
+        },
+        {
+         "n": 705,
+         "name": "Mirador del Lago",
+         "start": "Inicio y final: Mirador del Lago",
+         "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917297"
+        },
+        {
+         "n": 706,
+         "name": "Mirador de los 3 Pinos",
+         "start": "Inicio y final: Mirador de los 3 Pinos",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917325",
+         "note": "Empieza cerca de la ruta 707 y comparten tramo."
+        },
+        {
+         "n": 707,
+         "name": "Mirador de las 6 Panorámicas",
+         "start": "Inicio y final: Mirador de las 6 Panorámicas",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917328",
+         "note": "Empieza cerca de la ruta 706 y comparten tramo."
+        },
+        {
+         "n": 708,
+         "name": "Mirador Norte del Parque Enrique Tierno Galván",
+         "start": "Inicio y final: Mirador Norte del Parque Enrique Tierno Galván",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917331"
+        },
+        {
+         "n": 709,
+         "name": "Mirador de Valdebernardo",
+         "start": "Inicio y final: Mirador de Valdebernardo",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917345"
+        },
+        {
+         "n": 710,
+         "name": "Mirador de Felipe VI",
+         "start": "Inicio y final: Mirador de Felipe VI",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917348"
+        }
+       ]
+      }
+     ],
+     "title": "Rutas desde miradores",
+     "nav": "Rutas desde miradores",
+     "text": "10 rutas cortas (de 1,37 a 1,45 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir."
     }
    ]
   },

@@ -1,0 +1,113 @@
+{
+ "slug": "cuenca",
+ "name": "Cuenca",
+ "region": "Castilla-La Mancha",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,36 a 1,57 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o",
+         "ll": "40.0704,-2.1374",
+         "z": 13,
+         "title": "Cuenca · Miradores (rutas 601–610)",
+         "label": "Rutas 601 a 610 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 601,
+         "name": "Mirador del Cerro del Socorro",
+         "start": "Inicio y final: Mirador del Cerro del Socorro",
+         "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917248"
+        },
+        {
+         "n": 602,
+         "name": "Miradores del Huécar",
+         "start": "Inicio y final: Miradores del Huécar",
+         "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917251"
+        },
+        {
+         "n": 603,
+         "name": "Mirador de Ronda",
+         "start": "Inicio y final: Mirador de Ronda",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917253"
+        },
+        {
+         "n": 604,
+         "name": "Mirador Vistas de Cuenca",
+         "start": "Inicio y final: Mirador Vistas de Cuenca",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917255"
+        },
+        {
+         "n": 605,
+         "name": "Mirador de Florencio Cañas",
+         "start": "Inicio y final: Mirador de Florencio Cañas",
+         "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917257"
+        },
+        {
+         "n": 606,
+         "name": "Mirador Hoz del Júcar",
+         "start": "Inicio y final: Mirador Hoz del Júcar",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917263"
+        },
+        {
+         "n": 607,
+         "name": "Mirador Barrio del Castillo",
+         "start": "Inicio y final: Mirador Barrio del Castillo",
+         "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917265"
+        },
+        {
+         "n": 608,
+         "name": "Mirador de Mangana",
+         "start": "Inicio y final: Mirador de Mangana",
+         "info": "1,57 km · 19–24 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917268"
+        },
+        {
+         "n": 609,
+         "name": "Miradores de San Miguel",
+         "start": "Inicio y final: Miradores de San Miguel",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917272"
+        },
+        {
+         "n": 610,
+         "name": "Mirador del Rey",
+         "start": "Inicio y final: Mirador del Rey",
+         "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917277"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

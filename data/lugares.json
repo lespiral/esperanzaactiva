@@ -9,5 +9,60 @@
   "Galicia",
   "A Coruña",
   "Santiago de Compostela"
+ ],
+ "segovia": [
+  "Castilla y León",
+  "Segovia",
+  "Segovia"
+ ],
+ "cuenca": [
+  "Castilla-La Mancha",
+  "Cuenca",
+  "Cuenca"
+ ],
+ "santa cruz de tenerife": [
+  "Canarias",
+  "Santa Cruz de Tenerife",
+  "Tenerife"
+ ],
+ "malaga": [
+  "Andalucía",
+  "Málaga",
+  "Málaga"
+ ],
+ "granada": [
+  "Andalucía",
+  "Granada",
+  "Granada"
+ ],
+ "cordoba": [
+  "Andalucía",
+  "Córdoba",
+  "Córdoba"
+ ],
+ "toledo": [
+  "Castilla-La Mancha",
+  "Toledo",
+  "Toledo"
+ ],
+ "zaragoza": [
+  "Aragón",
+  "Zaragoza",
+  "Zaragoza"
+ ],
+ "cartagena": [
+  "Región de Murcia",
+  "Murcia",
+  "Cartagena"
+ ],
+ "ferrol": [
+  "Galicia",
+  "A Coruña",
+  "Ferrol"
+ ],
+ "gijon": [
+  "Principado de Asturias",
+  "Asturias",
+  "Gijón"
  ]
 }

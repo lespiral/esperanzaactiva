@@ -1,0 +1,113 @@
+{
+ "slug": "granada",
+ "name": "Granada",
+ "region": "Andalucía",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,24 a 1,52 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ",
+         "ll": "37.1773,-3.5986",
+         "z": 13,
+         "title": "Granada · Miradores (rutas 831–840)",
+         "label": "Rutas 831 a 840 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 831,
+         "name": "Mirador del Torreón",
+         "start": "Inicio y final: Mirador del Torreón",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941460"
+        },
+        {
+         "n": 832,
+         "name": "Mirador de San Nicolás",
+         "start": "Inicio y final: Mirador de San Nicolás",
+         "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941463"
+        },
+        {
+         "n": 833,
+         "name": "Mirador de la Cruz de Rauda",
+         "start": "Inicio y final: Mirador de la Cruz de Rauda",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941465"
+        },
+        {
+         "n": 834,
+         "name": "Mirador de San Miguel",
+         "start": "Inicio y final: Mirador de San Miguel",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941467"
+        },
+        {
+         "n": 835,
+         "name": "Mirador del Carmen de los Mártires",
+         "start": "Inicio y final: Mirador del Carmen de los Mártires",
+         "info": "1,31 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941472"
+        },
+        {
+         "n": 836,
+         "name": "Mirador del Barranco del Abogado",
+         "start": "Inicio y final: Mirador del Barranco del Abogado",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941474"
+        },
+        {
+         "n": 837,
+         "name": "Mirador Alixares",
+         "start": "Inicio y final: Mirador Alixares",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941476"
+        },
+        {
+         "n": 838,
+         "name": "Mirador de la Luna",
+         "start": "Inicio y final: Mirador de la Luna",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941481"
+        },
+        {
+         "n": 839,
+         "name": "Mirador de la Silla del Moro",
+         "start": "Inicio y final: Mirador de la Silla del Moro",
+         "info": "1,24 km · 15–19 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941487"
+        },
+        {
+         "n": 840,
+         "name": "Mirador de La Abadía",
+         "start": "Inicio y final: Mirador de La Abadía",
+         "info": "1,52 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941491"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

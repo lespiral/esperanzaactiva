@@ -1,0 +1,113 @@
+{
+ "slug": "cordoba",
+ "name": "Córdoba",
+ "region": "Andalucía",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,34 a 1,43 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 841, 842, 844, 846, 848, 849, 850 son de ida y vuelta, no circulares.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw",
+         "ll": "37.8882,-4.7794",
+         "z": 12,
+         "title": "Córdoba · Miradores (rutas 841–850)",
+         "label": "Rutas 841 a 850 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 841,
+         "name": "Mirador Natural de Córdoba",
+         "start": "Inicio y final: Mirador Natural de Córdoba",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941339"
+        },
+        {
+         "n": 842,
+         "name": "Mirador la Silla del Obispo",
+         "start": "Inicio y final: Mirador la Silla del Obispo",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941341"
+        },
+        {
+         "n": 843,
+         "name": "Mirador de las Niñas",
+         "start": "Inicio y final: Mirador de las Niñas",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941344"
+        },
+        {
+         "n": 844,
+         "name": "Mirador de Córdoba",
+         "start": "Inicio y final: Mirador de Córdoba",
+         "info": "1,34 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941347"
+        },
+        {
+         "n": 845,
+         "name": "Mirador Sendero Cuesta del Reventón",
+         "start": "Inicio y final: Mirador Sendero Cuesta del Reventón",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941350"
+        },
+        {
+         "n": 846,
+         "name": "Mirador de los Villares",
+         "start": "Inicio y final: Mirador de los Villares",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941354"
+        },
+        {
+         "n": 847,
+         "name": "Mirador de San José",
+         "start": "Inicio y final: Mirador de San José",
+         "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941357"
+        },
+        {
+         "n": 848,
+         "name": "Mirador de la Umbría",
+         "start": "Inicio y final: Mirador de la Umbría",
+         "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941360"
+        },
+        {
+         "n": 849,
+         "name": "Mirador María José Moros Molina",
+         "start": "Inicio y final: Mirador María José Moros Molina",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941364"
+        },
+        {
+         "n": 850,
+         "name": "Mirador del Cerro de la Coja",
+         "start": "Inicio y final: Mirador del Cerro de la Coja",
+         "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941368"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+ciudad	slug	n	name	km	caminar	pausas	tipo	mid	wikiloc	nota
+Segovia	segovia	501	Mirador del Acueducto	1,43	18–22	30–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917178	
+Segovia	segovia	502	Mirador de la Muralla	1,43	18–22	30–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917207	
+Segovia	segovia	503	Mirador de la Piedad	1,41	17–22	25–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917209	
+Segovia	segovia	504	Mirador del Valle del Clamores	1,41	17–22	25–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917213	Empieza cerca de la ruta 505 y comparten tramo.
+Segovia	segovia	505	Mirador de la Plaza de la Reina Victoria Eugenia	1,39	17–21	25–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917216	Empieza cerca de la ruta 504 y comparten tramo.
+Segovia	segovia	506	Mirador del Alcázar y los Dos Valles	1,44	18–22	30–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917219	
+Segovia	segovia	507	Mirador de la Veracruz	1,45	18–22	30–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917222	
+Segovia	segovia	508	Mirador de la Pradera de San Marcos	1,33	16–20	25–40	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917227	
+Segovia	segovia	509	Mirador Altos de la Fuencisla	1,44	18–22	30–40	ida y vuelta	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917231	
+Segovia	segovia	510	Mirador del Terminillo	1,48	18–23	30–45	circular	1exHcVVJdr8j8pBqm9DQ-sdsIik4z14A	297917236	
+Cuenca	cuenca	601	Mirador del Cerro del Socorro	1,47	18–23	30–45	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917248	
+Cuenca	cuenca	602	Miradores del Huécar	1,47	18–23	30–45	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917251	
+Cuenca	cuenca	603	Mirador de Ronda	1,38	17–21	25–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917253	
+Cuenca	cuenca	604	Mirador Vistas de Cuenca	1,45	18–22	30–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917255	
+Cuenca	cuenca	605	Mirador de Florencio Cañas	1,44	18–22	30–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917257	
+Cuenca	cuenca	606	Mirador Hoz del Júcar	1,41	17–22	25–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917263	
+Cuenca	cuenca	607	Mirador Barrio del Castillo	1,36	17–21	25–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917265	
+Cuenca	cuenca	608	Mirador de Mangana	1,57	19–24	30–45	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917268	
+Cuenca	cuenca	609	Miradores de San Miguel	1,39	17–21	25–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917272	
+Cuenca	cuenca	610	Mirador del Rey	1,36	17–21	25–40	circular	1tr-xb-L06_GIUaUmR3tXA3pqdJt8p5o	297917277	
+Madrid	madrid	701	Mirador del Palacio Real	1,45	18–22	30–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917086	El inicio queda a 94 m del punto del IGN, dentro del Campo del Moro.
+Madrid	madrid	702	Mirador del Templo de Debod	1,4	17–21	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917280	
+Madrid	madrid	703	Mirador de Bailén	1,39	17–21	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917288	
+Madrid	madrid	704	Mirador de la Huerta de la Partida	1,41	17–22	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917292	
+Madrid	madrid	705	Mirador del Lago	1,4	17–21	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917297	
+Madrid	madrid	706	Mirador de los 3 Pinos	1,43	18–22	30–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917325	Empieza cerca de la ruta 707 y comparten tramo.
+Madrid	madrid	707	Mirador de las 6 Panorámicas	1,42	18–22	30–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917328	Empieza cerca de la ruta 706 y comparten tramo.
+Madrid	madrid	708	Mirador Norte del Parque Enrique Tierno Galván	1,42	18–22	30–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917331	
+Madrid	madrid	709	Mirador de Valdebernardo	1,37	17–21	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917345	
+Madrid	madrid	710	Mirador de Felipe VI	1,39	17–21	25–40	circular	1r1jEbHzhuCs0ClVCB9l9WEFP1BKRcw8	297917348	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	801	Mirador de Vistabella	1,33	16–20	25–40	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937603	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	802	Mirador del Llano de los Loros	0,96	12–15	20–35	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937744	Recorrido de menos de 1 km.
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	803	Mirador Roque de Taborno	1,49	18–23	30–45	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937747	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	804	Mirador Fuente del Lomo	1,44	18–22	30–40	ida y vuelta	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937749	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	805	Mirador Los Campitos	1,39	17–21	25–40	ida y vuelta	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937754	Va mayormente por carretera.
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	806	Mirador del Caribe	1,54	19–24	30–45	ida y vuelta	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937758	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	807	Mirador sin nombre	1,6	20–24	30–45	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937762	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	808	Mirador Risco Magoje	0,92	12–14	20–35	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937764	Recorrido de menos de 1 km.
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	809	Mirador Túnel de Anaga	1,71	21–26	30–45	circular	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937767	
+Santa Cruz de Tenerife	santa-cruz-de-tenerife	810	Mirador de Cabezo de Tejo	1,42	18–22	30–40	ida y vuelta	1qjDqMv_L9S4V7N9CG1_JYjM7zGS9s7I	297937771	
+Málaga	malaga	811	Mirador Mendelín	1,39	17–21	25–40	ida y vuelta	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937671	
+Málaga	malaga	812	Mirador del Garlerna y el Abrego	1,46	18–22	30–40	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937710	
+Málaga	malaga	813	Mirador de Gibralfaro	1,42	18–22	30–40	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937712	
+Málaga	malaga	814	Mirador de Pocopán	1,67	21–26	30–45	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937714	
+Málaga	malaga	815	Mirador de El Morlaco	1,44	18–22	30–40	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937718	
+Málaga	malaga	816	Mirador del Cochino	1,47	18–23	30–45	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937725	
+Málaga	malaga	817	Mirador de La Unidad	1,44	18–22	30–40	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937729	
+Málaga	malaga	818	Mirador del Palomar	1,28	16–20	25–40	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937734	
+Málaga	malaga	819	Mirador Oeste San Antón	1,71	21–26	30–45	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937737	
+Málaga	malaga	820	Mirador la Araña	1,73	21–26	30–45	circular	1-dKGDeIsM9KHELV6fVDQj32NyHA_W-o	297937741	
+Granada	granada	831	Mirador del Torreón	1,37	17–21	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941460	
+Granada	granada	832	Mirador de San Nicolás	1,4	17–22	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941463	
+Granada	granada	833	Mirador de la Cruz de Rauda	1,41	17–22	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941465	
+Granada	granada	834	Mirador de San Miguel	1,41	17–22	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941467	
+Granada	granada	835	Mirador del Carmen de los Mártires	1,31	16–20	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941472	
+Granada	granada	836	Mirador del Barranco del Abogado	1,43	18–22	30–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941474	
+Granada	granada	837	Mirador Alixares	1,45	18–22	30–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941476	
+Granada	granada	838	Mirador de la Luna	1,37	17–21	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941481	
+Granada	granada	839	Mirador de la Silla del Moro	1,24	15–19	25–40	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941487	
+Granada	granada	840	Mirador de La Abadía	1,52	19–23	30–45	circular	11iR56t8pF4s-q_Jt53zP4f9lTlcqqsQ	297941491	
+Córdoba	cordoba	841	Mirador Natural de Córdoba	1,43	18–22	30–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941339	
+Córdoba	cordoba	842	Mirador la Silla del Obispo	1,41	17–22	25–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941341	
+Córdoba	cordoba	843	Mirador de las Niñas	1,42	18–22	30–40	circular	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941344	
+Córdoba	cordoba	844	Mirador de Córdoba	1,34	17–21	25–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941347	
+Córdoba	cordoba	845	Mirador Sendero Cuesta del Reventón	1,39	17–21	25–40	circular	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941350	
+Córdoba	cordoba	846	Mirador de los Villares	1,42	18–22	30–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941354	
+Córdoba	cordoba	847	Mirador de San José	1,36	17–21	25–40	circular	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941357	
+Córdoba	cordoba	848	Mirador de la Umbría	1,35	17–21	25–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941360	
+Córdoba	cordoba	849	Mirador María José Moros Molina	1,41	17–22	25–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941364	
+Córdoba	cordoba	850	Mirador del Cerro de la Coja	1,36	17–21	25–40	ida y vuelta	1lnFK1r5KyMcC3i1eDDbYAepepJKiTxw	297941368	
+Toledo	toledo	851	Mirador sin nombre 1	1,47	18–23	30–45	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941527	
+Toledo	toledo	852	Mirador del Alcázar	1,42	18–22	30–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941532	
+Toledo	toledo	853	Mirador del Azor	1,37	17–21	25–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941536	
+Toledo	toledo	854	Mirador del Puente San Martín	1,57	19–24	30–45	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941540	
+Toledo	toledo	855	Mirador sin nombre 2	1,37	17–21	25–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941545	
+Toledo	toledo	856	Mirador de la Granja	1,41	17–22	25–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941549	
+Toledo	toledo	857	Mirador Piedra del Rey Moro	1,45	18–22	30–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941551	
+Toledo	toledo	858	Mirador del Valle	1,49	18–23	30–45	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941554	
+Toledo	toledo	859	Mirador Paseo del Miradero	1,39	17–21	25–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941557	
+Toledo	toledo	860	Mirador del Paseo del Tránsito	1,43	18–22	30–40	circular	1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4	297941562	
+Zaragoza	zaragoza	861	Mirador del Río Gállego	1,16	14–18	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941566	
+Zaragoza	zaragoza	862	Mirador del Galacho de Juslibol	1,35	17–21	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941599	
+Zaragoza	zaragoza	863	Mirador del Rincón de Goya	1,45	18–22	30–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941604	
+Zaragoza	zaragoza	864	Mirador del Pilar	1,39	17–21	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941608	
+Zaragoza	zaragoza	865	Balcón de San Lázaro	1,42	17–22	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941610	
+Zaragoza	zaragoza	866	Mirador del Cabezo de Buenavista	1,41	17–22	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941613	
+Zaragoza	zaragoza	867	Mirador Puerto Venecia	1,42	18–22	30–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941616	
+Zaragoza	zaragoza	868	Atalaya	1,28	16–20	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941622	
+Zaragoza	zaragoza	869	Mirador de las Aves del Ebro	1,41	17–22	25–40	circular	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941626	
+Zaragoza	zaragoza	870	Mirador de Torrecilla	1,46	18–22	30–40	ida y vuelta	1XvtcEjaZqjflHuhIoSCu7lu9qMGudS4	297941629	
+Cartagena	cartagena	871	Mirador del Monte de las Cenizas	1,45	18–22	30–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941371	
+Cartagena	cartagena	872	Mirador de Atamaría	1,39	17–21	25–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941378	
+Cartagena	cartagena	873	Mirador de San Fulgencio	1,15	14–18	25–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941380	
+Cartagena	cartagena	874	Mirador de Trincabotijas	1,4	17–22	25–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941383	
+Cartagena	cartagena	875	Mirador de Tamara	1,42	17–22	25–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941386	
+Cartagena	cartagena	877	Mirador Parque Torres	1,73	21–27	30–45	circular	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941390	
+Cartagena	cartagena	878	Mirador Muralla del Mar	1,42	18–22	30–40	circular	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941393	
+Cartagena	cartagena	879	Mirador de Monte Blanco	1,39	17–21	25–40	ida y vuelta	18ND6dI986YJljOj4jYMML5-O6yb0QEs0	297941396	
+Ferrol	ferrol	881	Miradoiro Monte Ventoso	1,18	15–18	25–40	circular	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941401	
+Ferrol	ferrol	882	Miradoiro da Cabana	1,58	19–24	30–45	circular	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941406	
+Ferrol	ferrol	883	Miradoiro de San Felipe	1,39	17–21	25–40	ida y vuelta	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941410	
+Ferrol	ferrol	884	Miradoiro Cabo Prioriño Grande	1,48	18–23	30–45	ida y vuelta	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941412	
+Ferrol	ferrol	885	Miradoiro Cabo Prior	1,71	21–26	30–45	circular	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941414	
+Ferrol	ferrol	886	Miradoiro Cabo Prioriño Chico	1,26	16–19	25–40	ida y vuelta	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941425	
+Ferrol	ferrol	887	Miradoiro da Ermida de Chamorro	1,45	18–22	30–40	ida y vuelta	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941427	
+Ferrol	ferrol	888	Miradoiro de Caranza	1,37	17–21	25–40	circular	1G2NqywigRVgE8lozlN5UgspnXjhWrF0	297941430	
+Gijón	gijon	891	Mirador Paseo Litoral	1,5	19–23	30–45	circular	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941433	
+Gijón	gijon	892	Mirador del Cervigón	1,36	17–21	25–40	circular	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941436	
+Gijón	gijon	893	Mirador PLaya de la Ñora	1,5	18–23	30–45	ida y vuelta	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941439	
+Gijón	gijon	894	MIrador la Colina del Cuervo	1,41	17–22	25–40	circular	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941442	
+Gijón	gijon	895	Mirador Playa de Serín	1,51	19–23	30–45	circular	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941447	
+Gijón	gijon	896	Mirador San Martín	1,42	18–22	30–40	ida y vuelta	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941450	
+Gijón	gijon	897	Mirador Picu'l Sol	1,39	17–21	25–40	ida y vuelta	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941454	
+Gijón	gijon	898	Mirador de la Providencia	1,7	21–26	30–45	circular	19xaPLG5DeDk6kzbbb9X6TNAPpYxkIzY	297941457	

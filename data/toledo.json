@@ -1,0 +1,113 @@
+{
+ "slug": "toledo",
+ "name": "Toledo",
+ "region": "Castilla-La Mancha",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,37 a 1,57 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1fiTlZh3JUXs7g3XmghaZeTUxeHgw_j4",
+         "ll": "39.8628,-4.0273",
+         "z": 13,
+         "title": "Toledo · Miradores (rutas 851–860)",
+         "label": "Rutas 851 a 860 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 851,
+         "name": "Mirador sin nombre 1",
+         "start": "Inicio y final: Mirador sin nombre 1",
+         "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941527"
+        },
+        {
+         "n": 852,
+         "name": "Mirador del Alcázar",
+         "start": "Inicio y final: Mirador del Alcázar",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941532"
+        },
+        {
+         "n": 853,
+         "name": "Mirador del Azor",
+         "start": "Inicio y final: Mirador del Azor",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941536"
+        },
+        {
+         "n": 854,
+         "name": "Mirador del Puente San Martín",
+         "start": "Inicio y final: Mirador del Puente San Martín",
+         "info": "1,57 km · 19–24 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941540"
+        },
+        {
+         "n": 855,
+         "name": "Mirador sin nombre 2",
+         "start": "Inicio y final: Mirador sin nombre 2",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941545"
+        },
+        {
+         "n": 856,
+         "name": "Mirador de la Granja",
+         "start": "Inicio y final: Mirador de la Granja",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941549"
+        },
+        {
+         "n": 857,
+         "name": "Mirador Piedra del Rey Moro",
+         "start": "Inicio y final: Mirador Piedra del Rey Moro",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941551"
+        },
+        {
+         "n": 858,
+         "name": "Mirador del Valle",
+         "start": "Inicio y final: Mirador del Valle",
+         "info": "1,49 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941554"
+        },
+        {
+         "n": 859,
+         "name": "Mirador Paseo del Miradero",
+         "start": "Inicio y final: Mirador Paseo del Miradero",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941557"
+        },
+        {
+         "n": 860,
+         "name": "Mirador del Paseo del Tránsito",
+         "start": "Inicio y final: Mirador del Paseo del Tránsito",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297941562"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
