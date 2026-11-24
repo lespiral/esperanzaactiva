@@ -748,7 +748,7 @@
     ]
   },
   "consent": {
-      "text": "Esta web muestra mapas incrustados de Google My Maps. Si aceptas, podrás verlos aquí: tu navegador se conectará a Google, que recibirá tu dirección IP y podrá usar cookies. Si no aceptas, no se carga ningún mapa, pero puedes seguir cada ruta con su enlace de Wikiloc, cuando lo hay. Puedes cambiarlo cuando quieras.",
+      "text": "Si aceptas, verás aquí los mapas de Google My Maps: tu navegador se conectará a Google (recibe tu IP y puede usar cookies). Si no, puedes seguir cada ruta con su enlace de Wikiloc, cuando lo hay.",
       "link": "Política de cookies",
       "accept": "Aceptar",
       "reject": "Rechazar",
