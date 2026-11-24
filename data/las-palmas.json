@@ -1,0 +1,71 @@
+{
+ "slug": "las-palmas",
+ "name": "Las Palmas",
+ "region": "Canarias",
+ "summary": "4 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "4 rutas cortas (de 1,25 a 1,41 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 1011, 1014 son de ida y vuelta, no circulares.",
+   "summary": "4 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 4 rutas",
+       "maps": [
+        {
+         "mid": "1gyf96oL9XCR9pUkVgqlY_rFMOCR5iqI",
+         "ll": "28.1235,-15.4363",
+         "z": 12,
+         "title": "Las Palmas · Miradores (rutas 1011–1014)",
+         "label": "Rutas 1011 a 1014 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 1011,
+         "name": "Mirador San Telmo",
+         "start": "Inicio y final: Mirador San Telmo",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297990021"
+        },
+        {
+         "n": 1012,
+         "name": "Mirador La Marquesina",
+         "start": "Inicio y final: Mirador La Marquesina",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297990025"
+        },
+        {
+         "n": 1013,
+         "name": "Mirador La Puntilla",
+         "start": "Inicio y final: Mirador La Puntilla",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297990028"
+        },
+        {
+         "n": 1014,
+         "name": "Mirador del Sendero Azúl",
+         "start": "Inicio y final: Mirador del Sendero Azúl",
+         "info": "1,25 km · 16–19 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297990057"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

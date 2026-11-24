@@ -69,5 +69,55 @@
   "Comunitat Valenciana",
   "Alacant",
   "L'Alacantí"
+ ],
+ "cervera de pisuerga": [
+  "Castilla y León",
+  "Palencia",
+  "Montaña Palentina"
+ ],
+ "cazorla": [
+  "Andalucía",
+  "Jaén",
+  "Sierra de Cazorla"
+ ],
+ "a coruna": [
+  "Galicia",
+  "A Coruña",
+  "A Coruña"
+ ],
+ "zamora": [
+  "Castilla y León",
+  "Zamora",
+  "Zamora"
+ ],
+ "cangas del narcea": [
+  "Principado de Asturias",
+  "Asturias",
+  "Cangas del Narcea"
+ ],
+ "ronda": [
+  "Andalucía",
+  "Málaga",
+  "Serranía de Ronda"
+ ],
+ "bejar": [
+  "Castilla y León",
+  "Salamanca",
+  "Sierra de Béjar"
+ ],
+ "viveiro": [
+  "Galicia",
+  "Lugo",
+  "A Mariña Oriental"
+ ],
+ "valladolid": [
+  "Castilla y León",
+  "Valladolid",
+  "Valladolid"
+ ],
+ "las palmas": [
+  "Canarias",
+  "Las Palmas",
+  "Gran Canaria"
  ]
 }

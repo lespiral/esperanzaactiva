@@ -1,0 +1,85 @@
+{
+ "slug": "a-coruna",
+ "name": "A Coruña",
+ "region": "Galicia",
+ "summary": "6 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "6 rutas cortas (de 1,37 a 1,53 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 942, 944 son de ida y vuelta, no circulares.",
+   "summary": "6 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 6 rutas",
+       "maps": [
+        {
+         "mid": "1LtfJWvFCuFtb8evzL2Unku1sglmQbn8",
+         "ll": "43.3623,-8.4115",
+         "z": 12,
+         "title": "A Coruña · Miradores (rutas 941–946)",
+         "label": "Rutas 941 a 946 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 941,
+         "name": "Miradoiro de Punta Mexillosa",
+         "start": "Inicio y final: Miradoiro de Punta Mexillosa",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991382"
+        },
+        {
+         "n": 942,
+         "name": "Miradoiro Ventana al Atlántico",
+         "start": "Inicio y final: Miradoiro Ventana al Atlántico",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991389"
+        },
+        {
+         "n": 943,
+         "name": "Miradoiro do Parrote",
+         "start": "Inicio y final: Miradoiro do Parrote",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991393"
+        },
+        {
+         "n": 944,
+         "name": "Miradoiro do Aquarium Finisterrae",
+         "start": "Inicio y final: Miradoiro do Aquarium Finisterrae",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991397"
+        },
+        {
+         "n": 945,
+         "name": "Miradoiro Coraza del Orzán",
+         "start": "Inicio y final: Miradoiro Coraza del Orzán",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991400"
+        },
+        {
+         "n": 946,
+         "name": "Miradoiro de San Pedro",
+         "start": "Inicio y final: Miradoiro de San Pedro",
+         "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991403"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

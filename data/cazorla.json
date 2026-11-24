@@ -1,0 +1,92 @@
+{
+ "slug": "cazorla",
+ "name": "Cazorla",
+ "region": "Andalucía",
+ "summary": "7 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "7 rutas cortas (de 1,20 a 1,43 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 931, 932, 933, 934, 935, 936, 937 son de ida y vuelta, no circulares.",
+   "summary": "7 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 7 rutas",
+       "maps": [
+        {
+         "mid": "1bQZuajulU_Rc0l24XWNUuZgMCwNgYwg",
+         "ll": "37.9100,-3.0030",
+         "z": 11,
+         "title": "Cazorla · Miradores (rutas 931–937)",
+         "label": "Rutas 931 a 937 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 931,
+         "name": "Mirador Puerto de las Palomas",
+         "start": "Inicio y final: Mirador Puerto de las Palomas",
+         "info": "1,20 km · 15–18 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989161"
+        },
+        {
+         "n": 932,
+         "name": "Mirador Estrecho de los Perales",
+         "start": "Inicio y final: Mirador Estrecho de los Perales",
+         "info": "1,34 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989170"
+        },
+        {
+         "n": 933,
+         "name": "Mirador Poyos de la Presa",
+         "start": "Inicio y final: Mirador Poyos de la Presa",
+         "info": "1,29 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989258"
+        },
+        {
+         "n": 934,
+         "name": "Mirador de Guadalentín",
+         "start": "Inicio y final: Mirador de Guadalentín",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991371"
+        },
+        {
+         "n": 935,
+         "name": "Mirador Nava de San Pedro",
+         "start": "Inicio y final: Mirador Nava de San Pedro",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989600"
+        },
+        {
+         "n": 936,
+         "name": "Mirador de Riogazas",
+         "start": "Inicio y final: Mirador de Riogazas",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991375"
+        },
+        {
+         "n": 937,
+         "name": "Mirador Linarejos",
+         "start": "Inicio y final: Mirador Linarejos",
+         "info": "1,31 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991379"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "viveiro",
+ "name": "Viveiro",
+ "region": "Galicia",
+ "summary": "4 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "4 rutas cortas (de 1,15 a 1,40 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 992, 994 son de ida y vuelta, no circulares.",
+   "summary": "4 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 4 rutas",
+       "maps": [
+        {
+         "mid": "1mAC20WYEvjPu2o1dNg9SDmaI_mGKXNc",
+         "ll": "43.6620,-7.5960",
+         "z": 12,
+         "title": "Viveiro · Miradores (rutas 991–994)",
+         "label": "Rutas 991 a 994 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 991,
+         "name": "Miradoiro de San Roque",
+         "start": "Inicio y final: Miradoiro de San Roque",
+         "info": "1,15 km · 14–18 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989964"
+        },
+        {
+         "n": 992,
+         "name": "Miradoiro de Covas",
+         "start": "Inicio y final: Miradoiro de Covas",
+         "info": "1,18 km · 15–18 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989980"
+        },
+        {
+         "n": 993,
+         "name": "Miradoiro Playa de Seiramar",
+         "start": "Inicio y final: Miradoiro Playa de Seiramar",
+         "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989982"
+        },
+        {
+         "n": 994,
+         "name": "Miradoiro da Insua",
+         "start": "Inicio y final: Miradoiro da Insua",
+         "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989986"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "slug": "zamora",
+ "name": "Zamora",
+ "region": "Castilla y León",
+ "summary": "6 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "6 rutas cortas (de 1,38 a 1,45 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir.",
+   "summary": "6 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 6 rutas",
+       "maps": [
+        {
+         "mid": "1FDh-hkhCG9uCS9lPHKet-qWi3CIyl_I",
+         "ll": "41.5034,-5.7467",
+         "z": 12,
+         "title": "Zamora · Miradores (rutas 951–956)",
+         "label": "Rutas 951 a 956 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 951,
+         "name": "Mirador del Castillo",
+         "start": "Inicio y final: Mirador del Castillo",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991406"
+        },
+        {
+         "n": 952,
+         "name": "Mirador Ramos Carrión",
+         "start": "Inicio y final: Mirador Ramos Carrión",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991410"
+        },
+        {
+         "n": 953,
+         "name": "Mirador de San Cipriano",
+         "start": "Inicio y final: Mirador de San Cipriano",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297991412"
+        },
+        {
+         "n": 954,
+         "name": "Mirador de Puente Viejo",
+         "start": "Inicio y final: Mirador de Puente Viejo",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989772"
+        },
+        {
+         "n": 955,
+         "name": "Mirador del Duero al Poniente",
+         "start": "Inicio y final: Mirador del Duero al Poniente",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989776"
+        },
+        {
+         "n": 956,
+         "name": "Mirador del Troncoso",
+         "start": "Inicio y final: Mirador del Troncoso",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989780"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -26,6 +26,16 @@ CITIES = {
     "Cartagena": ("Región de Murcia", "buildings", ["Región de Murcia", "Murcia", "Cartagena"], "37.6257,-0.9966", 12),
     "Ferrol": ("Galicia", "buildings", ["Galicia", "A Coruña", "Ferrol"], "43.4845,-8.2336", 12),
     "Alacant": ("Comunitat Valenciana", "buildings", ["Comunitat Valenciana", "Alacant", "L'Alacantí"], "38.2700,-0.4800", 11),
+    "Cervera de Pisuerga": ("Castilla y León", "buildings", ["Castilla y León", "Palencia", "Montaña Palentina"], "42.8636,-4.5042", 11),
+    "Cazorla": ("Andalucía", "buildings", ["Andalucía", "Jaén", "Sierra de Cazorla"], "37.9100,-3.0030", 11),
+    "A Coruña": ("Galicia", "buildings", ["Galicia", "A Coruña", "A Coruña"], "43.3623,-8.4115", 12),
+    "Zamora": ("Castilla y León", "bank", ["Castilla y León", "Zamora", "Zamora"], "41.5034,-5.7467", 12),
+    "Cangas del Narcea": ("Principado de Asturias", "buildings", ["Principado de Asturias", "Asturias", "Cangas del Narcea"], "43.1760,-6.5510", 10),
+    "Ronda": ("Andalucía", "buildings", ["Andalucía", "Málaga", "Serranía de Ronda"], "36.7424,-5.1673", 12),
+    "Béjar": ("Castilla y León", "buildings", ["Castilla y León", "Salamanca", "Sierra de Béjar"], "40.3861,-5.7648", 12),
+    "Viveiro": ("Galicia", "buildings", ["Galicia", "Lugo", "A Mariña Oriental"], "43.6620,-7.5960", 12),
+    "Valladolid": ("Castilla y León", "buildings", ["Castilla y León", "Valladolid", "Valladolid"], "41.6523,-4.7245", 12),
+    "Las Palmas": ("Canarias", "buildings", ["Canarias", "Las Palmas", "Gran Canaria"], "28.1235,-15.4363", 12),
     "Gijón": ("Principado de Asturias", "buildings", ["Principado de Asturias", "Asturias", "Gijón"], "43.5322,-5.6611", 12),
 }
 MADRID_MAP = {"ll": "40.4168,-3.7038", "z": 12}
