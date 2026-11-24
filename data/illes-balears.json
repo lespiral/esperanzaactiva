@@ -1,0 +1,246 @@
+{
+  "slug": "illes-balears",
+  "name": "Illes Balears",
+  "kind": "territory",
+  "title": "Caminar por las Illes Balears",
+  "region": "Mallorca, Menorca y Eivissa",
+  "summary": "15 rutas desde miradores en 12 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "15 rutas cortas (de 0,98 a 1,79 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "15 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1ovd3r",
+          "title": "Calvià, Santanyí y 4 municipios más",
+          "maps": [
+            {
+              "mid": "1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ",
+              "ll": "39.4535,2.8485",
+              "z": 7,
+              "title": "Calvià, Santanyí y 4 municipios más · miradores",
+              "label": "Mapa de miradores · 7 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Calvià",
+              "id": "calvia-miradores",
+              "routes": [
+                {
+                  "n": 1077,
+                  "name": "Es Mirador",
+                  "start": "Inicio y final: Es Mirador",
+                  "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011146"
+                },
+                {
+                  "n": 1080,
+                  "name": "Mirador d'Alzamora",
+                  "start": "Inicio y final: Mirador d'Alzamora",
+                  "info": "0,98 km · 12–15 min caminando · 20–35 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011160",
+                  "note": "Ruta corta (0,98 km) por caminos sin nombre."
+                }
+              ]
+            },
+            {
+              "title": "Santanyí",
+              "id": "santanyi-miradores",
+              "routes": [
+                {
+                  "n": 1083,
+                  "name": "Mirador Es Pontàs",
+                  "start": "Inicio y final: Mirador Es Pontàs",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011174",
+                  "note": "Parte del trazado va por calles de sa Cova des Coloms y na Cebriana."
+                }
+              ]
+            },
+            {
+              "title": "Selva",
+              "id": "selva-miradores",
+              "routes": [
+                {
+                  "n": 1085,
+                  "name": "Mirador Selva",
+                  "start": "Inicio y final: Mirador Selva",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011181"
+                }
+              ]
+            },
+            {
+              "title": "Eivissa",
+              "id": "eivissa-miradores",
+              "routes": [
+                {
+                  "n": 1087,
+                  "name": "Mirador Plaça de la Catedral",
+                  "start": "Inicio y final: Mirador Plaça de la Catedral",
+                  "info": "1,65 km · 20–25 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011191",
+                  "note": "Va por calles del casco antiguo (plaza de la Catedral, calle de la Universitat)."
+                }
+              ]
+            },
+            {
+              "title": "Maó",
+              "id": "mao-miradores",
+              "routes": [
+                {
+                  "n": 1090,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011241"
+                }
+              ]
+            },
+            {
+              "title": "Ciutadella de Menorca",
+              "id": "ciutadella-de-menorca-miradores",
+              "routes": [
+                {
+                  "n": 1091,
+                  "name": "Mirador des Bos des Xerret",
+                  "start": "Inicio y final: Mirador des Bos des Xerret",
+                  "info": "1,79 km · 22–27 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011249"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1rjaqu",
+          "title": "Estellencs, Andratx y 4 municipios más",
+          "maps": [
+            {
+              "mid": "1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4",
+              "ll": "39.7300,2.7200",
+              "z": 9,
+              "title": "Estellencs, Andratx y 4 municipios más · miradores",
+              "label": "Mapa de miradores · 8 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Estellencs",
+              "id": "estellencs-miradores",
+              "routes": [
+                {
+                  "n": 1078,
+                  "name": "Mirador des Grau",
+                  "start": "Inicio y final: Mirador des Grau",
+                  "info": "1,29 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011152"
+                }
+              ]
+            },
+            {
+              "title": "Andratx",
+              "id": "andratx-miradores",
+              "routes": [
+                {
+                  "n": 1079,
+                  "name": "Mirador d'en Josep Sastre",
+                  "start": "Inicio y final: Mirador d'en Josep Sastre",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011157",
+                  "note": "Caminos sin nombre en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Pollença",
+              "id": "pollenca-miradores",
+              "routes": [
+                {
+                  "n": 1081,
+                  "name": "Mirador Es Colomer",
+                  "start": "Inicio y final: Mirador Es Colomer",
+                  "info": "1,46 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011164",
+                  "note": "Caminos sin nombre en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Escorca",
+              "id": "escorca-miradores",
+              "routes": [
+                {
+                  "n": 1082,
+                  "name": "Mirador del Centenari",
+                  "start": "Inicio y final: Mirador del Centenari",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011166",
+                  "note": "Caminos sin nombre en OSM."
+                },
+                {
+                  "n": 1084,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011177",
+                  "note": "Casi todo el trazado va por la carretera de Cala Tuent: ojo con el tráfico."
+                }
+              ]
+            },
+            {
+              "title": "Sóller",
+              "id": "soller-miradores",
+              "routes": [
+                {
+                  "n": 1086,
+                  "name": "Mirador ses Barques",
+                  "start": "Inicio y final: Mirador ses Barques",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011185",
+                  "note": "Caminos sin nombre en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Valldemossa",
+              "id": "valldemossa-miradores",
+              "routes": [
+                {
+                  "n": 1088,
+                  "name": "Mirador des Colomo",
+                  "start": "Inicio y final: Mirador des Colomo",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011195"
+                },
+                {
+                  "n": 1089,
+                  "name": "Mirador de ses Puntes",
+                  "start": "Inicio y final: Mirador de ses Puntes",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298011198"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

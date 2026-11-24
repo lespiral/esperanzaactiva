@@ -99,7 +99,9 @@
     {"slug": "terres-de-l-ebre", "name": "Terres de l'Ebre", "region": "Baix Ebre, Montsià y Terra Alta", "icon": "plant", "source": "cat"},
     {"slug": "terres-gironines", "name": "Terres Gironines", "region": "Alt Empordà, Gironès y Selva (sin Olot)", "icon": "tree", "source": "cat"},
     {"slug": "valles-occidental", "name": "Vallès Occidental", "region": "Barberà del Vallès, Sabadell, Sant Cugat del Vallès y Terrassa", "icon": "map", "source": "cat"},
-    {"slug": "valles-oriental", "name": "Vallès Oriental", "region": "Caldes de Montbui, Granollers, Sant Celoni, Santa Eulàlia de Ronçana y Santa Maria de Palautordera", "icon": "footprints", "source": "cat"}
+    {"slug": "valles-oriental", "name": "Vallès Oriental", "region": "Caldes de Montbui, Granollers, Sant Celoni, Santa Eulàlia de Ronçana y Santa Maria de Palautordera", "icon": "footprints", "source": "cat"},
+    {"slug": "comunitat-valenciana", "name": "Comunitat Valenciana", "region": "Alacant, Castelló y València (sin la ciudad de Alacant)", "icon": "sun"},
+    {"slug": "illes-balears", "name": "Illes Balears", "region": "Mallorca, Menorca y Eivissa", "icon": "globe"}
   ],
 
   "subpages": [

@@ -1,0 +1,65 @@
+n	name	km	caminar	pausas	tipo	mid	wikiloc	lugar	provincia	comarca	lat	lon	nota
+1050	Mirador del Castell	1,64	20–25	30–45	circular	1efavy_9Msd0lk-wnUPcXBlW2niYhVKo	298006414	Cullera	València	Ribera Baixa	39.166	-0.250	
+1051	Mirador	1,37	17–21	25–40	ida y vuelta	1efavy_9Msd0lk-wnUPcXBlW2niYhVKo	298006416	Loriguilla	València	Camp de Túria	39.670	-0.800	
+1052	Mirador de Escalona	1,31	16–20	25–40	circular	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006437	Navarrés	València	Canal de Navarrés	39.100	-0.690	
+1053	Mirador de los Cañones del Júcar	1,45	18–22	30–40	ida y vuelta	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006439	Jalance	València	Valle de Ayora-Cofrentes	39.230	-1.080	
+1054	Mirador El Salto	1,37	17–21	25–40	circular	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006443	Chella	València	Canal de Navarrés	39.080	-0.760	
+1055	Mirador de la Era del Chulo	1,44	18–22	30–40	ida y vuelta	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006464	Cofrentes	València	Valle de Ayora-Cofrentes	39.230	-1.060	
+1056	Mirador de la Tierra Colorá	1,38	17–21	25–40	ida y vuelta	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006473	Cortes de Pallás	València	Valle de Ayora-Cofrentes	39.240	-0.940	
+1057	Mirador del Observatorio	1,3	16–20	25–40	ida y vuelta	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006475	Cortes de Pallás	València	Valle de Ayora-Cofrentes	39.240	-0.940	
+1058	Mirador El Carrascal	1,41	17–22	25–40	ida y vuelta	1N1eQV6ViPQfNE52ib2AbhZwsdAQPknA	298006481	Cortes de Pallás	València	Valle de Ayora-Cofrentes	39.240	-0.940	
+1059	Tarima del Río	1,38	17–21	25–40	circular	1efavy_9Msd0lk-wnUPcXBlW2niYhVKo	298006491	Simat de la Valldigna	València	La Safor	39.030	-0.320	
+1060	Mirador del Picaio	1,39	17–21	25–40	ida y vuelta	1efavy_9Msd0lk-wnUPcXBlW2niYhVKo	298006501	Algímia d'Alfara	València	Camp de Morvedre	39.760	-0.370	
+1061	Mirador de la Muela	1,42	18–22	30–40	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298008822	Villahermosa del Río	Castelló	Alto Mijares	40.100	-0.360	
+1062	Mirador Sopeña	1,39	17–21	25–40	circular	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298008860	Segorbe	Castelló	Alto Palancia	39.850	-0.490	
+1063	Mirador de la Mina	1,37	17–21	25–40	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009088	La Torre d'en Besora	Castelló	Alt Maestrat	40.400	-0.150	Caminos sin nombre en OSM.
+1064	Mirador de Marimón	1,3	16–20	25–40	circular	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009092	Onda	Castelló	La Plana Baixa	39.960	-0.260	Casi todo el trazado va por la Senda dels Pepes y caminos sin nombre.
+1065	Mirador de Ayódar	1,29	16–20	25–40	ida y vuelta	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009094	Ayódar	Castelló	Alto Mijares	40.020	-0.340	Subida al castillo.
+1066	Mirador de la Tinença de Benifassà	1,46	18–22	30–40	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009097	La Pobla de Benifassà	Castelló	Els Ports	40.700	0.050	
+1067	Mirador Playa Sur de Peñíscola	1,48	18–23	30–45	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009100	Peníscola	Castelló	Baix Maestrat	40.360	0.400	
+1068	Mirador la Porteta	1,44	18–22	30–40	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009102	Peníscola	Castelló	Baix Maestrat	40.360	0.400	
+1069	Mirador de Rossell Bel	1,69	21–26	30–45	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009104	Rossell	Castelló	Els Ports	40.610	0.130	
+1070	Mirador de la Iglesia	1,53	19–23	30–45	circular	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009109	Pina de Montalgrao	Castelló	Alto Palancia	40.020	-0.530	
+1071	Mirador de la Sufera	1,44	18–22	30–40	ida y vuelta	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009116	Cabanes	Castelló	La Plana Alta	40.150	0.030	
+1072	Mirador de Ahín Castellón	1,64	20–25	30–45	circular	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009119	Aín	Castelló	La Plana Baixa	39.900	-0.300	
+1073	Mirador del Solà d'en Brull	1,42	18–22	30–40	ida y vuelta	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009121	La Pobla de Benifassà	Castelló	Els Ports	40.700	0.050	Caminos sin nombre en OSM.
+1074	Mirador del Morro	1,12	14–17	25–35	ida y vuelta	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009126	Borriana	Castelló	La Plana Baixa	39.890	-0.080	Solo 7 puntos: la escollera de Poniente, ida y vuelta.
+1075	Mirador del Estany	1,45	18–22	30–40	circular	1SfyJqeDtPbef7AkOc55X84Vi9Pw8f5E	298009152	Nules	Castelló	La Plana Baixa	39.850	-0.150	
+1076	Mirador de la Roca del Moro	1,41	17–22	25–40	circular	1kpbyVJlyrd50yumlMpxBMtOGV2FR2JQ	298009155	Alcalà de Xivert	Castelló	Baix Maestrat	40.310	0.220	
+1077	Es Mirador	1,48	18–23	30–45	circular	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011146	Calvià	Illes Balears	Mallorca	39.560	2.510	
+1078	Mirador des Grau	1,29	16–20	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011152	Estellencs	Illes Balears	Mallorca	39.650	2.480	
+1079	Mirador d'en Josep Sastre	1,4	17–22	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011157	Andratx	Illes Balears	Mallorca	39.580	2.420	Caminos sin nombre en OSM.
+1080	Mirador d'Alzamora	0,98	12–15	20–35	circular	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011160	Calvià	Illes Balears	Mallorca	39.560	2.510	Ruta corta (0,98 km) por caminos sin nombre.
+1081	Mirador Es Colomer	1,46	18–22	30–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011164	Pollença	Illes Balears	Mallorca	39.880	3.020	Caminos sin nombre en OSM.
+1082	Mirador del Centenari	1,41	17–22	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011166	Escorca	Illes Balears	Mallorca	39.820	2.880	Caminos sin nombre en OSM.
+1083	Mirador Es Pontàs	1,38	17–21	25–40	ida y vuelta	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011174	Santanyí	Illes Balears	Mallorca	39.350	3.130	Parte del trazado va por calles de sa Cova des Coloms y na Cebriana.
+1084	Mirador	1,41	17–22	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011177	Escorca	Illes Balears	Mallorca	39.820	2.880	Casi todo el trazado va por la carretera de Cala Tuent: ojo con el tráfico.
+1085	Mirador Selva	1,37	17–21	25–40	ida y vuelta	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011181	Selva	Illes Balears	Mallorca	39.750	2.900	
+1086	Mirador ses Barques	1,38	17–21	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011185	Sóller	Illes Balears	Mallorca	39.770	2.710	Caminos sin nombre en OSM.
+1087	Mirador Plaça de la Catedral	1,65	20–25	30–45	circular	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011191	Eivissa	Illes Balears	Eivissa	38.907	1.432	Va por calles del casco antiguo (plaza de la Catedral, calle de la Universitat).
+1088	Mirador des Colomo	1,39	17–21	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011195	Valldemossa	Illes Balears	Mallorca	39.710	2.620	
+1089	Mirador de ses Puntes	1,4	17–22	25–40	ida y vuelta	1rJAquseN_bDVz8rsVGvpMcWkkjm1ce4	298011198	Valldemossa	Illes Balears	Mallorca	39.710	2.620	
+1090	Mirador	1,53	19–23	30–45	circular	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011241	Maó	Illes Balears	Menorca	39.890	4.265	
+1091	Mirador des Bos des Xerret	1,79	22–27	30–45	circular	1oVd3rNVuYGERUJhkFstPjRxUzgmq1tQ	298011249	Ciutadella de Menorca	Illes Balears	Menorca	40.000	3.840	
+1092	Mirador la Frontera Desierto	1,37	17–21	25–40	ida y vuelta	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017136	La Vila Joiosa	Alacant	La Marina Baixa	38.510	-0.230	
+1093	Mirador del Manyaco	1,46	18–22	30–40	ida y vuelta	15YDRt6A_tc7Mk1382XNnSyHiizEHEqw	298017257	Santa Pola	Alacant	El Baix Vinalopó	38.190	-0.560	El mirador está a unos 152 m del camino más cercano en OSM.
+1094	Mirador del Faro de Santa Pola	1,45	18–22	30–40	circular	15YDRt6A_tc7Mk1382XNnSyHiizEHEqw	298017260	Santa Pola	Alacant	El Baix Vinalopó	38.190	-0.560	
+1095	Mirador de l'Escolgador de Crist	1,47	18–23	30–45	circular	15YDRt6A_tc7Mk1382XNnSyHiizEHEqw	298017266	Santa Pola	Alacant	El Baix Vinalopó	38.190	-0.560	
+1097	Mirador Almadrava 14	1,61	20–25	30–45	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017269	El Campello	Alacant	L'Alacantí	38.430	-0.400	El mirador está a unos 76 m del camino más cercano en OSM.
+1098	Mirador La Zenia	1,4	17–22	25–40	ida y vuelta	15YDRt6A_tc7Mk1382XNnSyHiizEHEqw	298017272	Orihuela	Alacant	La Vega Baja	38.090	-0.940	
+1099	Mirador l'Altet	1,39	17–21	25–40	ida y vuelta	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017275	Beniarrés	Alacant	El Comtat	38.800	-0.340	
+1100	Mirador Capollet de l'Àguila	1,52	19–23	30–45	circular	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017278	Banyeres de Mariola	Alacant	L'Alcoià	38.720	-0.640	El mirador está a unos 70 m del camino más cercano en OSM.
+1101	Mirador del Menejador	1,41	17–22	25–40	ida y vuelta	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017280	Alcoi	Alacant	L'Alcoià	38.700	-0.470	
+1102	Mirador Botánico	1,45	18–22	30–40	ida y vuelta	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017282	Alcoi	Alacant	L'Alcoià	38.700	-0.470	
+1103	Mirador Pla de la Mina	1,35	17–21	25–40	ida y vuelta	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017284	Alcoi	Alacant	L'Alcoià	38.700	-0.470	
+1104	Mirador de Pilatos	1,5	18–23	30–45	ida y vuelta	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017287	Alcoi	Alacant	L'Alcoià	38.700	-0.470	
+1105	Mirador de la Cala	1,64	20–25	30–45	ida y vuelta	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017289	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	No salía circular con los criterios estándar; resuelta con criterios más amplios (ida y vuelta).
+1106	Mirador de la Música	1,43	18–22	30–40	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017291	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	
+1107	Balcón del Mediterráneo	1,48	18–23	30–45	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017293	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	
+1108	Mirador de San Jaime	1,36	17–21	25–40	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017297	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	
+1109	Mirador de Levante	1,34	17–21	25–40	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017300	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	
+1110	Mirador de Taiwán	1,41	17–22	25–40	ida y vuelta	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017302	Benidorm	Alacant	La Marina Baixa	38.540	-0.130	
+1111	Mirador de Carabineros	1,19	15–18	25–40	ida y vuelta	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017306	Calp	Alacant	La Marina Alta	38.640	0.040	El mirador está a unos 100 m del camino más cercano en OSM.
+1112	Mirador El trinquet	1,4	17–22	25–40	circular	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017308	Xixona	Alacant	L'Alacantí	38.560	-0.490	
+1113	Mirador del Castillo	1,41	17–22	25–40	circular	1NzEaWVmKQZsb9MzcOA-ohvRlnNgusxY	298017313	Petrer	Alacant	El Vinalopó Mitjà	38.480	-0.770	
+1114	Mirador Torre de Bellaguarda	1,42	18–22	30–40	circular	1Diteen2PpTdX7sGNTqttmXofoJxIbys	298017315	Altea	Alacant	La Marina Baixa	38.600	-0.050	

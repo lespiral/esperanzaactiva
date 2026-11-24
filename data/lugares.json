@@ -119,5 +119,240 @@
   "Canarias",
   "Las Palmas",
   "Gran Canaria"
+ ],
+ "Cullera": [
+  "Comunitat Valenciana",
+  "València",
+  "Ribera Baixa"
+ ],
+ "Loriguilla": [
+  "Comunitat Valenciana",
+  "València",
+  "Camp de Túria"
+ ],
+ "Simat de la Valldigna": [
+  "Comunitat Valenciana",
+  "València",
+  "La Safor"
+ ],
+ "Algímia d'Alfara": [
+  "Comunitat Valenciana",
+  "València",
+  "Camp de Morvedre"
+ ],
+ "Navarrés": [
+  "Comunitat Valenciana",
+  "València",
+  "Canal de Navarrés"
+ ],
+ "Jalance": [
+  "Comunitat Valenciana",
+  "València",
+  "Valle de Ayora-Cofrentes"
+ ],
+ "Chella": [
+  "Comunitat Valenciana",
+  "València",
+  "Canal de Navarrés"
+ ],
+ "Cofrentes": [
+  "Comunitat Valenciana",
+  "València",
+  "Valle de Ayora-Cofrentes"
+ ],
+ "Cortes de Pallás": [
+  "Comunitat Valenciana",
+  "València",
+  "Valle de Ayora-Cofrentes"
+ ],
+ "Villahermosa del Río": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Alto Mijares"
+ ],
+ "La Torre d'en Besora": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Alt Maestrat"
+ ],
+ "La Pobla de Benifassà": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Els Ports"
+ ],
+ "Peníscola": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Baix Maestrat"
+ ],
+ "Rossell": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Els Ports"
+ ],
+ "Alcalà de Xivert": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Baix Maestrat"
+ ],
+ "Segorbe": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Alto Palancia"
+ ],
+ "Onda": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "La Plana Baixa"
+ ],
+ "Ayódar": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Alto Mijares"
+ ],
+ "Pina de Montalgrao": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "Alto Palancia"
+ ],
+ "Cabanes": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "La Plana Alta"
+ ],
+ "Aín": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "La Plana Baixa"
+ ],
+ "Borriana": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "La Plana Baixa"
+ ],
+ "Nules": [
+  "Comunitat Valenciana",
+  "Castelló",
+  "La Plana Baixa"
+ ],
+ "La Vila Joiosa": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "La Marina Baixa"
+ ],
+ "El Campello": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "L'Alacantí"
+ ],
+ "Benidorm": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "La Marina Baixa"
+ ],
+ "Calp": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "La Marina Alta"
+ ],
+ "Altea": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "La Marina Baixa"
+ ],
+ "Santa Pola": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "El Baix Vinalopó"
+ ],
+ "Orihuela": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "La Vega Baja"
+ ],
+ "Beniarrés": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "El Comtat"
+ ],
+ "Banyeres de Mariola": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "L'Alcoià"
+ ],
+ "Alcoi": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "L'Alcoià"
+ ],
+ "Xixona": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "L'Alacantí"
+ ],
+ "Petrer": [
+  "Comunitat Valenciana",
+  "Alacant",
+  "El Vinalopó Mitjà"
+ ],
+ "Calvià": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Santanyí": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Selva": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Eivissa": [
+  "Illes Balears",
+  "Illes Balears",
+  "Eivissa"
+ ],
+ "Maó": [
+  "Illes Balears",
+  "Illes Balears",
+  "Menorca"
+ ],
+ "Ciutadella de Menorca": [
+  "Illes Balears",
+  "Illes Balears",
+  "Menorca"
+ ],
+ "Estellencs": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Andratx": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Pollença": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Escorca": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Sóller": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
+ ],
+ "Valldemossa": [
+  "Illes Balears",
+  "Illes Balears",
+  "Mallorca"
  ]
 }
