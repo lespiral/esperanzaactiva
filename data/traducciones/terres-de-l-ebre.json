@@ -90,7 +90,6 @@
   "Surten de centres educatius públics (escoles, instituts, llars d'infants, escoles de música i d'adults): espais on la gent aprèn, es troba i fa comunitat. Tria el centre que tinguis més a prop i fes-hi el temps de reflexió de cada passa. El centre només és el punt de sortida de la ruta: no l'organitza ni la recomana.": "Salen de centros educativos públicos (escuelas, institutos, escuelas infantiles, escuelas de música y de adultos): espacios donde la gente aprende, se encuentra y hace comunidad. Elige el centro que te quede más cerca y haz allí el tiempo de reflexión de cada paso. El centro solo es el punto de salida de la ruta: no la organiza ni la recomienda.",
   "5 rutes circulars curtes, d'1,7 a 1,9 km (uns 20–29 minuts caminant), que surten d'una entitat de l'economia social i solidària i hi tornen: cooperatives, associacions i fundacions que treballen per l'habitatge, la feina, la cultura o les cures. Comencen i acaben al carrer, davant de l'entitat: no cal entrar-hi.": "5 rutas circulares cortas, de 1,7 a 1,9 km (unos 20–29 minutos caminando), que salen de una entidad de la economía social y solidaria y vuelven a ella: cooperativas, asociaciones y fundaciones que trabajan por la vivienda, el trabajo, la cultura o los cuidados. Empiezan y acaban en la calle, delante de la entidad: no hace falta entrar.",
   "166 rutes des de centres educatius": "166 rutas desde centros educativos",
-  "5 rutes de l'economia social i solidària i 166 de centres educatius en 52 municipis.": "5 rutas de la economía social y solidaria y 166 de centros educativos en 52 municipios.",
   "Alcanar": "Alcanar",
   "Alcanar (mapa 3)": "Alcanar (mapa 3)",
   "Alcanar i Amposta": "Alcanar y Amposta",
@@ -160,5 +159,19 @@
   "Tortosa (mapa 5)": "Tortosa (mapa 5)",
   "Tortosa, El Perelló i 2 municipis més": "Tortosa, El Perelló y 2 municipios más",
   "Xerta": "Xerta",
-  "Hospital de dia.": "Hospital de día."
+  "Hospital de dia.": "Hospital de día.",
+  "5 rutes curtes (de 1,26 a 1,55 km) que surten d'un mirador. Mira el món des d'on ets, escolta l'àudio, camina i torna al mateix lloc, però des d'un lloc intern diferent, amb una mirada diferent. Els traçats estan reconstruïts sobre OpenStreetMap i encara no s'han revisat a peu: revisa l'estat del camí abans d'anar-hi. Totes són d'anada i tornada, no circulars.": "5 rutas cortas (de 1,26 a 1,55 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Todas son de ida y vuelta, no circulares.",
+  "5 rutes de l'economia social i solidària, 166 de centres educatius i 5 de miradors en 52 municipis.": "5 rutas de la economía social y solidaria, 166 de centros educativos y 5 de miradores en 52 municipios.",
+  "5 rutes des de miradors": "5 rutas desde miradores",
+  "Accessibilitat i seguretat": "Accesibilidad y seguridad",
+  "Amposta (miradors)": "Amposta (miradores)",
+  "Amposta · miradors (rutes 902–908)": "Amposta · Miradores (rutas 902–908)",
+  "El mirador és només el punt de referència del recorregut. Més informació a <a href=\"https://elarasocial.com/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>.": "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>.",
+  "Els temps són aproximats: caminant a un ritme tranquil i amb pauses per descansar. Alguns camins tenen escales o pendents i no són adaptats per a cadires de rodes ni cotxets.": "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+  "Inici i final: Mirador": "Inicio y final: Mirador",
+  "Inici i final: Mirador Casa de Fusta": "Inicio y final: Mirador Casa de Fusta",
+  "Inici i final: Mirador de l'Embut": "Inicio y final: Mirador de l'Embut",
+  "Inici i final: Mirador del Carreter": "Inicio y final: Mirador del Carreter",
+  "Inici i final: Mirador del Pont del Través": "Inicio y final: Mirador del Pont del Través",
+  "Rutes 902 a 908 · Miradors": "Rutas 902 a 908 · Miradores"
 }

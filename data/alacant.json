@@ -1,0 +1,115 @@
+{
+ "slug": "alacant",
+ "name": "Alacant",
+ "region": "Comunitat Valenciana",
+ "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
+ "blocks": [
+  {
+   "course": "mon",
+   "text": "10 rutas cortas (de 1,13 a 1,54 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 829 es de ida y vuelta, no circular.",
+   "summary": "10 rutas desde miradores",
+   "parts": [
+    {
+     "id": "rutas-mon",
+     "notice": {
+      "title": "Accesibilidad y seguridad",
+      "html": [
+       "Los tiempos son aproximados: caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos.",
+       "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+      ]
+     },
+     "groups": [
+      {
+       "id": "rutas-mon-rutas",
+       "title": "Las 10 rutas",
+       "maps": [
+        {
+         "mid": "1hIhsRlT08P4eLhtxgik3lQaiCyAVMHA",
+         "ll": "38.2700,-0.4800",
+         "z": 11,
+         "title": "Alacant · Miradores (rutas 821–830)",
+         "label": "Rutas 821 a 830 · Miradores"
+        }
+       ],
+       "routes": [
+        {
+         "n": 821,
+         "name": "Mirador de las Adelfas",
+         "start": "Inicio y final: Mirador de las Adelfas",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937640"
+        },
+        {
+         "n": 822,
+         "name": "Mirador el Salvador",
+         "start": "Inicio y final: Mirador el Salvador",
+         "info": "1,51 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937644",
+         "note": "Está en la isla de Tabarca."
+        },
+        {
+         "n": 823,
+         "name": "Mirador del Sol Ixent",
+         "start": "Inicio y final: Mirador del Sol Ixent",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937648"
+        },
+        {
+         "n": 824,
+         "name": "Mirador de la Sangueta",
+         "start": "Inicio y final: Mirador de la Sangueta",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937650"
+        },
+        {
+         "n": 825,
+         "name": "Mirador del Alazán",
+         "start": "Inicio y final: Mirador del Alazán",
+         "info": "1,13 km · 14–17 min caminando · 25–35 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937653",
+         "note": "Discurre por la avenida de la Vila Joiosa (carretera)."
+        },
+        {
+         "n": 826,
+         "name": "Mirador de la Albufereta",
+         "start": "Inicio y final: Mirador de la Albufereta",
+         "info": "1,29 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937658"
+        },
+        {
+         "n": 827,
+         "name": "Mirador de la Palmerita",
+         "start": "Inicio y final: Mirador de la Palmerita",
+         "info": "1,54 km · 19–24 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937661"
+        },
+        {
+         "n": 828,
+         "name": "Mirador de las Columnas",
+         "start": "Inicio y final: Mirador de las Columnas",
+         "info": "1,33 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937663"
+        },
+        {
+         "n": 829,
+         "name": "Mirador del Sedal",
+         "start": "Inicio y final: Mirador del Sedal",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937665"
+        },
+        {
+         "n": 830,
+         "name": "Mirador de la Musola",
+         "start": "Inicio y final: Mirador de la Musola",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937668"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

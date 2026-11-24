@@ -53,6 +53,7 @@
   },
 
   "cities": [
+    {"slug": "alacant", "name": "Alacant", "region": "Comunitat Valenciana", "icon": "buildings"},
     {"slug": "barcelona", "name": "Barcelona", "region": "Barcelonès", "icon": "buildings", "source": "cat"},
     {"slug": "berga", "name": "Berga", "region": "Berguedà", "icon": "tree", "source": "cat"},
     {"slug": "cartagena", "name": "Cartagena", "region": "Región de Murcia", "icon": "buildings"},

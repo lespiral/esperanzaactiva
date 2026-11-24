@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rutas desde miradores (curso «Cuando el mundo te preocupa») de las ciudades de fuera de los Países Catalanes.
+"""Rutas desde miradores (curso «Cuando el mundo te preocupa») de las ciudades de fuera de Cataluña (Alacant, de momento solo aquí).
 Lee tools/miradores_estado.tsv (copia del full de Drive «Rutes per ciutat i curs», pestanya «Rutes», files 172–308,
 sense Amposta, Tarragona i Alacant, que són de la .cat) i:
   - crea data/<ciudad>.json (una sola parte con las rutas del mirador) para las ciudades nuevas;
@@ -25,6 +25,7 @@ CITIES = {
     "Zaragoza": ("Aragón", "buildings", ["Aragón", "Zaragoza", "Zaragoza"], "41.6488,-0.8891", 12),
     "Cartagena": ("Región de Murcia", "buildings", ["Región de Murcia", "Murcia", "Cartagena"], "37.6257,-0.9966", 12),
     "Ferrol": ("Galicia", "buildings", ["Galicia", "A Coruña", "Ferrol"], "43.4845,-8.2336", 12),
+    "Alacant": ("Comunitat Valenciana", "buildings", ["Comunitat Valenciana", "Alacant", "L'Alacantí"], "38.2700,-0.4800", 11),
     "Gijón": ("Principado de Asturias", "buildings", ["Principado de Asturias", "Asturias", "Gijón"], "43.5322,-5.6611", 12),
 }
 MADRID_MAP = {"ll": "40.4168,-3.7038", "z": 12}
@@ -104,8 +105,9 @@ for city, conf in CITIES.items():
         b["text"] = (f"{total} rutas circulares de 1,6 a 3 km, desde parques, jardines y plazas de los distritos de Madrid, "
                      f"y {len(rs)} rutas cortas que salen de un mirador.")
         b["summary"] = f"{total} rutas desde parques y jardines y {len(rs)} desde miradores"
-        old = int(d["summary"].split()[0])
-        d["summary"] = d["summary"].replace(str(old), str(old + len(rs)), 1)
+        allr = sum(len(g["routes"]) for bb in d["blocks"] for x in bb.get("parts", []) for g in x["groups"] if "routes" in g)
+        allr += sum(len(g["routes"]) for bb in d["blocks"] for g in bb.get("groups", []) if "routes" in g)
+        d["summary"] = d["summary"].replace(d["summary"].split()[0], str(allr), 1)
         dump(p, d, 1)
         continue
     region, icon, lugar, ll, z = conf
