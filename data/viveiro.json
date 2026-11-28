@@ -2,13 +2,13 @@
  "slug": "viveiro",
  "name": "Viveiro",
  "region": "Galicia",
- "summary": "4 rutas cortas desde miradores de la ciudad.",
+ "summary": "5 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "4 rutas cortas (de 1,15 a 1,40 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 992, 994 son de ida y vuelta, no circulares.",
-   "summary": "4 rutas desde miradores",
+   "text": "5 rutas cortas (de 1,15 a 1,89 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 992, 994, 1523 son de ida y vuelta, no circulares.",
+   "summary": "5 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -60,6 +60,28 @@
          "start": "Inicio y final: Miradoiro da Insua",
          "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989986"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1xg98q",
+       "title": "Las 1 rutas del mapa 1XG98q",
+       "maps": [
+        {
+         "mid": "1XG98ql2OpK5ZysKLY0nX7KHH087uMqo",
+         "ll": "43.1050,-7.4500",
+         "z": 8,
+         "title": "O Saviñao, Viveiro y 7 municipios más · miradores",
+         "label": "Mapa de miradores · 1 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 1523,
+         "name": "Miradoiro do Monte Faro",
+         "start": "Inicio y final: Miradoiro do Monte Faro",
+         "info": "1,89 km · 23–29 min caminando · 35–50 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298075245"
         }
        ]
       }

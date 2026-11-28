@@ -1,0 +1,206 @@
+{
+  "slug": "provincia-de-navarra",
+  "name": "Provincia de Navarra",
+  "kind": "territory",
+  "title": "Caminar por la provincia de Navarra",
+  "region": "Comunidad Foral de Navarra",
+  "summary": "12 rutas desde miradores en 10 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "12 rutas cortas (de 0,90 a 1,57 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "12 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1z5eq-",
+          "title": "Monte Comunal de las Limitaciones de las Améscoas, Fitero y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1Z5eq-N496tc0t1zC0OtlBabxCPwY2gQ",
+              "ll": "42.6000,-1.7650",
+              "z": 8,
+              "title": "Monte Comunal de las Limitaciones de las Améscoas, Fitero y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 6 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Monte Comunal de las Limitaciones de las Améscoas",
+              "id": "monte-comunal-de-las-limitaciones-de-las-amescoas-miradores",
+              "routes": [
+                {
+                  "n": 1302,
+                  "name": "Mirador del Balcón de Pilatos",
+                  "start": "Inicio y final: Mirador del Balcón de Pilatos",
+                  "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035603"
+                }
+              ]
+            },
+            {
+              "title": "Fitero",
+              "id": "fitero-miradores",
+              "routes": [
+                {
+                  "n": 1303,
+                  "name": "Mirador de Baños de Fitero",
+                  "start": "Inicio y final: Mirador de Baños de Fitero",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035605"
+                }
+              ]
+            },
+            {
+              "title": "Pamplona/Iruña",
+              "id": "pamplona-iruna-miradores",
+              "routes": [
+                {
+                  "n": 1304,
+                  "name": "Mirador de Barañain-go behatokia",
+                  "start": "Inicio y final: Mirador de Barañain-go behatokia",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035611"
+                },
+                {
+                  "n": 1305,
+                  "name": "Mirador de Caballo Blanco",
+                  "start": "Inicio y final: Mirador de Caballo Blanco",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035613"
+                }
+              ]
+            },
+            {
+              "title": "Burlada/Burlata",
+              "id": "burlada-burlata-miradores",
+              "routes": [
+                {
+                  "n": 1306,
+                  "name": "Mirador de Ripagaina",
+                  "start": "Inicio y final: Mirador de Ripagaina",
+                  "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035616"
+                }
+              ]
+            },
+            {
+              "title": "Baztan",
+              "id": "baztan-miradores",
+              "routes": [
+                {
+                  "n": 1307,
+                  "name": "Mirador del Valle de Baztán",
+                  "start": "Inicio y final: Mirador del Valle de Baztán",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035619"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1mzbef",
+          "title": "Ujué/Uxue, Romanzado/Erromantzatua y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1MzBEFFikD9f4EiXrrt75o9WaM-KnM6I",
+              "ll": "42.6750,-1.2250",
+              "z": 9,
+              "title": "Ujué/Uxue, Romanzado/Erromantzatua y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 6 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Ujué/Uxue",
+              "id": "ujue-uxue-miradores",
+              "routes": [
+                {
+                  "n": 1308,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035621",
+                  "note": "El mirador no tiene nombre en el IGN."
+                },
+                {
+                  "n": 1309,
+                  "name": "Mirador Pirineos",
+                  "start": "Inicio y final: Mirador Pirineos",
+                  "info": "1,57 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035624"
+                }
+              ]
+            },
+            {
+              "title": "Romanzado/Erromantzatua",
+              "id": "romanzado-erromantzatua-miradores",
+              "routes": [
+                {
+                  "n": 1310,
+                  "name": "Mirador de la Foz de Arbaiun",
+                  "start": "Inicio y final: Mirador de la Foz de Arbaiun",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035628"
+                }
+              ]
+            },
+            {
+              "title": "Orbaizeta",
+              "id": "orbaizeta-miradores",
+              "routes": [
+                {
+                  "n": 1311,
+                  "name": "Mirador de Irabia",
+                  "start": "Inicio y final: Mirador de Irabia",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035631"
+                }
+              ]
+            },
+            {
+              "title": "Uztárroz/Uztarroze",
+              "id": "uztarroz-uztarroze-miradores",
+              "routes": [
+                {
+                  "n": 1312,
+                  "name": "Mirador de Laza",
+                  "start": "Inicio y final: Mirador de Laza",
+                  "info": "1,52 km · 19–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298035633"
+                }
+              ]
+            },
+            {
+              "title": "Isaba/Izaba",
+              "id": "isaba-izaba-miradores",
+              "routes": [
+                {
+                  "n": 1313,
+                  "name": "Mirador de Larra-Belagua",
+                  "start": "Inicio y final: Mirador de Larra-Belagua",
+                  "info": "0,90 km · 11–14 min caminando · 20–35 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298075179"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

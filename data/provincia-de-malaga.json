@@ -1,0 +1,605 @@
+{
+  "slug": "provincia-de-malaga",
+  "name": "Provincia de Málaga",
+  "kind": "territory",
+  "title": "Caminar por la provincia de Málaga",
+  "region": "Andalucía",
+  "summary": "39 rutas desde miradores en 29 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "39 rutas cortas (de 1,16 a 1,77 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "39 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1wi3k2",
+          "title": "Benadalid, Benarrabá y 2 municipios más",
+          "maps": [
+            {
+              "mid": "1wi3k2W8_Zuu5HSjgWkoZaBFrtbcpVaY",
+              "ll": "36.5750,-5.1000",
+              "z": 10,
+              "title": "Benadalid, Benarrabá y 2 municipios más · miradores",
+              "label": "Mapa de miradores · 6 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Benadalid",
+              "id": "benadalid-miradores",
+              "routes": [
+                {
+                  "n": 5449,
+                  "name": "Mirador de los Castañares",
+                  "start": "Inicio y final: Mirador de los Castañares",
+                  "info": "1,77 km · 22–27 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108840"
+                }
+              ]
+            },
+            {
+              "title": "Benarrabá",
+              "id": "benarraba-miradores",
+              "routes": [
+                {
+                  "n": 5450,
+                  "name": "Mirador de África",
+                  "start": "Inicio y final: Mirador de África",
+                  "info": "1,58 km · 20–24 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108843",
+                  "note": "El mirador está a unos 122 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Casares",
+              "id": "casares-miradores",
+              "routes": [
+                {
+                  "n": 5451,
+                  "name": "Mirador Puerto de Ronda",
+                  "start": "Inicio y final: Mirador Puerto de Ronda",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108847"
+                },
+                {
+                  "n": 5452,
+                  "name": "Mirador del Castillón",
+                  "start": "Inicio y final: Mirador del Castillón",
+                  "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108851"
+                }
+              ]
+            },
+            {
+              "title": "Gaucín",
+              "id": "gaucin-miradores",
+              "routes": [
+                {
+                  "n": 5453,
+                  "name": "Mirador de la Guerra de la Independencia",
+                  "start": "Inicio y final: Mirador de la Guerra de la Independencia",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108853"
+                },
+                {
+                  "n": 5454,
+                  "name": "Mirador el Asalto del Cura",
+                  "start": "Inicio y final: Mirador el Asalto del Cura",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108858"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1xt356",
+          "title": "Alpandeire, Benalauría y 2 municipios más",
+          "maps": [
+            {
+              "mid": "1XT356BLAzVoT1Kmy7LPM50TSbHzy7ks",
+              "ll": "36.5750,-5.1000",
+              "z": 10,
+              "title": "Alpandeire, Benalauría y 2 municipios más · miradores",
+              "label": "Mapa de miradores · 5 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Alpandeire",
+              "id": "alpandeire-miradores",
+              "routes": [
+                {
+                  "n": 5455,
+                  "name": "Mirador del Cuervo",
+                  "start": "Inicio y final: Mirador del Cuervo",
+                  "info": "1,24 km · 15–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108861"
+                }
+              ]
+            },
+            {
+              "title": "Benalauría",
+              "id": "benalauria-miradores",
+              "routes": [
+                {
+                  "n": 5456,
+                  "name": "Mirador del Torreón",
+                  "start": "Inicio y final: Mirador del Torreón",
+                  "info": "1,46 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108864"
+                }
+              ]
+            },
+            {
+              "title": "Estepona",
+              "id": "estepona-miradores",
+              "routes": [
+                {
+                  "n": 5457,
+                  "name": "Mirador Estepona-Jubrique",
+                  "start": "Inicio y final: Mirador Estepona-Jubrique",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108874",
+                  "note": "El mirador está a unos 36 m del camino más cercano en OSM."
+                },
+                {
+                  "n": 5458,
+                  "name": "Mirador de Salvador Guerrero",
+                  "start": "Inicio y final: Mirador de Salvador Guerrero",
+                  "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108877"
+                }
+              ]
+            },
+            {
+              "title": "Pujerra",
+              "id": "pujerra-miradores",
+              "routes": [
+                {
+                  "n": 5459,
+                  "name": "Mirador del Castañar",
+                  "start": "Inicio y final: Mirador del Castañar",
+                  "info": "1,20 km · 15–19 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108881"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1zfd60",
+          "title": "Cuevas del Becerro, El Burgo y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1Zfd605N7FhCXe3lCoFFKctyVzESqeVA",
+              "ll": "36.7000,-5.1000",
+              "z": 10,
+              "title": "Cuevas del Becerro, El Burgo y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 5 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Cuevas del Becerro",
+              "id": "cuevas-del-becerro-miradores",
+              "routes": [
+                {
+                  "n": 5460,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,66 km · 20–25 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108883",
+                  "note": "El mirador no tiene nombre en el IGN. El mirador está a unos 53 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "El Burgo",
+              "id": "el-burgo-miradores",
+              "routes": [
+                {
+                  "n": 5461,
+                  "name": "Mirador del Guarda Forestal",
+                  "start": "Inicio y final: Mirador del Guarda Forestal",
+                  "info": "1,16 km · 14–18 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108885"
+                }
+              ]
+            },
+            {
+              "title": "Igualeja",
+              "id": "igualeja-miradores",
+              "routes": [
+                {
+                  "n": 5462,
+                  "name": "Mirador de Igualeja",
+                  "start": "Inicio y final: Mirador de Igualeja",
+                  "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108888"
+                }
+              ]
+            },
+            {
+              "title": "Montejaque",
+              "id": "montejaque-miradores",
+              "routes": [
+                {
+                  "n": 5463,
+                  "name": "Mirador del Karst",
+                  "start": "Inicio y final: Mirador del Karst",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108891"
+                }
+              ]
+            },
+            {
+              "title": "Yunquera",
+              "id": "yunquera-miradores",
+              "routes": [
+                {
+                  "n": 5465,
+                  "name": "Mirador de Luis Ceballos#Mirador del Caucón",
+                  "start": "Inicio y final: Mirador de Luis Ceballos#Mirador del Caucón",
+                  "info": "1,57 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108893"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-16g-zf",
+          "title": "Benahavís, Istán y 2 municipios más",
+          "maps": [
+            {
+              "mid": "16G-ZfQk7QdWs_abP6EM3VdCmG-cmfzc",
+              "ll": "36.5000,-4.9500",
+              "z": 12,
+              "title": "Benahavís, Istán y 2 municipios más · miradores",
+              "label": "Mapa de miradores · 4 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Benahavís",
+              "id": "benahavis-miradores",
+              "routes": [
+                {
+                  "n": 5467,
+                  "name": "Mirador de la Charca de los Tubos",
+                  "start": "Inicio y final: Mirador de la Charca de los Tubos",
+                  "info": "1,67 km · 21–26 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108896"
+                }
+              ]
+            },
+            {
+              "title": "Istán",
+              "id": "istan-miradores",
+              "routes": [
+                {
+                  "n": 5469,
+                  "name": "Mirador Tajo Banderas",
+                  "start": "Inicio y final: Mirador Tajo Banderas",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108899"
+                }
+              ]
+            },
+            {
+              "title": "Marbella",
+              "id": "marbella-miradores",
+              "routes": [
+                {
+                  "n": 5470,
+                  "name": "Mirador del Muelle de Honor",
+                  "start": "Inicio y final: Mirador del Muelle de Honor",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108915"
+                }
+              ]
+            },
+            {
+              "title": "Ojén",
+              "id": "ojen-miradores",
+              "routes": [
+                {
+                  "n": 5471,
+                  "name": "Mirador del Macho Montés",
+                  "start": "Inicio y final: Mirador del Macho Montés",
+                  "info": "1,68 km · 21–26 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108920"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1z-0hj",
+          "title": "Coín, Marbella y 2 municipios más",
+          "maps": [
+            {
+              "mid": "1Z-0hj-EXPT7-i4URVseYUDwSWRMQ2S8",
+              "ll": "36.5750,-4.8500",
+              "z": 11,
+              "title": "Coín, Marbella y 2 municipios más · miradores",
+              "label": "Mapa de miradores · 5 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Coín",
+              "id": "coin-miradores",
+              "routes": [
+                {
+                  "n": 5472,
+                  "name": "Mirador Cerro Alaminos",
+                  "start": "Inicio y final: Mirador Cerro Alaminos",
+                  "info": "1,17 km · 14–18 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108923"
+                }
+              ]
+            },
+            {
+              "title": "Marbella",
+              "id": "marbella-miradores-1z-0hj",
+              "routes": [
+                {
+                  "n": 5473,
+                  "name": "Mirador Almendro",
+                  "start": "Inicio y final: Mirador Almendro",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108934"
+                }
+              ],
+              "route_prefix": "marbella-miradores",
+              "nav": "Marbella (miradores, mapa 1Z-0hj)"
+            },
+            {
+              "title": "Ojén",
+              "id": "ojen-miradores-1z-0hj",
+              "routes": [
+                {
+                  "n": 5474,
+                  "name": "Mirador de Ojén",
+                  "start": "Inicio y final: Mirador de Ojén",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108938"
+                },
+                {
+                  "n": 5475,
+                  "name": "Mirador del Corzo",
+                  "start": "Inicio y final: Mirador del Corzo",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108941"
+                }
+              ],
+              "route_prefix": "ojen-miradores",
+              "nav": "Ojén (miradores, mapa 1Z-0hj)"
+            },
+            {
+              "title": "Torremolinos",
+              "id": "torremolinos-miradores",
+              "routes": [
+                {
+                  "n": 5476,
+                  "name": "Mirador de la Cañada del Lobo",
+                  "start": "Inicio y final: Mirador de la Cañada del Lobo",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108943"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1dxihw",
+          "title": "Antequera, Archidona y 4 municipios más",
+          "maps": [
+            {
+              "mid": "1DxiHwlAj3Qf65n_YOtMIkxh3kygDEs8",
+              "ll": "37.0500,-4.6000",
+              "z": 12,
+              "title": "Antequera, Archidona y 4 municipios más · miradores",
+              "label": "Mapa de miradores · 9 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Antequera",
+              "id": "antequera-miradores",
+              "routes": [
+                {
+                  "n": 5477,
+                  "name": "Mirador Las Ventanillas",
+                  "start": "Inicio y final: Mirador Las Ventanillas",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108945"
+                },
+                {
+                  "n": 5478,
+                  "name": "Mirador de la Atalaya",
+                  "start": "Inicio y final: Mirador de la Atalaya",
+                  "info": "1,61 km · 20–25 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108949"
+                }
+              ]
+            },
+            {
+              "title": "Archidona",
+              "id": "archidona-miradores",
+              "routes": [
+                {
+                  "n": 5479,
+                  "name": "Mirador del Santo Cristo",
+                  "start": "Inicio y final: Mirador del Santo Cristo",
+                  "info": "1,24 km · 15–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108955"
+                }
+              ]
+            },
+            {
+              "title": "Ardales",
+              "id": "ardales-miradores",
+              "routes": [
+                {
+                  "n": 5480,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108957",
+                  "note": "El mirador no tiene nombre en el IGN."
+                },
+                {
+                  "n": 5481,
+                  "name": "Mirador de los Embalses",
+                  "start": "Inicio y final: Mirador de los Embalses",
+                  "info": "1,77 km · 22–27 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108959"
+                }
+              ]
+            },
+            {
+              "title": "Cuevas de San Marcos",
+              "id": "cuevas-de-san-marcos-miradores",
+              "routes": [
+                {
+                  "n": 5482,
+                  "name": "Mirador del Embalse",
+                  "start": "Inicio y final: Mirador del Embalse",
+                  "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108969",
+                  "note": "El mirador está a unos 34 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Fuente de Piedra",
+              "id": "fuente-de-piedra-miradores",
+              "routes": [
+                {
+                  "n": 5483,
+                  "name": "Mirador del Cerro del Palo",
+                  "start": "Inicio y final: Mirador del Cerro del Palo",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108971"
+                },
+                {
+                  "n": 5484,
+                  "name": "Mirador del Laguneto",
+                  "start": "Inicio y final: Mirador del Laguneto",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108973",
+                  "note": "El mirador está a unos 49 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Valle de Abdalajís",
+              "id": "valle-de-abdalajis-miradores",
+              "routes": [
+                {
+                  "n": 5485,
+                  "name": "Mirador del Gangarro",
+                  "start": "Inicio y final: Mirador del Gangarro",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108980"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1eir9u",
+          "title": "Frigiliana, Nerja y 2 municipios más",
+          "maps": [
+            {
+              "mid": "1EIR9U7NXdg1ppmMYaWjepw62EODX2Eo",
+              "ll": "36.7600,-4.2100",
+              "z": 10,
+              "title": "Frigiliana, Málaga y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 7 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Frigiliana",
+              "id": "frigiliana-miradores",
+              "routes": [
+                {
+                  "n": 5486,
+                  "name": "Mirador Barranco del Río Higuerón",
+                  "start": "Inicio y final: Mirador Barranco del Río Higuerón",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108985"
+                }
+              ]
+            },
+            {
+              "title": "Nerja",
+              "id": "nerja-miradores",
+              "routes": [
+                {
+                  "n": 5489,
+                  "name": "Balcón de Europa",
+                  "start": "Inicio y final: Balcón de Europa",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109024"
+                },
+                {
+                  "n": 5490,
+                  "name": "Mirador de los Acantilados de Maro",
+                  "start": "Inicio y final: Mirador de los Acantilados de Maro",
+                  "info": "1,32 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109028"
+                }
+              ]
+            },
+            {
+              "title": "Periana",
+              "id": "periana-miradores",
+              "routes": [
+                {
+                  "n": 5491,
+                  "name": "Mirador de la Peña",
+                  "start": "Inicio y final: Mirador de la Peña",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109030"
+                }
+              ]
+            },
+            {
+              "title": "Rincón de la Victoria",
+              "id": "rincon-de-la-victoria-miradores",
+              "routes": [
+                {
+                  "n": 5492,
+                  "name": "Mirador La Zenaida",
+                  "start": "Inicio y final: Mirador La Zenaida",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109037"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

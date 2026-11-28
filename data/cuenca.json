@@ -2,13 +2,13 @@
  "slug": "cuenca",
  "name": "Cuenca",
  "region": "Castilla-La Mancha",
- "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "summary": "17 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "10 rutas cortas (de 1,36 a 1,57 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir.",
-   "summary": "10 rutas desde miradores",
+   "text": "17 rutas cortas (de 1,32 a 1,57 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 5068 es de ida y vuelta, no circular.",
+   "summary": "17 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -102,6 +102,101 @@
          "start": "Inicio y final: Mirador del Rey",
          "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917277"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1ccaoj",
+       "title": "Las 1 rutas del mapa 1cCAoJ",
+       "maps": [
+        {
+         "mid": "1cCAoJu7WwEOVraSDVl6GGfCmiCOgRpI",
+         "ll": "40.1850,-2.0700",
+         "z": 10,
+         "title": "Beteta, Cuenca y 3 municipios más · miradores",
+         "label": "Mapa de miradores · 1 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5068,
+         "name": "Mirador",
+         "start": "Inicio y final: Mirador",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298081955",
+         "note": "El mirador no tiene nombre en el IGN."
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1rxrto",
+       "title": "Las 5 rutas del mapa 1RXrtO",
+       "maps": [
+        {
+         "mid": "1RXrtOojij9kUGMV-dSgvvnFSt_1MX2g",
+         "ll": "40.1850,-2.0700",
+         "z": 10,
+         "title": "Cuenca, Huélamo y 1 municipio más · miradores",
+         "label": "Mapa de miradores · 5 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5074,
+         "name": "Mirador Hoces de Cuenca",
+         "start": "Inicio y final: Mirador Hoces de Cuenca",
+         "info": "1,51 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082018"
+        },
+        {
+         "n": 5075,
+         "name": "Mirador de Camilo José Cela",
+         "start": "Inicio y final: Mirador de Camilo José Cela",
+         "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082022"
+        },
+        {
+         "n": 5076,
+         "name": "Mirador de la Hoz",
+         "start": "Inicio y final: Mirador de la Hoz",
+         "info": "1,32 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082027"
+        },
+        {
+         "n": 5077,
+         "name": "Mirador del Pintor Víctor de la Vega",
+         "start": "Inicio y final: Mirador del Pintor Víctor de la Vega",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082031"
+        },
+        {
+         "n": 5078,
+         "name": "Mirador sobre el Júcar",
+         "start": "Inicio y final: Mirador sobre el Júcar",
+         "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082044"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1ougkt",
+       "title": "Las 1 rutas del mapa 1oUGKT",
+       "maps": [
+        {
+         "mid": "1oUGKT5kAOTq-joWt_oPMqMnnUc6Ciwc",
+         "ll": "39.8850,-1.9700",
+         "z": 9,
+         "title": "Alarcón, Cuenca y 3 municipios más · miradores",
+         "label": "Mapa de miradores · 1 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5085,
+         "name": "Mirador Ronda Julián Romero",
+         "start": "Inicio y final: Mirador Ronda Julián Romero",
+         "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298082079"
         }
        ]
       }

@@ -2,13 +2,13 @@
  "slug": "santa-cruz-de-tenerife",
  "name": "Santa Cruz de Tenerife",
  "region": "Canarias",
- "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "summary": "14 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "10 rutas cortas (de 0,92 a 1,71 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 804, 805, 806, 810 son de ida y vuelta, no circulares.",
-   "summary": "10 rutas desde miradores",
+   "text": "14 rutas cortas (de 0,92 a 1,71 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 804, 805, 806, 810 son de ida y vuelta, no circulares.",
+   "summary": "14 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -105,6 +105,50 @@
          "start": "Inicio y final: Mirador de Cabezo de Tejo",
          "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937771"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1gihfk",
+       "title": "Las 4 rutas del mapa 1Gihfk",
+       "maps": [
+        {
+         "mid": "1GihfkivnvBE6JkLGtvxN-AiizJZ3Y2o",
+         "ll": "28.3800,-16.4000",
+         "z": 10,
+         "title": "San Cristóbal de La Laguna, Tegueste y 1 municipio más · miradores",
+         "label": "Mapa de miradores · 4 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5654,
+         "name": "Mirador de Cueva Roja",
+         "start": "Inicio y final: Mirador de Cueva Roja",
+         "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298130963"
+        },
+        {
+         "n": 5655,
+         "name": "Mirador Pico del Inglés",
+         "start": "Inicio y final: Mirador Pico del Inglés",
+         "info": "1,60 km · 20–24 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298130970"
+        },
+        {
+         "n": 5656,
+         "name": "Mirador",
+         "start": "Inicio y final: Mirador",
+         "info": "1,71 km · 21–26 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298130976",
+         "note": "El mirador no tiene nombre en el IGN."
+        },
+        {
+         "n": 5657,
+         "name": "Mirador Bailadero",
+         "start": "Inicio y final: Mirador Bailadero",
+         "info": "1,30 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298130982"
         }
        ]
       }

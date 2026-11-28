@@ -2,13 +2,13 @@
  "slug": "segovia",
  "name": "Segovia",
  "region": "Castilla y León",
- "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "summary": "20 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "10 rutas cortas (de 1,33 a 1,48 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 509 es de ida y vuelta, no circular.",
-   "summary": "10 rutas desde miradores",
+   "text": "20 rutas cortas (de 1,20 a 1,66 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 509 es de ida y vuelta, no circular. Las rutas 509, 2113, 2134 son de ida y vuelta, no circulares.",
+   "summary": "20 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -104,6 +104,121 @@
          "start": "Inicio y final: Mirador del Terminillo",
          "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · circular",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297917236"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1d8hsc",
+       "title": "Las 6 rutas del mapa 1D8HSc",
+       "maps": [
+        {
+         "mid": "1D8HScq1aq9OkmGVK2pTrB6gVw1jTcK8",
+         "ll": "40.9500,-4.1100",
+         "z": 12,
+         "title": "Palazuelos de Eresma, Real Sitio de San Ildefonso y 1 municipio más · miradores",
+         "label": "Mapa de miradores · 6 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 2113,
+         "name": "Mirador Las Lastras",
+         "start": "Inicio y final: Mirador Las Lastras",
+         "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069670"
+        },
+        {
+         "n": 2114,
+         "name": "Mirador San Marcos",
+         "start": "Inicio y final: Mirador San Marcos",
+         "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069674"
+        },
+        {
+         "n": 2115,
+         "name": "Mirador de la Canaleja",
+         "start": "Inicio y final: Mirador de la Canaleja",
+         "info": "1,51 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069678"
+        },
+        {
+         "n": 2116,
+         "name": "Mirador de la Hontanilla",
+         "start": "Inicio y final: Mirador de la Hontanilla",
+         "info": "1,66 km · 20–25 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069680"
+        },
+        {
+         "n": 2117,
+         "name": "Mirador del Azud del Eresma",
+         "start": "Inicio y final: Mirador del Azud del Eresma",
+         "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069685"
+        },
+        {
+         "n": 2118,
+         "name": "Mirador del Último Pino",
+         "start": "Inicio y final: Mirador del Último Pino",
+         "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069690"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1ej42w",
+       "title": "Las 1 rutas del mapa 1Ej42w",
+       "maps": [
+        {
+         "mid": "1Ej42wubbdPmBePhgxSGAHhAnzAwCtSw",
+         "ll": "40.9500,-4.1100",
+         "z": 12,
+         "title": "El Espinar, Real Sitio de San Ildefonso y 1 municipio más · miradores",
+         "label": "Mapa de miradores · 1 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 2126,
+         "name": "Mirador de Cosme Cañas",
+         "start": "Inicio y final: Mirador de Cosme Cañas",
+         "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069742"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1eclty",
+       "title": "Las 3 rutas del mapa 1EclTY",
+       "maps": [
+        {
+         "mid": "1EclTYtb8qOH2s25JB68dxmVMXDbCd4Q",
+         "ll": "41.0750,-4.0100",
+         "z": 10,
+         "title": "Aldealengua de Pedraza, Carrascal del Río y 4 municipios más · miradores",
+         "label": "Mapa de miradores · 3 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 2132,
+         "name": "Mirador Altos de San Marcos",
+         "start": "Inicio y final: Mirador Altos de San Marcos",
+         "info": "1,50 km · 19–23 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069797"
+        },
+        {
+         "n": 2133,
+         "name": "Mirador San Juan de la Cruz",
+         "start": "Inicio y final: Mirador San Juan de la Cruz",
+         "info": "1,20 km · 15–19 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069802"
+        },
+        {
+         "n": 2134,
+         "name": "Mirador Zamarramala",
+         "start": "Inicio y final: Mirador Zamarramala",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298069804"
         }
        ]
       }

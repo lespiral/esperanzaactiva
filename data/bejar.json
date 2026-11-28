@@ -2,13 +2,13 @@
  "slug": "bejar",
  "name": "Béjar",
  "region": "Castilla y León",
- "summary": "4 rutas cortas desde miradores de la ciudad.",
+ "summary": "5 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "4 rutas cortas (de 1,36 a 1,48 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 984 es de ida y vuelta, no circular.",
-   "summary": "4 rutas desde miradores",
+   "text": "5 rutas cortas (de 1,36 a 1,48 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 984 es de ida y vuelta, no circular. Las rutas 984, 2101 son de ida y vuelta, no circulares.",
+   "summary": "5 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -60,6 +60,28 @@
          "start": "Inicio y final: Mirador Fuente del Lobo",
          "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989962"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1qs08l",
+       "title": "Las 1 rutas del mapa 1qs08l",
+       "maps": [
+        {
+         "mid": "1qs08lH8vEtYkAMB5lZpu1Wc3pgerSg0",
+         "ll": "40.4200,-5.8800",
+         "z": 10,
+         "title": "Béjar, Candelario y 7 municipios más · miradores",
+         "label": "Mapa de miradores · 1 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 2101,
+         "name": "Mirador de Navarejos",
+         "start": "Inicio y final: Mirador de Navarejos",
+         "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298075272"
         }
        ]
       }

@@ -2,13 +2,13 @@
  "slug": "malaga",
  "name": "Málaga",
  "region": "Andalucía",
- "summary": "10 rutas cortas desde miradores de la ciudad.",
+ "summary": "12 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "10 rutas cortas (de 1,28 a 1,73 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 811 es de ida y vuelta, no circular.",
-   "summary": "10 rutas desde miradores",
+   "text": "12 rutas cortas (de 1,28 a 1,73 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. La ruta 811 es de ida y vuelta, no circular. Las rutas 811, 5487, 5488 son de ida y vuelta, no circulares.",
+   "summary": "12 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -102,6 +102,36 @@
          "start": "Inicio y final: Mirador la Araña",
          "info": "1,73 km · 21–26 min caminando · 30–45 min con pausas · circular",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297937741"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1eir9u",
+       "title": "Las 2 rutas del mapa 1EIR9U",
+       "maps": [
+        {
+         "mid": "1EIR9U7NXdg1ppmMYaWjepw62EODX2Eo",
+         "ll": "36.7600,-4.2100",
+         "z": 10,
+         "title": "Frigiliana, Málaga y 3 municipios más · miradores",
+         "label": "Mapa de miradores · 2 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 5487,
+         "name": "Mirador Martínez Falero",
+         "start": "Inicio y final: Mirador Martínez Falero",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108988"
+        },
+        {
+         "n": 5488,
+         "name": "Mirador de Vazquez Sell",
+         "start": "Inicio y final: Mirador de Vazquez Sell",
+         "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109012",
+         "note": "El mirador está a unos 35 m del camino más cercano en OSM."
         }
        ]
       }

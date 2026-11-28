@@ -1,0 +1,470 @@
+{
+  "slug": "provincia-de-cordoba",
+  "name": "Provincia de Córdoba",
+  "kind": "territory",
+  "title": "Caminar por la provincia de Córdoba",
+  "region": "Andalucía",
+  "summary": "34 rutas desde miradores en 18 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "34 rutas cortas (de 1,25 a 1,56 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "34 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1j4hyt",
+          "title": "Almodóvar del Río, Cardeña y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1j4HYtgSGk9qOxHfKC1cM_8W_qSVypUQ",
+              "ll": "37.9000,-5.1000",
+              "z": 12,
+              "title": "Almodóvar del Río, Cardeña y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 8 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Almodóvar del Río",
+              "id": "almodovar-del-rio-miradores",
+              "routes": [
+                {
+                  "n": 5271,
+                  "name": "Mirador de las Parejas",
+                  "start": "Inicio y final: Mirador de las Parejas",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108005"
+                }
+              ]
+            },
+            {
+              "title": "Cardeña",
+              "id": "cardena-miradores",
+              "routes": [
+                {
+                  "n": 5272,
+                  "name": "Mirador del Cerro de los Tomillos",
+                  "start": "Inicio y final: Mirador del Cerro de los Tomillos",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108007",
+                  "note": "El mirador está a unos 47 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Hornachuelos",
+              "id": "hornachuelos-miradores",
+              "routes": [
+                {
+                  "n": 5273,
+                  "name": "Mirador del Águila",
+                  "start": "Inicio y final: Mirador del Águila",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108009",
+                  "note": "El mirador está a unos 149 m del camino más cercano en OSM."
+                },
+                {
+                  "n": 5274,
+                  "name": "Mirador del Águila",
+                  "start": "Inicio y final: Mirador del Águila",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108012"
+                },
+                {
+                  "n": 5275,
+                  "name": "Mirador la Huerta del Rey",
+                  "start": "Inicio y final: Mirador la Huerta del Rey",
+                  "info": "1,56 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108015"
+                }
+              ]
+            },
+            {
+              "title": "Palma del Río",
+              "id": "palma-del-rio-miradores",
+              "routes": [
+                {
+                  "n": 5276,
+                  "name": "Mirador del Río Genil",
+                  "start": "Inicio y final: Mirador del Río Genil",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108018",
+                  "note": "El mirador está a unos 27 m del camino más cercano en OSM."
+                },
+                {
+                  "n": 5277,
+                  "name": "Mirador del Río Guadalquivir",
+                  "start": "Inicio y final: Mirador del Río Guadalquivir",
+                  "info": "1,25 km · 15–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108024"
+                }
+              ]
+            },
+            {
+              "title": "Villaharta",
+              "id": "villaharta-miradores",
+              "routes": [
+                {
+                  "n": 5278,
+                  "name": "Mirador las Zahurdillas",
+                  "start": "Inicio y final: Mirador las Zahurdillas",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108029",
+                  "note": "El mirador está a unos 27 m del camino más cercano en OSM."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1fwvfl",
+          "title": "Cabra, Carcabuey y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1fWVFl7-UzBwMI7Tcvvn7QMkTXTfbZbY",
+              "ll": "37.5000,-4.3000",
+              "z": 12,
+              "title": "Cabra, Carcabuey y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 6 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Cabra",
+              "id": "cabra-miradores",
+              "routes": [
+                {
+                  "n": 5279,
+                  "name": "Mirador Ermita de Cabra",
+                  "start": "Inicio y final: Mirador Ermita de Cabra",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108033"
+                },
+                {
+                  "n": 5280,
+                  "name": "Mirador la Cabrera",
+                  "start": "Inicio y final: Mirador la Cabrera",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108037"
+                }
+              ]
+            },
+            {
+              "title": "Carcabuey",
+              "id": "carcabuey-miradores",
+              "routes": [
+                {
+                  "n": 5281,
+                  "name": "Mirador de Algar",
+                  "start": "Inicio y final: Mirador de Algar",
+                  "info": "1,27 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108040"
+                }
+              ]
+            },
+            {
+              "title": "Espejo",
+              "id": "espejo-miradores",
+              "routes": [
+                {
+                  "n": 5282,
+                  "name": "Mirador Robert Capa",
+                  "start": "Inicio y final: Mirador Robert Capa",
+                  "info": "1,34 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108046"
+                }
+              ]
+            },
+            {
+              "title": "Monturque",
+              "id": "monturque-miradores",
+              "routes": [
+                {
+                  "n": 5283,
+                  "name": "Mirador de los Paseíllos",
+                  "start": "Inicio y final: Mirador de los Paseíllos",
+                  "info": "1,42 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108048"
+                }
+              ]
+            },
+            {
+              "title": "Zuheros",
+              "id": "zuheros-miradores",
+              "routes": [
+                {
+                  "n": 5284,
+                  "name": "Mirador Río Bailón",
+                  "start": "Inicio y final: Mirador Río Bailón",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108051"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1hsog6",
+          "title": "Villa del Río y Zuheros",
+          "maps": [
+            {
+              "mid": "1hSOg6qWhs9NPvEwI5XwkB8imClG7dEk",
+              "ll": "37.7000,-4.7000",
+              "z": 9,
+              "title": "Villa del Río y Zuheros · miradores",
+              "label": "Mapa de miradores · 5 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Villa del Río",
+              "id": "villa-del-rio-miradores",
+              "routes": [
+                {
+                  "n": 5285,
+                  "name": "Mirador de las Aceñas",
+                  "start": "Inicio y final: Mirador de las Aceñas",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108054",
+                  "note": "El mirador está a unos 46 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Zuheros",
+              "id": "zuheros-miradores-1hsog6",
+              "routes": [
+                {
+                  "n": 5286,
+                  "name": "Mirador de Zuheros",
+                  "start": "Inicio y final: Mirador de Zuheros",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108056"
+                },
+                {
+                  "n": 5287,
+                  "name": "Mirador de la Atalaya",
+                  "start": "Inicio y final: Mirador de la Atalaya",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108059"
+                },
+                {
+                  "n": 5288,
+                  "name": "Mirador de la Villa",
+                  "start": "Inicio y final: Mirador de la Villa",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108062"
+                },
+                {
+                  "n": 5289,
+                  "name": "Mirador de las Escominillas",
+                  "start": "Inicio y final: Mirador de las Escominillas",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108067"
+                }
+              ],
+              "route_prefix": "zuheros-miradores",
+              "nav": "Zuheros (miradores, mapa 1hSOg6)"
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1zm9mf",
+          "title": "Iznájar, Puente Genil y 1 municipio más",
+          "maps": [
+            {
+              "mid": "1ZM9mfZ-QkraG8qN_pcKM9px00ZHJQ34",
+              "ll": "37.5000,-4.3000",
+              "z": 12,
+              "title": "Iznájar, Puente Genil y 1 municipio más · miradores",
+              "label": "Mapa de miradores · 10 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Iznájar",
+              "id": "iznajar-miradores",
+              "routes": [
+                {
+                  "n": 5290,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108070",
+                  "note": "El mirador no tiene nombre en el IGN."
+                },
+                {
+                  "n": 5291,
+                  "name": "Mirador",
+                  "start": "Inicio y final: Mirador",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108073",
+                  "note": "El mirador no tiene nombre en el IGN."
+                },
+                {
+                  "n": 5292,
+                  "name": "Mirador Valdearenas",
+                  "start": "Inicio y final: Mirador Valdearenas",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108075"
+                },
+                {
+                  "n": 5293,
+                  "name": "Mirador de San Rafael",
+                  "start": "Inicio y final: Mirador de San Rafael",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108078"
+                },
+                {
+                  "n": 5294,
+                  "name": "Mirador de Serullones",
+                  "start": "Inicio y final: Mirador de Serullones",
+                  "info": "1,28 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108081"
+                },
+                {
+                  "n": 5295,
+                  "name": "Mirador de la Cruz de Postigo",
+                  "start": "Inicio y final: Mirador de la Cruz de Postigo",
+                  "info": "1,47 km · 18–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108083"
+                },
+                {
+                  "n": 5296,
+                  "name": "Mirador de la Cruz de San Pedro",
+                  "start": "Inicio y final: Mirador de la Cruz de San Pedro",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108085"
+                },
+                {
+                  "n": 5297,
+                  "name": "Mirador de las Tres Cruces",
+                  "start": "Inicio y final: Mirador de las Tres Cruces",
+                  "info": "1,55 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108089"
+                }
+              ]
+            },
+            {
+              "title": "Puente Genil",
+              "id": "puente-genil-miradores",
+              "routes": [
+                {
+                  "n": 5298,
+                  "name": "Mirador Embalse de Cordobilla",
+                  "start": "Inicio y final: Mirador Embalse de Cordobilla",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108100"
+                }
+              ]
+            },
+            {
+              "title": "Rute",
+              "id": "rute-miradores",
+              "routes": [
+                {
+                  "n": 5299,
+                  "name": "Mirador del Embalse de Iznájar",
+                  "start": "Inicio y final: Mirador del Embalse de Iznájar",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108106",
+                  "note": "El mirador está a unos 56 m del camino más cercano en OSM."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-13fnim",
+          "title": "Almedinilla, Fuente-Tójar y 2 municipios más",
+          "maps": [
+            {
+              "mid": "13fNIMulNO5_N3XV875qQ3z16DWE50go",
+              "ll": "37.5000,-4.3000",
+              "z": 12,
+              "title": "Almedinilla, Fuente-Tójar y 2 municipios más · miradores",
+              "label": "Mapa de miradores · 5 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Almedinilla",
+              "id": "almedinilla-miradores",
+              "routes": [
+                {
+                  "n": 5300,
+                  "name": "Mirador el Pingorote",
+                  "start": "Inicio y final: Mirador el Pingorote",
+                  "info": "1,46 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108108"
+                }
+              ]
+            },
+            {
+              "title": "Fuente-Tójar",
+              "id": "fuente-tojar-miradores",
+              "routes": [
+                {
+                  "n": 5301,
+                  "name": "Mirador Canteruela",
+                  "start": "Inicio y final: Mirador Canteruela",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108113",
+                  "note": "El mirador está a unos 249 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Luque",
+              "id": "luque-miradores",
+              "routes": [
+                {
+                  "n": 5302,
+                  "name": "Mirador de la Laguna del Salobral",
+                  "start": "Inicio y final: Mirador de la Laguna del Salobral",
+                  "info": "1,32 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108117",
+                  "note": "El mirador está a unos 96 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Priego de Córdoba",
+              "id": "priego-de-cordoba-miradores",
+              "routes": [
+                {
+                  "n": 5303,
+                  "name": "Balcón del Adarve",
+                  "start": "Inicio y final: Balcón del Adarve",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108119"
+                },
+                {
+                  "n": 5304,
+                  "name": "Mirador del Adarve",
+                  "start": "Inicio y final: Mirador del Adarve",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298108122"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

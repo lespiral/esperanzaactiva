@@ -1,0 +1,674 @@
+{
+  "slug": "provincia-de-teruel",
+  "name": "Provincia de Teruel",
+  "kind": "territory",
+  "title": "Caminar por la provincia de Teruel",
+  "region": "Aragón",
+  "summary": "48 rutas desde miradores en 36 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "48 rutas cortas (de 1,20 a 1,65 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "48 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1sqz12",
+          "title": "Albarracín, Bezas y 7 municipios más",
+          "maps": [
+            {
+              "mid": "1sQz128prQDuQD97ukUWnlyH_eBRgPvM",
+              "ll": "40.4000,-1.4500",
+              "z": 12,
+              "title": "Albarracín, Bezas y 7 municipios más · miradores",
+              "label": "Mapa de miradores · 10 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Albarracín",
+              "id": "albarracin-miradores",
+              "routes": [
+                {
+                  "n": 1846,
+                  "name": "Mirador del Guadalaviar",
+                  "start": "Inicio y final: Mirador del Guadalaviar",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067780"
+                }
+              ]
+            },
+            {
+              "title": "Bezas",
+              "id": "bezas-miradores",
+              "routes": [
+                {
+                  "n": 1847,
+                  "name": "Mirador Peña de la Cruz",
+                  "start": "Inicio y final: Mirador Peña de la Cruz",
+                  "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067784"
+                }
+              ]
+            },
+            {
+              "title": "Calomarde",
+              "id": "calomarde-miradores",
+              "routes": [
+                {
+                  "n": 1848,
+                  "name": "Mirador Barranco Mingo Marco",
+                  "start": "Inicio y final: Mirador Barranco Mingo Marco",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067786"
+                }
+              ]
+            },
+            {
+              "title": "El Vallecillo",
+              "id": "el-vallecillo-miradores",
+              "routes": [
+                {
+                  "n": 1849,
+                  "name": "Mirador Ojo del Cabriel",
+                  "start": "Inicio y final: Mirador Ojo del Cabriel",
+                  "info": "1,26 km · 16–19 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067791"
+                },
+                {
+                  "n": 1850,
+                  "name": "Miradpr del Vallecillo",
+                  "start": "Inicio y final: Miradpr del Vallecillo",
+                  "info": "1,49 km · 18–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067795"
+                }
+              ]
+            },
+            {
+              "title": "Formiche Alto",
+              "id": "formiche-alto-miradores",
+              "routes": [
+                {
+                  "n": 1851,
+                  "name": "Mirador de Formiche Alto",
+                  "start": "Inicio y final: Mirador de Formiche Alto",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067798"
+                }
+              ]
+            },
+            {
+              "title": "Frías de Albarracín",
+              "id": "frias-de-albarracin-miradores",
+              "routes": [
+                {
+                  "n": 1852,
+                  "name": "Mirador del Castillo",
+                  "start": "Inicio y final: Mirador del Castillo",
+                  "info": "1,54 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067859"
+                }
+              ]
+            },
+            {
+              "title": "Saldón",
+              "id": "saldon-miradores",
+              "routes": [
+                {
+                  "n": 1853,
+                  "name": "Mirador Alto Cabezo",
+                  "start": "Inicio y final: Mirador Alto Cabezo",
+                  "info": "1,48 km · 18–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298075253"
+                }
+              ]
+            },
+            {
+              "title": "Valacloche",
+              "id": "valacloche-miradores",
+              "routes": [
+                {
+                  "n": 1854,
+                  "name": "Mirador de Valacloche",
+                  "start": "Inicio y final: Mirador de Valacloche",
+                  "info": "1,46 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067878"
+                }
+              ]
+            },
+            {
+              "title": "Villel",
+              "id": "villel-miradores",
+              "routes": [
+                {
+                  "n": 1855,
+                  "name": "Mirador del Cerro la Horca",
+                  "start": "Inicio y final: Mirador del Cerro la Horca",
+                  "info": "1,52 km · 19–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067882"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1q3vsw",
+          "title": "Albarracín, Blesa y 5 municipios más",
+          "maps": [
+            {
+              "mid": "1Q3vsWDprpyuMd7SeArbsmr2DNiD45jQ",
+              "ll": "40.6250,-1.2250",
+              "z": 9,
+              "title": "Albarracín, Blesa y 5 municipios más · miradores",
+              "label": "Mapa de miradores · 9 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Albarracín",
+              "id": "albarracin-miradores-1q3vsw",
+              "routes": [
+                {
+                  "n": 1856,
+                  "name": "Mirador de Albarracín",
+                  "start": "Inicio y final: Mirador de Albarracín",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067886"
+                }
+              ],
+              "route_prefix": "albarracin-miradores",
+              "nav": "Albarracín (miradores, mapa 1Q3vsW)"
+            },
+            {
+              "title": "Blesa",
+              "id": "blesa-miradores",
+              "routes": [
+                {
+                  "n": 1858,
+                  "name": "Mirador de El Hocino",
+                  "start": "Inicio y final: Mirador de El Hocino",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067900"
+                }
+              ]
+            },
+            {
+              "title": "Griegos",
+              "id": "griegos-miradores",
+              "routes": [
+                {
+                  "n": 1859,
+                  "name": "Mirador Muela de San Juan",
+                  "start": "Inicio y final: Mirador Muela de San Juan",
+                  "info": "1,28 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067903"
+                }
+              ]
+            },
+            {
+              "title": "Lagueruela",
+              "id": "lagueruela-miradores",
+              "routes": [
+                {
+                  "n": 1860,
+                  "name": "Mirador de Santa Bárbara",
+                  "start": "Inicio y final: Mirador de Santa Bárbara",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067907"
+                }
+              ]
+            },
+            {
+              "title": "Montalbán",
+              "id": "montalban-miradores",
+              "routes": [
+                {
+                  "n": 1861,
+                  "name": "Mirador Era de la Cruz",
+                  "start": "Inicio y final: Mirador Era de la Cruz",
+                  "info": "1,32 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067911"
+                }
+              ]
+            },
+            {
+              "title": "Orihuela del Tremedal",
+              "id": "orihuela-del-tremedal-miradores",
+              "routes": [
+                {
+                  "n": 1862,
+                  "name": "Mirador de la Portera",
+                  "start": "Inicio y final: Mirador de la Portera",
+                  "info": "1,29 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067915"
+                },
+                {
+                  "n": 1863,
+                  "name": "Mirador de los Gamos",
+                  "start": "Inicio y final: Mirador de los Gamos",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067919"
+                },
+                {
+                  "n": 1864,
+                  "name": "Mirador del Tremedal",
+                  "start": "Inicio y final: Mirador del Tremedal",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067922"
+                }
+              ]
+            },
+            {
+              "title": "Peracense",
+              "id": "peracense-miradores",
+              "routes": [
+                {
+                  "n": 1865,
+                  "name": "Mirador del Castillo de Peracense",
+                  "start": "Inicio y final: Mirador del Castillo de Peracense",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067927"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1tiw7g",
+          "title": "Alcaine, Cañada de Benatanduz y 4 municipios más",
+          "maps": [
+            {
+              "mid": "1tiW7GPLQ6EGObSOYM7e-tIb4I2JEIv4",
+              "ll": "40.6500,-0.4500",
+              "z": 12,
+              "title": "Alcaine, Cañada de Benatanduz y 4 municipios más · miradores",
+              "label": "Mapa de miradores · 9 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Alcaine",
+              "id": "alcaine-miradores",
+              "routes": [
+                {
+                  "n": 1866,
+                  "name": "Mirador de Buitreras",
+                  "start": "Inicio y final: Mirador de Buitreras",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067934"
+                },
+                {
+                  "n": 1867,
+                  "name": "Mirador del Río Radón",
+                  "start": "Inicio y final: Mirador del Río Radón",
+                  "info": "1,34 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067936"
+                }
+              ]
+            },
+            {
+              "title": "Cañada de Benatanduz",
+              "id": "canada-de-benatanduz-miradores",
+              "routes": [
+                {
+                  "n": 1868,
+                  "name": "Mirador del Castillo",
+                  "start": "Inicio y final: Mirador del Castillo",
+                  "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067942"
+                }
+              ]
+            },
+            {
+              "title": "Ejulve",
+              "id": "ejulve-miradores",
+              "routes": [
+                {
+                  "n": 1869,
+                  "name": "Mirador The Silent Route",
+                  "start": "Inicio y final: Mirador The Silent Route",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067946"
+                },
+                {
+                  "n": 1870,
+                  "name": "Mirador del Cabezo Gordo",
+                  "start": "Inicio y final: Mirador del Cabezo Gordo",
+                  "info": "1,45 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067950"
+                }
+              ]
+            },
+            {
+              "title": "Estercuel",
+              "id": "estercuel-miradores",
+              "routes": [
+                {
+                  "n": 1871,
+                  "name": "Mirador Mina de Estercuel",
+                  "start": "Inicio y final: Mirador Mina de Estercuel",
+                  "info": "1,30 km · 16–20 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067954"
+                }
+              ]
+            },
+            {
+              "title": "Pitarque",
+              "id": "pitarque-miradores",
+              "routes": [
+                {
+                  "n": 1873,
+                  "name": "Mirador de la Sarteneja",
+                  "start": "Inicio y final: Mirador de la Sarteneja",
+                  "info": "1,26 km · 16–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067958"
+                }
+              ]
+            },
+            {
+              "title": "Villarluengo",
+              "id": "villarluengo-miradores",
+              "routes": [
+                {
+                  "n": 1874,
+                  "name": "Mirador Río Pitarque",
+                  "start": "Inicio y final: Mirador Río Pitarque",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067963"
+                },
+                {
+                  "n": 1875,
+                  "name": "Mirador de los Órganos de Montoro",
+                  "start": "Inicio y final: Mirador de los Órganos de Montoro",
+                  "info": "1,31 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067968"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1j51un",
+          "title": "Alcalá de la Selva, Fuentes de Rubielos y 6 municipios más",
+          "maps": [
+            {
+              "mid": "1J51UNFVq30-npaoNGsoaDEh-SQzHF-4",
+              "ll": "40.5500,-0.5750",
+              "z": 10,
+              "title": "Alcalá de la Selva, Fuentes de Rubielos y 6 municipios más · miradores",
+              "label": "Mapa de miradores · 10 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Alcalá de la Selva",
+              "id": "alcala-de-la-selva-miradores",
+              "routes": [
+                {
+                  "n": 1876,
+                  "name": "Mirador La Piedra del Sapo",
+                  "start": "Inicio y final: Mirador La Piedra del Sapo",
+                  "info": "1,47 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067970"
+                }
+              ]
+            },
+            {
+              "title": "Fuentes de Rubielos",
+              "id": "fuentes-de-rubielos-miradores",
+              "routes": [
+                {
+                  "n": 1877,
+                  "name": "Mirador de San Jorge",
+                  "start": "Inicio y final: Mirador de San Jorge",
+                  "info": "1,20 km · 15–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067975"
+                }
+              ]
+            },
+            {
+              "title": "Gúdar",
+              "id": "gudar-miradores",
+              "routes": [
+                {
+                  "n": 1878,
+                  "name": "Mirador Peña de la Magdalena",
+                  "start": "Inicio y final: Mirador Peña de la Magdalena",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067991"
+                }
+              ]
+            },
+            {
+              "title": "La Iglesuela del Cid",
+              "id": "la-iglesuela-del-cid-miradores",
+              "routes": [
+                {
+                  "n": 1879,
+                  "name": "Mirador Piedra Seca",
+                  "start": "Inicio y final: Mirador Piedra Seca",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298067997"
+                }
+              ]
+            },
+            {
+              "title": "Nogueruelas",
+              "id": "nogueruelas-miradores",
+              "routes": [
+                {
+                  "n": 1880,
+                  "name": "Mirador de Nogueruelas",
+                  "start": "Inicio y final: Mirador de Nogueruelas",
+                  "info": "1,49 km · 18–23 min caminando · 30–45 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068001"
+                },
+                {
+                  "n": 1881,
+                  "name": "Mirador de Peña Calva",
+                  "start": "Inicio y final: Mirador de Peña Calva",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068005"
+                }
+              ]
+            },
+            {
+              "title": "Puertomingalvo",
+              "id": "puertomingalvo-miradores",
+              "routes": [
+                {
+                  "n": 1882,
+                  "name": "Mirador Ermita de Puertomingalvo",
+                  "start": "Inicio y final: Mirador Ermita de Puertomingalvo",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068009"
+                }
+              ]
+            },
+            {
+              "title": "Rubielos de Mora",
+              "id": "rubielos-de-mora-miradores",
+              "routes": [
+                {
+                  "n": 1883,
+                  "name": "Mirador de la Cruz",
+                  "start": "Inicio y final: Mirador de la Cruz",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068018"
+                }
+              ]
+            },
+            {
+              "title": "Valdelinares",
+              "id": "valdelinares-miradores",
+              "routes": [
+                {
+                  "n": 1884,
+                  "name": "Mirador del Monegro",
+                  "start": "Inicio y final: Mirador del Monegro",
+                  "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068023"
+                },
+                {
+                  "n": 1885,
+                  "name": "Mirador el Recuenco",
+                  "start": "Inicio y final: Mirador el Recuenco",
+                  "info": "1,42 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068029"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-15hc7b",
+          "title": "Alcañiz, Alloza y 6 municipios más",
+          "maps": [
+            {
+              "mid": "15hc7bwJ6ToskvEOyZ9nq02KfKA3z7uU",
+              "ll": "40.8250,-0.2000",
+              "z": 9,
+              "title": "Alcañiz, Alloza y 6 municipios más · miradores",
+              "label": "Mapa de miradores · 10 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Alcañiz",
+              "id": "alcaniz-miradores",
+              "routes": [
+                {
+                  "n": 1886,
+                  "name": "Cabezo del Cuervo",
+                  "start": "Inicio y final: Cabezo del Cuervo",
+                  "info": "1,65 km · 20–25 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068033"
+                },
+                {
+                  "n": 1887,
+                  "name": "Mirador Virgen de los Pueyos",
+                  "start": "Inicio y final: Mirador Virgen de los Pueyos",
+                  "info": "1,27 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068068"
+                }
+              ]
+            },
+            {
+              "title": "Alloza",
+              "id": "alloza-miradores",
+              "routes": [
+                {
+                  "n": 1888,
+                  "name": "Mirador del Carnicero",
+                  "start": "Inicio y final: Mirador del Carnicero",
+                  "info": "1,26 km · 16–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068074"
+                }
+              ]
+            },
+            {
+              "title": "Andorra",
+              "id": "andorra-miradores",
+              "routes": [
+                {
+                  "n": 1889,
+                  "name": "Mirador de San Macario",
+                  "start": "Inicio y final: Mirador de San Macario",
+                  "info": "1,56 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068077"
+                },
+                {
+                  "n": 1890,
+                  "name": "Mirador de la Cruz",
+                  "start": "Inicio y final: Mirador de la Cruz",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068086"
+                }
+              ]
+            },
+            {
+              "title": "Castellote",
+              "id": "castellote-miradores",
+              "routes": [
+                {
+                  "n": 1891,
+                  "name": "Mirador del Embalse de Santolea",
+                  "start": "Inicio y final: Mirador del Embalse de Santolea",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068091"
+                }
+              ]
+            },
+            {
+              "title": "La Ginebrosa",
+              "id": "la-ginebrosa-miradores",
+              "routes": [
+                {
+                  "n": 1892,
+                  "name": "Mirador del Bajo Aragón",
+                  "start": "Inicio y final: Mirador del Bajo Aragón",
+                  "info": "1,27 km · 16–20 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068097"
+                }
+              ]
+            },
+            {
+              "title": "Monroyo",
+              "id": "monroyo-miradores",
+              "routes": [
+                {
+                  "n": 1893,
+                  "name": "Mirador de la Mola",
+                  "start": "Inicio y final: Mirador de la Mola",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068102"
+                }
+              ]
+            },
+            {
+              "title": "Torre del Compte",
+              "id": "torre-del-compte-miradores",
+              "routes": [
+                {
+                  "n": 1894,
+                  "name": "Mirador de Desiderio",
+                  "start": "Inicio y final: Mirador de Desiderio",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068109"
+                }
+              ]
+            },
+            {
+              "title": "Villarluengo",
+              "id": "villarluengo-miradores-15hc7b",
+              "routes": [
+                {
+                  "n": 1895,
+                  "name": "Mirador de Peña Capitán",
+                  "start": "Inicio y final: Mirador de Peña Capitán",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068118"
+                }
+              ],
+              "route_prefix": "villarluengo-miradores",
+              "nav": "Villarluengo (miradores, mapa 15hc7b)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

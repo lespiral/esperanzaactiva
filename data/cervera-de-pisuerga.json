@@ -2,13 +2,13 @@
  "slug": "cervera-de-pisuerga",
  "name": "Cervera de Pisuerga",
  "region": "Castilla y León",
- "summary": "5 rutas cortas desde miradores de la ciudad.",
+ "summary": "11 rutas cortas desde miradores de la ciudad.",
  "intro": "Rutas cortas que salen de un mirador, para hacer el tiempo de reflexión de cada paso. Cada curso tiene sus rutas: elige el tuyo, abre el mapa y camina. Los miradores solo marcan el inicio y el final del recorrido.",
  "blocks": [
   {
    "course": "mon",
-   "text": "5 rutas cortas (de 1,29 a 1,67 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 922, 923, 927 son de ida y vuelta, no circulares.",
-   "summary": "5 rutas desde miradores",
+   "text": "11 rutas cortas (de 1,29 a 1,67 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Las rutas 922, 923, 927, 1959, 1980, 1982, 1983 son de ida y vuelta, no circulares.",
+   "summary": "11 rutas desde miradores",
    "parts": [
     {
      "id": "rutas-mon",
@@ -67,6 +67,79 @@
          "start": "Inicio y final: Mirador Bosque Fósil",
          "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
          "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=297989155"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1fkcvc",
+       "title": "Las 2 rutas del mapa 1fKCVc",
+       "maps": [
+        {
+         "mid": "1fKCVcxpqPnawG8maI_-NqN1yK-2rhb8",
+         "ll": "42.8550,-4.5500",
+         "z": 12,
+         "title": "Cervera de Pisuerga, Dehesa de Montejo y 2 municipios más · miradores",
+         "label": "Mapa de miradores · 2 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 1959,
+         "name": "Mirador de piedra en Senda del Gigante del Valle Estrecho",
+         "start": "Inicio y final: Mirador de piedra en Senda del Gigante del Valle Estrecho",
+         "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298075260",
+         "note": "El mirador está a unos 485 m del camino más cercano en OSM."
+        },
+        {
+         "n": 1960,
+         "name": "Mirador del Alto de la Varga",
+         "start": "Inicio y final: Mirador del Alto de la Varga",
+         "info": "1,67 km · 21–26 min caminando · 30–45 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068681"
+        }
+       ]
+      },
+      {
+       "id": "cuando-el-mundo-miradores-1n7z5d",
+       "title": "Las 4 rutas del mapa 1n7Z5d",
+       "maps": [
+        {
+         "mid": "1n7Z5dV52EeHknVvfsPoHMMUBwUJ1CtY",
+         "ll": "42.8550,-4.5500",
+         "z": 12,
+         "title": "Aguilar de Campoo, Barruelo de Santullán y 3 municipios más · miradores",
+         "label": "Mapa de miradores · 4 rutas"
+        }
+       ],
+       "routes": [
+        {
+         "n": 1980,
+         "name": "Mirador Bosque Fósil",
+         "start": "Inicio y final: Mirador Bosque Fósil",
+         "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068775"
+        },
+        {
+         "n": 1981,
+         "name": "Mirador de la Penilla",
+         "start": "Inicio y final: Mirador de la Penilla",
+         "info": "1,29 km · 16–20 min caminando · 25–40 min con pausas · circular",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068781"
+        },
+        {
+         "n": 1982,
+         "name": "Mirador de la Pernía",
+         "start": "Inicio y final: Mirador de la Pernía",
+         "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068786"
+        },
+        {
+         "n": 1983,
+         "name": "Mirador de las Alto de las Matas",
+         "start": "Inicio y final: Mirador de las Alto de las Matas",
+         "info": "1,39 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+         "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298068791"
         }
        ]
       }

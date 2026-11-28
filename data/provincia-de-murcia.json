@@ -1,0 +1,289 @@
+{
+  "slug": "provincia-de-murcia",
+  "name": "Provincia de Murcia",
+  "kind": "territory",
+  "title": "Caminar por la provincia de Murcia",
+  "region": "Región de Murcia",
+  "summary": "19 rutas desde miradores en 13 municipios.",
+  "intro": "Rutas a pie para hacer el tiempo de reflexión de cada paso, desde miradores.",
+  "zones": {
+    "by": "section",
+    "label": "Ve directamente a tu pueblo",
+    "placeholder": "Elige un pueblo",
+    "back": "Cambia de pueblo"
+  },
+  "blocks": [
+    {
+      "course": "mon",
+      "text": "19 rutas cortas (de 1,23 a 1,75 km) que salen de un mirador. Mira el mundo desde donde estás, escucha el audio, camina y vuelve al mismo lugar, pero desde un lugar interno diferente, con una mirada diferente. Los trazados están reconstruidos sobre OpenStreetMap y todavía no se han revisado a pie: revisa el estado del camino antes de ir. Algunas son de ida y vuelta, no circulares; la ficha de cada ruta lo dice.",
+      "summary": "19 rutas desde miradores",
+      "notice": {
+        "title": "Accesibilidad y seguridad",
+        "html": [
+          "Los trazados están reconstruidos sobre OpenStreetMap a partir de la ubicación de cada mirador y no se han revisado a pie: son orientativos. Los tiempos son aproximados, caminando a un ritmo tranquilo y con pausas para descansar. Algunos caminos tienen escaleras o pendientes y no son accesibles para sillas de ruedas ni cochecitos. Camina con atención al tráfico y al estado de los caminos.",
+          "El mirador es solo el punto de referencia del recorrido. Más información en <a href=\"https://elarasocial.com/es/\" target=\"_blank\" rel=\"noopener\">elarasocial.com</a>."
+        ]
+      },
+      "groups": [
+        {
+          "id": "cuando-el-mundo-miradores-1issup",
+          "title": "Cieza y Moratalla",
+          "maps": [
+            {
+              "mid": "1iSSUp0YZV4wdOKY8xwb2wI3zoYzxyx4",
+              "ll": "38.3000,-1.6000",
+              "z": 12,
+              "title": "Cieza y Moratalla · miradores",
+              "label": "Mapa de miradores · 4 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Cieza",
+              "id": "cieza-miradores",
+              "routes": [
+                {
+                  "n": 5506,
+                  "name": "Balcón del Cañón de Almadenes",
+                  "start": "Inicio y final: Balcón del Cañón de Almadenes",
+                  "info": "1,43 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109102"
+                }
+              ]
+            },
+            {
+              "title": "Moratalla",
+              "id": "moratalla-miradores",
+              "routes": [
+                {
+                  "n": 5507,
+                  "name": "Mirador Patio de los Yébenes",
+                  "start": "Inicio y final: Mirador Patio de los Yébenes",
+                  "info": "1,56 km · 19–24 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109106"
+                },
+                {
+                  "n": 5508,
+                  "name": "Mirador de la Casa de Cristo",
+                  "start": "Inicio y final: Mirador de la Casa de Cristo",
+                  "info": "1,36 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109124"
+                },
+                {
+                  "n": 5509,
+                  "name": "Mirador los Arcos de Moratalla",
+                  "start": "Inicio y final: Mirador los Arcos de Moratalla",
+                  "info": "1,23 km · 15–19 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109156"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-1uo-j8",
+          "title": "Alhama de Murcia, Lorca y 3 municipios más",
+          "maps": [
+            {
+              "mid": "1uO-J85pwWMUEAjl1AXzcLUuS4WhnCls",
+              "ll": "37.7000,-1.6000",
+              "z": 12,
+              "title": "Alhama de Murcia, Lorca y 3 municipios más · miradores",
+              "label": "Mapa de miradores · 8 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Alhama de Murcia",
+              "id": "alhama-de-murcia-miradores",
+              "routes": [
+                {
+                  "n": 5510,
+                  "name": "Mirador de Alhama",
+                  "start": "Inicio y final: Mirador de Alhama",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109159"
+                },
+                {
+                  "n": 5511,
+                  "name": "Mirador del Avión",
+                  "start": "Inicio y final: Mirador del Avión",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109167"
+                }
+              ]
+            },
+            {
+              "title": "Lorca",
+              "id": "lorca-miradores",
+              "routes": [
+                {
+                  "n": 5513,
+                  "name": "Mirador del Castillo",
+                  "start": "Inicio y final: Mirador del Castillo",
+                  "info": "1,53 km · 19–23 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109172"
+                },
+                {
+                  "n": 5514,
+                  "name": "Mirador del Valle",
+                  "start": "Inicio y final: Mirador del Valle",
+                  "info": "1,47 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109178"
+                }
+              ]
+            },
+            {
+              "title": "Mazarrón",
+              "id": "mazarron-miradores",
+              "routes": [
+                {
+                  "n": 5515,
+                  "name": "Mirador Columpio de Bolnuevo",
+                  "start": "Inicio y final: Mirador Columpio de Bolnuevo",
+                  "info": "1,37 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109180"
+                },
+                {
+                  "n": 5516,
+                  "name": "Mirador del Cabezo de Santa Catalina",
+                  "start": "Inicio y final: Mirador del Cabezo de Santa Catalina",
+                  "info": "1,42 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109187"
+                }
+              ]
+            },
+            {
+              "title": "Totana",
+              "id": "totana-miradores",
+              "routes": [
+                {
+                  "n": 5517,
+                  "name": "Mirador del Collado Bermejo",
+                  "start": "Inicio y final: Mirador del Collado Bermejo",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109192"
+                }
+              ]
+            },
+            {
+              "title": "Águilas",
+              "id": "aguilas-miradores",
+              "routes": [
+                {
+                  "n": 5518,
+                  "name": "Mirador Joan Manuel Serrat",
+                  "start": "Inicio y final: Mirador Joan Manuel Serrat",
+                  "info": "1,75 km · 22–27 min caminando · 30–45 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109198"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cuando-el-mundo-miradores-14pqvs",
+          "title": "Abanilla, Blanca y 4 municipios más",
+          "maps": [
+            {
+              "mid": "14PqvSXpdjqeVBqgm5FA5LS-MITiFXGI",
+              "ll": "38.1500,-1.4500",
+              "z": 10,
+              "title": "Abanilla, Blanca y 4 municipios más · miradores",
+              "label": "Mapa de miradores · 7 rutas"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Abanilla",
+              "id": "abanilla-miradores",
+              "routes": [
+                {
+                  "n": 5519,
+                  "name": "Mirador del Lugar Alto",
+                  "start": "Inicio y final: Mirador del Lugar Alto",
+                  "info": "1,38 km · 17–21 min caminando · 25–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109203"
+                }
+              ]
+            },
+            {
+              "title": "Blanca",
+              "id": "blanca-miradores",
+              "routes": [
+                {
+                  "n": 5520,
+                  "name": "Mirador Alto de Bayna",
+                  "start": "Inicio y final: Mirador Alto de Bayna",
+                  "info": "1,34 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109210"
+                }
+              ]
+            },
+            {
+              "title": "Mula",
+              "id": "mula-miradores",
+              "routes": [
+                {
+                  "n": 5521,
+                  "name": "Mirador del Cigarralejo",
+                  "start": "Inicio y final: Mirador del Cigarralejo",
+                  "info": "1,40 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109216",
+                  "note": "El mirador está a unos 39 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Murcia",
+              "id": "murcia-miradores",
+              "routes": [
+                {
+                  "n": 5522,
+                  "name": "Mirador El Puntarrón",
+                  "start": "Inicio y final: Mirador El Puntarrón",
+                  "info": "1,41 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109235"
+                },
+                {
+                  "n": 5523,
+                  "name": "Mirador de la Fuensanta",
+                  "start": "Inicio y final: Mirador de la Fuensanta",
+                  "info": "1,35 km · 17–21 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109238"
+                }
+              ]
+            },
+            {
+              "title": "Villanueva del Río Segura",
+              "id": "villanueva-del-rio-segura-miradores",
+              "routes": [
+                {
+                  "n": 5524,
+                  "name": "Mirador del Sagrado Corazón de Jesús",
+                  "start": "Inicio y final: Mirador del Sagrado Corazón de Jesús",
+                  "info": "1,40 km · 17–22 min caminando · 25–40 min con pausas · ida y vuelta",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109240",
+                  "note": "El mirador está a unos 26 m del camino más cercano en OSM."
+                }
+              ]
+            },
+            {
+              "title": "Yecla",
+              "id": "yecla-miradores",
+              "routes": [
+                {
+                  "n": 5525,
+                  "name": "Mirador de la Molineta",
+                  "start": "Inicio y final: Mirador de la Molineta",
+                  "info": "1,44 km · 18–22 min caminando · 30–40 min con pausas · circular",
+                  "wikiloc": "https://www.wikiloc.com/wikiloc/view.do?id=298109243"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
